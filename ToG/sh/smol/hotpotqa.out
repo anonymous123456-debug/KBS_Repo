@@ -1,0 +1,2168 @@
+Running job on node: comput12
+Start Running ToG on hotpotqa dataset.
+*************************************************************
+*************************************************************
+{'2051': 'World War II'}
+----------
+len of total relations:1
+total relations:['Foreseeed_hotpotqa']
+run_llm_extract_result:James H. Doolittle
+relations:[]
+tt:['Foreseeed_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1558': 'Indiana'}
+----------
+len of total relations:2
+total relations:['is located in_hotpotqa', 'is located in_hotpotqa']
+run_llm_extract_result:Frank O'Bannon
+relations:[]
+tt:['is located in_hotpotqa', 'is located in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'1518': 'Radiohead'}
+----------
+len of total relations:1
+total relations:['compared_to_hotpotqa']
+run_llm_extract_result:Monolith is a box set by Radiohead
+relations:[]
+tt:['compared_to_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'1432': 'U.S. Army', '1431': 'Medal of Honor', '1426': 'American Civil War'}
+----------
+len of total relations:1
+total relations:['serves in_hotpotqa']
+run_llm_extract_result:serves in_hotpotqa
+relations:[]
+tt:['serves in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['receives_hotpotqa']
+run_llm_extract_result:1. receives_hotpotqa
+relations:[]
+tt:['receives_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is a soldier in_hotpotqa']
+run_llm_extract_result:American Civil War
+relations:[]
+tt:['is a soldier in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1434': 'Katie Louise Volding', '1439': 'Ryan Merriman', '1442': 'smart home', '1445': 'Irene Balogh Smart'}
+----------
+len of total relations:3
+total relations:['is a_hotpotqa', 'is nominated for_hotpotqa', 'performs in_hotpotqa']
+run_llm_extract_result:2. is nominated for_hotpotqa
+relations:[]
+tt:['is a_hotpotqa', 'is nominated for_hotpotqa', 'performs in_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is a_hotpotqa', 'performs in_hotpotqa']
+run_llm_extract_result:2. performs in_hotpotqa
+relations:[]
+tt:['is a_hotpotqa', 'performs in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is related to_hotpotqa']
+run_llm_extract_result:Katie Louise Volding
+relations:[]
+tt:['is related to_hotpotqa']
+final_relations:No relations found
+len of total relations:4
+total relations:['defeats_hotpotqa', 'is a graduate of_hotpotqa', 'is a member of_hotpotqa', 'is a_hotpotqa']
+run_llm_extract_result: defeats_hotpotqa
+relations:[]
+tt:['defeats_hotpotqa', 'is a graduate of_hotpotqa', 'is a member of_hotpotqa', 'is a_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1454': 'Josephson junctions', '1455': 'RSFQ'}
+----------
+len of total relations:2
+total relations:['used_in_hotpotqa', 'uses_hotpotqa']
+run_llm_extract_result:Josephson junctions
+relations:[]
+tt:['used_in_hotpotqa', 'uses_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is_a_family_of_hotpotqa', 'used_in_hotpotqa']
+run_llm_extract_result:2. used_in_hotpotqa
+relations:[]
+tt:['is_a_family_of_hotpotqa', 'used_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1459': 'Nicolas Mahut'}
+----------
+len of total relations:6
+total relations:['beat_hotpotqa', 'born_in_hotpotqa', 'lost_to_hotpotqa', 'played_at_hotpotqa', 'played_with_hotpotqa', 'beat_hotpotqa']
+run_llm_extract_result:beat_hotpotqa
+relations:[]
+tt:['beat_hotpotqa', 'born_in_hotpotqa', 'lost_to_hotpotqa', 'played_at_hotpotqa', 'played_with_hotpotqa', 'beat_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1497': 'Ocean Water Park', '1494': 'Carowinds'}
+----------
+len of total relations:1
+total relations:['located in_hotpotqa']
+run_llm_extract_result:located in_hotpotqa
+relations:[]
+tt:['located in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['competitor of_hotpotqa']
+run_llm_extract_result:2007
+relations:[]
+tt:['competitor of_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2265': 'Lily Bart', '2250': 'The House of Mirth', '2249': 'Edith Wharton'}
+----------
+len of total relations:1
+total relations:['created_hotpotqa']
+run_llm_extract_result:Katherine Harris Barrymore
+relations:[]
+tt:['created_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['wrote_hotpotqa']
+run_llm_extract_result:Katherine Harris Barrymore
+relations:[]
+tt:['wrote_hotpotqa']
+final_relations:No relations found
+len of total relations:18
+total relations:['American aristocracy_hotpotqa', 'American novelist_hotpotqa', 'American writer_hotpotqa', 'combined_hotpotqa', 'created_hotpotqa', 'designer_hotpotqa', 'died_hotpotqa', 'portrayed_hotpotqa', 'praised_hotpotqa', 'published_hotpotqa', 'short story writer_hotpotqa', 'won_hotpotqa', 'wrote_hotpotqa', 'American aristocracy_hotpotqa', 'American novelist_hotpotqa', 'American writer_hotpotqa', 'designer_hotpotqa', 'short story writer_hotpotqa']
+run_llm_extract_result:1. American novelist_hotpotqa
+relations:[]
+tt:['American aristocracy_hotpotqa', 'American novelist_hotpotqa', 'American writer_hotpotqa', 'combined_hotpotqa', 'created_hotpotqa', 'designer_hotpotqa', 'died_hotpotqa', 'portrayed_hotpotqa', 'praised_hotpotqa', 'published_hotpotqa', 'short story writer_hotpotqa', 'won_hotpotqa', 'wrote_hotpotqa', 'American aristocracy_hotpotqa', 'American novelist_hotpotqa', 'American writer_hotpotqa', 'designer_hotpotqa', 'short story writer_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2238': 'film'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:director_hotpotqa
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2238': 'film'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:1. director_hotpotqa
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1840': 'Japanese'}
+----------
+len of total relations:2
+total relations:['member_hotpotqa', 'written in_hotpotqa']
+run_llm_extract_result:member_hotpotqa
+relations:[]
+tt:['member_hotpotqa', 'written in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2238': 'film'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:director_hotpotqa
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1504': 'New South Wales', '1761': 'Australia', '1502': 'Merimbula', '1503': 'Merimbula Lake'}
+----------
+len of total relations:2
+total relations:['lived in_hotpotqa', 'located_in_hotpotqa']
+run_llm_extract_result:2016
+relations:[]
+tt:['lived in_hotpotqa', 'located_in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Found in_hotpotqa']
+run_llm_extract_result:Australia
+relations:[]
+tt:['Found in_hotpotqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['located_in_hotpotqa', 'located_on_hotpotqa', 'named_hotpotqa']
+run_llm_extract_result:located_in_hotpotqa
+relations:[]
+tt:['located_in_hotpotqa', 'located_on_hotpotqa', 'named_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['located_on_hotpotqa']
+run_llm_extract_result:Merimbula Lake
+relations:[]
+tt:['located_on_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1523': 'Deerhunter', '1512': 'Civil Twilight', '1516': 'U2', '1517': 'Muse', '1518': 'Radiohead', '1524': 'Atlanta'}
+----------
+len of total relations:3
+total relations:['formed_in_hotpotqa', 'has_album_hotpotqa', 'has_member_hotpotqa']
+run_llm_extract_result:2. has_album_hotpotqa
+relations:[]
+tt:['formed_in_hotpotqa', 'has_album_hotpotqa', 'has_member_hotpotqa']
+final_relations:No relations found
+len of total relations:7
+total relations:['compared_to_hotpotqa', 'has_debut_album_hotpotqa', 'has_member_hotpotqa', 'released_album_hotpotqa', 'released_in_hotpotqa', 'signed_to_hotpotqa', 'has_debut_album_hotpotqa']
+run_llm_extract_result:2. has_debut_album_hotpotqa
+relations:[]
+tt:['compared_to_hotpotqa', 'has_debut_album_hotpotqa', 'has_member_hotpotqa', 'released_album_hotpotqa', 'released_in_hotpotqa', 'signed_to_hotpotqa', 'has_debut_album_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['compared_to_hotpotqa']
+run_llm_extract_result:compared_to_hotpotqa
+relations:[]
+tt:['compared_to_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['compared_to_hotpotqa']
+run_llm_extract_result:compared_to_hotpotqa
+relations:[]
+tt:['compared_to_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['compared_to_hotpotqa']
+run_llm_extract_result:compared_to_hotpotqa
+relations:[]
+tt:['compared_to_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['formed_in_hotpotqa']
+run_llm_extract_result:formed_in_atlanta
+relations:[]
+tt:['formed_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2238': 'film', '1440': 'actor'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:film
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is a_hotpotqa', 'is an_hotpotqa']
+run_llm_extract_result:2. is an_hotpotqa
+relations:[]
+tt:['is a_hotpotqa', 'is an_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1464': 'Russia', '1757': 'Japan'}
+----------
+len of total relations:2
+total relations:['born in_hotpotqa', 'born_in_hotpotqa']
+run_llm_extract_result:Russia
+relations:[]
+tt:['born in_hotpotqa', 'born_in_hotpotqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['Native to_hotpotqa', 'has oldest lyrics_hotpotqa', 'national anthem of_hotpotqa']
+run_llm_extract_result:Japanese
+relations:[]
+tt:['Native to_hotpotqa', 'has oldest lyrics_hotpotqa', 'national anthem of_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1536': 'Wabash College', '1557': 'Crawfordsville', '1542': 'Liberty Fund', '1549': 'Mont Pelerin Society', '1552': 'UCLA'}
+----------
+len of total relations:9
+total relations:['affiliated with_hotpotqa', 'speaker series_hotpotqa', 'college administrator_hotpotqa', 'economist_hotpotqa', 'educator_hotpotqa', 'faculty member_hotpotqa', 'president_hotpotqa', 'speaker series_hotpotqa', 'speaker_hotpotqa']
+run_llm_extract_result:affiliated with_hotpotqa
+relations:[]
+tt:['affiliated with_hotpotqa', 'speaker series_hotpotqa', 'college administrator_hotpotqa', 'economist_hotpotqa', 'educator_hotpotqa', 'faculty member_hotpotqa', 'president_hotpotqa', 'speaker series_hotpotqa', 'speaker_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is located in_hotpotqa']
+run_llm_extract_result:Crawfordsville
+relations:[]
+tt:['is located in_hotpotqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['advisor_hotpotqa', 'founder_hotpotqa', 'trustee_hotpotqa']
+run_llm_extract_result:1. advisor_hotpotqa
+2. founder_hotpotqa
+3. trustee_hotpotqa
+relations:[]
+tt:['advisor_hotpotqa', 'founder_hotpotqa', 'trustee_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['attended_hotpotqa']
+run_llm_extract_result:attended_hotpotqa
+relations:[]
+tt:['attended_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['football player_hotpotqa']
+run_llm_extract_result:football player_hotpotqa
+relations:[]
+tt:['football player_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1567': 'Linux', '1576': 'FreeBSD', '1566': 'Microsoft Windows', '1568': 'Mac OS X'}
+----------
+len of total relations:3
+total relations:['is ported to_hotpotqa', 'is released for_hotpotqa', 'uses_hotpotqa']
+run_llm_extract_result:Linux
+relations:[]
+tt:['is ported to_hotpotqa', 'is released for_hotpotqa', 'uses_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is ported to_hotpotqa', 'is released for_hotpotqa']
+run_llm_extract_result:Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's macOS operating system.
+relations:[]
+tt:['is ported to_hotpotqa', 'is released for_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['uses_hotpotqa']
+run_llm_extract_result:Microsoft Windows
+relations:[]
+tt:['uses_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['uses_hotpotqa']
+run_llm_extract_result:Mac OS X
+relations:[]
+tt:['uses_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1589': 'Nissan 350Z', '1590': 'Nissan Motors'}
+----------
+len of total relations:3
+total relations:['is known as_hotpotqa', 'is manufactured by_hotpotqa', 'is succeeded by_hotpotqa']
+run_llm_extract_result:Nissan 350Z
+relations:[]
+tt:['is known as_hotpotqa', 'is manufactured by_hotpotqa', 'is succeeded by_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is manufactured by_hotpotqa', 'is produced by_hotpotqa']
+run_llm_extract_result:2. is produced by_hotpotqa
+relations:[]
+tt:['is manufactured by_hotpotqa', 'is produced by_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2236': 'family', '2340': 'Dutch'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:family
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is_hotpotqa', 'written in_hotpotqa']
+run_llm_extract_result:Dutch
+relations:[]
+tt:['is_hotpotqa', 'written in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'1842': 'The Fast and the Furious'}
+----------
+len of total relations:1
+total relations:['published work_hotpotqa']
+run_llm_extract_result:The Fast and the Furious
+relations:[]
+tt:['published work_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1626': 'Springfield'}
+----------
+len of total relations:2
+total relations:['spray-painted images with the word "dope" all over_hotpotqa', 'was spray-painted with the word "dope" all over_hotpotqa']
+run_llm_extract_result:2. was spray-painted with the word "dope" all over_hotpotqa
+relations:[]
+tt:['spray-painted images with the word "dope" all over_hotpotqa', 'was spray-painted with the word "dope" all over_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1476': 'France'}
+----------
+len of total relations:1
+total relations:['born_in_hotpotqa']
+run_llm_extract_result:France
+relations:[]
+tt:['born_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1514': 'United States', '1504': 'New South Wales'}
+----------
+len of total relations:9
+total relations:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+run_llm_extract_result:2. Was the 26th President of_hotpotqa
+relations:[]
+tt:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['lived in_hotpotqa', 'located_in_hotpotqa']
+run_llm_extract_result:lived in_hotpotqa
+relations:[]
+tt:['lived in_hotpotqa', 'located_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1757': 'Japan'}
+----------
+len of total relations:3
+total relations:['Native to_hotpotqa', 'has oldest lyrics_hotpotqa', 'national anthem of_hotpotqa']
+run_llm_extract_result:Kevin Rowland
+relations:[]
+tt:['Native to_hotpotqa', 'has oldest lyrics_hotpotqa', 'national anthem of_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2344': 'John Lennon'}
+----------
+len of total relations:5
+total relations:['contributed to_hotpotqa', 'denied_hotpotqa', 'favorite_hotpotqa', 'started_hotpotqa', 'wrote_hotpotqa']
+run_llm_extract_result:3. contributed to_hotpotqa
+relations:[]
+tt:['contributed to_hotpotqa', 'denied_hotpotqa', 'favorite_hotpotqa', 'started_hotpotqa', 'wrote_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'1514': 'United States'}
+----------
+len of total relations:9
+total relations:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+run_llm_extract_result:1. Aired_in_hotpotqa
+relations:[]
+tt:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2238': 'film'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:director_hotpotqa
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1647': 'Argentina', '1651': "coup d'état", '1629': 'Lithuania', '1640': 'XML Schema Language', '1641': 'RelaxNG'}
+----------
+len of total relations:2
+total relations:['Developed in_hotpotqa', 'born in_hotpotqa']
+run_llm_extract_result:Developed in_hotpotqa
+relations:[]
+tt:['Developed in_hotpotqa', 'born in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Overthrown in_hotpotqa']
+run_llm_extract_result:Overthrown in_hotpotqa
+relations:[]
+tt:['Overthrown in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Located in_hotpotqa']
+run_llm_extract_result:Colibrí
+relations:[]
+tt:['Located in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Uses_hotpotqa']
+run_llm_extract_result:XML Schema Language
+relations:[]
+tt:['Uses_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Uses_hotpotqa']
+run_llm_extract_result:relaxng
+relations:[]
+tt:['Uses_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1440': 'actor'}
+----------
+len of total relations:2
+total relations:['is a_hotpotqa', 'is an_hotpotqa']
+run_llm_extract_result:2. is an_hotpotqa
+relations:[]
+tt:['is a_hotpotqa', 'is an_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1841': 'American', '1435': 'actress'}
+----------
+len of total relations:1
+total relations:['member_hotpotqa']
+run_llm_extract_result:member_hotpotqa
+relations:[]
+tt:['member_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is a_hotpotqa']
+run_llm_extract_result:1. is a_hotpotqa
+relations:[]
+tt:['is a_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2383': 'Salzburg'}
+----------
+len of total relations:1
+total relations:['born_hotpotqa']
+run_llm_extract_result:Salzburg
+relations:[]
+tt:['born_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2237': 'fantasy'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:director_hotpotqa
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2238': 'film'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:Jack Andrew Lowden
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'1680': 'Hollywood Undead', '1664': 'Bon Scott'}
+----------
+len of total relations:1
+total relations:['featured_hotpotqa']
+run_llm_extract_result:Deuce
+relations:[]
+tt:['featured_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['tribute to_hotpotqa']
+run_llm_extract_result:Bon Scott
+relations:[]
+tt:['tribute to_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1674': 'LaRell David Muir', '1669': 'Lynn F. Pett', '1676': 'Lavar McMillan', '1677': 'Joseph H. Stratton'}
+----------
+len of total relations:5
+total relations:['defeated by_hotpotqa', 'defeated_hotpotqa', 'mayor of_hotpotqa', 'mayor_hotpotqa', 'renovated_hotpotqa']
+run_llm_extract_result:1. defeated by Lavar McMillan
+relations:[]
+tt:['defeated by_hotpotqa', 'defeated_hotpotqa', 'mayor of_hotpotqa', 'mayor_hotpotqa', 'renovated_hotpotqa']
+final_relations:No relations found
+len of total relations:6
+total relations:['born in_hotpotqa', 'born_hotpotqa', 'graduated from_hotpotqa', 'graduated_hotpotqa', 'mayor of_hotpotqa', 'studied_hotpotqa']
+run_llm_extract_result:Lynn F. Pett (born 1940)
+relations:[]
+tt:['born in_hotpotqa', 'born_hotpotqa', 'graduated from_hotpotqa', 'graduated_hotpotqa', 'mayor of_hotpotqa', 'studied_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['defeated by_hotpotqa', 'defeated_hotpotqa']
+run_llm_extract_result:Lavar McMillan
+relations:[]
+tt:['defeated by_hotpotqa', 'defeated_hotpotqa']
+final_relations:No relations found
+len of total relations:5
+total relations:['defeated by_hotpotqa', 'defeated_hotpotqa', 'mayor of_hotpotqa', 'mayor_hotpotqa', 'defeated_hotpotqa']
+run_llm_extract_result:1. defeated by_hotpotqa
+relations:[]
+tt:['defeated by_hotpotqa', 'defeated_hotpotqa', 'mayor of_hotpotqa', 'mayor_hotpotqa', 'defeated_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1683': 'Detroit'}
+----------
+len of total relations:1
+total relations:['occurred in_hotpotqa']
+run_llm_extract_result:occurred in_hotpotqa
+relations:[]
+tt:['occurred in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1702': 'DFB-Pokal', '1703': 'Iztok Puc'}
+----------
+len of total relations:1
+total relations:['won_hotpotqa']
+run_llm_extract_result:Luca Toni
+relations:[]
+tt:['won_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['played for_hotpotqa']
+run_llm_extract_result:played for_hotpotqa
+relations:[]
+tt:['played for_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2238': 'film'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:Condorman
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2238': 'film'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:director_hotpotqa
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2326': 'New Zealand'}
+----------
+len of total relations:2
+total relations:['part of_hotpotqa', 'run by_hotpotqa']
+run_llm_extract_result:1. part of_hotpotqa
+relations:[]
+tt:['part of_hotpotqa', 'run by_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1720': 'Argentine', '2001': 'Rome', '1766': 'Mexico'}
+----------
+len of total relations:1
+total relations:['Nationality_hotpotqa']
+run_llm_extract_result:Argentine
+relations:[]
+tt:['Nationality_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['founded_hotpotqa', 'transferred capital_hotpotqa']
+run_llm_extract_result:Italian
+relations:[]
+tt:['founded_hotpotqa', 'transferred capital_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Native to_hotpotqa']
+run_llm_extract_result:Mexico
+relations:[]
+tt:['Native to_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1752': 'Cycas', '1764': 'Carludovica', '1753': 'Cycadaceae', '1765': 'Cyclanthaceae', '2236': 'family'}
+----------
+len of total relations:3
+total relations:['Species_hotpotqa', 'Type genus_hotpotqa', 'Type of_hotpotqa']
+run_llm_extract_result:2. Type genus_hotpotqa
+relations:[]
+tt:['Species_hotpotqa', 'Type genus_hotpotqa', 'Type of_hotpotqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['Genus in_hotpotqa', 'Named after_hotpotqa', 'Native to_hotpotqa']
+run_llm_extract_result:1. Genus in_hotpotqa
+relations:[]
+tt:['Genus in_hotpotqa', 'Named after_hotpotqa', 'Native to_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Type genus_hotpotqa']
+run_llm_extract_result:Cycas and Carludovica are in the same family.
+relations:[]
+tt:['Type genus_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Genus in_hotpotqa']
+run_llm_extract_result:1. Genus in_hotpotqa
+relations:[]
+tt:['Genus in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:Cycas and Carludovica are in the same family.
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1772': 'Akshay Kumar', '1791': 'Dharmendra', '1776': 'Saif Ali Khan'}
+----------
+len of total relations:2
+total relations:['Actor_hotpotqa', 'Award_hotpotqa']
+run_llm_extract_result:Akshay Kumar
+relations:[]
+tt:['Actor_hotpotqa', 'Award_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Father_hotpotqa']
+run_llm_extract_result:Dharmendra
+relations:[]
+tt:['Father_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Actor_hotpotqa']
+run_llm_extract_result:Akshay Kumar
+relations:[]
+tt:['Actor_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1794': 'Huddersfield Town', '2230': 'Peter Jackson'}
+----------
+len of total relations:4
+total relations:['Team_hotpotqa', 'Location_hotpotqa', 'Reserve team of_hotpotqa', 'Team_hotpotqa']
+run_llm_extract_result:Team_hotpotqa
+relations:[]
+tt:['Team_hotpotqa', 'Location_hotpotqa', 'Reserve team of_hotpotqa', 'Team_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:Peter Jackson
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2138': '2008 Olympics'}
+----------
+len of total relations:1
+total relations:['represented_hotpotqa']
+run_llm_extract_result:represented_hotpotqa
+relations:[]
+tt:['represented_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'1757': 'Japan', '1755': 'India'}
+----------
+len of total relations:3
+total relations:['Native to_hotpotqa', 'has oldest lyrics_hotpotqa', 'national anthem of_hotpotqa']
+run_llm_extract_result:Japan
+relations:[]
+tt:['Native to_hotpotqa', 'has oldest lyrics_hotpotqa', 'national anthem of_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['Endemic to_hotpotqa', 'organized in_hotpotqa']
+run_llm_extract_result:India
+relations:[]
+tt:['Endemic to_hotpotqa', 'organized in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2346': 'Paul McCartney', '2238': 'film'}
+----------
+len of total relations:3
+total relations:['confirmed_hotpotqa', 'contributed to_hotpotqa', 'wrote_hotpotqa']
+run_llm_extract_result:2. contributed to_hotpotqa
+relations:[]
+tt:['confirmed_hotpotqa', 'contributed to_hotpotqa', 'wrote_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:Wings over America
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'1860': 'Emmy Award', '1861': 'Media Access Award', '1862': 'International Film and Video Award'}
+----------
+len of total relations:1
+total relations:['received_hotpotqa']
+run_llm_extract_result:Emmy Award
+relations:[]
+tt:['received_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['received_hotpotqa']
+run_llm_extract_result:1. received_hotpotqa
+relations:[]
+tt:['received_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['received_hotpotqa']
+run_llm_extract_result:1. received_hotpotqa
+relations:[]
+tt:['received_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1852': '2014', '1464': 'Russia'}
+----------
+len of total relations:1
+total relations:['published monthly_hotpotqa']
+run_llm_extract_result:2014
+relations:[]
+tt:['published monthly_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['born in_hotpotqa', 'born_in_hotpotqa']
+run_llm_extract_result:Russia
+relations:[]
+tt:['born in_hotpotqa', 'born_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'1514': 'United States', '1558': 'Indiana'}
+----------
+len of total relations:9
+total relations:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+run_llm_extract_result:William Borden Conover (1865-1947)
+relations:[]
+tt:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is located in_hotpotqa', 'is located in_hotpotqa']
+run_llm_extract_result:2. is located in_hotpotqa
+relations:[]
+tt:['is located in_hotpotqa', 'is located in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2074': 'Stephenie Meyer'}
+----------
+len of total relations:1
+total relations:['Producer_hotpotqa']
+run_llm_extract_result:Producer_hotpotqa
+relations:[]
+tt:['Producer_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'1841': 'American'}
+----------
+len of total relations:1
+total relations:['member_hotpotqa']
+run_llm_extract_result:member_hotpotqa
+relations:[]
+tt:['member_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1903': 'Michael Bay'}
+----------
+len of total relations:2
+total relations:['Co-owner_hotpotqa', 'Producer_hotpotqa']
+run_llm_extract_result:Co-owner_hotpotqa
+relations:[]
+tt:['Co-owner_hotpotqa', 'Producer_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1909': 'Robin Chase', '1914': 'Richard Yoo', '1917': 'Martin Shkreli', '1906': 'Continuum', '1907': 'Healtheon Corporation'}
+----------
+len of total relations:2
+total relations:['Co-founder_hotpotqa', 'Founder_hotpotqa']
+run_llm_extract_result:co-founder_hotpotqa
+relations:[]
+tt:['Co-founder_hotpotqa', 'Founder_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['Co-founder_hotpotqa', 'Founder_hotpotqa']
+run_llm_extract_result:Richard Yoo
+relations:[]
+tt:['Co-founder_hotpotqa', 'Founder_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Co-founder_hotpotqa']
+run_llm_extract_result:Martin Shkreli
+relations:[]
+tt:['Co-founder_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['CEO_hotpotqa']
+run_llm_extract_result:CEO_hotpotqa
+relations:[]
+tt:['CEO_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['CEO_hotpotqa']
+run_llm_extract_result:CEO_hotpotqa
+relations:[]
+tt:['CEO_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1921': 'Mary Tyler Moore', '1924': 'The Mary Tyler Moore Show', '1940': 'Taking Off', '1435': 'actress'}
+----------
+len of total relations:5
+total relations:['created_hotpotqa', 'starred in_hotpotqa', 'appeared in_hotpotqa', 'played by_hotpotqa', 'starred in_hotpotqa']
+run_llm_extract_result:2. starred in_hotpotqa
+relations:[]
+tt:['created_hotpotqa', 'starred in_hotpotqa', 'appeared in_hotpotqa', 'played by_hotpotqa', 'starred in_hotpotqa']
+final_relations:No relations found
+len of total relations:6
+total relations:['directed_hotpotqa', 'guest appearances_hotpotqa', 'spin-off_hotpotqa', 'starred in_hotpotqa', 'created_hotpotqa', 'spin-off_hotpotqa']
+run_llm_extract_result:4. starred in_hotpotqa
+relations:[]
+tt:['directed_hotpotqa', 'guest appearances_hotpotqa', 'spin-off_hotpotqa', 'starred in_hotpotqa', 'created_hotpotqa', 'spin-off_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['soundtrack_hotpotqa', 'appeared in_hotpotqa']
+run_llm_extract_result:2. appeared in_hotpotqa
+relations:[]
+tt:['soundtrack_hotpotqa', 'appeared in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is a_hotpotqa']
+run_llm_extract_result:Mary Tyler Moore
+relations:[]
+tt:['is a_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'1514': 'United States'}
+----------
+len of total relations:9
+total relations:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+run_llm_extract_result:Sisters State Park is located in Oregon.
+relations:[]
+tt:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'1988': 'Roman Empire', '1987': 'Roman Republic', '1992': 'Pérignat', '1964': 'necropolis', '1998': 'sarcophagus', '1999': 'ceramic'}
+----------
+len of total relations:14
+total relations:['founded_hotpotqa', 'province_hotpotqa', 'was divided_hotpotqa', 'adopted Greek_hotpotqa', 'ended_hotpotqa', 'made Christianity official_hotpotqa', 'marked the beginning of decline_hotpotqa', 'observed_hotpotqa', 'overthrown_hotpotqa', 'partitioned_hotpotqa', 'restructured military_hotpotqa', 'ruled_hotpotqa', 'was an emperor_hotpotqa', 'wrote about_hotpotqa']
+run_llm_extract_result:27 BC
+relations:[]
+tt:['founded_hotpotqa', 'province_hotpotqa', 'was divided_hotpotqa', 'adopted Greek_hotpotqa', 'ended_hotpotqa', 'made Christianity official_hotpotqa', 'marked the beginning of decline_hotpotqa', 'observed_hotpotqa', 'overthrown_hotpotqa', 'partitioned_hotpotqa', 'restructured military_hotpotqa', 'ruled_hotpotqa', 'was an emperor_hotpotqa', 'wrote about_hotpotqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['ended_hotpotqa', 'founded_hotpotqa', 'overthrown_hotpotqa']
+run_llm_extract_result:2. founded_hotpotqa
+relations:[]
+tt:['ended_hotpotqa', 'founded_hotpotqa', 'overthrown_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['first name_hotpotqa', 'found at_hotpotqa']
+run_llm_extract_result:2. found at_hotpotqa
+relations:[]
+tt:['first name_hotpotqa', 'found at_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['found at_hotpotqa', 'found near_hotpotqa']
+run_llm_extract_result:found near_hotpotqa
+relations:[]
+tt:['found at_hotpotqa', 'found near_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['found at_hotpotqa']
+run_llm_extract_result:sarcophagus
+relations:[]
+tt:['found at_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['found at_hotpotqa']
+run_llm_extract_result:ceramic
+relations:[]
+tt:['found at_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2031': 'Festival Film Indonesia'}
+----------
+len of total relations:2
+total relations:['won Best Actor_hotpotqa', 'won Best Supporting Actor_hotpotqa']
+run_llm_extract_result:2. won Best Supporting Actor_hotpotqa
+relations:[]
+tt:['won Best Actor_hotpotqa', 'won Best Supporting Actor_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2238': 'film'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:Gargoyles
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1514': 'United States'}
+----------
+len of total relations:9
+total relations:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+run_llm_extract_result:1. Aired_in_hotpotqa
+relations:[]
+tt:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2243': 'science fiction'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:director_hotpotqa
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2044': 'Theodore Roosevelt', '1514': 'United States'}
+----------
+len of total relations:2
+total relations:['Was succeeded by_hotpotqa', 'Was the 26th President of_hotpotqa']
+run_llm_extract_result:Mount Rushmore
+relations:[]
+tt:['Was succeeded by_hotpotqa', 'Was the 26th President of_hotpotqa']
+final_relations:No relations found
+len of total relations:9
+total relations:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+run_llm_extract_result:Mount Rushmore
+relations:[]
+tt:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2052': 'Jane Austen', '2058': 'Lady Catherine de Bourgh', '2059': 'Elizabeth Bennet'}
+----------
+len of total relations:3
+total relations:['Author_hotpotqa', 'Inspiration_hotpotqa', 'Commentator_hotpotqa']
+run_llm_extract_result:Author_hotpotqa
+relations:[]
+tt:['Author_hotpotqa', 'Inspiration_hotpotqa', 'Commentator_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['Antagonist_hotpotqa', 'Commentator_hotpotqa']
+run_llm_extract_result:1. Antagonist_hotpotqa
+relations:[]
+tt:['Antagonist_hotpotqa', 'Commentator_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['Protagonist_hotpotqa', 'Commentator_hotpotqa']
+run_llm_extract_result:Protagonist_hotpotqa
+relations:[]
+tt:['Protagonist_hotpotqa', 'Commentator_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2281': 'Atlantic Ocean'}
+----------
+len of total relations:1
+total relations:['Empties_into_hotpotqa']
+run_llm_extract_result:Atlantic Ocean
+relations:[]
+tt:['Empties_into_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1622': 'The Simpsons'}
+----------
+len of total relations:2
+total relations:['originally aired in_hotpotqa', 'originally aired on_hotpotqa']
+run_llm_extract_result:1 (originally aired in)
+relations:[]
+tt:['originally aired in_hotpotqa', 'originally aired on_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1514': 'United States', '2051': 'World War II'}
+----------
+len of total relations:9
+total relations:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+run_llm_extract_result:1. Aired_in_hotpotqa
+relations:[]
+tt:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['Foreseeed_hotpotqa']
+run_llm_extract_result:Adak Airport (IATA: ADK, ICAO: PADK, FAA LID: ADK)
+relations:[]
+tt:['Foreseeed_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1622': 'The Simpsons'}
+----------
+len of total relations:2
+total relations:['originally aired in_hotpotqa', 'originally aired on_hotpotqa']
+run_llm_extract_result:1. originally aired in_hotpotqa
+relations:[]
+tt:['originally aired in_hotpotqa', 'originally aired on_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'1440': 'actor', '2238': 'film'}
+----------
+len of total relations:2
+total relations:['is a_hotpotqa', 'is an_hotpotqa']
+run_llm_extract_result:2. is an_hotpotqa
+relations:[]
+tt:['is a_hotpotqa', 'is an_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:director_hotpotqa
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2096': 'Riverhead Raceway', '2094': 'Ratbag Games'}
+----------
+len of total relations:2
+total relations:['Closed by_hotpotqa', 'Located in_hotpotqa']
+run_llm_extract_result:Closed by_hotpotqa
+relations:[]
+tt:['Closed by_hotpotqa', 'Located in_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['Published_hotpotqa', 'Developed by_hotpotqa']
+run_llm_extract_result:Dirt Track Racing 2 (DTR2)
+relations:[]
+tt:['Published_hotpotqa', 'Developed by_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2238': 'film', '1841': 'American'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:Craig Barron (born April 6, 1961) is an American creative director and film historian who specializes in seamless matte painting effects.
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['member_hotpotqa']
+run_llm_extract_result:American
+relations:[]
+tt:['member_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2132': 'Amir Khan', '2131': 'Super Boxing League'}
+----------
+len of total relations:1
+total relations:['founded_hotpotqa']
+run_llm_extract_result:Amir Khan
+relations:[]
+tt:['founded_hotpotqa']
+final_relations:No relations found
+len of total relations:4
+total relations:['organized in_hotpotqa', 'supported by_hotpotqa', 'founded_hotpotqa', 'supported_hotpotqa']
+run_llm_extract_result:3. founded_hotpotqa
+relations:[]
+tt:['organized in_hotpotqa', 'supported by_hotpotqa', 'founded_hotpotqa', 'supported_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2154': 'Kathmandu', '2160': 'Nepal'}
+----------
+len of total relations:2
+total relations:['filmed in_hotpotqa', 'located near_hotpotqa']
+run_llm_extract_result:The Tree That Remembers
+relations:[]
+tt:['filmed in_hotpotqa', 'located near_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['located in_hotpotqa']
+run_llm_extract_result:The Tree That Remembers
+relations:[]
+tt:['located in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1515': 'United Kingdom'}
+----------
+len of total relations:1
+total relations:['released_in_hotpotqa']
+run_llm_extract_result:Hertford East branch line (x.75)
+Lea Valley lines (x.75)
+relations:[]
+tt:['released_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1671': 'Eureka'}
+----------
+len of total relations:5
+total relations:['located in_hotpotqa', 'located near_hotpotqa', 'born in_hotpotqa', 'born_hotpotqa', 'member of_hotpotqa']
+run_llm_extract_result:1. located in_hotpotqa
+relations:[]
+tt:['located in_hotpotqa', 'located near_hotpotqa', 'born in_hotpotqa', 'born_hotpotqa', 'member of_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2196': 'Australian Kelpie', '2192': 'Chinese Chongqing Dog', '1887': 'China'}
+----------
+len of total relations:3
+total relations:['developed by_hotpotqa', 'developed_hotpotqa', 'was an_hotpotqa']
+run_llm_extract_result:2. developed_hotpotqa
+relations:[]
+tt:['developed by_hotpotqa', 'developed_hotpotqa', 'was an_hotpotqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['existed since_hotpotqa', 'native to_hotpotqa', 'includes_hotpotqa']
+run_llm_extract_result:2. native to_hotpotqa
+relations:[]
+tt:['existed since_hotpotqa', 'native to_hotpotqa', 'includes_hotpotqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['third biggest television network_hotpotqa', 'biggest television network_hotpotqa', 'native to_hotpotqa']
+run_llm_extract_result:3. native to
+relations:[]
+tt:['third biggest television network_hotpotqa', 'biggest television network_hotpotqa', 'native to_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2300': 'DVD', '1435': 'actress', '1851': '2008'}
+----------
+len of total relations:1
+total relations:['Released_in_hotpotqa']
+run_llm_extract_result:Released_in_hotpotqa
+relations:[]
+tt:['Released_in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is a_hotpotqa']
+run_llm_extract_result:1990
+relations:[]
+tt:['is a_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['published every fortnight_hotpotqa', 'published weekly_hotpotqa']
+run_llm_extract_result:2008
+relations:[]
+tt:['published every fortnight_hotpotqa', 'published weekly_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2207': 'Risto Jarva', '2326': 'New Zealand', '2238': 'film', '2223': 'Shrek'}
+----------
+len of total relations:4
+total relations:['director_hotpotqa', 'filmmaker_hotpotqa', 'production company_hotpotqa', 'cinematographer_hotpotqa']
+run_llm_extract_result:director_hotpotqa
+relations:[]
+tt:['director_hotpotqa', 'filmmaker_hotpotqa', 'production company_hotpotqa', 'cinematographer_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['part of_hotpotqa', 'run by_hotpotqa']
+run_llm_extract_result:2. run by_hotpotqa
+relations:[]
+tt:['part of_hotpotqa', 'run by_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:director_hotpotqa
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:director_hotpotqa
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1757': 'Japan', '1840': 'Japanese', '2240': 'Tokyo'}
+----------
+len of total relations:3
+total relations:['Native to_hotpotqa', 'has oldest lyrics_hotpotqa', 'national anthem of_hotpotqa']
+run_llm_extract_result:Kawasaki Frontale
+relations:[]
+tt:['Native to_hotpotqa', 'has oldest lyrics_hotpotqa', 'national anthem of_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['member_hotpotqa', 'written in_hotpotqa']
+run_llm_extract_result:member_hotpotqa
+relations:[]
+tt:['member_hotpotqa', 'written in_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:Kawasaki Frontale
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2249': 'Edith Wharton'}
+----------
+len of total relations:18
+total relations:['American aristocracy_hotpotqa', 'American novelist_hotpotqa', 'American writer_hotpotqa', 'combined_hotpotqa', 'created_hotpotqa', 'designer_hotpotqa', 'died_hotpotqa', 'portrayed_hotpotqa', 'praised_hotpotqa', 'published_hotpotqa', 'short story writer_hotpotqa', 'won_hotpotqa', 'wrote_hotpotqa', 'American aristocracy_hotpotqa', 'American novelist_hotpotqa', 'American writer_hotpotqa', 'designer_hotpotqa', 'short story writer_hotpotqa']
+run_llm_extract_result:1. American novelist_hotpotqa
+relations:[]
+tt:['American aristocracy_hotpotqa', 'American novelist_hotpotqa', 'American writer_hotpotqa', 'combined_hotpotqa', 'created_hotpotqa', 'designer_hotpotqa', 'died_hotpotqa', 'portrayed_hotpotqa', 'praised_hotpotqa', 'published_hotpotqa', 'short story writer_hotpotqa', 'won_hotpotqa', 'wrote_hotpotqa', 'American aristocracy_hotpotqa', 'American novelist_hotpotqa', 'American writer_hotpotqa', 'designer_hotpotqa', 'short story writer_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1781': 'Govinda'}
+----------
+len of total relations:1
+total relations:['Actor_hotpotqa']
+run_llm_extract_result:Govinda
+relations:[]
+tt:['Actor_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2293': 'Cape Fear'}
+----------
+len of total relations:2
+total relations:['Based_on_hotpotqa', 'Listed_by_hotpotqa']
+run_llm_extract_result:Based_on_hotpotqa
+relations:[]
+tt:['Based_on_hotpotqa', 'Listed_by_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1515': 'United Kingdom'}
+----------
+len of total relations:1
+total relations:['released_in_hotpotqa']
+run_llm_extract_result:released_in_hotpotqa
+relations:[]
+tt:['released_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1761': 'Australia', '1514': 'United States'}
+----------
+len of total relations:1
+total relations:['Found in_hotpotqa']
+run_llm_extract_result:Nico di Biase plays for the National Soccer League (NSL)
+relations:[]
+tt:['Found in_hotpotqa']
+final_relations:No relations found
+len of total relations:9
+total relations:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+run_llm_extract_result:Nico di Biase plays for the National Premier Soccer League (NPSL).
+relations:[]
+tt:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'is located in_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2238': 'film'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:director_hotpotqa
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2344': 'John Lennon', '2346': 'Paul McCartney', '2350': 'The Beatles', '2348': 'The Dakotas', '2347': 'Billy J. Kramer', '2356': 'The Miracles', '2364': 'Smokey Robinson'}
+----------
+len of total relations:5
+total relations:['contributed to_hotpotqa', 'denied_hotpotqa', 'favorite_hotpotqa', 'started_hotpotqa', 'wrote_hotpotqa']
+run_llm_extract_result:1. contributed to_hotpotqa
+relations:[]
+tt:['contributed to_hotpotqa', 'denied_hotpotqa', 'favorite_hotpotqa', 'started_hotpotqa', 'wrote_hotpotqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['confirmed_hotpotqa', 'contributed to_hotpotqa', 'wrote_hotpotqa']
+run_llm_extract_result:1. contributed to_hotpotqa
+relations:[]
+tt:['confirmed_hotpotqa', 'contributed to_hotpotqa', 'wrote_hotpotqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['inspired_hotpotqa', 'recorded_hotpotqa', 'released_hotpotqa']
+run_llm_extract_result:1. inspired_hotpotqa
+relations:[]
+tt:['inspired_hotpotqa', 'recorded_hotpotqa', 'released_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['released_hotpotqa']
+run_llm_extract_result:released_hotpotqa
+relations:[]
+tt:['released_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['released_hotpotqa']
+run_llm_extract_result:released_hotpotqa
+relations:[]
+tt:['released_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['released_hotpotqa']
+run_llm_extract_result:released_hotpotqa
+relations:[]
+tt:['released_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['wrote_hotpotqa']
+run_llm_extract_result:Thank You Girl
+relations:[]
+tt:['wrote_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2382': 'Virgil Widrich', '2365': 'Bernard Rose', '2369': 'Leo Tolstoy', '2375': 'Jeremy Suter'}
+----------
+len of total relations:2
+total relations:['born_hotpotqa', 'featured_hotpotqa']
+run_llm_extract_result:2. featured_hotpotqa
+relations:[]
+tt:['born_hotpotqa', 'featured_hotpotqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['adapted_hotpotqa', 'directed_hotpotqa']
+run_llm_extract_result:2. directed_hotpotqa
+relations:[]
+tt:['adapted_hotpotqa', 'directed_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['inspired_hotpotqa']
+run_llm_extract_result:2. director
+relations:[]
+tt:['inspired_hotpotqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['attended_hotpotqa', 'directed_hotpotqa', 'directed_hotpotqa']
+run_llm_extract_result:attended_hotpotqa
+relations:[]
+tt:['attended_hotpotqa', 'directed_hotpotqa', 'directed_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2051': 'World War II'}
+----------
+len of total relations:1
+total relations:['Foreseeed_hotpotqa']
+run_llm_extract_result:Yank
+relations:[]
+tt:['Foreseeed_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'1694': 'Selma'}
+----------
+len of total relations:1
+total relations:['played Diane Nash_hotpotqa']
+run_llm_extract_result:1. played Diane Nash_hotpotqa
+relations:[]
+tt:['played Diane Nash_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2238': 'film', '1887': 'China'}
+----------
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:Kong Su-chang directed "Trouble Maker"
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['third biggest television network_hotpotqa', 'biggest television network_hotpotqa', 'native to_hotpotqa']
+run_llm_extract_result:King Kong vs. Godzilla
+relations:[]
+tt:['third biggest television network_hotpotqa', 'biggest television network_hotpotqa', 'native to_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1841': 'American', '2238': 'film', '1435': 'actress'}
+----------
+len of total relations:1
+total relations:['member_hotpotqa']
+run_llm_extract_result:member_hotpotqa
+relations:[]
+tt:['member_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:Stephen Herek
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is a_hotpotqa']
+run_llm_extract_result:Dagmara Dominczyk ( ; born July 17, 1976) is a Polish-American actress
+relations:[]
+tt:['is a_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1841': 'American', '2238': 'film'}
+----------
+len of total relations:1
+total relations:['member_hotpotqa']
+run_llm_extract_result:member_hotpotqa
+relations:[]
+tt:['member_hotpotqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_hotpotqa']
+run_llm_extract_result:Paul McCartney
+relations:[]
+tt:['director_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2097': 'Long Island'}
+----------
+len of total relations:1
+total relations:['Located in_hotpotqa']
+run_llm_extract_result:Great River is a station that is located in the Town of Islip, Suffolk, USA.
+relations:[]
+tt:['Located in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'1673': 'Biology'}
+----------
+len of total relations:1
+total relations:['studied_hotpotqa']
+run_llm_extract_result:biology
+relations:[]
+tt:['studied_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1476': 'France'}
+----------
+len of total relations:1
+total relations:['born_in_hotpotqa']
+run_llm_extract_result:Transcaucasian Commissariat
+relations:[]
+tt:['born_in_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2395': 'Energy Muse'}
+----------
+len of total relations:2
+total relations:['based in_hotpotqa', 'endorsed by_hotpotqa']
+run_llm_extract_result:based in_hotpotqa
+relations:[]
+tt:['based in_hotpotqa', 'endorsed by_hotpotqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+pred:Yes --- true:Spanish-based transatlantic maritime expedition led by Christopher Columbus
+f1_score:0.0, cumulative:0.0
+pred:James Doolittle served in the United States Army Air Corps. --- true:United States Army Air Corps
+f1_score:71.43, cumulative:71.43
+pred:Phresh Out the Runway --- true:"Cheers (Drink to That)"
+f1_score:0.0, cumulative:71.43
+pred:Frank O'Bannon --- true:Frank O'Bannon
+f1_score:100.0, cumulative:171.43
+pred:Audley's Castle --- true:Dundas Castle
+f1_score:50.0, cumulative:221.43
+pred:Alexander McQueen --- true:Givenchy
+f1_score:0.0, cumulative:221.43
+pred:John McTiernan --- true:John McTiernan
+f1_score:100.0, cumulative:321.43
+pred:Super Fun Time --- true:You're Getting Old
+f1_score:0.0, cumulative:321.43
+pred:Buckethead --- true:Buckethead
+f1_score:100.0, cumulative:421.43
+pred:Nyasaland --- true:Nyasaland
+f1_score:100.0, cumulative:521.4300000000001
+pred:The River --- true:The River
+f1_score:100.0, cumulative:621.4300000000001
+pred:Sissy Spacek --- true:Whoopi Goldberg
+f1_score:0.0, cumulative:621.4300000000001
+pred:12 years --- true:twelve years
+f1_score:50.0, cumulative:671.4300000000001
+pred:2009-10 --- true:38th season
+f1_score:0.0, cumulative:671.4300000000001
+pred:Wilhelm O. Philipsen --- true:Wilhelm O. Philipsen
+f1_score:100.0, cumulative:771.4300000000001
+pred:American --- true:American
+f1_score:100.0, cumulative:871.4300000000001
+pred:Burleigh Arland Grimes --- true:Burleigh Arland Grimes
+f1_score:100.0, cumulative:971.4300000000001
+pred:Quanta Magazine and Lindy's Sports are publications. --- true:magazine
+f1_score:25.0, cumulative:996.4300000000001
+pred:Nicolas Mahut --- true:Elena Olegovna Bovina
+f1_score:0.0, cumulative:996.4300000000001
+pred:761 --- true:761
+f1_score:100.0, cumulative:1096.43
+pred:2009 --- true:2009
+f1_score:100.0, cumulative:1196.43
+pred:German culture --- true:the press, German culture, and German and Austrian politics.
+f1_score:40.0, cumulative:1236.43
+pred:Gillian Leigh Anderson --- true:Gillian Anderson
+f1_score:80.0, cumulative:1316.43
+pred:Seth Gordon --- true:John Luessenhop
+f1_score:0.0, cumulative:1316.43
+pred:1997 --- true:January 12, 1997
+f1_score:50.0, cumulative:1366.43
+pred:Yes, John Greyson and Lucky McKee are both directors. --- true:yes
+f1_score:20.0, cumulative:1386.43
+pred:Hiroaki Sato --- true:Yushin Okami
+f1_score:0.0, cumulative:1386.43
+pred:Hong Kong --- true:Hong Kong
+f1_score:100.0, cumulative:1486.43
+pred:3,544 --- true:3,544
+f1_score:100.0, cumulative:1586.43
+pred:Civil Twilight --- true:Deerhunter
+f1_score:0.0, cumulative:1586.43
+pred:T.I. and Sam Martins are of mixed ethnic background. --- true:American
+f1_score:0.0, cumulative:1586.43
+pred:1968 --- true:1977
+f1_score:0.0, cumulative:1586.43
+pred:Gary Busey --- true:Fred Ward
+f1_score:0.0, cumulative:1586.43
+pred:Sakhalin --- true:Russia's
+f1_score:0.0, cumulative:1586.43
+pred:Ottawa University --- true:Kansas
+f1_score:0.0, cumulative:1586.43
+pred:Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's macOS operating system. --- true:Apple's macOS
+f1_score:19.05, cumulative:1605.48
+pred:Nissan 350Z --- true:The Nissan 350Z
+f1_score:100.0, cumulative:1705.48
+pred:Dutch --- true:Dutch
+f1_score:100.0, cumulative:1805.48
+pred:performing arts occupation --- true:dancer
+f1_score:0.0, cumulative:1805.48
+pred:Sivakarthikeyan --- true:Sivakarthikeyan
+f1_score:100.0, cumulative:1905.48
+pred:Angel: After the Fall --- true:Minions
+f1_score:0.0, cumulative:1905.48
+pred:The Fast and the Furious --- true:The Fast and the Furious
+f1_score:100.0, cumulative:2005.48
+pred:John Fitzgerald --- true:John Basil Fitzgerald
+f1_score:80.0, cumulative:2085.48
+pred:A: Sideshow Bob --- true:Homer's Enemy
+f1_score:0.0, cumulative:2085.48
+pred:Mines --- true:Achilles
+f1_score:0.0, cumulative:2085.48
+pred:Richard Strauss died first. --- true:Pietro Antonio Stefano Mascagni
+f1_score:0.0, cumulative:2085.48
+pred:Edwin Meese III --- true:Edwin Meese III
+f1_score:100.0, cumulative:2185.48
+pred:Kevin Rowland --- true:Kevin Antony Rowland
+f1_score:80.0, cumulative:2265.48
+pred:Giovanni Giacomo Gastoldi --- true:Claudio Giovanni Antonio Monteverdi
+f1_score:28.57, cumulative:2294.05
+pred:February 15, 2003 --- true:February 15, 2003
+f1_score:100.0, cumulative:2394.05
+pred:December 8, 1980 --- true:December 8, 1980
+f1_score:100.0, cumulative:2494.05
+pred:Mrs. Danvers --- true:Mrs. Danvers
+f1_score:100.0, cumulative:2594.05
+pred:Edward Dmytryk --- true:Helmut Käutner
+f1_score:0.0, cumulative:2594.05
+pred:$2.7 billion --- true:about $2.7 billion
+f1_score:80.0, cumulative:2674.05
+pred:Mahesh Manjrekar --- true:Charles Crichton
+f1_score:0.0, cumulative:2674.05
+pred:World War II --- true:coup d'état
+f1_score:0.0, cumulative:2674.05
+pred:Batman --- true:Batman
+f1_score:100.0, cumulative:2774.05
+pred:Joseph Yule Jr. --- true:Mickey Rooney
+f1_score:0.0, cumulative:2774.05
+pred:1995 --- true:November 3, 1995
+f1_score:50.0, cumulative:2824.05
+pred:Univision Communications --- true:Univision Communications
+f1_score:100.0, cumulative:2924.05
+pred:Austria --- true:Salzburg
+f1_score:0.0, cumulative:2924.05
+pred:Chris Bacon --- true:Disney
+f1_score:0.0, cumulative:2924.05
+pred:Scottish --- true:Scottish
+f1_score:100.0, cumulative:3024.05
+pred:John William DiMaggio --- true:September 4, 1968
+f1_score:0.0, cumulative:3024.05
+pred:Pisgah National Forest --- true:Appalachian Mountains
+f1_score:0.0, cumulative:3024.05
+pred:Dobro --- true:Dobro
+f1_score:100.0, cumulative:3124.05
+pred:Deuce --- true:Tha Producer
+f1_score:0.0, cumulative:3124.05
+pred:Union Pacific Railroad --- true:8,500
+f1_score:0.0, cumulative:3124.05
+pred:1967 --- true:12th Street Riot
+f1_score:0.0, cumulative:3124.05
+pred:striker --- true:striker
+f1_score:100.0, cumulative:3224.05
+pred:The consequence of the Townshend Acts that resulted in the deaths of five people by British soldiers was the Boston Massacre. --- true:Boston Massacre
+f1_score:21.05, cumulative:3245.1000000000004
+pred:Rob Roy, the Highland Rogue --- true:Rob Roy, the Highland Rogue
+f1_score:100.0, cumulative:3345.1000000000004
+pred:Christa Campbell starred in the movie "Drive Angry" directed by Patrick Lussier. --- true:Patrick Lussier
+f1_score:30.77, cumulative:3375.8700000000003
+pred:Baz Warne --- true:David Wakeling
+f1_score:0.0, cumulative:3375.8700000000003
+pred:Westchester County --- true:Bronx
+f1_score:0.0, cumulative:3375.8700000000003
+pred:Anvil! The Story of Anvil --- true:Anvil! The Story of Anvil
+f1_score:100.0, cumulative:3475.8700000000003
+pred:Maverick Records --- true:MTV
+f1_score:0.0, cumulative:3475.8700000000003
+pred:1.3 million --- true:1.3 million
+f1_score:100.0, cumulative:3575.8700000000003
+pred:Irish --- true:Irish
+f1_score:100.0, cumulative:3675.8700000000003
+pred:1953 --- true:1953
+f1_score:100.0, cumulative:3775.8700000000003
+pred:Berlin-Lichtenberg --- true:East Berlin
+f1_score:0.0, cumulative:3775.8700000000003
+pred:Yes, both Choisya and Oenothera are endemic to the Americas. --- true:yes
+f1_score:20.0, cumulative:3795.8700000000003
+pred:Italian --- true:Argentine
+f1_score:0.0, cumulative:3795.8700000000003
+pred:Cycas and Carludovica are in the same family. --- true:no
+f1_score:0.0, cumulative:3795.8700000000003
+pred:"La danza" --- true:La danza
+f1_score:100.0, cumulative:3895.8700000000003
+pred:"Khiladi 786" --- true:Dosti: Friends Forever
+f1_score:0.0, cumulative:3895.8700000000003
+pred:Peter Allan Jackson --- true:Peter Allan Jackson
+f1_score:100.0, cumulative:3995.8700000000003
+pred:Jerry Schumacher coached the American long distance runner who won the bronze medal at the 2008 Olympics. --- true:bronze
+f1_score:13.33, cumulative:4009.2000000000003
+pred:Switzerland --- true:produced in Switzerland, France (especially Alsace and Lyon) and parts of Germany
+f1_score:15.38, cumulative:4024.5800000000004
+pred:Miguel Treviño Morales --- true:Miguel Treviño Morales
+f1_score:100.0, cumulative:4124.58
+pred:Yes --- true:yes
+f1_score:100.0, cumulative:4224.58
+pred:Japan --- true:Japan
+f1_score:100.0, cumulative:4324.58
+pred:Yes, Cape May Canal and Bald Eagle and Spring Creek Navigation are related to water. --- true:yes
+f1_score:12.5, cumulative:4337.08
+pred:Primal Scream --- true:Primal Scream
+f1_score:100.0, cumulative:4437.08
+pred:Rockshow --- true:Wings over America
+f1_score:0.0, cumulative:4437.08
+pred:Cecil County --- true:Aroostook County, Maine, United States
+f1_score:28.57, cumulative:4465.65
+pred:Germany --- true:UK
+f1_score:0.0, cumulative:4465.65
+pred:Nickelodeon Magazine --- true:Nickelodeon Magazine
+f1_score:100.0, cumulative:4565.65
+pred:Nia Vardalos --- true:Rita Wilson
+f1_score:0.0, cumulative:4565.65
+pred:Canada --- true:Russia
+f1_score:0.0, cumulative:4565.65
+pred:New York City --- true:New York City
+f1_score:100.0, cumulative:4665.65
+pred:1,750 --- true:1,750
+f1_score:100.0, cumulative:4765.65
+pred:South America --- true:South America
+f1_score:100.0, cumulative:4865.65
+pred:Kaifi Azmi --- true:the one who brought Urdu literature to Indian motion pictures
+f1_score:0.0, cumulative:4865.65
+pred:William Borden Conover --- true:66,522
+f1_score:0.0, cumulative:4865.65
+pred:1942 --- true:1975
+f1_score:0.0, cumulative:4865.65
+pred:1952 --- true:2009
+f1_score:0.0, cumulative:4865.65
+pred:Kristen Stewart --- true:Kristen Stewart
+f1_score:100.0, cumulative:4965.65
+pred:Coleraine Hospital --- true:a Coleraine hospital
+f1_score:100.0, cumulative:5065.65
+pred:Brandon Boyd --- true:Brandon Charles Boyd
+f1_score:80.0, cumulative:5145.65
+pred:Katherine Dunham --- true:Katherine Dunham
+f1_score:100.0, cumulative:5245.65
+pred:No --- true:yes
+f1_score:0.0, cumulative:5245.65
+pred:Saidia was shot by Phoebe Ruguru on her iPhone 4s. --- true:Steve Jobs
+f1_score:0.0, cumulative:5245.65
+pred:Mary Tyler Moore --- true:Georgia Bright Engel
+f1_score:0.0, cumulative:5245.65
+pred:Tom Robinson --- true:Thomas Giles "Tom" Robinson
+f1_score:66.67, cumulative:5312.32
+pred:WMS Gaming is part of the American gambling products company Scientific Games Corporation. --- true:Scientific Games Corporation
+f1_score:40.0, cumulative:5352.32
+pred:Oregon --- true:Oregon
+f1_score:100.0, cumulative:5452.32
+pred:Brian Gregory --- true:Dan Griest
+f1_score:0.0, cumulative:5452.32
+pred:Elves --- true:English
+f1_score:0.0, cumulative:5452.32
+pred:CSX Transportation --- true:Jacksonville, Florida
+f1_score:0.0, cumulative:5452.32
+pred:Sorghum bicolor and Sweet sorghum have the same type of vegetation. --- true:grass
+f1_score:0.0, cumulative:5452.32
+pred:27 BC --- true:300 BC
+f1_score:50.0, cumulative:5502.32
+pred:Paul Thomas Anderson --- true:Mike Leigh
+f1_score:0.0, cumulative:5502.32
+pred:Hyundai Sonata --- true:Hyundai Sonata
+f1_score:100.0, cumulative:5602.32
+pred:English group --- true:band
+f1_score:0.0, cumulative:5602.32
+pred:Gargoyles --- true:Gargoyles
+f1_score:100.0, cumulative:5702.32
+pred:Dean Rusk --- true:Yang You Chan
+f1_score:0.0, cumulative:5702.32
+pred:Samuel Sloan --- true:Longwood
+f1_score:0.0, cumulative:5702.32
+pred:Bishop of Carlisle --- true:Church of England Diocese of Carlisle in the Province of York.
+f1_score:30.77, cumulative:5733.09
+pred:James Wan --- true:James Wan
+f1_score:100.0, cumulative:5833.09
+pred:South Dakota --- true:South Dakota
+f1_score:100.0, cumulative:5933.09
+pred:2005 --- true:2005
+f1_score:100.0, cumulative:6033.09
+pred:Angola --- true:Atlantic Ocean
+f1_score:0.0, cumulative:6033.09
+pred:2010 --- true:2008
+f1_score:0.0, cumulative:6033.09
+pred:Coronation Street --- true:Corrie
+f1_score:0.0, cumulative:6033.09
+pred:Adak Airport --- true:Adak Airport
+f1_score:100.0, cumulative:6133.09
+pred:Hank Azaria --- true:Dan Castellaneta
+f1_score:0.0, cumulative:6133.09
+pred:electronics, computer and telecommunication goods --- true:consumer electronics, computer and telecommunication goods
+f1_score:90.91, cumulative:6224.0
+pred:No --- true:no
+f1_score:100.0, cumulative:6324.0
+pred:The Funtastic World of Hanna-Barbera --- true:The Funtastic World of Hanna-Barbera
+f1_score:100.0, cumulative:6424.0
+pred:Columbia University --- true:at Columbia University
+f1_score:80.0, cumulative:6504.0
+pred:A: "Saawariya" --- true:Saawariya
+f1_score:100.0, cumulative:6604.0
+pred:Italian --- true:Portuguese
+f1_score:0.0, cumulative:6604.0
+pred:Debussy --- true:Debussy
+f1_score:100.0, cumulative:6704.0
+pred:Nordic Passport Union --- true:Nordic Passport Union
+f1_score:100.0, cumulative:6804.0
+pred:Missouri --- true:Missouri
+f1_score:100.0, cumulative:6904.0
+pred:Dirt Track Racing --- true:Tom (Tiger Tom) Baldwin
+f1_score:0.0, cumulative:6904.0
+pred:The Aviator --- true:Casino
+f1_score:0.0, cumulative:6904.0
+pred:Stronger --- true:Stronger
+f1_score:100.0, cumulative:7004.0
+pred:Freddie Roach --- true:Amir Iqbal Khan
+f1_score:0.0, cumulative:7004.0
+pred:The Tree That Remembers --- true:The Tree That Remembers
+f1_score:100.0, cumulative:7104.0
+pred:England --- true:United Kingdom
+f1_score:0.0, cumulative:7104.0
+pred:Therapy --- true:His Name Is Alive
+f1_score:0.0, cumulative:7104.0
+pred:A: The primary use of the Chinese Chongqing Dog in its early years was for hunting wild boar and rabbits. --- true:hunting wild boar and rabbits
+f1_score:45.45, cumulative:7149.45
+pred:2005 --- true:1990
+f1_score:0.0, cumulative:7149.45
+pred:Bad Thief, Good Thief --- true:Father, I'll Take Care For You
+f1_score:0.0, cumulative:7149.45
+pred:No --- true:no
+f1_score:100.0, cumulative:7249.45
+pred:Kawasaki --- true:Tokyo
+f1_score:0.0, cumulative:7249.45
+pred:"Just Another Lover" --- true:"Run It!"
+f1_score:0.0, cumulative:7249.45
+pred:No --- true:yes
+f1_score:0.0, cumulative:7249.45
+pred:Maggie Butt --- true:Jesmyn Ward
+f1_score:0.0, cumulative:7249.45
+pred:Nirmala Devi --- true:Nirmala Devi
+f1_score:100.0, cumulative:7349.45
+pred:Innokenty Mikhaylovich Smoktunovsky --- true:"king of Soviet actors"
+f1_score:0.0, cumulative:7349.45
+pred:Tim Donaghy --- true:772
+f1_score:0.0, cumulative:7349.45
+pred:1 January 2016 --- true:1 January 2016
+f1_score:100.0, cumulative:7449.45
+pred:INS "Nipat" is a patrol vessel of the Trinkat class patrol vessel of the Indian Navy. --- true:have been named INS "Nipat":
+f1_score:22.22, cumulative:7471.67
+pred:Jon Vitti --- true:David Mirkin
+f1_score:0.0, cumulative:7471.67
+pred:Samantha Bee --- true:Samantha Bee
+f1_score:100.0, cumulative:7571.67
+pred:Bette Johns --- true:John Bull
+f1_score:0.0, cumulative:7571.67
+pred:A: 8 --- true:eight
+f1_score:0.0, cumulative:7571.67
+pred:documentary film --- true:documentary
+f1_score:66.67, cumulative:7638.34
+pred:"Thank You Girl" --- true:From Me to You
+f1_score:28.57, cumulative:7666.91
+pred:A: Director --- true:director
+f1_score:100.0, cumulative:7766.91
+pred:Yank --- true:Yank, the Army Weekly
+f1_score:50.0, cumulative:7816.91
+pred:18 February 1982 --- true:11 March 1972
+f1_score:0.0, cumulative:7816.91
+pred:Lufthansa --- true:Deutsche Post DHL
+f1_score:0.0, cumulative:7816.91
+pred:Minnesota Golden Gophers --- true:Vancouver Canucks
+f1_score:0.0, cumulative:7816.91
+pred:Cisplatin --- true:Cisplatin
+f1_score:100.0, cumulative:7916.91
+pred:Whopperito --- true:pizza
+f1_score:0.0, cumulative:7916.91
+pred:1940 --- true:1997
+f1_score:0.0, cumulative:7916.91
+pred:Ole Scheeren --- true:Leslie Scott
+f1_score:0.0, cumulative:7916.91
+pred:Trouble Maker --- true:The Ring Virus () is a South Korean horror film adapted from the Japanese novel "Ring"
+f1_score:0.0, cumulative:7916.91
+pred:Texas Governor Rick Perry --- true:Rock Star
+f1_score:0.0, cumulative:7916.91
+pred:Paul Robeson --- true:Paul Robeson
+f1_score:100.0, cumulative:8016.91
+pred:Great River --- true:Islip
+f1_score:0.0, cumulative:8016.91
+pred:English. --- true:British
+f1_score:0.0, cumulative:8016.91
+pred:Tony Kaye --- true:Michael Winner
+f1_score:0.0, cumulative:8016.91
+pred:Friday Harbor Airport --- true:Friday Harbor Airport
+f1_score:100.0, cumulative:8116.91
+pred:1977 --- true:1965
+f1_score:0.0, cumulative:8116.91
+pred:Carlisle Indians --- true:Carlisle Indian Industrial School
+f1_score:33.33, cumulative:8150.24
+pred:Argentina Football Federation --- true:Italian Football Federation
+f1_score:66.67, cumulative:8216.91
+pred:Norway --- true:Norway
+f1_score:100.0, cumulative:8316.91
+pred:Peter Bogdanovich --- true:Tony Richardson
+f1_score:0.0, cumulative:8316.91
+pred:Fred Walton --- true:Bryan Forbes
+f1_score:0.0, cumulative:8316.91
+pred:Sun 99.5 in Key Largo and Sun 99.5 in Key West. --- true:Florida Keys
+f1_score:0.0, cumulative:8316.91
+pred:1997 --- true:2007
+f1_score:0.0, cumulative:8316.91
+pred:matter and energy across the physical universe --- true:the physical universe
+f1_score:50.0, cumulative:8366.91
+pred:General Assembly --- true:A convocation (from the Latin "convocare" meaning "to call/come together",
+f1_score:0.0, cumulative:8366.91
+pred:Velma Dinkley --- true:Dwight David Howard
+f1_score:0.0, cumulative:8366.91
+pred:Sorrell Booke --- true:James Mitchum
+f1_score:0.0, cumulative:8366.91
+F1: 41.8346
+Accuracy: 0.0000
+总耗时: 90.72 秒
+Sat Sep  6 21:51:07 CST 2025
+comput12

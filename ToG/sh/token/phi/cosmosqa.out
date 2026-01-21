@@ -1,0 +1,125 @@
+Running job on node: comput07
+Start Running ToG on cosmosqa dataset.
+*************************************************************
+{'1099': 'person'}
+----------
+len of total relations:8
+total relations:['has_cosmosqa', 'is guided by_cosmosqa', 'is in a relationship with_cosmosqa', 'is perplexed by_cosmosqa', 'is taught by_cosmosqa', 'receives guidance from_cosmosqa', 'Reference_cosmosqa', 'instructs_cosmosqa']
+run_llm_extract_result:is_in_relationship_with_cosmosqa (0.5)
+is_guided_by_cosmosqa (0.3)
+has_interest_in_music_and_shows (0.2) (Note: This is a constructed relation based on the context and options provided, as it is not listed in the original relations. The sum of scores is 1.)
+
+relation_name (x.xx)
+is_in_relationship_with_cosmosqa (0.5)
+is_guided_by_cosmosqa (0.3)
+has_interest_in_music_and_shows (0.2)
+relations:[{'entity': '1099', 'relation': 'is_in_relationship_with_cosmosqa', 'score': 0.5, 'head': False}, {'entity': '1099', 'relation': 'is_guided_by_cosmosqa', 'score': 0.3, 'head': False}, {'entity': '1099', 'relation': 'has_interest_in_music_and_shows', 'score': 0.2, 'head': False}, {'entity': '1099', 'relation': 'is_in_relationship_with_cosmosqa', 'score': 0.5, 'head': False}, {'entity': '1099', 'relation': 'is_guided_by_cosmosqa', 'score': 0.3, 'head': False}, {'entity': '1099', 'relation': 'has_interest_in_music_and_shows', 'score': 0.2, 'head': False}]
+tt:['has_cosmosqa', 'is guided by_cosmosqa', 'is in a relationship with_cosmosqa', 'is perplexed by_cosmosqa', 'is taught by_cosmosqa', 'receives guidance from_cosmosqa', 'Reference_cosmosqa', 'instructs_cosmosqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1237': 'position', '1143': 'job'}
+----------
+len of total relations:1
+total relations:['Reference_cosmosqa']
+run_llm_extract_result:Reference_cosmosqa (1.0)
+choices_2 (0.0)
+choices_3 (0.0)
+
+Note: The relation "Reference_cosmosqa" is assumed to be the most relevant relation based on the context provided, as it likely pertains to the situation or decision-making process within the temp agency. The other two relations are given zero scores as they are not directly relevant to the context. The sum of the scores equals 1.0.
+relations:[{'entity': '1237', 'relation': 'Reference_cosmosqa', 'score': 1.0, 'head': False}, {'entity': '1237', 'relation': 'choices_2', 'score': 0.0, 'head': False}, {'entity': '1237', 'relation': 'choices_3', 'score': 0.0, 'head': False}]
+tt:['Reference_cosmosqa']
+final_relations:[{'entity': '1237', 'relation': 'Reference_cosmosqa', 'score': 1.0, 'head': False}]
+len of total relations:1
+total relations:['has_cosmosqa']
+run_llm_extract_result:choices_2.0
+choices_1.0
+choices_3.0
+relations:[]
+tt:['has_cosmosqa']
+final_relations:No relations found
+ current_entityu_relations:[{'entity': '1237', 'relation': 'Reference_cosmosqa', 'score': 1.0, 'head': False}]
+entity_search len:1 results:[{'head': 1237, 'tail': 1172, 'hname': 'position', 'tname': 'Hillary Clinton'}]
+entityu_candidates_id:[1237]
+entity_candidates_name:['position']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1237
+{1237: 'position'}
+----------
+len of total relations:1
+total relations:['Reference_cosmosqa']
+run_llm_extract_result:Reference_cosmosqa (1.0)
+choices_2 (0.0)
+choices_3 (0.0)
+
+Note: The relation "Reference_cosmosqa" is assumed to be the most relevant relation based on the context provided, as it likely pertains to the situation or decision-making process within the temp agency. The other two relations are given zero scores as they are not directly relevant to the context. The sum of the scores equals 1.0.
+relations:[{'entity': 1237, 'relation': 'Reference_cosmosqa', 'score': 1.0, 'head': False}, {'entity': 1237, 'relation': 'choices_2', 'score': 0.0, 'head': False}, {'entity': 1237, 'relation': 'choices_3', 'score': 0.0, 'head': False}]
+tt:['Reference_cosmosqa']
+final_relations:[{'entity': 1237, 'relation': 'Reference_cosmosqa', 'score': 1.0, 'head': False}]
+ current_entityu_relations:[{'entity': 1237, 'relation': 'Reference_cosmosqa', 'score': 1.0, 'head': False}]
+entity_search len:1 results:[{'head': 1237, 'tail': 1172, 'hname': 'position', 'tname': 'Hillary Clinton'}]
+entityu_candidates_id:[1237]
+entity_candidates_name:['position']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1237
+{1237: 'position'}
+----------
+len of total relations:1
+total relations:['Reference_cosmosqa']
+run_llm_extract_result:Reference_cosmosqa (1.0)
+choices_2 (0.0)
+choices_3 (0.0)
+
+Note: The relation "Reference_cosmosqa" is assumed to be the most relevant relation based on the context provided, as it likely pertains to the situation or decision-making process within the temp agency. The other two relations are given zero scores as they are not directly relevant to the context. The sum of the scores equals 1.0.
+relations:[{'entity': 1237, 'relation': 'Reference_cosmosqa', 'score': 1.0, 'head': False}, {'entity': 1237, 'relation': 'choices_2', 'score': 0.0, 'head': False}, {'entity': 1237, 'relation': 'choices_3', 'score': 0.0, 'head': False}]
+tt:['Reference_cosmosqa']
+final_relations:[{'entity': 1237, 'relation': 'Reference_cosmosqa', 'score': 1.0, 'head': False}]
+ current_entityu_relations:[{'entity': 1237, 'relation': 'Reference_cosmosqa', 'score': 1.0, 'head': False}]
+entity_search len:1 results:[{'head': 1237, 'tail': 1172, 'hname': 'position', 'tname': 'Hillary Clinton'}]
+entityu_candidates_id:[1237]
+entity_candidates_name:['position']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1237
+*************************************************************
+*************************************************************
+*************************************************************
+{'1265': 'evidence'}
+----------
+len of total relations:1
+total relations:['Reference_cosmosqa']
+run_llm_extract_result:evidence_2 (1.0)
+choices_2 (0.6)
+choices_4 (0.4)
+relations:[{'entity': '1265', 'relation': 'evidence_2', 'score': 1.0, 'head': False}, {'entity': '1265', 'relation': 'choices_2', 'score': 0.6, 'head': False}, {'entity': '1265', 'relation': 'choices_4', 'score': 0.4, 'head': False}]
+tt:['Reference_cosmosqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+chengong!
+true:choices_1----pred:choices_2
+chengong!
+true:choices_4----pred:choices_3. Because it 's my last day in Seattle .
+chengong!
+F1: 0.0000
+Accuracy: 0.6000
+总耗时: 33.27 秒
+{'completion_tokens': 565, 'prompt_tokens': 9554}
+10119
+Thu Nov 20 09:48:23 CST 2025
+comput07

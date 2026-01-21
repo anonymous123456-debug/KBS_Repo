@@ -1,0 +1,210 @@
+Running job on node: comput07
+Start Running ToG on mcqa dataset.
+*************************************************************
+*************************************************************
+{'3205': 'studying', '3243': 'grades'}
+----------
+len of total relations:1
+total relations:['late_mcqa']
+run_llm_extract_result:late_mcqa (0.5)
+late_mcqa (0.25)
+late_mcqa (0.25)
+relations:[{'entity': '3205', 'relation': 'late_mcqa', 'score': 0.5, 'head': False}, {'entity': '3205', 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': '3205', 'relation': 'late_mcqa', 'score': 0.25, 'head': False}]
+tt:['late_mcqa']
+final_relations:[{'entity': '3205', 'relation': 'late_mcqa', 'score': 0.5, 'head': False}, {'entity': '3205', 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': '3205', 'relation': 'late_mcqa', 'score': 0.25, 'head': False}]
+len of total relations:2
+total relations:['scholarship_mcqa', 'academic performance_mcqa']
+run_llm_extract_result:academic performance_mcqa (0.5)
+scholarship_mcqa (0.25)
+topic_entity_mcqa (0.25)
+relations:[{'entity': '3243', 'relation': 'academic performance_mcqa', 'score': 0.5, 'head': False}, {'entity': '3243', 'relation': 'scholarship_mcqa', 'score': 0.25, 'head': True}, {'entity': '3243', 'relation': 'topic_entity_mcqa', 'score': 0.25, 'head': False}]
+tt:['scholarship_mcqa', 'academic performance_mcqa']
+final_relations:[{'entity': '3243', 'relation': 'academic performance_mcqa', 'score': 0.5, 'head': False}, {'entity': '3243', 'relation': 'scholarship_mcqa', 'score': 0.25, 'head': True}]
+ current_entityu_relations:[{'entity': '3205', 'relation': 'late_mcqa', 'score': 0.5, 'head': False}, {'entity': '3205', 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': '3205', 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': '3243', 'relation': 'academic performance_mcqa', 'score': 0.5, 'head': False}, {'entity': '3243', 'relation': 'scholarship_mcqa', 'score': 0.25, 'head': True}]
+entity_search len:1 results:[{'head': 3205, 'tail': 3204, 'hname': 'studying', 'tname': 'tired'}]
+entityu_candidates_id:[3205]
+entity_candidates_name:['studying']
+entity_search len:1 results:[{'head': 3205, 'tail': 3204, 'hname': 'studying', 'tname': 'tired'}]
+entityu_candidates_id:[3205]
+entity_candidates_name:['studying']
+entity_search len:1 results:[{'head': 3205, 'tail': 3204, 'hname': 'studying', 'tname': 'tired'}]
+entityu_candidates_id:[3205]
+entity_candidates_name:['studying']
+entity_search len:1 results:[{'head': 3243, 'tail': 3242, 'hname': 'grades', 'tname': 'effort'}]
+entityu_candidates_id:[3243]
+entity_candidates_name:['grades']
+entity_search len:1 results:[{'head': 3243, 'tail': 3236, 'hname': 'grades', 'tname': 'individual'}]
+entityu_candidates_id:[3236]
+entity_candidates_name:['individual']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_mcqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3205
+Cypher Query:
+
+    MATCH (e:Entity_mcqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3243
+Cypher Query:
+
+    MATCH (e:Entity_mcqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3205
+{3205: 'studying', 3243: 'grades'}
+----------
+len of total relations:1
+total relations:['late_mcqa']
+run_llm_extract_result:late_mcqa (0.5)
+late_mcqa (0.25)
+late_mcqa (0.25)
+relations:[{'entity': 3205, 'relation': 'late_mcqa', 'score': 0.5, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}]
+tt:['late_mcqa']
+final_relations:[{'entity': 3205, 'relation': 'late_mcqa', 'score': 0.5, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}]
+len of total relations:2
+total relations:['scholarship_mcqa', 'academic performance_mcqa']
+run_llm_extract_result:academic performance_mcqa (0.5)
+scholarship_mcqa (0.25)
+topic_entity_mcqa (0.25)
+relations:[{'entity': 3243, 'relation': 'academic performance_mcqa', 'score': 0.5, 'head': False}, {'entity': 3243, 'relation': 'scholarship_mcqa', 'score': 0.25, 'head': True}, {'entity': 3243, 'relation': 'topic_entity_mcqa', 'score': 0.25, 'head': False}]
+tt:['scholarship_mcqa', 'academic performance_mcqa']
+final_relations:[{'entity': 3243, 'relation': 'academic performance_mcqa', 'score': 0.5, 'head': False}, {'entity': 3243, 'relation': 'scholarship_mcqa', 'score': 0.25, 'head': True}]
+ current_entityu_relations:[{'entity': 3205, 'relation': 'late_mcqa', 'score': 0.5, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': 3243, 'relation': 'academic performance_mcqa', 'score': 0.5, 'head': False}, {'entity': 3243, 'relation': 'scholarship_mcqa', 'score': 0.25, 'head': True}]
+entity_search len:1 results:[{'head': 3205, 'tail': 3204, 'hname': 'studying', 'tname': 'tired'}]
+entityu_candidates_id:[3205]
+entity_candidates_name:['studying']
+entity_search len:1 results:[{'head': 3205, 'tail': 3204, 'hname': 'studying', 'tname': 'tired'}]
+entityu_candidates_id:[3205]
+entity_candidates_name:['studying']
+entity_search len:1 results:[{'head': 3205, 'tail': 3204, 'hname': 'studying', 'tname': 'tired'}]
+entityu_candidates_id:[3205]
+entity_candidates_name:['studying']
+entity_search len:1 results:[{'head': 3243, 'tail': 3242, 'hname': 'grades', 'tname': 'effort'}]
+entityu_candidates_id:[3243]
+entity_candidates_name:['grades']
+entity_search len:1 results:[{'head': 3243, 'tail': 3236, 'hname': 'grades', 'tname': 'individual'}]
+entityu_candidates_id:[3236]
+entity_candidates_name:['individual']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_mcqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3205
+Cypher Query:
+
+    MATCH (e:Entity_mcqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3243
+Cypher Query:
+
+    MATCH (e:Entity_mcqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3205
+{3205: 'studying', 3243: 'grades'}
+----------
+len of total relations:1
+total relations:['late_mcqa']
+run_llm_extract_result:late_mcqa (0.5)
+late_mcqa (0.25)
+late_mcqa (0.25)
+relations:[{'entity': 3205, 'relation': 'late_mcqa', 'score': 0.5, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}]
+tt:['late_mcqa']
+final_relations:[{'entity': 3205, 'relation': 'late_mcqa', 'score': 0.5, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}]
+len of total relations:2
+total relations:['scholarship_mcqa', 'academic performance_mcqa']
+run_llm_extract_result:academic performance_mcqa (0.5)
+scholarship_mcqa (0.25)
+topic_entity_mcqa (0.25)
+relations:[{'entity': 3243, 'relation': 'academic performance_mcqa', 'score': 0.5, 'head': False}, {'entity': 3243, 'relation': 'scholarship_mcqa', 'score': 0.25, 'head': True}, {'entity': 3243, 'relation': 'topic_entity_mcqa', 'score': 0.25, 'head': False}]
+tt:['scholarship_mcqa', 'academic performance_mcqa']
+final_relations:[{'entity': 3243, 'relation': 'academic performance_mcqa', 'score': 0.5, 'head': False}, {'entity': 3243, 'relation': 'scholarship_mcqa', 'score': 0.25, 'head': True}]
+ current_entityu_relations:[{'entity': 3205, 'relation': 'late_mcqa', 'score': 0.5, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': 3205, 'relation': 'late_mcqa', 'score': 0.25, 'head': False}, {'entity': 3243, 'relation': 'academic performance_mcqa', 'score': 0.5, 'head': False}, {'entity': 3243, 'relation': 'scholarship_mcqa', 'score': 0.25, 'head': True}]
+entity_search len:1 results:[{'head': 3205, 'tail': 3204, 'hname': 'studying', 'tname': 'tired'}]
+entityu_candidates_id:[3205]
+entity_candidates_name:['studying']
+entity_search len:1 results:[{'head': 3205, 'tail': 3204, 'hname': 'studying', 'tname': 'tired'}]
+entityu_candidates_id:[3205]
+entity_candidates_name:['studying']
+entity_search len:1 results:[{'head': 3205, 'tail': 3204, 'hname': 'studying', 'tname': 'tired'}]
+entityu_candidates_id:[3205]
+entity_candidates_name:['studying']
+entity_search len:1 results:[{'head': 3243, 'tail': 3242, 'hname': 'grades', 'tname': 'effort'}]
+entityu_candidates_id:[3243]
+entity_candidates_name:['grades']
+entity_search len:1 results:[{'head': 3243, 'tail': 3236, 'hname': 'grades', 'tname': 'individual'}]
+entityu_candidates_id:[3236]
+entity_candidates_name:['individual']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_mcqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3205
+Cypher Query:
+
+    MATCH (e:Entity_mcqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3243
+Cypher Query:
+
+    MATCH (e:Entity_mcqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3205
+*************************************************************
+{'3250': 'exhaustion', '3249': 'fatigue'}
+----------
+len of total relations:1
+total relations:['is characterized by_mcqa']
+run_llm_extract_result:choice_1 (0.5)
+choice_2 (0.25)
+choice_3 (0.25)
+relations:[{'entity': '3250', 'relation': 'choice_1', 'score': 0.5, 'head': False}, {'entity': '3250', 'relation': 'choice_2', 'score': 0.25, 'head': False}, {'entity': '3250', 'relation': 'choice_3', 'score': 0.25, 'head': False}]
+tt:['is characterized by_mcqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['is characterized by_mcqa']
+run_llm_extract_result:choice_1 (0.5)
+choice_2 (0.25)
+choice_3 (0.25)
+relations:[{'entity': '3249', 'relation': 'choice_1', 'score': 0.5, 'head': False}, {'entity': '3249', 'relation': 'choice_2', 'score': 0.25, 'head': False}, {'entity': '3249', 'relation': 'choice_3', 'score': 0.25, 'head': False}]
+tt:['is characterized by_mcqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3240': 'tasks'}
+----------
+len of total relations:1
+total relations:['deadline_mcqa']
+run_llm_extract_result:choice_2 (0.5)
+choice_3 (0.25)
+choice_4 (0.25)
+relations:[{'entity': '3240', 'relation': 'choice_2', 'score': 0.5, 'head': False}, {'entity': '3240', 'relation': 'choice_3', 'score': 0.25, 'head': False}, {'entity': '3240', 'relation': 'choice_4', 'score': 0.25, 'head': False}]
+tt:['deadline_mcqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+true:choice_3----pred:choice_1
+chengong!
+true:choice_1----pred:choice_2
+chengong!
+chengong!
+F1: 0.0000
+Accuracy: 0.6000
+总耗时: 20.18 秒
+{'completion_tokens': 314, 'prompt_tokens': 10568}
+10882
+Thu Nov 20 09:37:57 CST 2025
+comput07

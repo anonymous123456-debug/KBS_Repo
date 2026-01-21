@@ -1,0 +1,100 @@
+Running job on node: comput05
+Start Running ToG on commonsenseqa dataset.
+*************************************************************
+*************************************************************
+*************************************************************
+{'963': 'shopping'}
+----------
+len of total relations:1
+total relations:['can be a form of_commonsense']
+run_llm_extract_result:choker (0.8)
+jewelry store (0.7)
+neck (0.6)
+relations:[{'entity': '963', 'relation': 'choker', 'score': 0.8, 'head': False}, {'entity': '963', 'relation': 'jewelry store', 'score': 0.7, 'head': False}, {'entity': '963', 'relation': 'neck', 'score': 0.6, 'head': False}]
+tt:['can be a form of_commonsense']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'946': 'highway'}
+----------
+len of total relations:1
+total relations:['is a type of_commonsense']
+run_llm_extract_result:highway (0.9)
+is a type of_commonsense (0.1)
+relations:[{'entity': '946', 'relation': 'highway', 'score': 0.9, 'head': False}, {'entity': '946', 'relation': 'is a type of_commonsense', 'score': 0.1, 'head': True}]
+tt:['is a type of_commonsense']
+final_relations:[{'entity': '946', 'relation': 'is a type of_commonsense', 'score': 0.1, 'head': True}]
+ current_entityu_relations:[{'entity': '946', 'relation': 'is a type of_commonsense', 'score': 0.1, 'head': True}]
+entity_search len:1 results:[{'head': 946, 'tail': 915, 'hname': 'highway', 'tname': 'road'}]
+entityu_candidates_id:[915]
+entity_candidates_name:['road']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=915
+{915: 'road'}
+----------
+len of total relations:4
+total relations:['has_commonsense', 'is a mode of transportation for_commonsense', 'is used for_commonsense', 'can occur on_commonsense']
+run_llm_extract_result:2. is a mode of transportation for_commonsense
+relations:[]
+tt:['has_commonsense', 'is a mode of transportation for_commonsense', 'is used for_commonsense', 'can occur on_commonsense']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+*************************************************************
+{'948': 'city'}
+----------
+len of total relations:1
+total relations:['has_commonsense']
+run_llm_extract_result:has_commonsense (0.85)
+
+Explanation:
+- The question is about a fox walking into the forest, which is a natural habitat.
+- The fox is looking for something in the forest, which is a natural habitat.
+- The answer options (choices_1, choices_2, choices_3, choices_4, choices_5) are not relevant to the question.
+- The relation "has_commonsense" is not directly related to the question, but it is a relevant relation for the topic "city".
+- The sum of all scores is 0.85, which is close to 1.
+relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.85, 'head': True}]
+tt:['has_commonsense']
+final_relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.85, 'head': True}]
+ current_entityu_relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.85, 'head': True}]
+entity_search len:1 results:[{'head': 948, 'tail': 917, 'hname': 'city', 'tname': 'road infrastructure'}]
+entityu_candidates_id:[917]
+entity_candidates_name:['road infrastructure']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=917
+{917: 'road infrastructure'}
+----------
+len of total relations:0
+
+    MATCH (e {id:$entity_id})-[r]->(t)
+    RETURN DISTINCT type(r) as label
+    
+
+    MATCH (h)-[r]->(e {id:$entity_id})
+    RETURN DISTINCT type(r) as label
+    
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+chengong!
+chengong!
+true:choices_1----pred:A: 1. jewelry store
+true:choices_4----pred:A: Choices_1.united states
+true:choices_3----pred:Based on the given knowledge triplets and my knowledge, the fox is likely looking for food or shelter in the forest. Therefore, the answer to the question is {food or shelter}.
+F1: 0.0000
+Accuracy: 0.4000
+总耗时: 10.20 秒
+{'completion_tokens': 284, 'prompt_tokens': 7062}
+7346
+Thu Nov 20 09:53:41 CST 2025
+comput05

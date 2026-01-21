@@ -1,0 +1,640 @@
+Running job on node: comput05
+Start Running ToG on 2multiwiki dataset.
+*************************************************************
+{'2559': 'film director', '2646': 'film', '2745': 'William Thomas Smith', '2736': 'footballer', '2601': 'Etan Boritzer', '2717': 'Peter Levin', '2756': 'director', '2703': 'Theodred II'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Francis Girod (0.6)
+0.4 (implicit relation to the question through the context)
+0.0 (not applicable)
+
+Francis Girod (0.6)
+0.4 (implicit relation to the question through the context)
+0.0 (not applicable)
+
+Francis Girod (0.6)
+0.4 (implicit relation to the question through the context)
+0.0 (not applicable)
+
+(Note: The third relation "0.0 (not applicable)" is included to meet the requirement of three relations, but it does not contribute any relevant information to the question. The scores for Francis Girod are adjusted to sum up to 1.)
+relations:[{'entity': '2559', 'relation': 'Francis Girod', 'score': 0.6, 'head': False}, {'entity': '2559', 'relation': 'Francis Girod', 'score': 0.6, 'head': False}, {'entity': '2559', 'relation': 'Francis Girod', 'score': 0.6, 'head': False}]
+tt:['is_2multiwiki']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Francis Girod (0.6)
+Rene the Cane (0.4)
+relations:[{'entity': '2646', 'relation': 'Francis Girod', 'score': 0.6, 'head': False}, {'entity': '2646', 'relation': 'Rene the Cane', 'score': 0.4, 'head': False}]
+tt:['director_2multiwiki']
+final_relations:All relations pruned
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:5. was_2multiwiki (0.6)
+4. was born in_2multiwiki (0.2)
+1. Was_2multiwiki (0.2)
+relations:[{'entity': '2745', 'relation': 'was_2multiwiki', 'score': 0.6, 'head': True}, {'entity': '2745', 'relation': 'was born in_2multiwiki', 'score': 0.2, 'head': True}, {'entity': '2745', 'relation': 'Was_2multiwiki', 'score': 0.2, 'head': True}]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:[{'entity': '2745', 'relation': 'was_2multiwiki', 'score': 0.6, 'head': True}, {'entity': '2745', 'relation': 'was born in_2multiwiki', 'score': 0.2, 'head': True}, {'entity': '2745', 'relation': 'Was_2multiwiki', 'score': 0.2, 'head': True}]
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:was_2multiwiki (0.6)
+is_2multiwiki (0.4)
+relations:[{'entity': '2736', 'relation': 'was_2multiwiki', 'score': 0.6, 'head': False}, {'entity': '2736', 'relation': 'is_2multiwiki', 'score': 0.4, 'head': False}]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:[{'entity': '2736', 'relation': 'was_2multiwiki', 'score': 0.6, 'head': False}, {'entity': '2736', 'relation': 'is_2multiwiki', 'score': 0.4, 'head': False}]
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:born in_2multiwiki
+is_2multiwiki
+lives in_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:directed_2multiwiki (1)
+is_2multiwiki (1)
+was an_2multiwiki (1)
+relations:[{'entity': '2717', 'relation': 'directed_2multiwiki', 'score': 1.0, 'head': True}, {'entity': '2717', 'relation': 'is_2multiwiki', 'score': 1.0, 'head': True}, {'entity': '2717', 'relation': 'was an_2multiwiki', 'score': 1.0, 'head': True}]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:[{'entity': '2717', 'relation': 'directed_2multiwiki', 'score': 1.0, 'head': True}, {'entity': '2717', 'relation': 'is_2multiwiki', 'score': 1.0, 'head': True}, {'entity': '2717', 'relation': 'was an_2multiwiki', 'score': 1.0, 'head': True}]
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Francis Girod (0.6)
+0.4 (This value is not used as we are only selecting 3 relations and the sum must equal 1. The third relation is not provided in the context.)
+0.0 (This value is not used for the same reason as above.)
+
+Note: The provided context does not contain enough information to calculate a precise third relation score. The answer is based on the available information and the requirement to select three relations. The third relation is not explicitly mentioned in the context, so it is assumed to be 0.0. The sum of the scores for Francis Girod and the two unspecified relations is 0.6 + 0.4 + 0.0 = 1.0.
+relations:[{'entity': '2756', 'relation': 'Francis Girod', 'score': 0.6, 'head': False}]
+tt:['is_2multiwiki']
+final_relations:All relations pruned
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:was_2multiwiki (0.5)
+was a_2multiwiki (0.3)
+is_2multiwiki (0.2)
+relations:[{'entity': '2703', 'relation': 'was_2multiwiki', 'score': 0.5, 'head': True}, {'entity': '2703', 'relation': 'was a_2multiwiki', 'score': 0.3, 'head': True}, {'entity': '2703', 'relation': 'is_2multiwiki', 'score': 0.2, 'head': True}]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:[{'entity': '2703', 'relation': 'was_2multiwiki', 'score': 0.5, 'head': True}, {'entity': '2703', 'relation': 'was a_2multiwiki', 'score': 0.3, 'head': True}, {'entity': '2703', 'relation': 'is_2multiwiki', 'score': 0.2, 'head': True}]
+ current_entityu_relations:[{'entity': '2745', 'relation': 'was_2multiwiki', 'score': 0.6, 'head': True}, {'entity': '2745', 'relation': 'was born in_2multiwiki', 'score': 0.2, 'head': True}, {'entity': '2745', 'relation': 'Was_2multiwiki', 'score': 0.2, 'head': True}, {'entity': '2736', 'relation': 'was_2multiwiki', 'score': 0.6, 'head': False}, {'entity': '2736', 'relation': 'is_2multiwiki', 'score': 0.4, 'head': False}, {'entity': '2717', 'relation': 'directed_2multiwiki', 'score': 1.0, 'head': True}, {'entity': '2717', 'relation': 'is_2multiwiki', 'score': 1.0, 'head': True}, {'entity': '2717', 'relation': 'was an_2multiwiki', 'score': 1.0, 'head': True}, {'entity': '2703', 'relation': 'was_2multiwiki', 'score': 0.5, 'head': True}, {'entity': '2703', 'relation': 'was a_2multiwiki', 'score': 0.3, 'head': True}, {'entity': '2703', 'relation': 'is_2multiwiki', 'score': 0.2, 'head': True}]
+entity_search len:1 results:[{'head': 2745, 'tail': 2736, 'hname': 'William Thomas Smith', 'tname': 'footballer'}]
+entityu_candidates_id:[2736]
+entity_candidates_name:['footballer']
+entity_search len:1 results:[{'head': 2745, 'tail': 2746, 'hname': 'William Thomas Smith', 'tname': '1897'}]
+entityu_candidates_id:[2746]
+entity_candidates_name:['1897']
+entity_search len:1 results:[{'head': 2745, 'tail': 2925, 'hname': 'William Thomas Smith', 'tname': 'English professional footballer'}]
+entityu_candidates_id:[2925]
+entity_candidates_name:['English professional footballer']
+entity_search len:3 results:[{'head': 2736, 'tail': 2735, 'hname': 'footballer', 'tname': 'Albert Thompson'}, {'head': 2736, 'tail': 2738, 'hname': 'footballer', 'tname': 'Harry Wainwright'}, {'head': 2736, 'tail': 2745, 'hname': 'footballer', 'tname': 'William Thomas Smith'}]
+entityu_candidates_id:[2736, 2736, 2736]
+entity_candidates_name:['footballer', 'footballer', 'footballer']
+All entities are created equal.
+entity_search len:3 results:[{'head': 2736, 'tail': 2735, 'hname': 'footballer', 'tname': 'Albert Thompson'}, {'head': 2736, 'tail': 2738, 'hname': 'footballer', 'tname': 'Harry Wainwright'}, {'head': 2736, 'tail': 2745, 'hname': 'footballer', 'tname': 'William Thomas Smith'}]
+entityu_candidates_id:[2736, 2736, 2736]
+entity_candidates_name:['footballer', 'footballer', 'footballer']
+All entities are created equal.
+entity_search len:2 results:[{'head': 2717, 'tail': 2741, 'hname': 'Peter Levin', 'tname': 'films'}, {'head': 2717, 'tail': 2748, 'hname': 'Peter Levin', 'tname': 'theatre'}]
+entityu_candidates_id:[2741, 2748]
+entity_candidates_name:['films', 'theatre']
+All entities are created equal.
+entity_search len:4 results:[{'head': 2717, 'tail': 2716, 'hname': 'Peter Levin', 'tname': 'American'}, {'head': 2717, 'tail': 2747, 'hname': 'Peter Levin', 'tname': 'American director'}, {'head': 2717, 'tail': 2756, 'hname': 'Peter Levin', 'tname': 'director'}, {'head': 2717, 'tail': 2559, 'hname': 'Peter Levin', 'tname': 'film director'}]
+entityu_candidates_id:[2716, 2747, 2756, 2559]
+entity_candidates_name:['American', 'American director', 'director', 'film director']
+All entities are created equal.
+entity_search len:1 results:[{'head': 2717, 'tail': 2747, 'hname': 'Peter Levin', 'tname': 'American director'}]
+entityu_candidates_id:[2747]
+entity_candidates_name:['American director']
+entity_search len:2 results:[{'head': 2703, 'tail': 2704, 'hname': 'Theodred II', 'tname': 'medieval Bishop of Elmham'}, {'head': 2703, 'tail': 2731, 'hname': 'Theodred II', 'tname': 'Bishop of Elmham'}]
+entityu_candidates_id:[2704, 2731]
+entity_candidates_name:['medieval Bishop of Elmham', 'Bishop of Elmham']
+All entities are created equal.
+entity_search len:1 results:[{'head': 2703, 'tail': 2731, 'hname': 'Theodred II', 'tname': 'Bishop of Elmham'}]
+entityu_candidates_id:[2731]
+entity_candidates_name:['Bishop of Elmham']
+entity_search len:1 results:[{'head': 2703, 'tail': 2704, 'hname': 'Theodred II', 'tname': 'medieval Bishop of Elmham'}]
+entityu_candidates_id:[2704]
+entity_candidates_name:['medieval Bishop of Elmham']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2747
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2736
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2741
+{2747: 'American director', 2736: 'footballer', 2741: 'films'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Francis Girod (0.6)
+0.4 (implicit relation to the director's nationality and profession)
+0.0 (no direct relation to the date of death)
+relations:[{'entity': 2747, 'relation': 'Francis Girod', 'score': 0.6, 'head': False}]
+tt:['is_2multiwiki']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Francis Girod (0.6)
+Theodred II (0.2)
+Ian Barry (0.2)
+relations:[{'entity': 2736, 'relation': 'Francis Girod', 'score': 0.6, 'head': False}, {'entity': 2736, 'relation': 'Theodred II', 'score': 0.2, 'head': False}, {'entity': 2736, 'relation': 'Ian Barry', 'score': 0.2, 'head': False}]
+tt:['is_2multiwiki']
+final_relations:All relations pruned
+len of total relations:0
+
+    MATCH (e {id:$entity_id})-[r]->(t)
+    RETURN DISTINCT type(r) as label
+    
+
+    MATCH (h)-[r]->(e {id:$entity_id})
+    RETURN DISTINCT type(r) as label
+    
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+*************************************************************
+{'2540': 'Carlo Andreoli', '2538': 'Evangelista Andreoli'}
+----------
+len of total relations:6
+total relations:['taught at_2multiwiki', 'was brother of_2multiwiki', 'was pupil of_2multiwiki', 'was brother of_2multiwiki', 'was father of_2multiwiki', 'was taught by_2multiwiki']
+run_llm_extract_result:was father of_2multiwiki (0.5)
+was brother of_2multiwiki (0.3)
+was pupil of_2multiwiki (0.2)
+relations:[{'entity': '2540', 'relation': 'was father of_2multiwiki', 'score': 0.5, 'head': False}, {'entity': '2540', 'relation': 'was brother of_2multiwiki', 'score': 0.3, 'head': True}, {'entity': '2540', 'relation': 'was pupil of_2multiwiki', 'score': 0.2, 'head': True}]
+tt:['taught at_2multiwiki', 'was brother of_2multiwiki', 'was pupil of_2multiwiki', 'was brother of_2multiwiki', 'was father of_2multiwiki', 'was taught by_2multiwiki']
+final_relations:[{'entity': '2540', 'relation': 'was father of_2multiwiki', 'score': 0.5, 'head': False}, {'entity': '2540', 'relation': 'was brother of_2multiwiki', 'score': 0.3, 'head': True}, {'entity': '2540', 'relation': 'was pupil of_2multiwiki', 'score': 0.2, 'head': True}]
+len of total relations:2
+total relations:['was father of_2multiwiki', 'was father of_2multiwiki']
+run_llm_extract_result:Evangelista Andreoli_2multiwiki
+relations:[]
+tt:['was father of_2multiwiki', 'was father of_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[{'entity': '2540', 'relation': 'was father of_2multiwiki', 'score': 0.5, 'head': False}, {'entity': '2540', 'relation': 'was brother of_2multiwiki', 'score': 0.3, 'head': True}, {'entity': '2540', 'relation': 'was pupil of_2multiwiki', 'score': 0.2, 'head': True}]
+entity_search len:1 results:[{'head': 2540, 'tail': 2538, 'hname': 'Carlo Andreoli', 'tname': 'Evangelista Andreoli'}]
+entityu_candidates_id:[2540]
+entity_candidates_name:['Carlo Andreoli']
+entity_search len:2 results:[{'head': 2540, 'tail': 2539, 'hname': 'Carlo Andreoli', 'tname': 'Guglielmo the Elder'}, {'head': 2540, 'tail': 2539, 'hname': 'Carlo Andreoli', 'tname': 'Guglielmo the Elder'}]
+entityu_candidates_id:[2539, 2539]
+entity_candidates_name:['Guglielmo the Elder', 'Guglielmo the Elder']
+All entities are created equal.
+entity_search len:1 results:[{'head': 2540, 'tail': 2541, 'hname': 'Carlo Andreoli', 'tname': 'Milan Conservatory'}]
+entityu_candidates_id:[2541]
+entity_candidates_name:['Milan Conservatory']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2540
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2541
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2539
+{2540: 'Carlo Andreoli', 2541: 'Milan Conservatory', 2539: 'Guglielmo the Elder'}
+----------
+len of total relations:4
+total relations:['taught at_2multiwiki', 'was brother of_2multiwiki', 'was father of_2multiwiki', 'was taught by_2multiwiki']
+run_llm_extract_result:was father of_2multiwiki (0.5)
+was brother of_2multiwiki (0.3)
+teached at_2multiwiki (0.2)
+relations:[{'entity': 2540, 'relation': 'was father of_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2540, 'relation': 'was brother of_2multiwiki', 'score': 0.3, 'head': False}, {'entity': 2540, 'relation': 'teached at_2multiwiki', 'score': 0.2, 'head': False}]
+tt:['taught at_2multiwiki', 'was brother of_2multiwiki', 'was father of_2multiwiki', 'was taught by_2multiwiki']
+final_relations:[{'entity': 2540, 'relation': 'was father of_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2540, 'relation': 'was brother of_2multiwiki', 'score': 0.3, 'head': False}]
+len of total relations:2
+total relations:['taught at_2multiwiki', 'was student of_2multiwiki']
+run_llm_extract_result:taught at_2multiwiki (0.5)
+was student of_2multiwiki (0.5)
+relations:[{'entity': 2541, 'relation': 'taught at_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2541, 'relation': 'was student of_2multiwiki', 'score': 0.5, 'head': False}]
+tt:['taught at_2multiwiki', 'was student of_2multiwiki']
+final_relations:[{'entity': 2541, 'relation': 'taught at_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2541, 'relation': 'was student of_2multiwiki', 'score': 0.5, 'head': False}]
+len of total relations:2
+total relations:['was brother of_2multiwiki', 'was pupil of_2multiwiki']
+run_llm_extract_result:was brother of_2.80
+was pupil of_2.20
+
+(Note: The scores are illustrative and not calculated from the context. The actual scores should sum up to 1 and be assigned based on the relevance to the question.)
+relations:[]
+tt:['was brother of_2multiwiki', 'was pupil of_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[{'entity': 2540, 'relation': 'was father of_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2540, 'relation': 'was brother of_2multiwiki', 'score': 0.3, 'head': False}, {'entity': 2541, 'relation': 'taught at_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2541, 'relation': 'was student of_2multiwiki', 'score': 0.5, 'head': False}]
+entity_search len:1 results:[{'head': 2540, 'tail': 2538, 'hname': 'Carlo Andreoli', 'tname': 'Evangelista Andreoli'}]
+entityu_candidates_id:[2540]
+entity_candidates_name:['Carlo Andreoli']
+entity_search len:2 results:[{'head': 2540, 'tail': 2539, 'hname': 'Carlo Andreoli', 'tname': 'Guglielmo the Elder'}, {'head': 2540, 'tail': 2539, 'hname': 'Carlo Andreoli', 'tname': 'Guglielmo the Elder'}]
+entityu_candidates_id:[2540, 2540]
+entity_candidates_name:['Carlo Andreoli', 'Carlo Andreoli']
+entity_search len:1 results:[{'head': 2541, 'tail': 2540, 'hname': 'Milan Conservatory', 'tname': 'Carlo Andreoli'}]
+entityu_candidates_id:[2541]
+entity_candidates_name:['Milan Conservatory']
+entity_search len:1 results:[{'head': 2541, 'tail': 2542, 'hname': 'Milan Conservatory', 'tname': 'Alfredo Catalani'}]
+entityu_candidates_id:[2541]
+entity_candidates_name:['Milan Conservatory']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2540
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2541
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2541
+{2540: 'Carlo Andreoli', 2541: 'Milan Conservatory'}
+----------
+len of total relations:5
+total relations:['was brother of_2multiwiki', 'was pupil of_2multiwiki', 'was brother of_2multiwiki', 'was father of_2multiwiki', 'was taught by_2multiwiki']
+run_llm_extract_result:was father of_2multiwiki (0.5)
+was brother of_2multiwiki (0.3)
+was pupil of_2multiwiki (0.2)
+relations:[{'entity': 2540, 'relation': 'was father of_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2540, 'relation': 'was brother of_2multiwiki', 'score': 0.3, 'head': True}, {'entity': 2540, 'relation': 'was pupil of_2multiwiki', 'score': 0.2, 'head': True}]
+tt:['was brother of_2multiwiki', 'was pupil of_2multiwiki', 'was brother of_2multiwiki', 'was father of_2multiwiki', 'was taught by_2multiwiki']
+final_relations:[{'entity': 2540, 'relation': 'was father of_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2540, 'relation': 'was brother of_2multiwiki', 'score': 0.3, 'head': True}, {'entity': 2540, 'relation': 'was pupil of_2multiwiki', 'score': 0.2, 'head': True}]
+len of total relations:3
+total relations:['taught at_2multiwiki', 'was pupil of_2multiwiki', 'was student of_2multiwiki']
+run_llm_extract_result:taught at_2multiwiki
+3. was student of_2multiwiki
+relations:[]
+tt:['taught at_2multiwiki', 'was pupil of_2multiwiki', 'was student of_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[{'entity': 2540, 'relation': 'was father of_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2540, 'relation': 'was brother of_2multiwiki', 'score': 0.3, 'head': True}, {'entity': 2540, 'relation': 'was pupil of_2multiwiki', 'score': 0.2, 'head': True}]
+entity_search len:1 results:[{'head': 2540, 'tail': 2538, 'hname': 'Carlo Andreoli', 'tname': 'Evangelista Andreoli'}]
+entityu_candidates_id:[2540]
+entity_candidates_name:['Carlo Andreoli']
+entity_search len:2 results:[{'head': 2540, 'tail': 2539, 'hname': 'Carlo Andreoli', 'tname': 'Guglielmo the Elder'}, {'head': 2540, 'tail': 2539, 'hname': 'Carlo Andreoli', 'tname': 'Guglielmo the Elder'}]
+entityu_candidates_id:[2539, 2539]
+entity_candidates_name:['Guglielmo the Elder', 'Guglielmo the Elder']
+All entities are created equal.
+entity_search len:1 results:[{'head': 2540, 'tail': 2541, 'hname': 'Carlo Andreoli', 'tname': 'Milan Conservatory'}]
+entityu_candidates_id:[2541]
+entity_candidates_name:['Milan Conservatory']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2540
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2541
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2539
+*************************************************************
+{'2572': 'Rudi Schuricke', '2545': 'Christopher Isherwood', '2608': 'nationality', '2716': 'American'}
+----------
+len of total relations:3
+total relations:['recorded_2multiwiki', 'was a singer_2multiwiki', 'was featured in_2multiwiki']
+run_llm_extract_result:recorded_2multiwiki
+was a singer_2multiwiki
+was featured in_2multiwiki
+relations:[]
+tt:['recorded_2multiwiki', 'was a singer_2multiwiki', 'was featured in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['wrote_2multiwiki', 'edited_2multiwiki']
+run_llm_extract_result:wrote_2multiwiki
+edited_2multiwiki
+Christopher Isherwood_2multiwiki
+relations:[]
+tt:['wrote_2multiwiki', 'edited_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:Christopher Isherwood (0.5)
+Christopher Jones (0.5)
+Rudi Schuricke (0.0)
+relations:[{'entity': '2608', 'relation': 'Christopher Isherwood', 'score': 0.5, 'head': False}, {'entity': '2608', 'relation': 'Christopher Jones', 'score': 0.5, 'head': False}, {'entity': '2608', 'relation': 'Rudi Schuricke', 'score': 0.0, 'head': False}]
+tt:['attribute_2multiwiki']
+final_relations:All relations pruned
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:is_2multiwiki (0.33)
+was_2multiwiki (0.33)
+American (0.34)
+relations:[{'entity': '2716', 'relation': 'is_2multiwiki', 'score': 0.33, 'head': False}, {'entity': '2716', 'relation': 'was_2multiwiki', 'score': 0.33, 'head': False}, {'entity': '2716', 'relation': 'American', 'score': 0.34, 'head': False}]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:[{'entity': '2716', 'relation': 'is_2multiwiki', 'score': 0.33, 'head': False}, {'entity': '2716', 'relation': 'was_2multiwiki', 'score': 0.33, 'head': False}]
+ current_entityu_relations:[{'entity': '2716', 'relation': 'is_2multiwiki', 'score': 0.33, 'head': False}, {'entity': '2716', 'relation': 'was_2multiwiki', 'score': 0.33, 'head': False}]
+entity_search len:4 results:[{'head': 2716, 'tail': 2533, 'hname': 'American', 'tname': 'Boritzer'}, {'head': 2716, 'tail': 2717, 'hname': 'American', 'tname': 'Peter Levin'}, {'head': 2716, 'tail': 2719, 'hname': 'American', 'tname': 'Jose Villarreal'}, {'head': 2716, 'tail': 2601, 'hname': 'American', 'tname': 'Etan Boritzer'}]
+entityu_candidates_id:[2716, 2716, 2716, 2716]
+entity_candidates_name:['American', 'American', 'American', 'American']
+All entities are created equal.
+entity_search len:2 results:[{'head': 2716, 'tail': 2718, 'hname': 'American', 'tname': 'William Albert Henry'}, {'head': 2716, 'tail': 2709, 'hname': 'American', 'tname': 'Bennett Cohen'}]
+entityu_candidates_id:[2716, 2716]
+entity_candidates_name:['American', 'American']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2716
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2716
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2716
+{2716: 'American'}
+----------
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:is_2multiwiki (0.33)
+was_2multiwiki (0.33)
+American (0.34)
+relations:[{'entity': 2716, 'relation': 'is_2multiwiki', 'score': 0.33, 'head': False}, {'entity': 2716, 'relation': 'was_2multiwiki', 'score': 0.33, 'head': False}, {'entity': 2716, 'relation': 'American', 'score': 0.34, 'head': False}]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:[{'entity': 2716, 'relation': 'is_2multiwiki', 'score': 0.33, 'head': False}, {'entity': 2716, 'relation': 'was_2multiwiki', 'score': 0.33, 'head': False}]
+ current_entityu_relations:[{'entity': 2716, 'relation': 'is_2multiwiki', 'score': 0.33, 'head': False}, {'entity': 2716, 'relation': 'was_2multiwiki', 'score': 0.33, 'head': False}]
+entity_search len:4 results:[{'head': 2716, 'tail': 2533, 'hname': 'American', 'tname': 'Boritzer'}, {'head': 2716, 'tail': 2717, 'hname': 'American', 'tname': 'Peter Levin'}, {'head': 2716, 'tail': 2719, 'hname': 'American', 'tname': 'Jose Villarreal'}, {'head': 2716, 'tail': 2601, 'hname': 'American', 'tname': 'Etan Boritzer'}]
+entityu_candidates_id:[2716, 2716, 2716, 2716]
+entity_candidates_name:['American', 'American', 'American', 'American']
+All entities are created equal.
+entity_search len:2 results:[{'head': 2716, 'tail': 2718, 'hname': 'American', 'tname': 'William Albert Henry'}, {'head': 2716, 'tail': 2709, 'hname': 'American', 'tname': 'Bennett Cohen'}]
+entityu_candidates_id:[2716, 2716]
+entity_candidates_name:['American', 'American']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2716
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2716
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2716
+{2716: 'American'}
+----------
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:is_2multiwiki (0.33)
+was_2multiwiki (0.33)
+American (0.34)
+relations:[{'entity': 2716, 'relation': 'is_2multiwiki', 'score': 0.33, 'head': False}, {'entity': 2716, 'relation': 'was_2multiwiki', 'score': 0.33, 'head': False}, {'entity': 2716, 'relation': 'American', 'score': 0.34, 'head': False}]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:[{'entity': 2716, 'relation': 'is_2multiwiki', 'score': 0.33, 'head': False}, {'entity': 2716, 'relation': 'was_2multiwiki', 'score': 0.33, 'head': False}]
+ current_entityu_relations:[{'entity': 2716, 'relation': 'is_2multiwiki', 'score': 0.33, 'head': False}, {'entity': 2716, 'relation': 'was_2multiwiki', 'score': 0.33, 'head': False}]
+entity_search len:4 results:[{'head': 2716, 'tail': 2533, 'hname': 'American', 'tname': 'Boritzer'}, {'head': 2716, 'tail': 2717, 'hname': 'American', 'tname': 'Peter Levin'}, {'head': 2716, 'tail': 2719, 'hname': 'American', 'tname': 'Jose Villarreal'}, {'head': 2716, 'tail': 2601, 'hname': 'American', 'tname': 'Etan Boritzer'}]
+entityu_candidates_id:[2716, 2716, 2716, 2716]
+entity_candidates_name:['American', 'American', 'American', 'American']
+All entities are created equal.
+entity_search len:2 results:[{'head': 2716, 'tail': 2718, 'hname': 'American', 'tname': 'William Albert Henry'}, {'head': 2716, 'tail': 2709, 'hname': 'American', 'tname': 'Bennett Cohen'}]
+entityu_candidates_id:[2716, 2716]
+entity_candidates_name:['American', 'American']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2716
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2716
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2716
+*************************************************************
+{'2593': 'Jean Paul Yontcha', '2736': 'footballer'}
+----------
+len of total relations:1
+total relations:['is a footballer_2multiwiki']
+run_llm_extract_result:Jean Paul Yontcha (0.7)
+Fu Baolu (0.3)
+is_first_class_cricketer (0.6)
+is_retired (0.4)
+relations:[{'entity': '2593', 'relation': 'Jean Paul Yontcha', 'score': 0.7, 'head': False}, {'entity': '2593', 'relation': 'Fu Baolu', 'score': 0.3, 'head': False}, {'entity': '2593', 'relation': 'is_first_class_cricketer', 'score': 0.6, 'head': False}, {'entity': '2593', 'relation': 'is_retired', 'score': 0.4, 'head': False}]
+tt:['is a footballer_2multiwiki']
+final_relations:All relations pruned
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:is_2multiwiki (0.5)
+was_2multiwiki (0.5)
+Jean Paul Yontcha (0.5)
+Fu Baolu (0.5)
+relations:[{'entity': '2736', 'relation': 'is_2multiwiki', 'score': 0.5, 'head': False}, {'entity': '2736', 'relation': 'was_2multiwiki', 'score': 0.5, 'head': False}, {'entity': '2736', 'relation': 'Jean Paul Yontcha', 'score': 0.5, 'head': False}, {'entity': '2736', 'relation': 'Fu Baolu', 'score': 0.5, 'head': False}]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:[{'entity': '2736', 'relation': 'is_2multiwiki', 'score': 0.5, 'head': False}, {'entity': '2736', 'relation': 'was_2multiwiki', 'score': 0.5, 'head': False}]
+ current_entityu_relations:[{'entity': '2736', 'relation': 'is_2multiwiki', 'score': 0.5, 'head': False}, {'entity': '2736', 'relation': 'was_2multiwiki', 'score': 0.5, 'head': False}]
+entity_search len:3 results:[{'head': 2736, 'tail': 2735, 'hname': 'footballer', 'tname': 'Albert Thompson'}, {'head': 2736, 'tail': 2738, 'hname': 'footballer', 'tname': 'Harry Wainwright'}, {'head': 2736, 'tail': 2745, 'hname': 'footballer', 'tname': 'William Thomas Smith'}]
+entityu_candidates_id:[2736, 2736, 2736]
+entity_candidates_name:['footballer', 'footballer', 'footballer']
+All entities are created equal.
+entity_search len:3 results:[{'head': 2736, 'tail': 2735, 'hname': 'footballer', 'tname': 'Albert Thompson'}, {'head': 2736, 'tail': 2738, 'hname': 'footballer', 'tname': 'Harry Wainwright'}, {'head': 2736, 'tail': 2745, 'hname': 'footballer', 'tname': 'William Thomas Smith'}]
+entityu_candidates_id:[2736, 2736, 2736]
+entity_candidates_name:['footballer', 'footballer', 'footballer']
+All entities are created equal.
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2736
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2736
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2736
+{2736: 'footballer'}
+----------
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:is_2multiwiki (0.5)
+was_2multiwiki (0.5)
+Jean Paul Yontcha (0.5)
+Fu Baolu (0.5)
+relations:[{'entity': 2736, 'relation': 'is_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2736, 'relation': 'was_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2736, 'relation': 'Jean Paul Yontcha', 'score': 0.5, 'head': False}, {'entity': 2736, 'relation': 'Fu Baolu', 'score': 0.5, 'head': False}]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:[{'entity': 2736, 'relation': 'is_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2736, 'relation': 'was_2multiwiki', 'score': 0.5, 'head': False}]
+ current_entityu_relations:[{'entity': 2736, 'relation': 'is_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2736, 'relation': 'was_2multiwiki', 'score': 0.5, 'head': False}]
+entity_search len:3 results:[{'head': 2736, 'tail': 2735, 'hname': 'footballer', 'tname': 'Albert Thompson'}, {'head': 2736, 'tail': 2738, 'hname': 'footballer', 'tname': 'Harry Wainwright'}, {'head': 2736, 'tail': 2745, 'hname': 'footballer', 'tname': 'William Thomas Smith'}]
+entityu_candidates_id:[2736, 2736, 2736]
+entity_candidates_name:['footballer', 'footballer', 'footballer']
+All entities are created equal.
+entity_search len:3 results:[{'head': 2736, 'tail': 2735, 'hname': 'footballer', 'tname': 'Albert Thompson'}, {'head': 2736, 'tail': 2738, 'hname': 'footballer', 'tname': 'Harry Wainwright'}, {'head': 2736, 'tail': 2745, 'hname': 'footballer', 'tname': 'William Thomas Smith'}]
+entityu_candidates_id:[2736, 2736, 2736]
+entity_candidates_name:['footballer', 'footballer', 'footballer']
+All entities are created equal.
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2736
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2736
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2736
+{2736: 'footballer'}
+----------
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:is_2multiwiki (0.5)
+was_2multiwiki (0.5)
+Jean Paul Yontcha (0.5)
+Fu Baolu (0.5)
+relations:[{'entity': 2736, 'relation': 'is_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2736, 'relation': 'was_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2736, 'relation': 'Jean Paul Yontcha', 'score': 0.5, 'head': False}, {'entity': 2736, 'relation': 'Fu Baolu', 'score': 0.5, 'head': False}]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:[{'entity': 2736, 'relation': 'is_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2736, 'relation': 'was_2multiwiki', 'score': 0.5, 'head': False}]
+ current_entityu_relations:[{'entity': 2736, 'relation': 'is_2multiwiki', 'score': 0.5, 'head': False}, {'entity': 2736, 'relation': 'was_2multiwiki', 'score': 0.5, 'head': False}]
+entity_search len:3 results:[{'head': 2736, 'tail': 2735, 'hname': 'footballer', 'tname': 'Albert Thompson'}, {'head': 2736, 'tail': 2738, 'hname': 'footballer', 'tname': 'Harry Wainwright'}, {'head': 2736, 'tail': 2745, 'hname': 'footballer', 'tname': 'William Thomas Smith'}]
+entityu_candidates_id:[2736, 2736, 2736]
+entity_candidates_name:['footballer', 'footballer', 'footballer']
+All entities are created equal.
+entity_search len:3 results:[{'head': 2736, 'tail': 2735, 'hname': 'footballer', 'tname': 'Albert Thompson'}, {'head': 2736, 'tail': 2738, 'hname': 'footballer', 'tname': 'Harry Wainwright'}, {'head': 2736, 'tail': 2745, 'hname': 'footballer', 'tname': 'William Thomas Smith'}]
+entityu_candidates_id:[2736, 2736, 2736]
+entity_candidates_name:['footballer', 'footballer', 'footballer']
+All entities are created equal.
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2736
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2736
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2736
+*************************************************************
+{'2600': 'Brian Saunders', '2601': 'Etan Boritzer', '2620': 'place of birth', '2703': 'Theodred II', '2625': 'Moon', '2559': 'film director'}
+----------
+len of total relations:4
+total relations:['competed for_2multiwiki', 'is_2multiwiki', 'was a weightlifter_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:1. competed for_2multiwiki
+4. was_2multiwiki
+relations:[]
+tt:['competed for_2multiwiki', 'is_2multiwiki', 'was a weightlifter_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:11. was first published at the age of_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:Robert Lepage (born December 12, 1957)
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:Robert Lepage (born December 12, 1957)
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Robert Lepage (born December 12, 1957)
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+pred:1977 --- true:19 November 2006
+f1_score:0.0, cumulative:0.0
+pred:January 8, 1840 --- true:27 June 1810
+f1_score:0.0, cumulative:0.0
+pred:No, Rudi Schuricke is German and Christopher Isherwood is Anglo-American. --- true:no
+f1_score:18.18, cumulative:18.18
+pred:Jean Paul Yontcha --- true:Fu Baolu
+f1_score:0.0, cumulative:18.18
+pred:Robert Lepage, born December 12, 1957 --- true:December 12, 1957
+f1_score:66.67, cumulative:84.85
+F1: 16.9700
+Accuracy: 0.0000
+总耗时: 113.89 秒
+{'completion_tokens': 1771, 'prompt_tokens': 91797}
+93568
+Thu Nov 20 09:53:32 CST 2025
+comput05

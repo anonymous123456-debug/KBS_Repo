@@ -1,0 +1,49 @@
+Running job on node: comput05
+Start Running ToG on medqa dataset.
+*************************************************************
+*************************************************************
+{'638': 'gastrointestinal system'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:2. causes_medqa
+relations:[]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'382': 'meningitis'}
+----------
+len of total relations:8
+total relations:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+run_llm_extract_result:1. TREATED_BY_medqa
+relations:[]
+tt:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'335': 'kidney disease'}
+----------
+len of total relations:4
+total relations:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+run_llm_extract_result:3. are found in_medqa
+relations:[]
+tt:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+true:choices_3----pred:choices_4. Perform pericardiocentesis
+true:choices_5----pred:choices_2. Motilin
+true:choices_2----pred:A: 1
+true:choices_5----pred:choices_1
+true:choices_3----pred:choices_1. Mesangial deposition of IgA often with C3
+F1: 0.0000
+Accuracy: 0.0000
+总耗时: 4.24 秒
+{'completion_tokens': 70, 'prompt_tokens': 6699}
+6769
+Thu Nov 20 09:54:14 CST 2025
+comput05

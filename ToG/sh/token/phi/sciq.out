@@ -1,0 +1,19 @@
+Running job on node: comput05
+Start Running ToG on sciq dataset.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+true:choices_3----pred:kinetic energy
+true:choices_1----pred:permafrost
+true:choices_2----pred:depolarization
+true:choices_1----pred:reservoirs
+true:choices_1----pred:current
+F1: 0.0000
+Accuracy: 0.0000
+总耗时: 2.90 秒
+{'completion_tokens': 20, 'prompt_tokens': 2849}
+2869
+Thu Nov 20 09:49:53 CST 2025
+comput05

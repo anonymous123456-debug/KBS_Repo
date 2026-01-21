@@ -1,0 +1,61 @@
+Running job on node: comput05
+Start Running ToG on mcqa dataset.
+*************************************************************
+*************************************************************
+{'3205': 'studying', '3243': 'grades'}
+----------
+len of total relations:1
+total relations:['late_mcqa']
+run_llm_extract_result:choice_2. he will get good grades. or he doesn't watch too much tv.
+relations:[]
+tt:['late_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['scholarship_mcqa', 'academic performance_mcqa']
+run_llm_extract_result:choice_2. he will get good grades.
+relations:[]
+tt:['scholarship_mcqa', 'academic performance_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3250': 'exhaustion', '3249': 'fatigue'}
+----------
+len of total relations:1
+total relations:['is characterized by_mcqa']
+run_llm_extract_result:choice_1. he will feel healthier
+relations:[]
+tt:['is characterized by_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is characterized by_mcqa']
+run_llm_extract_result:choice_1. he will feel healthier
+relations:[]
+tt:['is characterized by_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3240': 'tasks'}
+----------
+len of total relations:1
+total relations:['deadline_mcqa']
+run_llm_extract_result:choice_1. Luke takes a break from work and feels refreshed.
+relations:[]
+tt:['deadline_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+true:choice_3----pred:choice_1
+chengong!
+chengong!
+true:choice_4----pred:choice_1
+chengong!
+F1: 0.0000
+Accuracy: 0.6000
+总耗时: 4.77 秒
+{'completion_tokens': 92, 'prompt_tokens': 6569}
+6661
+Thu Nov 20 09:54:39 CST 2025
+comput05

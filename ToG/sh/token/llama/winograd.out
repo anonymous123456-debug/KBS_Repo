@@ -1,0 +1,668 @@
+Running job on node: comput07
+Start Running ToG on winograd dataset.
+*************************************************************
+{'3109': 'permit', '3108': 'demonstrators'}
+----------
+len of total relations:3
+total relations:['action_winograd', 'issue_winograd', 'request_winograd']
+run_llm_extract_result:request_winograd (0.5)
+issue_winograd (0.3)
+action_winograd (0.2)
+relations:[{'entity': '3109', 'relation': 'request_winograd', 'score': 0.5, 'head': False}, {'entity': '3109', 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': '3109', 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+tt:['action_winograd', 'issue_winograd', 'request_winograd']
+final_relations:[{'entity': '3109', 'relation': 'request_winograd', 'score': 0.5, 'head': False}, {'entity': '3109', 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': '3109', 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+len of total relations:3
+total relations:['action_winograd', 'issue_winograd', 'request_winograd']
+run_llm_extract_result:The demonstrators (0.6)
+The city councilmen (0.4)
+relations:[{'entity': '3108', 'relation': 'The demonstrators', 'score': 0.6, 'head': False}, {'entity': '3108', 'relation': 'The city councilmen', 'score': 0.4, 'head': False}]
+tt:['action_winograd', 'issue_winograd', 'request_winograd']
+final_relations:All relations pruned
+ current_entityu_relations:[{'entity': '3109', 'relation': 'request_winograd', 'score': 0.5, 'head': False}, {'entity': '3109', 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': '3109', 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+{3109: 'permit'}
+----------
+len of total relations:3
+total relations:['action_winograd', 'issue_winograd', 'request_winograd']
+run_llm_extract_result:request_winograd (0.4)
+issue_winograd (0.3)
+action_winograd (0.3)
+relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.4, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.3, 'head': False}]
+tt:['action_winograd', 'issue_winograd', 'request_winograd']
+final_relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.4, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.3, 'head': False}]
+ current_entityu_relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.4, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.3, 'head': False}]
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+{3109: 'permit'}
+----------
+len of total relations:3
+total relations:['action_winograd', 'issue_winograd', 'request_winograd']
+run_llm_extract_result:request_winograd (0.6)
+issue_winograd (0.2)
+action_winograd (0.2)
+relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.6, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.2, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+tt:['action_winograd', 'issue_winograd', 'request_winograd']
+final_relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.6, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.2, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+ current_entityu_relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.6, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.2, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+*************************************************************
+{'3109': 'permit', '3108': 'demonstrators'}
+----------
+len of total relations:3
+total relations:['action_winograd', 'issue_winograd', 'request_winograd']
+run_llm_extract_result:request_winograd (0.5)
+issue_winograd (0.3)
+action_winograd (0.2)
+relations:[{'entity': '3109', 'relation': 'request_winograd', 'score': 0.5, 'head': False}, {'entity': '3109', 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': '3109', 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+tt:['action_winograd', 'issue_winograd', 'request_winograd']
+final_relations:[{'entity': '3109', 'relation': 'request_winograd', 'score': 0.5, 'head': False}, {'entity': '3109', 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': '3109', 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+len of total relations:3
+total relations:['action_winograd', 'issue_winograd', 'request_winograd']
+run_llm_extract_result:The demonstrators (0.6)
+The city councilmen (0.4)
+relations:[{'entity': '3108', 'relation': 'The demonstrators', 'score': 0.6, 'head': False}, {'entity': '3108', 'relation': 'The city councilmen', 'score': 0.4, 'head': False}]
+tt:['action_winograd', 'issue_winograd', 'request_winograd']
+final_relations:All relations pruned
+ current_entityu_relations:[{'entity': '3109', 'relation': 'request_winograd', 'score': 0.5, 'head': False}, {'entity': '3109', 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': '3109', 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+{3109: 'permit'}
+----------
+len of total relations:3
+total relations:['action_winograd', 'issue_winograd', 'request_winograd']
+run_llm_extract_result:request_winograd (0.5)
+issue_winograd (0.3)
+action_winograd (0.2)
+relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.5, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+tt:['action_winograd', 'issue_winograd', 'request_winograd']
+final_relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.5, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+ current_entityu_relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.5, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.2, 'head': False}]
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+{3109: 'permit'}
+----------
+len of total relations:3
+total relations:['action_winograd', 'issue_winograd', 'request_winograd']
+run_llm_extract_result:request_winograd (0.4)
+issue_winograd (0.3)
+action_winograd (0.3)
+relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.4, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.3, 'head': False}]
+tt:['action_winograd', 'issue_winograd', 'request_winograd']
+final_relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.4, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.3, 'head': False}]
+ current_entityu_relations:[{'entity': 3109, 'relation': 'request_winograd', 'score': 0.4, 'head': False}, {'entity': 3109, 'relation': 'issue_winograd', 'score': 0.3, 'head': False}, {'entity': 3109, 'relation': 'action_winograd', 'score': 0.3, 'head': False}]
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+entity_search len:1 results:[{'head': 3109, 'tail': 3108, 'hname': 'permit', 'tname': 'demonstrators'}]
+entityu_candidates_id:[3109]
+entity_candidates_name:['permit']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3109
+*************************************************************
+{'3110': 'trophy', '3111': 'suitcase'}
+----------
+len of total relations:3
+total relations:['object_winograd', 'size_winograd', 'comparison_winograd']
+run_llm_extract_result:object_winograd (1)
+size_winograd (0.33)
+comparison_winograd (0.66)
+relations:[{'entity': '3110', 'relation': 'object_winograd', 'score': 1.0, 'head': True}, {'entity': '3110', 'relation': 'size_winograd', 'score': 0.33, 'head': True}, {'entity': '3110', 'relation': 'comparison_winograd', 'score': 0.66, 'head': False}]
+tt:['object_winograd', 'size_winograd', 'comparison_winograd']
+final_relations:[{'entity': '3110', 'relation': 'object_winograd', 'score': 1.0, 'head': True}, {'entity': '3110', 'relation': 'size_winograd', 'score': 0.33, 'head': True}, {'entity': '3110', 'relation': 'comparison_winograd', 'score': 0.66, 'head': False}]
+len of total relations:3
+total relations:['comparison_winograd', 'object_winograd', 'size_winograd']
+run_llm_extract_result:object_winograd (0.7)
+size_winograd (0.3)
+comparison_winograd (0)
+relations:[{'entity': '3111', 'relation': 'object_winograd', 'score': 0.7, 'head': False}, {'entity': '3111', 'relation': 'size_winograd', 'score': 0.3, 'head': False}, {'entity': '3111', 'relation': 'comparison_winograd', 'score': 0.0, 'head': True}]
+tt:['comparison_winograd', 'object_winograd', 'size_winograd']
+final_relations:[{'entity': '3111', 'relation': 'object_winograd', 'score': 0.7, 'head': False}, {'entity': '3111', 'relation': 'size_winograd', 'score': 0.3, 'head': False}, {'entity': '3111', 'relation': 'comparison_winograd', 'score': 0.0, 'head': True}]
+ current_entityu_relations:[{'entity': '3110', 'relation': 'object_winograd', 'score': 1.0, 'head': True}, {'entity': '3110', 'relation': 'size_winograd', 'score': 0.33, 'head': True}, {'entity': '3110', 'relation': 'comparison_winograd', 'score': 0.66, 'head': False}, {'entity': '3111', 'relation': 'object_winograd', 'score': 0.7, 'head': False}, {'entity': '3111', 'relation': 'size_winograd', 'score': 0.3, 'head': False}, {'entity': '3111', 'relation': 'comparison_winograd', 'score': 0.0, 'head': True}]
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3110]
+entity_candidates_name:['trophy']
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3110]
+entity_candidates_name:['trophy']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3110
+{3111: 'suitcase', 3110: 'trophy'}
+----------
+len of total relations:2
+total relations:['comparison_winograd', 'size_winograd']
+run_llm_extract_result:size_winograd (0.6)
+comparison_winograd (0.4)
+size_winograd (0)
+relations:[{'entity': 3111, 'relation': 'size_winograd', 'score': 0.6, 'head': False}, {'entity': 3111, 'relation': 'comparison_winograd', 'score': 0.4, 'head': True}, {'entity': 3111, 'relation': 'size_winograd', 'score': 0.0, 'head': False}]
+tt:['comparison_winograd', 'size_winograd']
+final_relations:[{'entity': 3111, 'relation': 'size_winograd', 'score': 0.6, 'head': False}, {'entity': 3111, 'relation': 'comparison_winograd', 'score': 0.4, 'head': True}, {'entity': 3111, 'relation': 'size_winograd', 'score': 0.0, 'head': False}]
+len of total relations:2
+total relations:['size_winograd', 'comparison_winograd']
+run_llm_extract_result:size_winograd (0.9)
+comparison_winograd (0.1)
+relations:[{'entity': 3110, 'relation': 'size_winograd', 'score': 0.9, 'head': True}, {'entity': 3110, 'relation': 'comparison_winograd', 'score': 0.1, 'head': False}]
+tt:['size_winograd', 'comparison_winograd']
+final_relations:[{'entity': 3110, 'relation': 'size_winograd', 'score': 0.9, 'head': True}, {'entity': 3110, 'relation': 'comparison_winograd', 'score': 0.1, 'head': False}]
+ current_entityu_relations:[{'entity': 3111, 'relation': 'size_winograd', 'score': 0.6, 'head': False}, {'entity': 3111, 'relation': 'comparison_winograd', 'score': 0.4, 'head': True}, {'entity': 3111, 'relation': 'size_winograd', 'score': 0.0, 'head': False}, {'entity': 3110, 'relation': 'size_winograd', 'score': 0.9, 'head': True}, {'entity': 3110, 'relation': 'comparison_winograd', 'score': 0.1, 'head': False}]
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3110]
+entity_candidates_name:['trophy']
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3110]
+entity_candidates_name:['trophy']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3110
+{3111: 'suitcase', 3110: 'trophy'}
+----------
+len of total relations:2
+total relations:['comparison_winograd', 'object_winograd']
+run_llm_extract_result:object_winograd (0.8)
+comparison_winograd (0.2)
+object_winograd (0)
+relations:[{'entity': 3111, 'relation': 'object_winograd', 'score': 0.8, 'head': False}, {'entity': 3111, 'relation': 'comparison_winograd', 'score': 0.2, 'head': True}, {'entity': 3111, 'relation': 'object_winograd', 'score': 0.0, 'head': False}]
+tt:['comparison_winograd', 'object_winograd']
+final_relations:[{'entity': 3111, 'relation': 'object_winograd', 'score': 0.8, 'head': False}, {'entity': 3111, 'relation': 'comparison_winograd', 'score': 0.2, 'head': True}, {'entity': 3111, 'relation': 'object_winograd', 'score': 0.0, 'head': False}]
+len of total relations:2
+total relations:['object_winograd', 'comparison_winograd']
+run_llm_extract_result:object_winograd (1)
+comparison_winograd (0)
+object_winograd (0)
+relations:[{'entity': 3110, 'relation': 'object_winograd', 'score': 1.0, 'head': True}, {'entity': 3110, 'relation': 'comparison_winograd', 'score': 0.0, 'head': False}, {'entity': 3110, 'relation': 'object_winograd', 'score': 0.0, 'head': True}]
+tt:['object_winograd', 'comparison_winograd']
+final_relations:[{'entity': 3110, 'relation': 'object_winograd', 'score': 1.0, 'head': True}, {'entity': 3110, 'relation': 'comparison_winograd', 'score': 0.0, 'head': False}, {'entity': 3110, 'relation': 'object_winograd', 'score': 0.0, 'head': True}]
+ current_entityu_relations:[{'entity': 3111, 'relation': 'object_winograd', 'score': 0.8, 'head': False}, {'entity': 3111, 'relation': 'comparison_winograd', 'score': 0.2, 'head': True}, {'entity': 3111, 'relation': 'object_winograd', 'score': 0.0, 'head': False}, {'entity': 3110, 'relation': 'object_winograd', 'score': 1.0, 'head': True}, {'entity': 3110, 'relation': 'comparison_winograd', 'score': 0.0, 'head': False}, {'entity': 3110, 'relation': 'object_winograd', 'score': 0.0, 'head': True}]
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3110]
+entity_candidates_name:['trophy']
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3110]
+entity_candidates_name:['trophy']
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3110
+*************************************************************
+{'3110': 'trophy', '3111': 'suitcase'}
+----------
+len of total relations:3
+total relations:['object_winograd', 'size_winograd', 'comparison_winograd']
+run_llm_extract_result:object_winograd (0.6)
+size_winograd (0.2)
+comparison_winograd (0.2)
+relations:[{'entity': '3110', 'relation': 'object_winograd', 'score': 0.6, 'head': True}, {'entity': '3110', 'relation': 'size_winograd', 'score': 0.2, 'head': True}, {'entity': '3110', 'relation': 'comparison_winograd', 'score': 0.2, 'head': False}]
+tt:['object_winograd', 'size_winograd', 'comparison_winograd']
+final_relations:[{'entity': '3110', 'relation': 'object_winograd', 'score': 0.6, 'head': True}, {'entity': '3110', 'relation': 'size_winograd', 'score': 0.2, 'head': True}, {'entity': '3110', 'relation': 'comparison_winograd', 'score': 0.2, 'head': False}]
+len of total relations:3
+total relations:['comparison_winograd', 'object_winograd', 'size_winograd']
+run_llm_extract_result:object_winograd (0.6)
+size_winograd (0.4)
+comparison_winograd (0)
+relations:[{'entity': '3111', 'relation': 'object_winograd', 'score': 0.6, 'head': False}, {'entity': '3111', 'relation': 'size_winograd', 'score': 0.4, 'head': False}, {'entity': '3111', 'relation': 'comparison_winograd', 'score': 0.0, 'head': True}]
+tt:['comparison_winograd', 'object_winograd', 'size_winograd']
+final_relations:[{'entity': '3111', 'relation': 'object_winograd', 'score': 0.6, 'head': False}, {'entity': '3111', 'relation': 'size_winograd', 'score': 0.4, 'head': False}, {'entity': '3111', 'relation': 'comparison_winograd', 'score': 0.0, 'head': True}]
+ current_entityu_relations:[{'entity': '3110', 'relation': 'object_winograd', 'score': 0.6, 'head': True}, {'entity': '3110', 'relation': 'size_winograd', 'score': 0.2, 'head': True}, {'entity': '3110', 'relation': 'comparison_winograd', 'score': 0.2, 'head': False}, {'entity': '3111', 'relation': 'object_winograd', 'score': 0.6, 'head': False}, {'entity': '3111', 'relation': 'size_winograd', 'score': 0.4, 'head': False}, {'entity': '3111', 'relation': 'comparison_winograd', 'score': 0.0, 'head': True}]
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3110]
+entity_candidates_name:['trophy']
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3110]
+entity_candidates_name:['trophy']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+{3111: 'suitcase'}
+----------
+len of total relations:1
+total relations:['comparison_winograd']
+run_llm_extract_result:comparison_winograd (0.6)
+similarity_morphy (0.3)
+similarity_johnson (0.1)
+relations:[{'entity': 3111, 'relation': 'comparison_winograd', 'score': 0.6, 'head': True}, {'entity': 3111, 'relation': 'similarity_morphy', 'score': 0.3, 'head': False}, {'entity': 3111, 'relation': 'similarity_johnson', 'score': 0.1, 'head': False}]
+tt:['comparison_winograd']
+final_relations:[{'entity': 3111, 'relation': 'comparison_winograd', 'score': 0.6, 'head': True}]
+ current_entityu_relations:[{'entity': 3111, 'relation': 'comparison_winograd', 'score': 0.6, 'head': True}]
+entity_search len:1 results:[{'head': 3111, 'tail': 3110, 'hname': 'suitcase', 'tname': 'trophy'}]
+entityu_candidates_id:[3110]
+entity_candidates_name:['trophy']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3110
+{3110: 'trophy'}
+----------
+len of total relations:2
+total relations:['object_winograd', 'size_winograd']
+run_llm_extract_result:object_winograd (1)
+size_winograd (0.67)
+object_winograd (0.33)
+relations:[{'entity': 3110, 'relation': 'object_winograd', 'score': 1.0, 'head': True}, {'entity': 3110, 'relation': 'size_winograd', 'score': 0.67, 'head': True}, {'entity': 3110, 'relation': 'object_winograd', 'score': 0.33, 'head': True}]
+tt:['object_winograd', 'size_winograd']
+final_relations:[{'entity': 3110, 'relation': 'object_winograd', 'score': 1.0, 'head': True}, {'entity': 3110, 'relation': 'size_winograd', 'score': 0.67, 'head': True}, {'entity': 3110, 'relation': 'object_winograd', 'score': 0.33, 'head': True}]
+ current_entityu_relations:[{'entity': 3110, 'relation': 'object_winograd', 'score': 1.0, 'head': True}, {'entity': 3110, 'relation': 'size_winograd', 'score': 0.67, 'head': True}, {'entity': 3110, 'relation': 'object_winograd', 'score': 0.33, 'head': True}]
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+entity_search len:1 results:[{'head': 3110, 'tail': 3111, 'hname': 'trophy', 'tname': 'suitcase'}]
+entityu_candidates_id:[3111]
+entity_candidates_name:['suitcase']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3111
+*************************************************************
+{'3112': 'Joan', '3113': 'Susan'}
+----------
+len of total relations:4
+total relations:['action_winograd', 'gratitude_winograd', 'help_winograd', 'object_winograd']
+run_llm_extract_result:gratitude_winograd (0.6)
+help_winograd (0.4)
+action_winograd (0)
+relations:[{'entity': '3112', 'relation': 'gratitude_winograd', 'score': 0.6, 'head': True}, {'entity': '3112', 'relation': 'help_winograd', 'score': 0.4, 'head': False}, {'entity': '3112', 'relation': 'action_winograd', 'score': 0.0, 'head': True}]
+tt:['action_winograd', 'gratitude_winograd', 'help_winograd', 'object_winograd']
+final_relations:[{'entity': '3112', 'relation': 'gratitude_winograd', 'score': 0.6, 'head': True}, {'entity': '3112', 'relation': 'help_winograd', 'score': 0.4, 'head': False}, {'entity': '3112', 'relation': 'action_winograd', 'score': 0.0, 'head': True}]
+len of total relations:9
+total relations:['help_winograd', 'is nosy about_winograd', 'object_winograd', 'shares information about_winograd', 'action_winograd', 'gratitude_winograd', 'is prone to sharing personal problems with_winograd', 'knocked_winograd', 'knows_winograd']
+run_llm_extract_result:Susan (0.5)
+Joan (0.5)
+relations:[{'entity': '3113', 'relation': 'Susan', 'score': 0.5, 'head': False}, {'entity': '3113', 'relation': 'Joan', 'score': 0.5, 'head': False}]
+tt:['help_winograd', 'is nosy about_winograd', 'object_winograd', 'shares information about_winograd', 'action_winograd', 'gratitude_winograd', 'is prone to sharing personal problems with_winograd', 'knocked_winograd', 'knows_winograd']
+final_relations:All relations pruned
+ current_entityu_relations:[{'entity': '3112', 'relation': 'gratitude_winograd', 'score': 0.6, 'head': True}, {'entity': '3112', 'relation': 'help_winograd', 'score': 0.4, 'head': False}, {'entity': '3112', 'relation': 'action_winograd', 'score': 0.0, 'head': True}]
+entity_search len:1 results:[{'head': 3112, 'tail': 3113, 'hname': 'Joan', 'tname': 'Susan'}]
+entityu_candidates_id:[3113]
+entity_candidates_name:['Susan']
+entity_search len:1 results:[{'head': 3112, 'tail': 3113, 'hname': 'Joan', 'tname': 'Susan'}]
+entityu_candidates_id:[3112]
+entity_candidates_name:['Joan']
+entity_search len:1 results:[{'head': 3112, 'tail': 3113, 'hname': 'Joan', 'tname': 'Susan'}]
+entityu_candidates_id:[3113]
+entity_candidates_name:['Susan']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3113
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3112
+{3113: 'Susan', 3112: 'Joan'}
+----------
+len of total relations:8
+total relations:['help_winograd', 'is nosy about_winograd', 'object_winograd', 'shares information about_winograd', 'action_winograd', 'is prone to sharing personal problems with_winograd', 'knocked_winograd', 'knows_winograd']
+run_llm_extract_result:Susan (0.7)
+Joan (0.3)
+relations:[{'entity': 3113, 'relation': 'Susan', 'score': 0.7, 'head': False}, {'entity': 3113, 'relation': 'Joan', 'score': 0.3, 'head': False}]
+tt:['help_winograd', 'is nosy about_winograd', 'object_winograd', 'shares information about_winograd', 'action_winograd', 'is prone to sharing personal problems with_winograd', 'knocked_winograd', 'knows_winograd']
+final_relations:All relations pruned
+len of total relations:3
+total relations:['action_winograd', 'help_winograd', 'object_winograd']
+run_llm_extract_result:action_winograd (0.7)
+help_winograd (0.3)
+object_winograd (0)
+relations:[{'entity': 3112, 'relation': 'action_winograd', 'score': 0.7, 'head': True}, {'entity': 3112, 'relation': 'help_winograd', 'score': 0.3, 'head': False}, {'entity': 3112, 'relation': 'object_winograd', 'score': 0.0, 'head': False}]
+tt:['action_winograd', 'help_winograd', 'object_winograd']
+final_relations:[{'entity': 3112, 'relation': 'action_winograd', 'score': 0.7, 'head': True}, {'entity': 3112, 'relation': 'help_winograd', 'score': 0.3, 'head': False}, {'entity': 3112, 'relation': 'object_winograd', 'score': 0.0, 'head': False}]
+ current_entityu_relations:[{'entity': 3112, 'relation': 'action_winograd', 'score': 0.7, 'head': True}, {'entity': 3112, 'relation': 'help_winograd', 'score': 0.3, 'head': False}, {'entity': 3112, 'relation': 'object_winograd', 'score': 0.0, 'head': False}]
+entity_search len:1 results:[{'head': 3112, 'tail': 3113, 'hname': 'Joan', 'tname': 'Susan'}]
+entityu_candidates_id:[3113]
+entity_candidates_name:['Susan']
+entity_search len:1 results:[{'head': 3112, 'tail': 3113, 'hname': 'Joan', 'tname': 'Susan'}]
+entityu_candidates_id:[3112]
+entity_candidates_name:['Joan']
+entity_search len:1 results:[{'head': 3112, 'tail': 3113, 'hname': 'Joan', 'tname': 'Susan'}]
+entityu_candidates_id:[3112]
+entity_candidates_name:['Joan']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3113
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3112
+{3113: 'Susan', 3112: 'Joan'}
+----------
+len of total relations:8
+total relations:['help_winograd', 'is nosy about_winograd', 'object_winograd', 'shares information about_winograd', 'gratitude_winograd', 'is prone to sharing personal problems with_winograd', 'knocked_winograd', 'knows_winograd']
+run_llm_extract_result:Susan (0.4)
+Joan (0.6)
+Susan (0.0)
+relations:[{'entity': 3113, 'relation': 'Susan', 'score': 0.4, 'head': False}, {'entity': 3113, 'relation': 'Joan', 'score': 0.6, 'head': False}, {'entity': 3113, 'relation': 'Susan', 'score': 0.0, 'head': False}]
+tt:['help_winograd', 'is nosy about_winograd', 'object_winograd', 'shares information about_winograd', 'gratitude_winograd', 'is prone to sharing personal problems with_winograd', 'knocked_winograd', 'knows_winograd']
+final_relations:All relations pruned
+len of total relations:3
+total relations:['gratitude_winograd', 'help_winograd', 'object_winograd']
+run_llm_extract_result:gratitude_winograd (0.8)
+help_winograd (0.2)
+object_winograd (0)
+relations:[{'entity': 3112, 'relation': 'gratitude_winograd', 'score': 0.8, 'head': True}, {'entity': 3112, 'relation': 'help_winograd', 'score': 0.2, 'head': False}, {'entity': 3112, 'relation': 'object_winograd', 'score': 0.0, 'head': False}]
+tt:['gratitude_winograd', 'help_winograd', 'object_winograd']
+final_relations:[{'entity': 3112, 'relation': 'gratitude_winograd', 'score': 0.8, 'head': True}, {'entity': 3112, 'relation': 'help_winograd', 'score': 0.2, 'head': False}, {'entity': 3112, 'relation': 'object_winograd', 'score': 0.0, 'head': False}]
+ current_entityu_relations:[{'entity': 3112, 'relation': 'gratitude_winograd', 'score': 0.8, 'head': True}, {'entity': 3112, 'relation': 'help_winograd', 'score': 0.2, 'head': False}, {'entity': 3112, 'relation': 'object_winograd', 'score': 0.0, 'head': False}]
+entity_search len:1 results:[{'head': 3112, 'tail': 3113, 'hname': 'Joan', 'tname': 'Susan'}]
+entityu_candidates_id:[3113]
+entity_candidates_name:['Susan']
+entity_search len:1 results:[{'head': 3112, 'tail': 3113, 'hname': 'Joan', 'tname': 'Susan'}]
+entityu_candidates_id:[3112]
+entity_candidates_name:['Joan']
+entity_search len:1 results:[{'head': 3112, 'tail': 3113, 'hname': 'Joan', 'tname': 'Susan'}]
+entityu_candidates_id:[3112]
+entity_candidates_name:['Joan']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3113
+Cypher Query:
+
+    MATCH (e:Entity_winograd {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=3112
+chengong!
+chengong!
+chengong!
+true:the suitcase----pred:the trophy
+true:Joan----pred:Susan
+F1: 0.0000
+Accuracy: 0.6000
+总耗时: 34.35 秒
+{'completion_tokens': 599, 'prompt_tokens': 19357}
+19956
+Thu Nov 20 10:00:17 CST 2025
+comput07

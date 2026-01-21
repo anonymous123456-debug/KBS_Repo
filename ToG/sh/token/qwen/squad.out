@@ -1,0 +1,24 @@
+Running job on node: comput05
+Start Running ToG on squad dataset.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+pred:the US military --- true:the US military
+f1_score:100.0, cumulative:100.0
+pred:He Jin --- true:He Jin
+f1_score:100.0, cumulative:200.0
+pred:cheaper --- true:cheaper
+f1_score:100.0, cumulative:300.0
+pred:cotton --- true:cotton
+f1_score:100.0, cumulative:400.0
+pred:Watanabe was influenced by American comics. --- true:American comics
+f1_score:50.0, cumulative:450.0
+F1: 90.0000
+Accuracy: 0.0000
+总耗时: 2.31 秒
+{'completion_tokens': 23, 'prompt_tokens': 3387}
+3410
+Thu Nov 20 09:46:02 CST 2025
+comput05

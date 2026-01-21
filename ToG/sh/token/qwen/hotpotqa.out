@@ -1,0 +1,103 @@
+Running job on node: comput05
+Start Running ToG on hotpotqa dataset.
+*************************************************************
+*************************************************************
+{'2051': 'World War II'}
+----------
+len of total relations:1
+total relations:['Foreseeed_hotpotqa']
+run_llm_extract_result:Reserve (0.33)
+United States Army Air Corps (0.33)
+United States Army (0.34)
+relations:[{'entity': '2051', 'relation': 'Reserve', 'score': 0.33, 'head': False}, {'entity': '2051', 'relation': 'United States Army Air Corps', 'score': 0.33, 'head': False}, {'entity': '2051', 'relation': 'United States Army', 'score': 0.34, 'head': False}]
+tt:['Foreseeed_hotpotqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1558': 'Indiana'}
+----------
+len of total relations:2
+total relations:['is located in_hotpotqa', 'is located in_hotpotqa']
+run_llm_extract_result:is located in_hotpotqa (0.333)
+is located in_hotpotqa (0.333)
+is located in_hotpotqa (0.333)
+relations:[{'entity': '1558', 'relation': 'is located in_hotpotqa', 'score': 0.333, 'head': True}, {'entity': '1558', 'relation': 'is located in_hotpotqa', 'score': 0.333, 'head': True}, {'entity': '1558', 'relation': 'is located in_hotpotqa', 'score': 0.333, 'head': True}]
+tt:['is located in_hotpotqa', 'is located in_hotpotqa']
+final_relations:[{'entity': '1558', 'relation': 'is located in_hotpotqa', 'score': 0.333, 'head': True}, {'entity': '1558', 'relation': 'is located in_hotpotqa', 'score': 0.333, 'head': True}, {'entity': '1558', 'relation': 'is located in_hotpotqa', 'score': 0.333, 'head': True}]
+ current_entityu_relations:[{'entity': '1558', 'relation': 'is located in_hotpotqa', 'score': 0.333, 'head': True}, {'entity': '1558', 'relation': 'is located in_hotpotqa', 'score': 0.333, 'head': True}, {'entity': '1558', 'relation': 'is located in_hotpotqa', 'score': 0.333, 'head': True}]
+entity_search len:2 results:[{'head': 1558, 'tail': 1557, 'hname': 'Indiana', 'tname': 'Crawfordsville'}, {'head': 1558, 'tail': 1514, 'hname': 'Indiana', 'tname': 'United States'}]
+entityu_candidates_id:[1557, 1514]
+entity_candidates_name:['Crawfordsville', 'United States']
+All entities are created equal.
+entity_search len:2 results:[{'head': 1558, 'tail': 1557, 'hname': 'Indiana', 'tname': 'Crawfordsville'}, {'head': 1558, 'tail': 1514, 'hname': 'Indiana', 'tname': 'United States'}]
+entityu_candidates_id:[1557, 1514]
+entity_candidates_name:['Crawfordsville', 'United States']
+All entities are created equal.
+entity_search len:2 results:[{'head': 1558, 'tail': 1557, 'hname': 'Indiana', 'tname': 'Crawfordsville'}, {'head': 1558, 'tail': 1514, 'hname': 'Indiana', 'tname': 'United States'}]
+entityu_candidates_id:[1557, 1514]
+entity_candidates_name:['Crawfordsville', 'United States']
+All entities are created equal.
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_hotpotqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1557
+Cypher Query:
+
+    MATCH (e:Entity_hotpotqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1514
+Cypher Query:
+
+    MATCH (e:Entity_hotpotqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1557
+{1557: 'Crawfordsville', 1514: 'United States'}
+----------
+len of total relations:1
+total relations:['is located in_hotpotqa']
+run_llm_extract_result:is located in_hotpotqa (0.0)
+relations:[{'entity': 1557, 'relation': 'is located in_hotpotqa', 'score': 0.0, 'head': True}]
+tt:['is located in_hotpotqa']
+final_relations:[{'entity': 1557, 'relation': 'is located in_hotpotqa', 'score': 0.0, 'head': True}]
+len of total relations:8
+total relations:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+run_llm_extract_result:Was the 47th Governor ofIndiana (0.25)
+Was the 47th Governor ofIndiana (0.30)
+Was the 47th Governor ofIndiana (0.45)
+relations:[{'entity': 1514, 'relation': 'Was the 47th Governor ofIndiana', 'score': 0.25, 'head': False}, {'entity': 1514, 'relation': 'Was the 47th Governor ofIndiana', 'score': 0.3, 'head': False}, {'entity': 1514, 'relation': 'Was the 47th Governor ofIndiana', 'score': 0.45, 'head': False}]
+tt:['Aired_in_hotpotqa', 'Was the 26th President of_hotpotqa', 'Was the 32nd President of_hotpotqa', 'Was the 40th Vice President of_hotpotqa', 'born in_hotpotqa', 'director_hotpotqa', 'originally aired in_hotpotqa', 'released_in_hotpotqa']
+final_relations:All relations pruned
+ current_entityu_relations:[{'entity': 1557, 'relation': 'is located in_hotpotqa', 'score': 0.0, 'head': True}]
+entity_search len:1 results:[{'head': 1557, 'tail': 1558, 'hname': 'Crawfordsville', 'tname': 'Indiana'}]
+entityu_candidates_id:[1558]
+entity_candidates_name:['Indiana']
+No new knowledge added during search depth 2, stop searching.
+{1557: 'Crawfordsville', 1514: 'United States'}
+----------
+ current_entityu_relations:[]
+No new knowledge added during search depth 3, stop searching.
+*************************************************************
+pred:No --- true:Spanish-based transatlantic maritime expedition led by Christopher Columbus
+f1_score:0.0, cumulative:0.0
+pred:United States Army Air Corps --- true:United States Army Air Corps
+f1_score:100.0, cumulative:100.0
+pred:Cheers (Drink to That) --- true:"Cheers (Drink to That)"
+f1_score:100.0, cumulative:200.0
+pred:Frank O'Bannon --- true:Frank O'Bannon
+f1_score:100.0, cumulative:300.0
+pred:Dundas Castle --- true:Dundas Castle
+f1_score:100.0, cumulative:400.0
+F1: 80.0000
+Accuracy: 0.0000
+总耗时: 12.13 秒
+{'completion_tokens': 177, 'prompt_tokens': 24852}
+25029
+Thu Nov 20 09:46:36 CST 2025
+comput05

@@ -1,0 +1,164 @@
+Running job on node: comput07
+Start Running ToG on cosmosqa dataset.
+*************************************************************
+{'1099': 'person'}
+----------
+len of total relations:8
+total relations:['has_cosmosqa', 'is guided by_cosmosqa', 'is in a relationship with_cosmosqa', 'is perplexed by_cosmosqa', 'is taught by_cosmosqa', 'receives guidance from_cosmosqa', 'Reference_cosmosqa', 'instructs_cosmosqa']
+run_llm_extract_result:choices_2 (0.5)
+choices_3 (0.25)
+choices_4 (0.25)
+relations:[{'entity': '1099', 'relation': 'choices_2', 'score': 0.5, 'head': False}, {'entity': '1099', 'relation': 'choices_3', 'score': 0.25, 'head': False}, {'entity': '1099', 'relation': 'choices_4', 'score': 0.25, 'head': False}]
+tt:['has_cosmosqa', 'is guided by_cosmosqa', 'is in a relationship with_cosmosqa', 'is perplexed by_cosmosqa', 'is taught by_cosmosqa', 'receives guidance from_cosmosqa', 'Reference_cosmosqa', 'instructs_cosmosqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'1237': 'position', '1143': 'job'}
+----------
+len of total relations:1
+total relations:['Reference_cosmosqa']
+run_llm_extract_result:choices_1. The company hiring the temp workers might have had a change of mind .
+relations:[]
+tt:['Reference_cosmosqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['has_cosmosqa']
+run_llm_extract_result:1. has_cosmosqa (0.5)
+2. has_cosmosqa (0.25)
+3. has_cosmosqa (0.25)
+relations:[{'entity': '1143', 'relation': 'has_cosmosqa', 'score': 0.5, 'head': False}, {'entity': '1143', 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}, {'entity': '1143', 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}]
+tt:['has_cosmosqa']
+final_relations:[{'entity': '1143', 'relation': 'has_cosmosqa', 'score': 0.5, 'head': False}, {'entity': '1143', 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}, {'entity': '1143', 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}]
+ current_entityu_relations:[{'entity': '1143', 'relation': 'has_cosmosqa', 'score': 0.5, 'head': False}, {'entity': '1143', 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}, {'entity': '1143', 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}]
+entity_search len:1 results:[{'head': 1143, 'tail': 1126, 'hname': 'job', 'tname': 'Harry'}]
+entityu_candidates_id:[1143]
+entity_candidates_name:['job']
+entity_search len:1 results:[{'head': 1143, 'tail': 1126, 'hname': 'job', 'tname': 'Harry'}]
+entityu_candidates_id:[1143]
+entity_candidates_name:['job']
+entity_search len:1 results:[{'head': 1143, 'tail': 1126, 'hname': 'job', 'tname': 'Harry'}]
+entityu_candidates_id:[1143]
+entity_candidates_name:['job']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1143
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1143
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1143
+{1143: 'job'}
+----------
+len of total relations:1
+total relations:['has_cosmosqa']
+run_llm_extract_result:1. has_cosmosqa (0.5)
+2. has_cosmosqa (0.25)
+3. has_cosmosqa (0.25)
+relations:[{'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.5, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}]
+tt:['has_cosmosqa']
+final_relations:[{'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.5, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}]
+ current_entityu_relations:[{'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.5, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}]
+entity_search len:1 results:[{'head': 1143, 'tail': 1126, 'hname': 'job', 'tname': 'Harry'}]
+entityu_candidates_id:[1143]
+entity_candidates_name:['job']
+entity_search len:1 results:[{'head': 1143, 'tail': 1126, 'hname': 'job', 'tname': 'Harry'}]
+entityu_candidates_id:[1143]
+entity_candidates_name:['job']
+entity_search len:1 results:[{'head': 1143, 'tail': 1126, 'hname': 'job', 'tname': 'Harry'}]
+entityu_candidates_id:[1143]
+entity_candidates_name:['job']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1143
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1143
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1143
+{1143: 'job'}
+----------
+len of total relations:1
+total relations:['has_cosmosqa']
+run_llm_extract_result:1. has_cosmosqa (0.5)
+2. has_cosmosqa (0.25)
+3. has_cosmosqa (0.25)
+relations:[{'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.5, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}]
+tt:['has_cosmosqa']
+final_relations:[{'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.5, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}]
+ current_entityu_relations:[{'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.5, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}, {'entity': 1143, 'relation': 'has_cosmosqa', 'score': 0.25, 'head': False}]
+entity_search len:1 results:[{'head': 1143, 'tail': 1126, 'hname': 'job', 'tname': 'Harry'}]
+entityu_candidates_id:[1143]
+entity_candidates_name:['job']
+entity_search len:1 results:[{'head': 1143, 'tail': 1126, 'hname': 'job', 'tname': 'Harry'}]
+entityu_candidates_id:[1143]
+entity_candidates_name:['job']
+entity_search len:1 results:[{'head': 1143, 'tail': 1126, 'hname': 'job', 'tname': 'Harry'}]
+entityu_candidates_id:[1143]
+entity_candidates_name:['job']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1143
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1143
+Cypher Query:
+
+    MATCH (e:Entity_cosmosqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=1143
+*************************************************************
+*************************************************************
+*************************************************************
+{'1265': 'evidence'}
+----------
+len of total relations:1
+total relations:['Reference_cosmosqa']
+run_llm_extract_result:choices_2. Because I had an intense emotional response to the new development .
+relations:[]
+tt:['Reference_cosmosqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+chengong!
+chengong!
+chengong!
+chengong!
+chengong!
+F1: 0.0000
+Accuracy: 1.0000
+总耗时: 13.75 秒
+{'completion_tokens': 212, 'prompt_tokens': 8595}
+8807
+Thu Nov 20 09:33:58 CST 2025
+comput07

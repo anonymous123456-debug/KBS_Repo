@@ -1,0 +1,48 @@
+Running job on node: comput05
+Start Running ToG on hotpotqa dataset.
+*************************************************************
+*************************************************************
+{'2051': 'World War II'}
+----------
+len of total relations:1
+total relations:['Foreseeed_hotpotqa']
+run_llm_extract_result:United States Army Air Corps (0.6)
+General James Doolittle (0.3)
+World War II (0.1)
+relations:[{'entity': '2051', 'relation': 'United States Army Air Corps', 'score': 0.6, 'head': False}, {'entity': '2051', 'relation': 'General James Doolittle', 'score': 0.3, 'head': False}, {'entity': '2051', 'relation': 'World War II', 'score': 0.1, 'head': False}]
+tt:['Foreseeed_hotpotqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'1558': 'Indiana'}
+----------
+len of total relations:2
+total relations:['is located in_hotpotqa', 'is located in_hotpotqa']
+run_llm_extract_result:Frank O'Bannon (1.0)
+David M. McIntosh (0.0)
+Memduh Oğuz (0.0)
+relations:[{'entity': '1558', 'relation': "Frank O'Bannon", 'score': 1.0, 'head': False}, {'entity': '1558', 'relation': 'David M. McIntosh', 'score': 0.0, 'head': False}, {'entity': '1558', 'relation': 'Memduh Oğuz', 'score': 0.0, 'head': False}]
+tt:['is located in_hotpotqa', 'is located in_hotpotqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+pred:Yes --- true:Spanish-based transatlantic maritime expedition led by Christopher Columbus
+f1_score:0.0, cumulative:0.0
+pred:United States Army Air Corps --- true:United States Army Air Corps
+f1_score:100.0, cumulative:100.0
+pred:Cheers (Drink to That) --- true:"Cheers (Drink to That)"
+f1_score:100.0, cumulative:200.0
+pred:Frank O'Bannon --- true:Frank O'Bannon
+f1_score:100.0, cumulative:300.0
+pred:Dundas Castle --- true:Dundas Castle
+f1_score:100.0, cumulative:400.0
+F1: 80.0000
+Accuracy: 0.0000
+总耗时: 9.78 秒
+{'completion_tokens': 93, 'prompt_tokens': 12894}
+12987
+Thu Nov 20 09:51:48 CST 2025
+comput05

@@ -1,0 +1,78 @@
+Running job on node: comput05
+Start Running ToG on commonsenseqa dataset.
+*************************************************************
+*************************************************************
+*************************************************************
+{'963': 'shopping'}
+----------
+len of total relations:1
+total relations:['can be a form of_commonsense']
+run_llm_extract_result:choices_1 (0.4)
+choices_5 (0.6)
+choices_3 (0.0)
+choices_4 (0.0)
+relations:[{'entity': '963', 'relation': 'choices_1', 'score': 0.4, 'head': False}, {'entity': '963', 'relation': 'choices_5', 'score': 0.6, 'head': False}, {'entity': '963', 'relation': 'choices_3', 'score': 0.0, 'head': False}, {'entity': '963', 'relation': 'choices_4', 'score': 0.0, 'head': False}]
+tt:['can be a form of_commonsense']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'946': 'highway'}
+----------
+len of total relations:1
+total relations:['is a type of_commonsense']
+run_llm_extract_result:is a type_of_transportation (0.5)
+is a part_of_navigation (0.3)
+is a replacement_for_(atlas) (0.2)
+relations:[{'entity': '946', 'relation': 'is a type_of_transportation', 'score': 0.5, 'head': False}, {'entity': '946', 'relation': 'is a part_of_navigation', 'score': 0.3, 'head': False}]
+tt:['is a type of_commonsense']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'948': 'city'}
+----------
+len of total relations:1
+total relations:['has_commonsense']
+run_llm_extract_result:has_commonsense (0.5)
+natural_habitat (0.3)
+dense_forest (0.2)
+relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.5, 'head': True}, {'entity': '948', 'relation': 'natural_habitat', 'score': 0.3, 'head': False}, {'entity': '948', 'relation': 'dense_forest', 'score': 0.2, 'head': False}]
+tt:['has_commonsense']
+final_relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.5, 'head': True}]
+ current_entityu_relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.5, 'head': True}]
+entity_search len:1 results:[{'head': 948, 'tail': 917, 'hname': 'city', 'tname': 'road infrastructure'}]
+entityu_candidates_id:[917]
+entity_candidates_name:['road infrastructure']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=917
+{917: 'road infrastructure'}
+----------
+len of total relations:0
+
+    MATCH (e {id:$entity_id})-[r]->(t)
+    RETURN DISTINCT type(r) as label
+    
+
+    MATCH (h)-[r]->(e {id:$entity_id})
+    RETURN DISTINCT type(r) as label
+    
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+true:choices_1----pred:avoid
+chengong!
+true:choices_1----pred:choices_2.neck
+chengong!
+chengong!
+F1: 0.0000
+Accuracy: 0.6000
+总耗时: 12.66 秒
+{'completion_tokens': 192, 'prompt_tokens': 5938}
+6130
+Thu Nov 20 09:50:03 CST 2025
+comput05

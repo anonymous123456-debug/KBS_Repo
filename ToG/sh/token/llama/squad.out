@@ -1,0 +1,24 @@
+Running job on node: comput07
+Start Running ToG on squad dataset.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+pred:The US military. --- true:the US military
+f1_score:100.0, cumulative:100.0
+pred:He Jin --- true:He Jin
+f1_score:100.0, cumulative:200.0
+pred:Cheaper. --- true:cheaper
+f1_score:100.0, cumulative:300.0
+pred:cotton --- true:cotton
+f1_score:100.0, cumulative:400.0
+pred:American comics. --- true:American comics
+f1_score:100.0, cumulative:500.0
+F1: 100.0000
+Accuracy: 0.0000
+总耗时: 2.52 秒
+{'completion_tokens': 19, 'prompt_tokens': 3367}
+3386
+Thu Nov 20 10:02:37 CST 2025
+comput07

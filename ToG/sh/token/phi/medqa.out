@@ -1,0 +1,112 @@
+Running job on node: comput07
+Start Running ToG on medqa dataset.
+*************************************************************
+*************************************************************
+{'638': 'gastrointestinal system'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:vasoroactive_intestinal_polypeptide (0.6)
+motilin (0.3)
+neuropeptide-y (0.1)
+relations:[{'entity': '638', 'relation': 'vasoroactive_intestinal_polypeptide', 'score': 0.6, 'head': False}, {'entity': '638', 'relation': 'motilin', 'score': 0.3, 'head': False}, {'entity': '638', 'relation': 'neuropeptide-y', 'score': 0.1, 'head': False}]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'382': 'meningitis'}
+----------
+len of total relations:8
+total relations:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+run_llm_extract_result:treated by_medqa (0.5)
+used to treat_medqa (0.3)
+check liver enzymes regularly (0.2)
+relations:[{'entity': '382', 'relation': 'treated by_medqa', 'score': 0.5, 'head': True}, {'entity': '382', 'relation': 'used to treat_medqa', 'score': 0.3, 'head': False}, {'entity': '382', 'relation': 'check liver enzymes regularly', 'score': 0.2, 'head': False}]
+tt:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+final_relations:[{'entity': '382', 'relation': 'treated by_medqa', 'score': 0.5, 'head': True}, {'entity': '382', 'relation': 'used to treat_medqa', 'score': 0.3, 'head': False}]
+ current_entityu_relations:[{'entity': '382', 'relation': 'treated by_medqa', 'score': 0.5, 'head': True}, {'entity': '382', 'relation': 'used to treat_medqa', 'score': 0.3, 'head': False}]
+entity_search len:4 results:[{'head': 382, 'tail': 581, 'hname': 'meningitis', 'tname': 'ceftriaxone'}, {'head': 382, 'tail': 582, 'hname': 'meningitis', 'tname': 'clindamycin'}, {'head': 382, 'tail': 583, 'hname': 'meningitis', 'tname': 'TMP-SMX'}, {'head': 382, 'tail': 584, 'hname': 'meningitis', 'tname': 'rifampin'}]
+entityu_candidates_id:[581, 582, 583, 584]
+entity_candidates_name:['ceftriaxone', 'clindamycin', 'TMP-SMX', 'rifampin']
+All entities are created equal.
+entity_search len:5 results:[{'head': 382, 'tail': 581, 'hname': 'meningitis', 'tname': 'ceftriaxone'}, {'head': 382, 'tail': 582, 'hname': 'meningitis', 'tname': 'clindamycin'}, {'head': 382, 'tail': 583, 'hname': 'meningitis', 'tname': 'TMP-SMX'}, {'head': 382, 'tail': 187, 'hname': 'meningitis', 'tname': 'β-lactamase inhibitors'}, {'head': 382, 'tail': 585, 'hname': 'meningitis', 'tname': 'β-lactam compounds'}]
+entityu_candidates_id:[382, 382, 382, 382, 382]
+entity_candidates_name:['meningitis', 'meningitis', 'meningitis', 'meningitis', 'meningitis']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=382
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=583
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=581
+{382: 'meningitis', 583: 'TMP-SMX', 581: 'ceftriaxone'}
+----------
+len of total relations:7
+total relations:['TREATED_BY_medqa', 'associated with_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+run_llm_extract_result:4. causes_medqa
+7. used to treat_medqa
+3. associated with_medqa
+
+(0.4, 0.4, 0.2)
+relations:[]
+tt:['TREATED_BY_medqa', 'associated with_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['used to treat_medqa']
+run_llm_extract_result:verify response to antibiotic therapy (0.5)
+check liver enzymes regularly (0.3)
+avoid steroids (0.2)
+relations:[{'entity': 583, 'relation': 'verify response to antibiotic therapy', 'score': 0.5, 'head': False}, {'entity': 583, 'relation': 'check liver enzymes regularly', 'score': 0.3, 'head': False}, {'entity': 583, 'relation': 'avoid steroids', 'score': 0.2, 'head': False}]
+tt:['used to treat_medqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['used to treat_medqa']
+run_llm_extract_result:verify response to antibiotic therapy (0.5)
+check liver enzymes regularly (0.3)
+avoid steroids (0.2)
+relations:[{'entity': 581, 'relation': 'verify response to antibiotic therapy', 'score': 0.5, 'head': False}, {'entity': 581, 'relation': 'check liver enzymes regularly', 'score': 0.3, 'head': False}, {'entity': 581, 'relation': 'avoid steroids', 'score': 0.2, 'head': False}]
+tt:['used to treat_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+*************************************************************
+*************************************************************
+{'335': 'kidney disease'}
+----------
+len of total relations:4
+total relations:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+run_llm_extract_result:2. is characterized by_medqa
+3. are found in_medqa
+4. is associated with_medqa
+relations:[]
+tt:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+true:choices_3----pred:4. Perform pericardiocentesis
+true:choices_5----pred:Vasoactive intestinal polypeptide
+
+Based on the knowledge triplets and understanding of the gastrointestinal system, Vasoactive intestinal polypeptide (VIP) is known to relax smooth muscle, including the lower esophageal sphincter and the orad stomach, which aligns with the observed responses in the scientist's study. Therefore, the most appropriate answer is {Vasoactive intestinal polypeptide}.
+true:choices_2----pred:verify response to antibiotic therapy
+chengong!
+chengong!
+F1: 0.0000
+Accuracy: 0.4000
+总耗时: 35.80 秒
+{'completion_tokens': 612, 'prompt_tokens': 12634}
+13246
+Thu Nov 20 09:49:37 CST 2025
+comput07

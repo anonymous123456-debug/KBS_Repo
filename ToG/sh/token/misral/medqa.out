@@ -1,0 +1,161 @@
+Running job on node: comput05
+Start Running ToG on medqa dataset.
+*************************************************************
+*************************************************************
+{'638': 'gastrointestinal system'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:1. associated with_medqa (0.5)
+2. causes_medqa (0.25)
+3. associated with_medqa (0.25)
+relations:[{'entity': '638', 'relation': 'associated with_medqa', 'score': 0.5, 'head': False}, {'entity': '638', 'relation': 'causes_medqa', 'score': 0.25, 'head': False}, {'entity': '638', 'relation': 'associated with_medqa', 'score': 0.25, 'head': False}]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:[{'entity': '638', 'relation': 'associated with_medqa', 'score': 0.5, 'head': False}, {'entity': '638', 'relation': 'causes_medqa', 'score': 0.25, 'head': False}, {'entity': '638', 'relation': 'associated with_medqa', 'score': 0.25, 'head': False}]
+ current_entityu_relations:[{'entity': '638', 'relation': 'associated with_medqa', 'score': 0.5, 'head': False}, {'entity': '638', 'relation': 'causes_medqa', 'score': 0.25, 'head': False}, {'entity': '638', 'relation': 'associated with_medqa', 'score': 0.25, 'head': False}]
+entity_search len:1 results:[{'head': 638, 'tail': 647, 'hname': 'gastrointestinal system', 'tname': 'lymph nodes'}]
+entityu_candidates_id:[638]
+entity_candidates_name:['gastrointestinal system']
+entity_search len:2 results:[{'head': 638, 'tail': 635, 'hname': 'gastrointestinal system', 'tname': 'squamous cell type'}, {'head': 638, 'tail': 639, 'hname': 'gastrointestinal system', 'tname': 'esophageal tumor'}]
+entityu_candidates_id:[638, 638]
+entity_candidates_name:['gastrointestinal system', 'gastrointestinal system']
+All entities are created equal.
+entity_search len:1 results:[{'head': 638, 'tail': 647, 'hname': 'gastrointestinal system', 'tname': 'lymph nodes'}]
+entityu_candidates_id:[638]
+entity_candidates_name:['gastrointestinal system']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+{638: 'gastrointestinal system'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:1. associated with_medqa (0.5)
+2. causes_medqa (0.25)
+3. associated with_medqa (0.25)
+relations:[{'entity': 638, 'relation': 'associated with_medqa', 'score': 0.5, 'head': False}, {'entity': 638, 'relation': 'causes_medqa', 'score': 0.25, 'head': False}, {'entity': 638, 'relation': 'associated with_medqa', 'score': 0.25, 'head': False}]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:[{'entity': 638, 'relation': 'associated with_medqa', 'score': 0.5, 'head': False}, {'entity': 638, 'relation': 'causes_medqa', 'score': 0.25, 'head': False}, {'entity': 638, 'relation': 'associated with_medqa', 'score': 0.25, 'head': False}]
+ current_entityu_relations:[{'entity': 638, 'relation': 'associated with_medqa', 'score': 0.5, 'head': False}, {'entity': 638, 'relation': 'causes_medqa', 'score': 0.25, 'head': False}, {'entity': 638, 'relation': 'associated with_medqa', 'score': 0.25, 'head': False}]
+entity_search len:1 results:[{'head': 638, 'tail': 647, 'hname': 'gastrointestinal system', 'tname': 'lymph nodes'}]
+entityu_candidates_id:[638]
+entity_candidates_name:['gastrointestinal system']
+entity_search len:2 results:[{'head': 638, 'tail': 635, 'hname': 'gastrointestinal system', 'tname': 'squamous cell type'}, {'head': 638, 'tail': 639, 'hname': 'gastrointestinal system', 'tname': 'esophageal tumor'}]
+entityu_candidates_id:[638, 638]
+entity_candidates_name:['gastrointestinal system', 'gastrointestinal system']
+All entities are created equal.
+entity_search len:1 results:[{'head': 638, 'tail': 647, 'hname': 'gastrointestinal system', 'tname': 'lymph nodes'}]
+entityu_candidates_id:[638]
+entity_candidates_name:['gastrointestinal system']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+{638: 'gastrointestinal system'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:1. associated with_medqa (0.5)
+2. causes_medqa (0.25)
+3. associated with_medqa (0.25)
+relations:[{'entity': 638, 'relation': 'associated with_medqa', 'score': 0.5, 'head': False}, {'entity': 638, 'relation': 'causes_medqa', 'score': 0.25, 'head': False}, {'entity': 638, 'relation': 'associated with_medqa', 'score': 0.25, 'head': False}]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:[{'entity': 638, 'relation': 'associated with_medqa', 'score': 0.5, 'head': False}, {'entity': 638, 'relation': 'causes_medqa', 'score': 0.25, 'head': False}, {'entity': 638, 'relation': 'associated with_medqa', 'score': 0.25, 'head': False}]
+ current_entityu_relations:[{'entity': 638, 'relation': 'associated with_medqa', 'score': 0.5, 'head': False}, {'entity': 638, 'relation': 'causes_medqa', 'score': 0.25, 'head': False}, {'entity': 638, 'relation': 'associated with_medqa', 'score': 0.25, 'head': False}]
+entity_search len:1 results:[{'head': 638, 'tail': 647, 'hname': 'gastrointestinal system', 'tname': 'lymph nodes'}]
+entityu_candidates_id:[638]
+entity_candidates_name:['gastrointestinal system']
+entity_search len:2 results:[{'head': 638, 'tail': 635, 'hname': 'gastrointestinal system', 'tname': 'squamous cell type'}, {'head': 638, 'tail': 639, 'hname': 'gastrointestinal system', 'tname': 'esophageal tumor'}]
+entityu_candidates_id:[638, 638]
+entity_candidates_name:['gastrointestinal system', 'gastrointestinal system']
+All entities are created equal.
+entity_search len:1 results:[{'head': 638, 'tail': 647, 'hname': 'gastrointestinal system', 'tname': 'lymph nodes'}]
+entityu_candidates_id:[638]
+entity_candidates_name:['gastrointestinal system']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+*************************************************************
+{'382': 'meningitis'}
+----------
+len of total relations:8
+total relations:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+run_llm_extract_result:choices_4. Avoid steroids
+relations:[]
+tt:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'335': 'kidney disease'}
+----------
+len of total relations:4
+total relations:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+run_llm_extract_result:choices_1. Mesangial deposition of IgA often with C3
+choices_2. Granular sub-endothelial deposits
+choices_3. Linear immunofluorescence deposits of IgG and C3 along GBM
+relations:[]
+tt:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+true:choices_3----pred:choices_4
+true:choices_5----pred:choices_2. Motilin
+true:choices_2----pred:choices_4
+true:choices_5----pred:choices_1
+true:choices_3----pred:choices_1
+F1: 0.0000
+Accuracy: 0.0000
+总耗时: 18.55 秒
+{'completion_tokens': 220, 'prompt_tokens': 11686}
+11906
+Thu Nov 20 09:38:29 CST 2025
+comput05

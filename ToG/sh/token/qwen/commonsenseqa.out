@@ -1,0 +1,143 @@
+Running job on node: comput07
+Start Running ToG on commonsenseqa dataset.
+*************************************************************
+*************************************************************
+*************************************************************
+{'963': 'shopping'}
+----------
+len of total relations:1
+total relations:['can be a form of_commonsense']
+run_llm_extract_result:can be a form of_commonsense (0.3)  
+is related_to_topic_entity (0.4)  
+is_a_choice_option (0.3)
+relations:[{'entity': '963', 'relation': 'can be a form of_commonsense', 'score': 0.3, 'head': True}, {'entity': '963', 'relation': 'is related_to_topic_entity', 'score': 0.4, 'head': False}, {'entity': '963', 'relation': 'is_a_choice_option', 'score': 0.3, 'head': False}]
+tt:['can be a form of_commonsense']
+final_relations:[{'entity': '963', 'relation': 'can be a form of_commonsense', 'score': 0.3, 'head': True}]
+ current_entityu_relations:[{'entity': '963', 'relation': 'can be a form of_commonsense', 'score': 0.3, 'head': True}]
+entity_search len:2 results:[{'head': 963, 'tail': 954, 'hname': 'shopping', 'tname': 'self-expression'}, {'head': 963, 'tail': 953, 'hname': 'shopping', 'tname': 'empowerment'}]
+entityu_candidates_id:[954, 953]
+entity_candidates_name:['self-expression', 'empowerment']
+All entities are created equal.
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=953
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=954
+{953: 'empowerment', 954: 'self-expression'}
+----------
+len of total relations:1
+total relations:['is a symbol of_commonsense']
+run_llm_extract_result:choices_1 (0.33)  
+choices_5 (0.33)  
+choices_2 (0.34)
+relations:[{'entity': 953, 'relation': 'choices_1', 'score': 0.33, 'head': False}, {'entity': 953, 'relation': 'choices_5', 'score': 0.33, 'head': False}, {'entity': 953, 'relation': 'choices_2', 'score': 0.34, 'head': False}]
+tt:['is a symbol of_commonsense']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['is a symbol of_commonsense']
+run_llm_extract_result:is a symbol of_commonsense (0.3)  
+is a part of_commonsense (0.4)  
+occurs in_commonsense (0.3)
+relations:[{'entity': 954, 'relation': 'is a symbol of_commonsense', 'score': 0.3, 'head': False}, {'entity': 954, 'relation': 'is a part of_commonsense', 'score': 0.4, 'head': False}, {'entity': 954, 'relation': 'occurs in_commonsense', 'score': 0.3, 'head': False}]
+tt:['is a symbol of_commonsense']
+final_relations:[{'entity': 954, 'relation': 'is a symbol of_commonsense', 'score': 0.3, 'head': False}]
+ current_entityu_relations:[{'entity': 954, 'relation': 'is a symbol of_commonsense', 'score': 0.3, 'head': False}]
+entity_search len:1 results:[{'head': 954, 'tail': 952, 'hname': 'self-expression', 'tname': 'costume'}]
+entityu_candidates_id:[954]
+entity_candidates_name:['self-expression']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=954
+{954: 'self-expression'}
+----------
+len of total relations:2
+total relations:['can be a form of_commonsense', 'is a symbol of_commonsense']
+run_llm_extract_result:choices_1 (0.33)
+choices_5 (0.34)
+choices_2 (0.33)
+relations:[{'entity': 954, 'relation': 'choices_1', 'score': 0.33, 'head': False}, {'entity': 954, 'relation': 'choices_5', 'score': 0.34, 'head': False}, {'entity': 954, 'relation': 'choices_2', 'score': 0.33, 'head': False}]
+tt:['can be a form of_commonsense', 'is a symbol of_commonsense']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 3, stop searching.
+*************************************************************
+{'946': 'highway'}
+----------
+len of total relations:1
+total relations:['is a type of_commonsense']
+run_llm_extract_result:is a type_of (0.3)
+replaces (0.4)
+instance_of (0.3)
+relations:[{'entity': '946', 'relation': 'is a type_of', 'score': 0.3, 'head': False}, {'entity': '946', 'relation': 'replaces', 'score': 0.4, 'head': False}, {'entity': '946', 'relation': 'instance_of', 'score': 0.3, 'head': False}]
+tt:['is a type of_commonsense']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'948': 'city'}
+----------
+len of total relations:1
+total relations:['has_commonsense']
+run_llm_extract_result:has_commonsense (0.4)
+has_commonsense (0.3)
+natural_habitat (0.3)
+relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.4, 'head': True}, {'entity': '948', 'relation': 'has_commonsense', 'score': 0.3, 'head': True}, {'entity': '948', 'relation': 'natural_habitat', 'score': 0.3, 'head': False}]
+tt:['has_commonsense']
+final_relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.4, 'head': True}, {'entity': '948', 'relation': 'has_commonsense', 'score': 0.3, 'head': True}]
+ current_entityu_relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.4, 'head': True}, {'entity': '948', 'relation': 'has_commonsense', 'score': 0.3, 'head': True}]
+entity_search len:1 results:[{'head': 948, 'tail': 917, 'hname': 'city', 'tname': 'road infrastructure'}]
+entityu_candidates_id:[917]
+entity_candidates_name:['road infrastructure']
+entity_search len:1 results:[{'head': 948, 'tail': 917, 'hname': 'city', 'tname': 'road infrastructure'}]
+entityu_candidates_id:[917]
+entity_candidates_name:['road infrastructure']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=917
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=917
+{917: 'road infrastructure'}
+----------
+len of total relations:0
+
+    MATCH (e {id:$entity_id})-[r]->(t)
+    RETURN DISTINCT type(r) as label
+    
+
+    MATCH (h)-[r]->(e {id:$entity_id})
+    RETURN DISTINCT type(r) as label
+    
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+chengong!
+chengong!
+chengong!
+chengong!
+chengong!
+F1: 0.0000
+Accuracy: 1.0000
+总耗时: 12.56 秒
+{'completion_tokens': 221, 'prompt_tokens': 8817}
+9038
+Thu Nov 20 09:42:17 CST 2025
+comput07

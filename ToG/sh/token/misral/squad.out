@@ -1,0 +1,24 @@
+Running job on node: comput05
+Start Running ToG on squad dataset.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+pred:The US military --- true:the US military
+f1_score:100.0, cumulative:100.0
+pred:He Jin --- true:He Jin
+f1_score:100.0, cumulative:200.0
+pred:USB is cheaper than PoE. --- true:cheaper
+f1_score:33.33, cumulative:233.32999999999998
+pred:cotton --- true:cotton
+f1_score:100.0, cumulative:333.33
+pred:American comics --- true:American comics
+f1_score:100.0, cumulative:433.33
+F1: 86.6660
+Accuracy: 0.0000
+总耗时: 2.42 秒
+{'completion_tokens': 21, 'prompt_tokens': 3200}
+3221
+Thu Nov 20 09:38:44 CST 2025
+comput05

@@ -1,0 +1,2328 @@
+Running job on node: comput11
+Start Running ToG on medqa dataset.
+*************************************************************
+*************************************************************
+{'638': 'gastrointestinal system'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:2. causes_medqa
+relations:[]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'382': 'meningitis'}
+----------
+len of total relations:8
+total relations:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+run_llm_extract_result:3. treated by_medqa
+relations:[]
+tt:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'335': 'kidney disease'}
+----------
+len of total relations:4
+total relations:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+run_llm_extract_result:3. are found in_medqa
+relations:[]
+tt:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'333': 'edema', '429': 'shortness of breath'}
+----------
+len of total relations:2
+total relations:['is a symptom of_medqa', 'is characterized by_medqa']
+run_llm_extract_result:3. is characterized by_medqa
+relations:[]
+tt:['is a symptom of_medqa', 'is characterized by_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:1 (0.6)
+relations:[{'entity': '429', 'relation': '1', 'score': 0.6, 'head': False}]
+tt:['results in_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'178': 'hypertension'}
+----------
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'478': 'chemotherapy'}
+----------
+len of total relations:1
+total relations:['treated with_medqa']
+run_llm_extract_result:"Vitamin C" (0.5)
+relations:[{'entity': '478', 'relation': '"Vitamin C"', 'score': 0.5, 'head': False}]
+tt:['treated with_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'429': 'shortness of breath', '178': 'hypertension', '333': 'edema'}
+----------
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:(choices_2) Ischemic heart disease
+relations:[]
+tt:['results in_medqa']
+final_relations:No relations found
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is a symptom of_medqa', 'is characterized by_medqa']
+run_llm_extract_result:1 (choices_1) is a symptom of edema
+relations:[]
+tt:['is a symptom of_medqa', 'is characterized by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'229': 'treatment'}
+----------
+len of total relations:1
+total relations:['treated_by_medqa']
+run_llm_extract_result:choices_1. Microvascular decompression
+relations:[]
+tt:['treated_by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'316': 'fever'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1. is caused by_medqa
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'459': 'newborn', '637': 'anemia'}
+----------
+len of total relations:1
+total relations:['prone to_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '459', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['prone to_medqa']
+final_relations:All relations pruned
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:1 (associated with_medqa)
+relations:[]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'697': 'anxiety', '240': 'trauma'}
+----------
+len of total relations:1
+total relations:['associated with_medqa']
+run_llm_extract_result:choices_3. Post-traumatic stress disorder (PTSD)
+relations:[]
+tt:['associated with_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['considered_in_differential_diagnosis_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '240', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['considered_in_differential_diagnosis_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'203': 'diabetes', '178': 'hypertension'}
+----------
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. COMPLICATED_BY_medqa
+relations:[]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'317': 'obesity', '203': 'diabetes'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:choices_2. Fasting plasma glucose 123 mg/dL
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:choices_2. Fasting plasma glucose 123 mg/dL
+relations:[]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'444': 'seizures', '365': 'medication'}
+----------
+len of total relations:3
+total relations:['associated with_medqa', 'associated with_medqa', 'can cause_medqa']
+run_llm_extract_result:3. can cause_medqa
+relations:[]
+tt:['associated with_medqa', 'associated with_medqa', 'can cause_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['TREATED_BY_medqa']
+run_llm_extract_result:choices_1. Abnormally decreased expression of the gene from both chromosomes
+relations:[]
+tt:['TREATED_BY_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'316': 'fever'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '316', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['is caused by_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'323': 'pyuria'}
+----------
+len of total relations:5
+total relations:['is a symptom of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is a cause of_medqa', 'is used to diagnose_medqa']
+run_llm_extract_result:1. is a symptom of_medqa
+relations:[]
+tt:['is a symptom of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is a cause of_medqa', 'is used to diagnose_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'234': 'vaginal bleeding'}
+----------
+len of total relations:1
+total relations:['characterized_by_medqa']
+run_llm_extract_result:characterized_by_medqa (0.8)
+relations:[{'entity': '234', 'relation': 'characterized_by_medqa', 'score': 0.8, 'head': False}]
+tt:['characterized_by_medqa']
+final_relations:[{'entity': '234', 'relation': 'characterized_by_medqa', 'score': 0.8, 'head': False}]
+ current_entityu_relations:[{'entity': '234', 'relation': 'characterized_by_medqa', 'score': 0.8, 'head': False}]
+entity_search len:1 results:[{'head': 234, 'tail': 233, 'hname': 'vaginal bleeding', 'tname': 'threatened abortion'}]
+entityu_candidates_id:[234]
+entity_candidates_name:['vaginal bleeding']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=234
+{234: 'vaginal bleeding'}
+----------
+len of total relations:1
+total relations:['characterized_by_medqa']
+run_llm_extract_result:characterized_by_medqa (0.8)
+relations:[{'entity': 234, 'relation': 'characterized_by_medqa', 'score': 0.8, 'head': False}]
+tt:['characterized_by_medqa']
+final_relations:[{'entity': 234, 'relation': 'characterized_by_medqa', 'score': 0.8, 'head': False}]
+ current_entityu_relations:[{'entity': 234, 'relation': 'characterized_by_medqa', 'score': 0.8, 'head': False}]
+entity_search len:1 results:[{'head': 234, 'tail': 233, 'hname': 'vaginal bleeding', 'tname': 'threatened abortion'}]
+entityu_candidates_id:[234]
+entity_candidates_name:['vaginal bleeding']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=234
+{234: 'vaginal bleeding'}
+----------
+len of total relations:1
+total relations:['characterized_by_medqa']
+run_llm_extract_result:characterized_by_medqa (0.8)
+relations:[{'entity': 234, 'relation': 'characterized_by_medqa', 'score': 0.8, 'head': False}]
+tt:['characterized_by_medqa']
+final_relations:[{'entity': 234, 'relation': 'characterized_by_medqa', 'score': 0.8, 'head': False}]
+ current_entityu_relations:[{'entity': 234, 'relation': 'characterized_by_medqa', 'score': 0.8, 'head': False}]
+entity_search len:1 results:[{'head': 234, 'tail': 233, 'hname': 'vaginal bleeding', 'tname': 'threatened abortion'}]
+entityu_candidates_id:[234]
+entity_candidates_name:['vaginal bleeding']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=234
+*************************************************************
+{'178': 'hypertension', '333': 'edema'}
+----------
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is a symptom of_medqa', 'is characterized by_medqa']
+run_llm_extract_result:1 (0.5)
+2 (0.5)
+relations:[{'entity': '333', 'relation': '1', 'score': 0.5, 'head': False}, {'entity': '333', 'relation': '2', 'score': 0.5, 'head': False}]
+tt:['is a symptom of_medqa', 'is characterized by_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'180': 'amoxicillin'}
+----------
+len of total relations:4
+total relations:['INTERACTS_WITH_medqa', 'TREATED_medqa', 'is_allergic_medqa', 'is_used_for_medqa']
+run_llm_extract_result:1. INTERACTS_WITH_medqa
+relations:[]
+tt:['INTERACTS_WITH_medqa', 'TREATED_medqa', 'is_allergic_medqa', 'is_used_for_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'686': 'ptosis'}
+----------
+len of total relations:1
+total relations:['associated with_medqa']
+run_llm_extract_result:ptosis (0.8)
+relations:[{'entity': '686', 'relation': 'ptosis', 'score': 0.8, 'head': False}]
+tt:['associated with_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'203': 'diabetes'}
+----------
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:choices_4. Reducing the secretory product of type II alveolar cells
+relations:[]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'325': 'urinary tract infection', '637': 'anemia'}
+----------
+len of total relations:4
+total relations:['is characterized by_medqa', 'TREATED_medqa', 'TREATS_medqa', 'is a symptom of_medqa']
+run_llm_extract_result:ECV (choice_1)
+relations:[]
+tt:['is characterized by_medqa', 'TREATED_medqa', 'TREATS_medqa', 'is a symptom of_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:1 (associated with_medqa)
+relations:[]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'203': 'diabetes'}
+----------
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. COMPLICATED_BY_diabetes
+2. is a cause of_diabetes
+3. is associated with_diabetes
+4. was used to treat_diabetes
+5. was associated with_diabetes
+relations:[]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'360': 'osteoporosis'}
+----------
+len of total relations:3
+total relations:['TREATED_BY_medqa', 'TREATS_medqa', 'was used to treat_medqa']
+run_llm_extract_result:3. was used to treat_medqa
+relations:[]
+tt:['TREATED_BY_medqa', 'TREATS_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'316': 'fever'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1. is caused by_medqa
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'203': 'diabetes', '765': 'metformin', '762': 'insulin', '552': 'echocardiogram'}
+----------
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:choices_1. Prothrombin time and platelet count
+relations:[]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['was used to treat_medqa']
+run_llm_extract_result:choices_1. Prothrombin time and platelet count
+relations:[]
+tt:['was used to treat_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['was related to_medqa', 'was used to treat_medqa']
+run_llm_extract_result:choices_1. Prothrombin time and platelet count
+relations:[]
+tt:['was related to_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is diagnosed by_medqa']
+run_llm_extract_result:choices_1. Prothrombin time and platelet count
+relations:[]
+tt:['is diagnosed by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'203': 'diabetes', '178': 'hypertension'}
+----------
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. COMPLICATED_BY_medqa
+relations:[]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. Leriche syndrome
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'314': 'proteinuria', '319': 'albuminuria', '335': 'kidney disease', '330': 'nephrotic syndrome'}
+----------
+len of total relations:15
+total relations:['associated with_medqa', 'is associated with_medqa', 'is caused by_medqa', 'is characterized by_medqa', 'is diagnosed by_medqa', 'is treated with_medqa', 'are a cause of_medqa', 'are used to treat_medqa', 'associated with_medqa', 'causes_medqa', 'is a cause of_medqa', 'is a symptom of_medqa', 'is a type of_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+run_llm_extract_result:3. Selective glomerular
+relations:[]
+tt:['associated with_medqa', 'is associated with_medqa', 'is caused by_medqa', 'is characterized by_medqa', 'is diagnosed by_medqa', 'is treated with_medqa', 'are a cause of_medqa', 'are used to treat_medqa', 'associated with_medqa', 'causes_medqa', 'is a cause of_medqa', 'is a symptom of_medqa', 'is a type of_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+final_relations:No relations found
+len of total relations:4
+total relations:['is a type of_medqa', 'is characterized by_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+run_llm_extract_result:1. is a type of_medqa
+2. is characterized by_medqa
+3. is characterized by_medqa
+relations:[]
+tt:['is a type of_medqa', 'is characterized by_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+final_relations:No relations found
+len of total relations:4
+total relations:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+run_llm_extract_result:3. are found in_medqa
+relations:[]
+tt:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+final_relations:No relations found
+len of total relations:12
+total relations:['is caused by_medqa', 'is characterized by_medqa', 'are a cause of_medqa', 'are found in_medqa', 'are lost in_medqa', 'are used to treat_medqa', 'is a cause of_medqa', 'is a complication of_medqa', 'is a symptom of_medqa', 'is associated with_medqa', 'is characterized by_medqa', 'is lost in_medqa']
+run_llm_extract_result:3. are a cause of_medqa
+relations:[]
+tt:['is caused by_medqa', 'is characterized by_medqa', 'are a cause of_medqa', 'are found in_medqa', 'are lost in_medqa', 'are used to treat_medqa', 'is a cause of_medqa', 'is a complication of_medqa', 'is a symptom of_medqa', 'is associated with_medqa', 'is characterized by_medqa', 'is lost in_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'576': 'kidney transplantation', '316': 'fever'}
+----------
+len of total relations:2
+total relations:['used to treat_medqa', 'treated by_medqa']
+run_llm_extract_result:2. treated by_medqa
+relations:[]
+tt:['used to treat_medqa', 'treated by_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1. is caused by_medqa
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'786': 'blood pressure', '333': 'edema', '314': 'proteinuria', '265': 'fetal heart rate', '178': 'hypertension'}
+----------
+len of total relations:1
+total relations:['was measured in_medqa']
+run_llm_extract_result:1. was measured in_medqa
+relations:[]
+tt:['was measured in_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is a symptom of_medqa', 'is characterized by_medqa']
+run_llm_extract_result:1 (0.5)
+2 (0.5)
+relations:[{'entity': '333', 'relation': '1', 'score': 0.5, 'head': False}, {'entity': '333', 'relation': '2', 'score': 0.5, 'head': False}]
+tt:['is a symptom of_medqa', 'is characterized by_medqa']
+final_relations:All relations pruned
+len of total relations:15
+total relations:['associated with_medqa', 'is associated with_medqa', 'is caused by_medqa', 'is characterized by_medqa', 'is diagnosed by_medqa', 'is treated with_medqa', 'are a cause of_medqa', 'are used to treat_medqa', 'associated with_medqa', 'causes_medqa', 'is a cause of_medqa', 'is a symptom of_medqa', 'is a type of_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+run_llm_extract_result:1. associated with_medqa
+relations:[]
+tt:['associated with_medqa', 'is associated with_medqa', 'is caused by_medqa', 'is characterized by_medqa', 'is diagnosed by_medqa', 'is treated with_medqa', 'are a cause of_medqa', 'are used to treat_medqa', 'associated with_medqa', 'causes_medqa', 'is a cause of_medqa', 'is a symptom of_medqa', 'is a type of_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['monitored_by_medqa', 'most_valuable_information_medqa']
+run_llm_extract_result:1. monitored_by_medqa
+relations:[]
+tt:['monitored_by_medqa', 'most_valuable_information_medqa']
+final_relations:No relations found
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'498': 'irritability'}
+----------
+len of total relations:1
+total relations:['associated with_medqa']
+run_llm_extract_result:choices_1 (0.5)
+relations:[{'entity': '498', 'relation': 'choices_1', 'score': 0.5, 'head': False}]
+tt:['associated with_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'647': 'lymph nodes'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'associated with_medqa']
+run_llm_extract_result:choices_1. External iliac
+relations:[]
+tt:['associated with_medqa', 'associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'316': 'fever'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1. is caused by_medqa
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'459': 'newborn', '526': 'physical examination'}
+----------
+len of total relations:1
+total relations:['prone to_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '459', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['prone to_medqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['is targeted at_medqa']
+run_llm_extract_result:3. Deletion of Chromosome 5p
+relations:[]
+tt:['is targeted at_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'203': 'diabetes'}
+----------
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1 (0.8)
+2 (0.6)
+3 (0.4)
+4 (0.2)
+5 (0.2)
+relations:[{'entity': '203', 'relation': '1', 'score': 0.8, 'head': False}, {'entity': '203', 'relation': '2', 'score': 0.6, 'head': False}, {'entity': '203', 'relation': '3', 'score': 0.4, 'head': False}, {'entity': '203', 'relation': '4', 'score': 0.2, 'head': False}, {'entity': '203', 'relation': '5', 'score': 0.2, 'head': False}]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'645': 'lung cancer'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:3. causes_medqa
+relations:[]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'359': 'trimethoprim-sulfamethoxazole', '302': 'UTI', '326': 'bacteria'}
+----------
+len of total relations:3
+total relations:['INTERACTS_WITH_medqa', 'TREATED_medqa', 'TREATS_medqa']
+run_llm_extract_result:3. P fimbriae
+relations:[]
+tt:['INTERACTS_WITH_medqa', 'TREATED_medqa', 'TREATS_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['Disease_medqa', 'Risk_medqa']
+run_llm_extract_result:1 (0.6)
+relations:[{'entity': '302', 'relation': '1', 'score': 0.6, 'head': False}]
+tt:['Disease_medqa', 'Risk_medqa']
+final_relations:All relations pruned
+len of total relations:3
+total relations:['are found in_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+run_llm_extract_result:3. is used to diagnose
+relations:[]
+tt:['are found in_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'669': 'aspiration'}
+----------
+len of total relations:1
+total relations:['associated with_medqa']
+run_llm_extract_result:aspiration (0.8)
+relations:[{'entity': '669', 'relation': 'aspiration', 'score': 0.8, 'head': False}]
+tt:['associated with_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'263': 'ultrasound', '178': 'hypertension', '181': 'patient'}
+----------
+len of total relations:1
+total relations:['evaluated_by_medqa']
+run_llm_extract_result:evaluated_by_medqa (0.8)
+relations:[{'entity': '263', 'relation': 'evaluated_by_medqa', 'score': 0.8, 'head': False}]
+tt:['evaluated_by_medqa']
+final_relations:[{'entity': '263', 'relation': 'evaluated_by_medqa', 'score': 0.8, 'head': False}]
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_allergic_medqa']
+run_llm_extract_result:4. Elective repair
+relations:[]
+tt:['is_allergic_medqa']
+final_relations:No relations found
+ current_entityu_relations:[{'entity': '263', 'relation': 'evaluated_by_medqa', 'score': 0.8, 'head': False}]
+entity_search len:1 results:[{'head': 263, 'tail': 262, 'hname': 'ultrasound', 'tname': 'abdominopelvic trauma'}]
+entityu_candidates_id:[263]
+entity_candidates_name:['ultrasound']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=263
+{263: 'ultrasound'}
+----------
+len of total relations:1
+total relations:['evaluated_by_medqa']
+run_llm_extract_result:evaluated_by_medqa (0.8)
+relations:[{'entity': 263, 'relation': 'evaluated_by_medqa', 'score': 0.8, 'head': False}]
+tt:['evaluated_by_medqa']
+final_relations:[{'entity': 263, 'relation': 'evaluated_by_medqa', 'score': 0.8, 'head': False}]
+ current_entityu_relations:[{'entity': 263, 'relation': 'evaluated_by_medqa', 'score': 0.8, 'head': False}]
+entity_search len:1 results:[{'head': 263, 'tail': 262, 'hname': 'ultrasound', 'tname': 'abdominopelvic trauma'}]
+entityu_candidates_id:[263]
+entity_candidates_name:['ultrasound']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=263
+{263: 'ultrasound'}
+----------
+len of total relations:1
+total relations:['evaluated_by_medqa']
+run_llm_extract_result:evaluated_by_medqa (0.8)
+relations:[{'entity': 263, 'relation': 'evaluated_by_medqa', 'score': 0.8, 'head': False}]
+tt:['evaluated_by_medqa']
+final_relations:[{'entity': 263, 'relation': 'evaluated_by_medqa', 'score': 0.8, 'head': False}]
+ current_entityu_relations:[{'entity': 263, 'relation': 'evaluated_by_medqa', 'score': 0.8, 'head': False}]
+entity_search len:1 results:[{'head': 263, 'tail': 262, 'hname': 'ultrasound', 'tname': 'abdominopelvic trauma'}]
+entityu_candidates_id:[263]
+entity_candidates_name:['ultrasound']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=263
+*************************************************************
+{'295': 'Fever'}
+----------
+len of total relations:4
+total relations:['Examination_medqa', 'Symptom_medqa', 'Examination_medqa', 'Symptoms_medqa']
+run_llm_extract_result:1. Examination_medqa
+relations:[]
+tt:['Examination_medqa', 'Symptom_medqa', 'Examination_medqa', 'Symptoms_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'395': 'malaria', '637': 'anemia', '429': 'shortness of breath'}
+----------
+len of total relations:2
+total relations:['is diagnosed by_medqa', 'CAUSES_medqa']
+run_llm_extract_result:2. CAUSES_medqa
+relations:[]
+tt:['is diagnosed by_medqa', 'CAUSES_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:2. causes_medqa
+relations:[]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:2. This condition resulted from primaquine overdose.
+relations:[]
+tt:['results in_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'636': 'cancer', '171': 'protein'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'is a type of_medqa']
+run_llm_extract_result:choices_1. Autophagic vacuoles
+relations:[]
+tt:['associated with_medqa', 'is a type of_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is translated into_medqa', 'reveals_medqa']
+run_llm_extract_result:choices_1. Autophagic vacuoles
+relations:[]
+tt:['is translated into_medqa', 'reveals_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'429': 'shortness of breath'}
+----------
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:"3 (choices_4: Positive rapid plasma reagin test)"
+relations:[]
+tt:['results in_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'316': 'fever', '196': 'cerebrospinal fluid'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1. is caused by_medqa
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_used_for_medqa']
+run_llm_extract_result:choices_1. Echovirus
+relations:[]
+tt:['is_used_for_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'429': 'shortness of breath'}
+----------
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:results in_medqa
+relations:[]
+tt:['results in_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'561': 'cells'}
+----------
+len of total relations:1
+total relations:['stored in_medqa']
+run_llm_extract_result:1. stored in_medqa
+relations:[]
+tt:['stored in_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'196': 'cerebrospinal fluid'}
+----------
+len of total relations:1
+total relations:['is_used_for_medqa']
+run_llm_extract_result:choices_3. Two-sample t-test
+relations:[]
+tt:['is_used_for_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'315': 'exercise'}
+----------
+len of total relations:2
+total relations:['was used to treat_medqa', 'is caused by_medqa']
+run_llm_extract_result:2. is caused by_medqa
+relations:[]
+tt:['was used to treat_medqa', 'is caused by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'360': 'osteoporosis', '178': 'hypertension', '177': 'hydrochlorothiazide', '773': 'calcium', '774': 'vitamin D'}
+----------
+len of total relations:3
+total relations:['TREATED_BY_medqa', 'TREATS_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. TREATED_BY_medqa
+relations:[]
+tt:['TREATED_BY_medqa', 'TREATS_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:6
+total relations:['CAUSED_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa', 'TREATED_BY_medqa', 'treated by_medqa']
+run_llm_extract_result:1. CAUSED_medqa
+relations:[]
+tt:['CAUSED_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa', 'TREATED_BY_medqa', 'treated by_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['was related to_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '773', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['was related to_medqa', 'was used to treat_medqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['was used to treat_medqa']
+run_llm_extract_result:vitamin D (choices_1)
+relations:[]
+tt:['was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'365': 'medication'}
+----------
+len of total relations:1
+total relations:['TREATED_BY_medqa']
+run_llm_extract_result:choices_1
+relations:[]
+tt:['TREATED_BY_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'178': 'hypertension', '333': 'edema'}
+----------
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is a symptom of_medqa', 'is characterized by_medqa']
+run_llm_extract_result:1 (is a symptom of)
+relations:[]
+tt:['is a symptom of_medqa', 'is characterized by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'786': 'blood pressure'}
+----------
+len of total relations:1
+total relations:['was measured in_medqa']
+run_llm_extract_result:1. was measured in_medqa
+relations:[]
+tt:['was measured in_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'240': 'trauma'}
+----------
+len of total relations:1
+total relations:['considered_in_differential_diagnosis_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '240', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['considered_in_differential_diagnosis_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'564': 'ischemia'}
+----------
+len of total relations:5
+total relations:['associated with_medqa', 'causes_medqa', 'associated with_medqa', 'causes_medqa', 'leads to_medqa']
+run_llm_extract_result:3. Frostbite
+relations:[]
+tt:['associated with_medqa', 'causes_medqa', 'associated with_medqa', 'causes_medqa', 'leads to_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'637': 'anemia'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:associated_with_medqa
+relations:[]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'211': 'palpitations', '429': 'shortness of breath'}
+----------
+len of total relations:2
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '211', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '429', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['results in_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'730': 'gonorrhea', '342': 'urinalysis'}
+----------
+len of total relations:1
+total relations:['causes_medqa']
+run_llm_extract_result:3. Maintain confidentiality and treat the patient.
+relations:[]
+tt:['causes_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is diagnosed by_medqa']
+run_llm_extract_result:1 (x.75)
+relations:[]
+tt:['is diagnosed by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'450': 'frostbite'}
+----------
+len of total relations:2
+total relations:['thawing method_medqa', 'treated with_medqa']
+run_llm_extract_result:choices_1. Cellulitis
+relations:[]
+tt:['thawing method_medqa', 'treated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'203': 'diabetes', '769': 'atorvastatin', '762': 'insulin'}
+----------
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1 (0.5)
+2 (0.5)
+3 (0.5)
+4 (0.5)
+5 (0.5)
+relations:[{'entity': '203', 'relation': '1', 'score': 0.5, 'head': False}, {'entity': '203', 'relation': '2', 'score': 0.5, 'head': False}, {'entity': '203', 'relation': '3', 'score': 0.5, 'head': False}, {'entity': '203', 'relation': '4', 'score': 0.5, 'head': False}, {'entity': '203', 'relation': '5', 'score': 0.5, 'head': False}]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['was used to treat_medqa']
+run_llm_extract_result:1. was used to treat_medqa
+relations:[]
+tt:['was used to treat_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['was related to_medqa', 'was used to treat_medqa']
+run_llm_extract_result:insulin (0.8)
+relations:[{'entity': '762', 'relation': 'insulin', 'score': 0.8, 'head': False}]
+tt:['was related to_medqa', 'was used to treat_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'178': 'hypertension', '333': 'edema'}
+----------
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is a symptom of_medqa', 'is characterized by_medqa']
+run_llm_extract_result:1 (0.8)
+2 (0.2)
+relations:[{'entity': '333', 'relation': '1', 'score': 0.8, 'head': False}, {'entity': '333', 'relation': '2', 'score': 0.2, 'head': False}]
+tt:['is a symptom of_medqa', 'is characterized by_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'316': 'fever', '381': 'pneumonia'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1. is caused by_medqa
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+len of total relations:8
+total relations:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+run_llm_extract_result:3. Streptococcus pneumoniae
+relations:[]
+tt:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'381': 'pneumonia', '316': 'fever'}
+----------
+len of total relations:8
+total relations:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+run_llm_extract_result:1. Pneumonia
+2. Pneumonia
+3. Pneumonia
+4. Pneumonia
+5. Pneumonia
+6. Pneumonia
+7. Pneumonia
+8. Pneumonia
+relations:[]
+tt:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '316', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['is caused by_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'426': 'cyanosis'}
+----------
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '426', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['results in_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'328': 'blood', '557': 'disease'}
+----------
+len of total relations:1
+total relations:['is a component of_medqa']
+run_llm_extract_result:1 (x.75)
+relations:[]
+tt:['is a component of_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['causes_medqa']
+run_llm_extract_result:disease (0.8)
+
+A: disease (0.8)
+
+A: disease (0.8)
+relations:[{'entity': '557', 'relation': 'disease', 'score': 0.8, 'head': False}, {'entity': '557', 'relation': 'A: disease', 'score': 0.8, 'head': False}, {'entity': '557', 'relation': 'A: disease', 'score': 0.8, 'head': False}]
+tt:['causes_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'692': 'peptic ulcer disease', '575': 'hemodialysis'}
+----------
+len of total relations:1
+total relations:['associated with_medqa']
+run_llm_extract_result:1 (associated with_medqa)
+relations:[]
+tt:['associated with_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['used to treat_medqa', 'treated by_medqa']
+run_llm_extract_result:2. treated by_medqa
+relations:[]
+tt:['used to treat_medqa', 'treated by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'365': 'medication', '434': 'levodopa'}
+----------
+len of total relations:1
+total relations:['TREATED_BY_medqa']
+run_llm_extract_result:1 (x.75)
+relations:[]
+tt:['TREATED_BY_medqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['is absorbed_medqa', 'is metabolized_medqa', 'is a metabolite of_medqa']
+run_llm_extract_result:1. is absorbed_medqa
+relations:[]
+tt:['is absorbed_medqa', 'is metabolized_medqa', 'is a metabolite of_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'316': 'fever'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1. is caused by_medqa
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'564': 'ischemia', '178': 'hypertension', '203': 'diabetes'}
+----------
+len of total relations:5
+total relations:['associated with_medqa', 'causes_medqa', 'associated with_medqa', 'causes_medqa', 'leads to_medqa']
+run_llm_extract_result:1. associated with_medqa
+relations:[]
+tt:['associated with_medqa', 'causes_medqa', 'associated with_medqa', 'causes_medqa', 'leads to_medqa']
+final_relations:No relations found
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:2. is a cause of_medqa
+relations:[]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'316': 'fever'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '316', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['is caused by_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'249': 'tachycardia', '459': 'newborn', '426': 'cyanosis'}
+----------
+len of total relations:1
+total relations:['characterized_by_medqa']
+run_llm_extract_result:1 (x.75)
+relations:[]
+tt:['characterized_by_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['prone to_medqa']
+run_llm_extract_result:1 (x.75)
+relations:[]
+tt:['prone to_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:1 (x.75)
+relations:[]
+tt:['results in_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'378': 'fluoxetine', '178': 'hypertension', '203': 'diabetes'}
+----------
+len of total relations:2
+total relations:['INTERACTS_WITH_medqa', 'TREATED_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '378', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['INTERACTS_WITH_medqa', 'TREATED_medqa']
+final_relations:All relations pruned
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:2. is a cause of_medqa
+relations:[]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'263': 'ultrasound'}
+----------
+len of total relations:1
+total relations:['evaluated_by_medqa']
+run_llm_extract_result:choices_1. Diagnostic laparoscopy
+relations:[]
+tt:['evaluated_by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'181': 'patient'}
+----------
+len of total relations:1
+total relations:['is_allergic_medqa']
+run_llm_extract_result:patient (0.8)
+relations:[{'entity': '181', 'relation': 'patient', 'score': 0.8, 'head': False}]
+tt:['is_allergic_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'762': 'insulin'}
+----------
+len of total relations:2
+total relations:['was related to_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '762', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['was related to_medqa', 'was used to treat_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'178': 'hypertension', '177': 'hydrochlorothiazide', '779': 'serum creatinine', '342': 'urinalysis'}
+----------
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:6
+total relations:['CAUSED_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa', 'TREATED_BY_medqa', 'treated by_medqa']
+run_llm_extract_result:1. CAUSED_medqa
+relations:[]
+tt:['CAUSED_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa', 'TREATED_BY_medqa', 'treated by_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['was measured in_medqa']
+run_llm_extract_result:choices_4. Hyaline casts
+relations:[]
+tt:['was measured in_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is diagnosed by_medqa']
+run_llm_extract_result:choices_3. Urate crystals
+relations:[]
+tt:['is diagnosed by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'316': 'fever', '342': 'urinalysis'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '316', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['is caused by_medqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['is diagnosed by_medqa']
+run_llm_extract_result:1. is diagnosed by_medqa
+relations:[]
+tt:['is diagnosed by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'377': 'pruritus', '697': 'anxiety'}
+----------
+len of total relations:1
+total relations:['TREATED_medqa']
+run_llm_extract_result:choices_2. Supplement use
+relations:[]
+tt:['TREATED_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['associated with_medqa']
+run_llm_extract_result:choices_2. Supplement use
+relations:[]
+tt:['associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'360': 'osteoporosis'}
+----------
+len of total relations:3
+total relations:['TREATED_BY_medqa', 'TREATS_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1 (x.7)
+relations:[]
+tt:['TREATED_BY_medqa', 'TREATS_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'178': 'hypertension', '637': 'anemia'}
+----------
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:1 (0.5)
+relations:[{'entity': '637', 'relation': '1', 'score': 0.5, 'head': False}]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'229': 'treatment'}
+----------
+len of total relations:1
+total relations:['treated_by_medqa']
+run_llm_extract_result:1. Mebendazole
+relations:[]
+tt:['treated_by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'342': 'urinalysis'}
+----------
+len of total relations:1
+total relations:['is diagnosed by_medqa']
+run_llm_extract_result:choices_1. Glucose: 0 mg/dL, Sodium: 45 mL/min, Creatinine: 100 mg/dL
+relations:[]
+tt:['is diagnosed by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'211': 'palpitations'}
+----------
+len of total relations:2
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa']
+run_llm_extract_result:choices_1. T4 elevated, free T4 normal, T3 elevated, TSH normal
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'476': 'surgical resection', '521': 'hormone replacement therapy'}
+----------
+len of total relations:1
+total relations:['treated with_medqa']
+run_llm_extract_result:2. Fludrocortisone
+relations:[]
+tt:['treated with_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['treated with_medqa']
+run_llm_extract_result:2. Fludrocortisone
+relations:[]
+tt:['treated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'317': 'obesity', '178': 'hypertension', '526': 'physical examination', '342': 'urinalysis'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1 (is caused by_medqa)
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is targeted at_medqa']
+run_llm_extract_result:1 (is targeted at_medqa)
+relations:[]
+tt:['is targeted at_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is diagnosed by_medqa']
+run_llm_extract_result:1. is diagnosed by_medqa
+relations:[]
+tt:['is diagnosed by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'178': 'hypertension', '316': 'fever'}
+----------
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CT pulmonary angiography
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '316', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['is caused by_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'637': 'anemia'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:2. causes_medqa
+relations:[]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'633': 'dehydration', '562': 'renal', '458': 'fluid resuscitation'}
+----------
+len of total relations:1
+total relations:['can cause_medqa']
+run_llm_extract_result:choices_1 (0.8)
+relations:[{'entity': '633', 'relation': 'choices_1', 'score': 0.8, 'head': False}]
+tt:['can cause_medqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['has_medqa']
+run_llm_extract_result:choices_1. Decreased renal perfusion
+relations:[]
+tt:['has_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['treated with_medqa']
+run_llm_extract_result:choices_1. Decreased renal perfusion
+relations:[]
+tt:['treated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'637': 'anemia'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:CD55 (0.85)
+relations:[{'entity': '637', 'relation': 'CD55', 'score': 0.85, 'head': False}]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'766': 'type 2 diabetes'}
+----------
+len of total relations:1
+total relations:['was used to treat_medqa']
+run_llm_extract_result:1. was used to treat_medqa
+relations:[]
+tt:['was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'178': 'hypertension', '761': 'atrial fibrillation', '562': 'renal', '564': 'ischemia'}
+----------
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:choices_1. Caseous necrosis
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['was used to treat_medqa']
+run_llm_extract_result:choices_1. was used to treat_medqa
+relations:[]
+tt:['was used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['has_medqa']
+run_llm_extract_result:"coagulative necrosis" (x.75)
+relations:[]
+tt:['has_medqa']
+final_relations:No relations found
+len of total relations:5
+total relations:['associated with_medqa', 'causes_medqa', 'associated with_medqa', 'causes_medqa', 'leads to_medqa']
+run_llm_extract_result:5. leads to_medqa
+relations:[]
+tt:['associated with_medqa', 'causes_medqa', 'associated with_medqa', 'causes_medqa', 'leads to_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'316': 'fever', '589': 'throat culture', '326': 'bacteria', '180': 'amoxicillin'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '316', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['is caused by_medqa']
+final_relations:All relations pruned
+len of total relations:2
+total relations:['used to diagnose_medqa', 'associated with_medqa']
+run_llm_extract_result:associated with_medqa
+relations:[]
+tt:['used to diagnose_medqa', 'associated with_medqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['are found in_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+run_llm_extract_result:1 (0.5)
+2 (0.5)
+3 (0.5)
+relations:[{'entity': '326', 'relation': '1', 'score': 0.5, 'head': False}, {'entity': '326', 'relation': '2', 'score': 0.5, 'head': False}, {'entity': '326', 'relation': '3', 'score': 0.5, 'head': False}]
+tt:['are found in_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+final_relations:All relations pruned
+len of total relations:4
+total relations:['INTERACTS_WITH_medqa', 'TREATED_medqa', 'is_allergic_medqa', 'is_used_for_medqa']
+run_llm_extract_result:1. INTERACTS_WITH_medqa
+relations:[]
+tt:['INTERACTS_WITH_medqa', 'TREATED_medqa', 'is_allergic_medqa', 'is_used_for_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'211': 'palpitations', '178': 'hypertension'}
+----------
+len of total relations:2
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa']
+final_relations:No relations found
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'609': 'Fatigue'}
+----------
+len of total relations:1
+total relations:['Associated with_medqa']
+run_llm_extract_result:1 (associated with_medqa)
+relations:[]
+tt:['Associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'178': 'hypertension', '210': 'coronary artery disease'}
+----------
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['CAUSED_medqa', 'CAUSED_medqa', 'REDUCED_BY_medqa']
+run_llm_extract_result:1. CAUSED_medqa
+relations:[]
+tt:['CAUSED_medqa', 'CAUSED_medqa', 'REDUCED_BY_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'429': 'shortness of breath', '425': 'pallor'}
+----------
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:diffusing capacity (choice_4)
+relations:[]
+tt:['results in_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:1 (x.75)
+relations:[]
+tt:['results in_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'637': 'anemia', '425': 'pallor'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:1 (associated with_medqa)
+relations:[]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '425', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['results in_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'670': 'neck'}
+----------
+len of total relations:1
+total relations:['associated with_medqa']
+run_llm_extract_result:choices_1. Third branchial pouch
+relations:[]
+tt:['associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'426': 'cyanosis'}
+----------
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '426', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['results in_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'155': 'vagus nerve'}
+----------
+len of total relations:3
+total relations:['activates_medqa', 'are_part_of_medqa', 'is_mediated_by_medqa']
+run_llm_extract_result:3. ↑ ↑ ↑
+relations:[]
+tt:['activates_medqa', 'are_part_of_medqa', 'is_mediated_by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'203': 'diabetes', '765': 'metformin', '633': 'dehydration', '657': 'upper endoscopy'}
+----------
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. COMPLICATED_BY_medqa
+relations:[]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['was used to treat_medqa']
+run_llm_extract_result:metformin (choices_1)
+relations:[]
+tt:['was used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['can cause_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '633', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['can cause_medqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['associated with_medqa']
+run_llm_extract_result:1 (0.5)
+relations:[{'entity': '657', 'relation': '1', 'score': 0.5, 'head': False}]
+tt:['associated with_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'459': 'newborn', '366': 'hypothyroidism'}
+----------
+len of total relations:1
+total relations:['prone to_medqa']
+run_llm_extract_result:1 (0.6)
+relations:[{'entity': '459', 'relation': '1', 'score': 0.6, 'head': False}]
+tt:['prone to_medqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['TREATED_BY_medqa']
+run_llm_extract_result:choices_2. Breast biopsy
+relations:[]
+tt:['TREATED_BY_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'181': 'patient'}
+----------
+len of total relations:1
+total relations:['is_allergic_medqa']
+run_llm_extract_result:choices_1. Listen to the patient’s wife’s wishes and withdraw care
+relations:[]
+tt:['is_allergic_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'459': 'newborn'}
+----------
+len of total relations:1
+total relations:['prone to_medqa']
+run_llm_extract_result:1. prone to_medqa
+relations:[]
+tt:['prone to_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'178': 'hypertension', '765': 'metformin'}
+----------
+len of total relations:19
+total relations:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1. CAUSED_BY_medqa
+relations:[]
+tt:['CAUSED_BY_medqa', 'CAUSED_medqa', 'TREATED_BY_medqa', 'associated with_medqa', 'causes_medqa', 'increases_medqa', 'leads to_medqa', 'treated by_medqa', 'AFFECTED_BY_medqa', 'CAUSED_BY_medqa', 'COMPLICATED_BY_medqa', 'affected by_medqa', 'are associated with_medqa', 'are used to treat_medqa', 'associated with_medqa', 'is associated with_medqa', 'is_used_for_medqa', 'used to treat_medqa', 'was used to treat_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['was used to treat_medqa']
+run_llm_extract_result:1. was used to treat_medqa
+relations:[]
+tt:['was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'539': 'warfarin', '224': 'bleeding', '761': 'atrial fibrillation'}
+----------
+len of total relations:1
+total relations:['affects_medqa']
+run_llm_extract_result:choices_2. Give fresh frozen plasma (FFP)
+relations:[]
+tt:['affects_medqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['associated_with_medqa', 'associated with_medqa', 'causes_medqa']
+run_llm_extract_result:3. causes_medqa
+relations:[]
+tt:['associated_with_medqa', 'associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['was used to treat_medqa']
+run_llm_extract_result:choices_2. Give fresh frozen plasma (FFP)
+relations:[]
+tt:['was used to treat_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'555': 'COPD'}
+----------
+len of total relations:1
+total relations:['is diagnosed by_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '555', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['is diagnosed by_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'692': 'peptic ulcer disease'}
+----------
+len of total relations:1
+total relations:['associated with_medqa']
+run_llm_extract_result:1 (x.75)
+relations:[]
+tt:['associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'636': 'cancer'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'is a type of_medqa']
+run_llm_extract_result:1. associated with_medqa
+relations:[]
+tt:['associated with_medqa', 'is a type of_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'444': 'seizures'}
+----------
+len of total relations:3
+total relations:['associated with_medqa', 'associated with_medqa', 'can cause_medqa']
+run_llm_extract_result:1. associated with_medqa
+relations:[]
+tt:['associated with_medqa', 'associated with_medqa', 'can cause_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'352': 'multiple myeloma', '701': 'jaundice'}
+----------
+len of total relations:3
+total relations:['is a cause of_medqa', 'is a complication of_medqa', 'is involved in_medqa']
+run_llm_extract_result:choices_2. Newly formed anti-HLA antibodies
+relations:[]
+tt:['is a cause of_medqa', 'is a complication of_medqa', 'is involved in_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['associated with_medqa']
+run_llm_extract_result:choices_1. Donor T cells in the graft
+relations:[]
+tt:['associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'634': 'mRNA', '171': 'protein'}
+----------
+len of total relations:1
+total relations:['is translated into_medqa']
+run_llm_extract_result:choices_1. Taq DNA polymerase
+relations:[]
+tt:['is translated into_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is translated into_medqa', 'reveals_medqa']
+run_llm_extract_result:choices_1. Taq DNA polymerase
+relations:[]
+tt:['is translated into_medqa', 'reveals_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'765': 'metformin'}
+----------
+len of total relations:1
+total relations:['was used to treat_medqa']
+run_llm_extract_result:metformin (0.8)
+relations:[{'entity': '765', 'relation': 'metformin', 'score': 0.8, 'head': False}]
+tt:['was used to treat_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'712': 'immune response'}
+----------
+len of total relations:1
+total relations:['associated with_medqa']
+run_llm_extract_result:3. Foreign intact polysaccharide
+relations:[]
+tt:['associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'413': 'skin', '224': 'bleeding'}
+----------
+len of total relations:2
+total relations:['absorbed by_medqa', 'forms_medqa']
+run_llm_extract_result:2. forms_medqa
+relations:[]
+tt:['absorbed by_medqa', 'forms_medqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['associated_with_medqa', 'associated with_medqa', 'causes_medqa']
+run_llm_extract_result:1. associated_with_medqa
+relations:[]
+tt:['associated_with_medqa', 'associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'316': 'fever'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1. is caused by_medqa
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'365': 'medication'}
+----------
+len of total relations:1
+total relations:['TREATED_BY_medqa']
+run_llm_extract_result:2. Hypogonadism
+relations:[]
+tt:['TREATED_BY_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'203': 'diabetes', '342': 'urinalysis', '328': 'blood', '762': 'insulin'}
+----------
+len of total relations:4
+total relations:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1 (0.5)
+relations:[{'entity': '203', 'relation': '1', 'score': 0.5, 'head': False}]
+tt:['COMPLICATED_BY_medqa', 'is a cause of_medqa', 'is associated with_medqa', 'was used to treat_medqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['is diagnosed by_medqa']
+run_llm_extract_result:1. is diagnosed by_medqa
+relations:[]
+tt:['is diagnosed by_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is a component of_medqa']
+run_llm_extract_result:blood (x.75)
+relations:[]
+tt:['is a component of_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['was related to_medqa', 'was used to treat_medqa']
+run_llm_extract_result:1 (0.8)
+relations:[{'entity': '762', 'relation': '1', 'score': 0.8, 'head': False}]
+tt:['was related to_medqa', 'was used to treat_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'263': 'ultrasound'}
+----------
+len of total relations:1
+total relations:['evaluated_by_medqa']
+run_llm_extract_result:choices_1. Uterine leiomyoma
+relations:[]
+tt:['evaluated_by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'365': 'medication', '166': 'MRI'}
+----------
+len of total relations:1
+total relations:['TREATED_BY_medqa']
+run_llm_extract_result:Eculizumab (choices_1)
+relations:[]
+tt:['TREATED_BY_medqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_normal_medqa', 'used to evaluate_medqa', 'evaluated with_medqa']
+run_llm_extract_result:choices_1. is_normal_medqa
+relations:[]
+tt:['is_normal_medqa', 'used to evaluate_medqa', 'evaluated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'316': 'fever'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:choices_1. Intra-articular ceftriaxone
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'637': 'anemia'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:Vitamin B12 deficiency (choices_3)
+relations:[]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'224': 'bleeding', '328': 'blood'}
+----------
+len of total relations:3
+total relations:['associated_with_medqa', 'associated with_medqa', 'causes_medqa']
+run_llm_extract_result:3. causes_medqa
+relations:[]
+tt:['associated_with_medqa', 'associated with_medqa', 'causes_medqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is a component of_medqa']
+run_llm_extract_result:choices_2. Complete blood count
+relations:[]
+tt:['is a component of_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'316': 'fever', '647': 'lymph nodes'}
+----------
+len of total relations:1
+total relations:['is caused by_medqa']
+run_llm_extract_result:1. is caused by_medqa
+relations:[]
+tt:['is caused by_medqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['associated with_medqa', 'associated with_medqa']
+run_llm_extract_result:1. associated with_medqa
+relations:[]
+tt:['associated with_medqa', 'associated with_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'429': 'shortness of breath'}
+----------
+len of total relations:1
+total relations:['results in_medqa']
+run_llm_extract_result:(choices_3) Systolic click auscultated on physical exam 10 years prior
+relations:[]
+tt:['results in_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'181': 'patient'}
+----------
+len of total relations:1
+total relations:['is_allergic_medqa']
+run_llm_extract_result:choices_4. Heat-resistant DNA polymerase
+relations:[]
+tt:['is_allergic_medqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+true:choices_3----pred:choices_4. Perform pericardiocentesis
+true:choices_5----pred:choices_1
+true:choices_2----pred:A: 1
+true:choices_5----pred:choices_1
+true:choices_3----pred:choices_1. Mesangial deposition of IgA often with C3
+chengong!
+chengong!
+true:choices_3----pred:choices_2
+true:choices_5----pred:choices_2. Sporulating bacteria
+true:choices_4----pred:A: 3
+true:choices_3----pred:Essential tremor
+true:choices_5----pred:choices_2. Coenzyme Q10
+true:choices_1----pred:Based on the given knowledge triplets and my knowledge, the most likely answer to improve this patient's current symptoms is Vitamin C. Therefore, the answer to the question is {Vitamin C}.
+true:choices_5----pred:choices_1. Hirschsprung's disease
+true:choices_5----pred:choices_2. Follows one-step commands
+true:choices_1----pred:choices_2. Aerospace manufacturing
+true:choices_3----pred:choices_1. Left ventricular hypertrophy
+chengong!
+true:choices_3----pred:choices_1
+true:choices_5----pred:choices_2. Mutations in common gamma chain gene
+true:choices_5----pred:choices_1
+true:choices_4----pred:choices_2
+chengong!
+chengong!
+true:choices_5----pred:A: 3
+true:choices_3----pred:choices_2. Fasting plasma glucose 123 mg/dL
+true:choices_4----pred:choices_1. 5-hydroxytryptamine2 receptor
+true:choices_3----pred:choices_2. Aspirin
+true:choices_2----pred:choices_1
+true:choices_4----pred:CD 19
+chengong!
+true:choices_4----pred:A: 1
+true:choices_5----pred:choices_2. Incomplete abortion
+true:choices_4----pred:choices_1. Compression stockings
+true:choices_4----pred:choices_1. Lorazepam
+true:choices_4----pred:choices_1
+true:choices_2----pred:Candida albicans
+chengong!
+true:choices_2----pred:choices_4. Reducing the secretory product of type II alveolar cells
+true:choices_5----pred:choices_1. Complete blood count
+true:choices_2----pred:choices_1. Treatment with ceftriaxone
+true:choices_2----pred:choices_1. Distal median nerve
+true:choices_4----pred:Diffuse alveolar damage and hyaline membrane formation
+true:choices_1----pred:choices_2. Discharge home with follow-up in one month
+true:choices_3----pred:choices_1. Prothrombin time and platelet count
+true:choices_3----pred:Leriche syndrome
+true:choices_5----pred:choices_1. Tubular
+true:choices_3----pred:Histoplasma capsulatum
+true:choices_2----pred:choices_3. HHV-8
+true:choices_3----pred:choices_4. Homologous recombination
+true:choices_2----pred:1
+chengong!
+true:choices_4----pred:choices_1. External iliac
+true:choices_1----pred:choices_2. Dermatitis herpetiformis
+true:choices_4----pred:Traveler's diarrhea due to ETEC
+chengong!
+true:choices_1----pred:3
+true:choices_2----pred:choices_4
+true:choices_1----pred:choices_2. Pneumococcal conjugate vaccine 13
+true:choices_5----pred:Measurement bias; blinding
+true:choices_3----pred:choices_1. LPS endotoxin
+true:choices_4----pred:choices_2. Leukocyte migration
+true:choices_3----pred:choices_1
+chengong!
+chengong!
+true:choices_3----pred:Haloperidol
+true:choices_5----pred:A: 2
+chengong!
+true:choices_5----pred:choices_2. Basophilic stippling on peripheral smear
+true:choices_3----pred:choices_1
+chengong!
+chengong!
+true:choices_3----pred:A: 1
+true:choices_4----pred:Hepadnavirus
+true:choices_5----pred:choices_3. Two-sample t-test
+chengong!
+true:choices_2----pred:Mitral valve stenosis
+true:choices_4----pred:choices_1
+chengong!
+true:choices_5----pred:A: 1
+true:choices_5----pred:choices_3. Interleukin 4
+chengong!
+true:choices_5----pred:choices_1. Intravenous pyelography
+true:choices_5----pred:choices_3
+true:choices_5----pred:choices_1. Meckel diverticulum
+true:choices_5----pred:Buerger's disease
+true:choices_2----pred:choices_4
+true:choices_2----pred:A: Hydroxyurea
+chengong!
+true:choices_3----pred:choices_1
+true:choices_4----pred:choices_2. Necrotizing fasciitis
+true:choices_4----pred:choices_2. Beta-1 adrenergic receptor agonist
+true:choices_5----pred:A: 1
+true:choices_5----pred:choices_4. Infection with dermatophyte
+true:choices_1----pred:Mycoplasma pneumoniae
+chengong!
+true:choices_4----pred:choices_1. Staphylococcus aureus
+true:choices_1----pred:A: 2
+true:choices_5----pred:choices_3. Chédiak-Higashi syndrome
+true:choices_1----pred:choices_2. X-linked recessive
+true:choices_5----pred:choices_1
+true:choices_3----pred:A: 2
+true:choices_2----pred:choices_1
+true:choices_4----pred:choices_1
+true:choices_2----pred:choices_1
+true:choices_2----pred:choices_1. Glioblastoma multiforme
+chengong!
+chengong!
+true:choices_1----pred:A: 4. Administer tPA
+true:choices_5----pred:Point 3
+true:choices_1----pred:choices_4. Hepatic steatosis
+true:choices_2----pred:choices_1. Wood's lamp
+true:choices_2----pred:choices_1. Sildenafil
+true:choices_3----pred:A: 4
+true:choices_5----pred:choices_1. Diagnostic laparoscopy
+true:choices_3----pred:choices_2
+true:choices_1----pred:choices_2. Hyperreflexia with tetany
+chengong!
+true:choices_3----pred:choices_2. Lorazepam
+true:choices_2----pred:choices_1
+true:choices_1----pred:Hyaline casts
+true:choices_3----pred:choices_4
+true:choices_5----pred:Escherichia coli
+true:choices_2----pred:choices_3. Choledocholithiasis
+chengong!
+chengong!
+chengong!
+chengong!
+true:choices_5----pred:choices_1. Tarry stools
+true:choices_3----pred:choices_2. DMSA
+chengong!
+true:choices_2----pred:choices_1.
+true:choices_3----pred:choices_1
+true:choices_3----pred:choices_2. Fludrocortisone
+true:choices_3----pred:choices_2. Metformin and statin therapy and follow-up in 3 months
+true:choices_1----pred:A: 1
+true:choices_5----pred:choices_1. Nusinersen
+true:choices_1----pred:A: Choices_2. Endochondral ossification deficiency
+chengong!
+true:choices_1----pred:choices_2. Arrange for surgical treatment
+true:choices_4----pred:CD55
+true:choices_3----pred:choices_4. Rivaroxaban
+chengong!
+true:choices_5----pred:choices_2. Adrenal adenoma
+true:choices_1----pred:choices_2. Non-enzymatic fat necrosis
+chengong!
+chengong!
+true:choices_3----pred:choices_1
+true:choices_3----pred:Active chronic hepatitis B infection
+true:choices_5----pred:Pregabalin
+true:choices_4----pred:choices_1. Decreased A-a gradient
+true:choices_2----pred:Iron deficiency anemia
+true:choices_4----pred:choices_3. Decreased vitamin D level
+true:choices_3----pred:choices_1. Third branchial pouch
+true:choices_2----pred:A: 4
+true:choices_4----pred:choices_1. Respiratory bronchioles
+true:choices_5----pred:choices_2. Norepinephrine
+true:choices_4----pred:choices_1
+true:choices_4----pred:choices_3. A mild allergic reaction
+true:choices_2----pred:choices_1. ↑ ↑ ↓
+true:choices_1----pred:A: 1
+chengong!
+chengong!
+true:choices_1----pred:choices_2. Activates 24-alpha-hydroxylase
+true:choices_5----pred:choices_1. Serum bile acid levels
+true:choices_3----pred:choices_1. Autoimmune destruction of melanocytes
+chengong!
+true:choices_5----pred:choices_3. Metabolic acidosis
+true:choices_3----pred:choices_1
+true:choices_3----pred:choices_1
+true:choices_4----pred:choices_2. Laparoscopy
+true:choices_3----pred:choices_2. 2200 mL
+chengong!
+chengong!
+chengong!
+true:choices_3----pred:choices_1
+chengong!
+true:choices_5----pred:A: 1
+chengong!
+true:choices_2----pred:choices_3. Increase the aripiprazole dose
+chengong!
+true:choices_5----pred:choices_3. Foreign intact polysaccharide
+true:choices_2----pred:A: 1
+true:choices_5----pred:A: Purulent arthritis
+true:choices_3----pred:choices_2. Hypogonadism
+true:choices_2----pred:A: 1
+true:choices_3----pred:choices_1
+true:choices_5----pred:choices_1. Uterine leiomyoma
+true:choices_3----pred:A: 1
+true:choices_4----pred:choices_2. Intra-articular triamcinolone acetonide
+true:choices_1----pred:choices_2. Phenylalanine
+true:choices_2----pred:Vitamin B12 deficiency
+true:choices_1----pred:choices_2. Inappropriate degradation of lysosomal enzymes
+true:choices_5----pred:A: Prothrombin time (PT)
+chengong!
+chengong!
+chengong!
+true:choices_4----pred:choices_1
+true:choices_5----pred:choices_4. Heat-resistant DNA polymerase
+true:choices_1----pred:choices_2
+F1: 0.0000
+Accuracy: 0.2150
+总耗时: 94.01 秒
+Sat Sep  6 21:49:25 CST 2025
+comput11
+修正：0.2500

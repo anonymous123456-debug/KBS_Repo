@@ -1,0 +1,347 @@
+Running job on node: comput07
+Start Running ToG on medqa dataset.
+*************************************************************
+*************************************************************
+{'638': 'gastrointestinal system'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:causes_medqa (0.4)
+
+associated_with_medqa (0.3)
+
+involved_in_medqa (0.3)
+relations:[{'entity': '638', 'relation': 'causes_medqa', 'score': 0.4, 'head': False}, {'entity': '638', 'relation': 'associated_with_medqa', 'score': 0.3, 'head': False}, {'entity': '638', 'relation': 'involved_in_medqa', 'score': 0.3, 'head': False}]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:[{'entity': '638', 'relation': 'causes_medqa', 'score': 0.4, 'head': False}]
+ current_entityu_relations:[{'entity': '638', 'relation': 'causes_medqa', 'score': 0.4, 'head': False}]
+entity_search len:2 results:[{'head': 638, 'tail': 635, 'hname': 'gastrointestinal system', 'tname': 'squamous cell type'}, {'head': 638, 'tail': 639, 'hname': 'gastrointestinal system', 'tname': 'esophageal tumor'}]
+entityu_candidates_id:[638, 638]
+entity_candidates_name:['gastrointestinal system', 'gastrointestinal system']
+All entities are created equal.
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+{638: 'gastrointestinal system'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:causes_medqa (0.4)
+
+associated_with_medqa (0.3)
+
+triggers_medqa (0.3)
+relations:[{'entity': 638, 'relation': 'causes_medqa', 'score': 0.4, 'head': False}, {'entity': 638, 'relation': 'associated_with_medqa', 'score': 0.3, 'head': False}, {'entity': 638, 'relation': 'triggers_medqa', 'score': 0.3, 'head': False}]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:[{'entity': 638, 'relation': 'causes_medqa', 'score': 0.4, 'head': False}]
+ current_entityu_relations:[{'entity': 638, 'relation': 'causes_medqa', 'score': 0.4, 'head': False}]
+entity_search len:2 results:[{'head': 638, 'tail': 635, 'hname': 'gastrointestinal system', 'tname': 'squamous cell type'}, {'head': 638, 'tail': 639, 'hname': 'gastrointestinal system', 'tname': 'esophageal tumor'}]
+entityu_candidates_id:[638, 638]
+entity_candidates_name:['gastrointestinal system', 'gastrointestinal system']
+All entities are created equal.
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+{638: 'gastrointestinal system'}
+----------
+len of total relations:2
+total relations:['associated with_medqa', 'causes_medqa']
+run_llm_extract_result:causes_medqa (0.4)
+associated_with_medqa (0.3)
+involved_in_medqa (0.3)
+relations:[{'entity': 638, 'relation': 'causes_medqa', 'score': 0.4, 'head': False}, {'entity': 638, 'relation': 'associated_with_medqa', 'score': 0.3, 'head': False}, {'entity': 638, 'relation': 'involved_in_medqa', 'score': 0.3, 'head': False}]
+tt:['associated with_medqa', 'causes_medqa']
+final_relations:[{'entity': 638, 'relation': 'causes_medqa', 'score': 0.4, 'head': False}]
+ current_entityu_relations:[{'entity': 638, 'relation': 'causes_medqa', 'score': 0.4, 'head': False}]
+entity_search len:2 results:[{'head': 638, 'tail': 635, 'hname': 'gastrointestinal system', 'tname': 'squamous cell type'}, {'head': 638, 'tail': 639, 'hname': 'gastrointestinal system', 'tname': 'esophageal tumor'}]
+entityu_candidates_id:[638, 638]
+entity_candidates_name:['gastrointestinal system', 'gastrointestinal system']
+All entities are created equal.
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=638
+*************************************************************
+{'382': 'meningitis'}
+----------
+len of total relations:8
+total relations:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+run_llm_extract_result:causes_medqa (0.33)
+used_to_treat_medqa (0.34)
+associated_with_medqa (0.33)
+relations:[{'entity': '382', 'relation': 'causes_medqa', 'score': 0.33, 'head': False}, {'entity': '382', 'relation': 'used_to_treat_medqa', 'score': 0.34, 'head': False}, {'entity': '382', 'relation': 'associated_with_medqa', 'score': 0.33, 'head': False}]
+tt:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+final_relations:[{'entity': '382', 'relation': 'causes_medqa', 'score': 0.33, 'head': False}]
+ current_entityu_relations:[{'entity': '382', 'relation': 'causes_medqa', 'score': 0.33, 'head': False}]
+entity_search len:1 results:[{'head': 382, 'tail': 577, 'hname': 'meningitis', 'tname': 'H. influenzae'}]
+entityu_candidates_id:[382]
+entity_candidates_name:['meningitis']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=382
+{382: 'meningitis'}
+----------
+len of total relations:8
+total relations:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+run_llm_extract_result:treated by_medqa (0.33)
+causes_medqa (0.34)
+used to treat_medqa (0.33)
+relations:[{'entity': 382, 'relation': 'treated by_medqa', 'score': 0.33, 'head': True}, {'entity': 382, 'relation': 'causes_medqa', 'score': 0.34, 'head': False}, {'entity': 382, 'relation': 'used to treat_medqa', 'score': 0.33, 'head': False}]
+tt:['TREATED_BY_medqa', 'associated with_medqa', 'treated by_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+final_relations:[{'entity': 382, 'relation': 'treated by_medqa', 'score': 0.33, 'head': True}, {'entity': 382, 'relation': 'causes_medqa', 'score': 0.34, 'head': False}, {'entity': 382, 'relation': 'used to treat_medqa', 'score': 0.33, 'head': False}]
+ current_entityu_relations:[{'entity': 382, 'relation': 'treated by_medqa', 'score': 0.33, 'head': True}, {'entity': 382, 'relation': 'causes_medqa', 'score': 0.34, 'head': False}, {'entity': 382, 'relation': 'used to treat_medqa', 'score': 0.33, 'head': False}]
+entity_search len:4 results:[{'head': 382, 'tail': 581, 'hname': 'meningitis', 'tname': 'ceftriaxone'}, {'head': 382, 'tail': 582, 'hname': 'meningitis', 'tname': 'clindamycin'}, {'head': 382, 'tail': 583, 'hname': 'meningitis', 'tname': 'TMP-SMX'}, {'head': 382, 'tail': 584, 'hname': 'meningitis', 'tname': 'rifampin'}]
+entityu_candidates_id:[581, 582, 583, 584]
+entity_candidates_name:['ceftriaxone', 'clindamycin', 'TMP-SMX', 'rifampin']
+All entities are created equal.
+entity_search len:1 results:[{'head': 382, 'tail': 577, 'hname': 'meningitis', 'tname': 'H. influenzae'}]
+entityu_candidates_id:[382]
+entity_candidates_name:['meningitis']
+entity_search len:5 results:[{'head': 382, 'tail': 581, 'hname': 'meningitis', 'tname': 'ceftriaxone'}, {'head': 382, 'tail': 582, 'hname': 'meningitis', 'tname': 'clindamycin'}, {'head': 382, 'tail': 583, 'hname': 'meningitis', 'tname': 'TMP-SMX'}, {'head': 382, 'tail': 187, 'hname': 'meningitis', 'tname': 'β-lactamase inhibitors'}, {'head': 382, 'tail': 585, 'hname': 'meningitis', 'tname': 'β-lactam compounds'}]
+entityu_candidates_id:[382, 382, 382, 382, 382]
+entity_candidates_name:['meningitis', 'meningitis', 'meningitis', 'meningitis', 'meningitis']
+All entities are created equal.
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=382
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=583
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=581
+{382: 'meningitis', 583: 'TMP-SMX', 581: 'ceftriaxone'}
+----------
+len of total relations:7
+total relations:['TREATED_BY_medqa', 'associated with_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+run_llm_extract_result:associated with_medqa (0.33)
+associated with_medqa (0.33)
+used to treat_medqa (0.34)
+relations:[{'entity': 382, 'relation': 'associated with_medqa', 'score': 0.33, 'head': True}, {'entity': 382, 'relation': 'associated with_medqa', 'score': 0.33, 'head': True}, {'entity': 382, 'relation': 'used to treat_medqa', 'score': 0.34, 'head': False}]
+tt:['TREATED_BY_medqa', 'associated with_medqa', 'associated with_medqa', 'causes_medqa', 'used to diagnose_medqa', 'used to prevent_medqa', 'used to treat_medqa']
+final_relations:[{'entity': 382, 'relation': 'associated with_medqa', 'score': 0.33, 'head': True}, {'entity': 382, 'relation': 'associated with_medqa', 'score': 0.33, 'head': True}, {'entity': 382, 'relation': 'used to treat_medqa', 'score': 0.34, 'head': False}]
+len of total relations:1
+total relations:['used to treat_medqa']
+run_llm_extract_result:used_to_treat_medqa (0.4)
+verify_response_to_antibiotic_therapy (0.3)
+avoid_steroids (0.3)
+relations:[{'entity': 583, 'relation': 'used_to_treat_medqa', 'score': 0.4, 'head': False}, {'entity': 583, 'relation': 'verify_response_to_antibiotic_therapy', 'score': 0.3, 'head': False}, {'entity': 583, 'relation': 'avoid_steroids', 'score': 0.3, 'head': False}]
+tt:['used to treat_medqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['used to treat_medqa']
+run_llm_extract_result:used to treat_medqa (0.33)
+
+A:
+relations:[{'entity': 581, 'relation': 'used to treat_medqa', 'score': 0.33, 'head': True}]
+tt:['used to treat_medqa']
+final_relations:[{'entity': 581, 'relation': 'used to treat_medqa', 'score': 0.33, 'head': True}]
+ current_entityu_relations:[{'entity': 382, 'relation': 'associated with_medqa', 'score': 0.33, 'head': True}, {'entity': 382, 'relation': 'associated with_medqa', 'score': 0.33, 'head': True}, {'entity': 382, 'relation': 'used to treat_medqa', 'score': 0.34, 'head': False}, {'entity': 581, 'relation': 'used to treat_medqa', 'score': 0.33, 'head': True}]
+entity_search len:4 results:[{'head': 382, 'tail': 589, 'hname': 'meningitis', 'tname': 'throat culture'}, {'head': 382, 'tail': 590, 'hname': 'meningitis', 'tname': 'throat specimen'}, {'head': 382, 'tail': 591, 'hname': 'meningitis', 'tname': 'swab'}, {'head': 382, 'tail': 577, 'hname': 'meningitis', 'tname': 'H. influenzae'}]
+entityu_candidates_id:[589, 590, 591, 577]
+entity_candidates_name:['throat culture', 'throat specimen', 'swab', 'H. influenzae']
+All entities are created equal.
+entity_search len:4 results:[{'head': 382, 'tail': 589, 'hname': 'meningitis', 'tname': 'throat culture'}, {'head': 382, 'tail': 590, 'hname': 'meningitis', 'tname': 'throat specimen'}, {'head': 382, 'tail': 591, 'hname': 'meningitis', 'tname': 'swab'}, {'head': 382, 'tail': 577, 'hname': 'meningitis', 'tname': 'H. influenzae'}]
+entityu_candidates_id:[589, 590, 591, 577]
+entity_candidates_name:['throat culture', 'throat specimen', 'swab', 'H. influenzae']
+All entities are created equal.
+entity_search len:5 results:[{'head': 382, 'tail': 581, 'hname': 'meningitis', 'tname': 'ceftriaxone'}, {'head': 382, 'tail': 582, 'hname': 'meningitis', 'tname': 'clindamycin'}, {'head': 382, 'tail': 583, 'hname': 'meningitis', 'tname': 'TMP-SMX'}, {'head': 382, 'tail': 187, 'hname': 'meningitis', 'tname': 'β-lactamase inhibitors'}, {'head': 382, 'tail': 585, 'hname': 'meningitis', 'tname': 'β-lactam compounds'}]
+entityu_candidates_id:[382, 382, 382, 382, 382]
+entity_candidates_name:['meningitis', 'meningitis', 'meningitis', 'meningitis', 'meningitis']
+All entities are created equal.
+entity_search len:3 results:[{'head': 581, 'tail': 577, 'hname': 'ceftriaxone', 'tname': 'H. influenzae'}, {'head': 581, 'tail': 382, 'hname': 'ceftriaxone', 'tname': 'meningitis'}, {'head': 581, 'tail': 381, 'hname': 'ceftriaxone', 'tname': 'pneumonia'}]
+entityu_candidates_id:[577, 382, 381]
+entity_candidates_name:['H. influenzae', 'meningitis', 'pneumonia']
+All entities are created equal.
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=577
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=382
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=381
+*************************************************************
+*************************************************************
+{'335': 'kidney disease'}
+----------
+len of total relations:4
+total relations:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+run_llm_extract_result:is characterized by_medqa (0.4)
+are found in_medqa (0.3)
+is associated with_medqa (0.3)
+relations:[{'entity': '335', 'relation': 'is characterized by_medqa', 'score': 0.4, 'head': True}, {'entity': '335', 'relation': 'are found in_medqa', 'score': 0.3, 'head': False}, {'entity': '335', 'relation': 'is associated with_medqa', 'score': 0.3, 'head': False}]
+tt:['is a cause of_medqa', 'is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+final_relations:[{'entity': '335', 'relation': 'is characterized by_medqa', 'score': 0.4, 'head': True}, {'entity': '335', 'relation': 'are found in_medqa', 'score': 0.3, 'head': False}, {'entity': '335', 'relation': 'is associated with_medqa', 'score': 0.3, 'head': False}]
+ current_entityu_relations:[{'entity': '335', 'relation': 'is characterized by_medqa', 'score': 0.4, 'head': True}, {'entity': '335', 'relation': 'are found in_medqa', 'score': 0.3, 'head': False}, {'entity': '335', 'relation': 'is associated with_medqa', 'score': 0.3, 'head': False}]
+entity_search len:3 results:[{'head': 335, 'tail': 314, 'hname': 'kidney disease', 'tname': 'proteinuria'}, {'head': 335, 'tail': 319, 'hname': 'kidney disease', 'tname': 'albuminuria'}, {'head': 335, 'tail': 330, 'hname': 'kidney disease', 'tname': 'nephrotic syndrome'}]
+entityu_candidates_id:[314, 319, 330]
+entity_candidates_name:['proteinuria', 'albuminuria', 'nephrotic syndrome']
+All entities are created equal.
+entity_search len:1 results:[{'head': 335, 'tail': 355, 'hname': 'kidney disease', 'tname': 'urinary casts'}]
+entityu_candidates_id:[335]
+entity_candidates_name:['kidney disease']
+entity_search len:1 results:[{'head': 335, 'tail': 314, 'hname': 'kidney disease', 'tname': 'proteinuria'}]
+entityu_candidates_id:[335]
+entity_candidates_name:['kidney disease']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=335
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=335
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=319
+{335: 'kidney disease', 319: 'albuminuria'}
+----------
+len of total relations:3
+total relations:['is a cause of_medqa', 'are found in_medqa', 'is associated with_medqa']
+run_llm_extract_result:are found in_medqa (0.4)
+
+is associated with_medqa (0.3)
+
+is a cause of_medqa (0.3)
+relations:[{'entity': 335, 'relation': 'are found in_medqa', 'score': 0.4, 'head': False}, {'entity': 335, 'relation': 'is associated with_medqa', 'score': 0.3, 'head': False}, {'entity': 335, 'relation': 'is a cause of_medqa', 'score': 0.3, 'head': True}]
+tt:['is a cause of_medqa', 'are found in_medqa', 'is associated with_medqa']
+final_relations:[{'entity': 335, 'relation': 'are found in_medqa', 'score': 0.4, 'head': False}, {'entity': 335, 'relation': 'is associated with_medqa', 'score': 0.3, 'head': False}, {'entity': 335, 'relation': 'is a cause of_medqa', 'score': 0.3, 'head': True}]
+len of total relations:3
+total relations:['is a type of_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+run_llm_extract_result:is characterized by_medqa (0.4)
+is used to diagnose_medqa (0.3)
+is a type_of_medqa (0.3)
+relations:[{'entity': 319, 'relation': 'is characterized by_medqa', 'score': 0.4, 'head': False}, {'entity': 319, 'relation': 'is used to diagnose_medqa', 'score': 0.3, 'head': False}, {'entity': 319, 'relation': 'is a type_of_medqa', 'score': 0.3, 'head': False}]
+tt:['is a type of_medqa', 'is characterized by_medqa', 'is used to diagnose_medqa']
+final_relations:[{'entity': 319, 'relation': 'is characterized by_medqa', 'score': 0.4, 'head': False}, {'entity': 319, 'relation': 'is used to diagnose_medqa', 'score': 0.3, 'head': False}]
+ current_entityu_relations:[{'entity': 335, 'relation': 'are found in_medqa', 'score': 0.4, 'head': False}, {'entity': 335, 'relation': 'is associated with_medqa', 'score': 0.3, 'head': False}, {'entity': 335, 'relation': 'is a cause of_medqa', 'score': 0.3, 'head': True}, {'entity': 319, 'relation': 'is characterized by_medqa', 'score': 0.4, 'head': False}, {'entity': 319, 'relation': 'is used to diagnose_medqa', 'score': 0.3, 'head': False}]
+entity_search len:1 results:[{'head': 335, 'tail': 355, 'hname': 'kidney disease', 'tname': 'urinary casts'}]
+entityu_candidates_id:[335]
+entity_candidates_name:['kidney disease']
+entity_search len:1 results:[{'head': 335, 'tail': 314, 'hname': 'kidney disease', 'tname': 'proteinuria'}]
+entityu_candidates_id:[335]
+entity_candidates_name:['kidney disease']
+entity_search len:2 results:[{'head': 335, 'tail': 314, 'hname': 'kidney disease', 'tname': 'proteinuria'}, {'head': 335, 'tail': 330, 'hname': 'kidney disease', 'tname': 'nephrotic syndrome'}]
+entityu_candidates_id:[314, 330]
+entity_candidates_name:['proteinuria', 'nephrotic syndrome']
+All entities are created equal.
+entity_search len:4 results:[{'head': 319, 'tail': 314, 'hname': 'albuminuria', 'tname': 'proteinuria'}, {'head': 319, 'tail': 320, 'hname': 'albuminuria', 'tname': 'albumin'}, {'head': 319, 'tail': 334, 'hname': 'albuminuria', 'tname': 'renal disease'}, {'head': 319, 'tail': 335, 'hname': 'albuminuria', 'tname': 'kidney disease'}]
+entityu_candidates_id:[319, 319, 319, 319]
+entity_candidates_name:['albuminuria', 'albuminuria', 'albuminuria', 'albuminuria']
+All entities are created equal.
+entity_search len:3 results:[{'head': 319, 'tail': 343, 'hname': 'albuminuria', 'tname': 'urine dipstick'}, {'head': 319, 'tail': 346, 'hname': 'albuminuria', 'tname': '24-h urinary excretion'}, {'head': 319, 'tail': 347, 'hname': 'albuminuria', 'tname': 'protein/creatinine ratio'}]
+entityu_candidates_id:[319, 319, 319]
+entity_candidates_name:['albuminuria', 'albuminuria', 'albuminuria']
+All entities are created equal.
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=335
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=335
+Cypher Query:
+
+    MATCH (e:Entity_medqa {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=330
+{335: 'kidney disease', 330: 'nephrotic syndrome'}
+----------
+len of total relations:3
+total relations:['is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+run_llm_extract_result:3 (0.333)
+relations:[{'entity': 335, 'relation': '3', 'score': 0.333, 'head': False}]
+tt:['is characterized by_medqa', 'are found in_medqa', 'is associated with_medqa']
+final_relations:All relations pruned
+len of total relations:12
+total relations:['is caused by_medqa', 'is characterized by_medqa', 'are a cause of_medqa', 'are found in_medqa', 'are lost in_medqa', 'are used to treat_medqa', 'is a cause of_medqa', 'is a complication of_medqa', 'is a symptom of_medqa', 'is associated with_medqa', 'is characterized by_medqa', 'is lost in_medqa']
+run_llm_extract_result:3 (0.33)
+7 (0.33)
+10 (0.34)
+relations:[{'entity': 330, 'relation': '3', 'score': 0.33, 'head': False}, {'entity': 330, 'relation': '7', 'score': 0.33, 'head': False}, {'entity': 330, 'relation': '10', 'score': 0.34, 'head': False}]
+tt:['is caused by_medqa', 'is characterized by_medqa', 'are a cause of_medqa', 'are found in_medqa', 'are lost in_medqa', 'are used to treat_medqa', 'is a cause of_medqa', 'is a complication of_medqa', 'is a symptom of_medqa', 'is associated with_medqa', 'is characterized by_medqa', 'is lost in_medqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 3, stop searching.
+true:choices_3----pred:choices_4
+true:choices_5----pred:choices_2
+true:choices_2----pred:choices_4
+true:choices_5----pred:choices_1
+chengong!
+F1: 0.0000
+Accuracy: 0.2000
+总耗时: 25.39 秒
+{'completion_tokens': 465, 'prompt_tokens': 32822}
+33287
+Thu Nov 20 09:43:16 CST 2025
+comput07

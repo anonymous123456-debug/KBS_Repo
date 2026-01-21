@@ -1,0 +1,139 @@
+Running job on node: comput07
+Start Running ToG on bqa dataset.
+*************************************************************
+{'3290': 'sugar', '3410': 'water', '3279': 'sugar crash'}
+----------
+len of total relations:2
+total relations:['is high in_bqa', 'is high in_bqa']
+run_llm_extract_result:no
+relations:[]
+tt:['is high in_bqa', 'is high in_bqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['necessary for_bqa', 'require_bqa']
+run_llm_extract_result:(a) she will feel hydrated
+(b) she doesn't eat too much sugar
+relations:[]
+tt:['necessary for_bqa', 'require_bqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['cause-and-effect_bqa']
+run_llm_extract_result:no
+relations:[]
+tt:['cause-and-effect_bqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3278': 'hydration', '3290': 'sugar', '3279': 'sugar crash'}
+----------
+len of total relations:1
+total relations:['cause-and-effect_bqa']
+run_llm_extract_result:cause-and-effect_bqa
+relations:[]
+tt:['cause-and-effect_bqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['is high in_bqa', 'is high in_bqa']
+run_llm_extract_result:no
+relations:[]
+tt:['is high in_bqa', 'is high in_bqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['cause-and-effect_bqa']
+run_llm_extract_result:no
+relations:[]
+tt:['cause-and-effect_bqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3290': 'sugar', '3410': 'water', '3279': 'sugar crash'}
+----------
+len of total relations:2
+total relations:['is high in_bqa', 'is high in_bqa']
+run_llm_extract_result:no
+relations:[]
+tt:['is high in_bqa', 'is high in_bqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['necessary for_bqa', 'require_bqa']
+run_llm_extract_result:(1) water is necessary for hydration
+(2) water is required for hydration
+relations:[{'entity': '3410', 'relation': 'water is necessary for hydration', 'score': 2.0, 'head': False}]
+tt:['necessary for_bqa', 'require_bqa']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['cause-and-effect_bqa']
+run_llm_extract_result:no
+relations:[]
+tt:['cause-and-effect_bqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3278': 'hydration', '3279': 'sugar crash', '3277': 'Jane'}
+----------
+len of total relations:1
+total relations:['cause-and-effect_bqa']
+run_llm_extract_result:cause-and-effect_bqa
+relations:[]
+tt:['cause-and-effect_bqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['cause-and-effect_bqa']
+run_llm_extract_result:no
+relations:[]
+tt:['cause-and-effect_bqa']
+final_relations:No relations found
+len of total relations:5
+total relations:['cause-and-effect_bqa', "doesn't receive_bqa", "doesn't send_bqa", 'receives_bqa', 'sends_bqa']
+run_llm_extract_result:(a) she won't feel hydrated
+(b) she doesn't eat too much sugar
+relations:[]
+tt:['cause-and-effect_bqa', "doesn't receive_bqa", "doesn't send_bqa", 'receives_bqa', 'sends_bqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3390': 'studying', '3392': 'grades', '3418': 'television', '3396': 'performance'}
+----------
+len of total relations:1
+total relations:['is associated with_bqa']
+run_llm_extract_result:1 (0.5)
+relations:[{'entity': '3390', 'relation': '1', 'score': 0.5, 'head': False}]
+tt:['is associated with_bqa']
+final_relations:All relations pruned
+len of total relations:2
+total relations:['are_bqa', 'result_bqa']
+run_llm_extract_result:(a) he will get good grades.
+(b) he doesn't watch too much tv.
+relations:[]
+tt:['are_bqa', 'result_bqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['is a prerequisite for_bqa', 'provides_bqa', 'watches TV_bqa']
+run_llm_extract_result:(1) is a prerequisite for_bqa
+relations:[]
+tt:['is a prerequisite for_bqa', 'provides_bqa', 'watches TV_bqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_bqa']
+run_llm_extract_result:no
+relations:[]
+tt:['is_bqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+chengong!
+true:no----pred:yes
+true:no----pred:yes
+chengong!
+chengong!
+F1: 0.0000
+Accuracy: 0.6000
+总耗时: 8.79 秒
+{'completion_tokens': 141, 'prompt_tokens': 10458}
+10599
+Thu Nov 20 09:54:16 CST 2025
+comput07

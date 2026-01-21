@@ -1,0 +1,1846 @@
+Running job on node: comput11
+Start Running ToG on mcqa dataset.
+*************************************************************
+*************************************************************
+{'3205': 'studying', '3243': 'grades'}
+----------
+len of total relations:1
+total relations:['late_mcqa']
+run_llm_extract_result:choice_2. he will get good grades.
+relations:[]
+tt:['late_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['scholarship_mcqa', 'academic performance_mcqa']
+run_llm_extract_result:choice_2. he will get good grades.
+relations:[]
+tt:['scholarship_mcqa', 'academic performance_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3250': 'exhaustion', '3249': 'fatigue'}
+----------
+len of total relations:1
+total relations:['is characterized by_mcqa']
+run_llm_extract_result:choice_1. he will feel healthier
+relations:[]
+tt:['is characterized by_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is characterized by_mcqa']
+run_llm_extract_result:choice_1. he will feel healthier
+relations:[]
+tt:['is characterized by_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3240': 'tasks'}
+----------
+len of total relations:1
+total relations:['deadline_mcqa']
+run_llm_extract_result:choice_1. Luke takes a break from work and feels refreshed.
+relations:[]
+tt:['deadline_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'3242': 'effort', '3201': 'energy', '3249': 'fatigue', '3199': 'John'}
+----------
+len of total relations:2
+total relations:['academic performance_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_1. Maria works long hours and doesn't experience a sense of refreshment.
+relations:[]
+tt:['academic performance_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['organic food_mcqa', 'processed food_mcqa']
+run_llm_extract_result:choice_1. Maria works long hours and doesn't experience a sense of refreshment.
+relations:[]
+tt:['organic food_mcqa', 'processed food_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is characterized by_mcqa']
+run_llm_extract_result:choice_1. Maria works long hours and doesn't experience a sense of refreshment.
+relations:[]
+tt:['is characterized by_mcqa']
+final_relations:No relations found
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_2. John works long hours and experiences a sense of refreshment.
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'3199': 'John'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_4. he will experience increased energy levels.
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3203': 'outdoors'}
+----------
+len of total relations:1
+total relations:['tan_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['tan_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3204': 'tired'}
+----------
+len of total relations:1
+total relations:['late_mcqa']
+run_llm_extract_result:choice_4. she will learn new skills or she doesn't stay up late
+relations:[]
+tt:['late_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3200': 'fridge'}
+----------
+len of total relations:2
+total relations:['food_mcqa', 'stores food_mcqa']
+run_llm_extract_result:choice_2. Food will remain fresh for a longer time and John stores his food in the fridge
+relations:[]
+tt:['food_mcqa', 'stores food_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3211': 'Alice'}
+----------
+len of total relations:3
+total relations:['takes a break_mcqa', 'visits_mcqa', 'will spend time with_mcqa']
+run_llm_extract_result:choice_1. If Bob drives responsibly, he will receive a ticket.
+relations:[]
+tt:['takes a break_mcqa', 'visits_mcqa', 'will spend time with_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3206': 'movie', '3205': 'studying', '3218': 'library'}
+----------
+len of total relations:1
+total relations:['will watch_mcqa']
+run_llm_extract_result:choice_3. she will go to the movies. or she will go to the library.
+relations:[]
+tt:['will watch_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['late_mcqa']
+run_llm_extract_result:choice_3. she will go to the movies. or she will go to the library.
+relations:[]
+tt:['late_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['takes a break_mcqa', 'visits_mcqa']
+run_llm_extract_result:choice_3. she will go to the movies. or she will go to the library.
+relations:[]
+tt:['takes a break_mcqa', 'visits_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3199': 'John', '3267': 'basketball', '3212': 'friends', '3203': 'outdoors'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_1. His teammates will join for a game
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['does not play_mcqa', 'plays_mcqa']
+run_llm_extract_result:choice_2. plays_mcqa
+relations:[]
+tt:['does not play_mcqa', 'plays_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['impression_mcqa', 'will spend time with_mcqa']
+run_llm_extract_result:choice_1. His teammates will join for a game or her cousin will join them.
+relations:[]
+tt:['impression_mcqa', 'will spend time with_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['tan_mcqa']
+run_llm_extract_result:choice_1.
+relations:[]
+tt:['tan_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3225': 'car', '3241': 'reward'}
+----------
+len of total relations:3
+total relations:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+run_llm_extract_result:choice_2. she will have a picnic or she will read a book
+relations:[]
+tt:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['deadline_mcqa']
+run_llm_extract_result:choice_1.
+relations:[]
+tt:['deadline_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3219': 'park', '3212': 'friends'}
+----------
+len of total relations:3
+total relations:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+run_llm_extract_result:choice_2. his neighbors will join in
+relations:[]
+tt:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['impression_mcqa', 'will spend time with_mcqa']
+run_llm_extract_result:choice_1. his sister will join in
+relations:[]
+tt:['impression_mcqa', 'will spend time with_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3218': 'library', '3219': 'park'}
+----------
+len of total relations:2
+total relations:['takes a break_mcqa', 'visits_mcqa']
+run_llm_extract_result:choice_1. she will read a book or she will play a game
+relations:[]
+tt:['takes a break_mcqa', 'visits_mcqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+run_llm_extract_result:choice_3. Kate will go for a walk or she will meet her friends
+relations:[]
+tt:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3219': 'park', '3209': 'birds'}
+----------
+len of total relations:3
+total relations:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+run_llm_extract_result:choice_3. David will be delighted by the chirping of birds or feel the grains of sand.
+relations:[]
+tt:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['have_mcqa', 'will feed_mcqa']
+run_llm_extract_result:choice_1. she will listen to the birds chirping or she will feel the sand between her toes
+relations:[]
+tt:['have_mcqa', 'will feed_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3219': 'park'}
+----------
+len of total relations:3
+total relations:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+run_llm_extract_result:choice_2. Jill will have a picnic and Bob will enjoy the sunset
+relations:[]
+tt:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3207': 'shopping center'}
+----------
+len of total relations:1
+total relations:['will go_mcqa']
+run_llm_extract_result:choice_1. he will go shopping
+relations:[]
+tt:['will go_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3208': 'Jenny', '3219': 'park', '3218': 'library', '3239': 'stroll', '3209': 'birds'}
+----------
+len of total relations:3
+total relations:['plays_mcqa', 'will feed_mcqa', 'will read_mcqa']
+run_llm_extract_result:choice_2. She will go hiking.
+relations:[]
+tt:['plays_mcqa', 'will feed_mcqa', 'will read_mcqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+run_llm_extract_result:choice_2. She will go hiking.
+relations:[]
+tt:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['takes a break_mcqa', 'visits_mcqa']
+run_llm_extract_result:choice_2. visits_mcqa
+relations:[]
+tt:['takes a break_mcqa', 'visits_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['happiness_mcqa', 'health_mcqa']
+run_llm_extract_result:choice_1.
+relations:[]
+tt:['happiness_mcqa', 'health_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['have_mcqa', 'will feed_mcqa']
+run_llm_extract_result:choice_2. She will go hiking.
+relations:[]
+tt:['have_mcqa', 'will feed_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3212': 'friends'}
+----------
+len of total relations:2
+total relations:['impression_mcqa', 'will spend time with_mcqa']
+run_llm_extract_result:choice_2. she will spend time with her friends.
+relations:[]
+tt:['impression_mcqa', 'will spend time with_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3215': 'stamina', '3214': 'race', '3236': 'individual'}
+----------
+len of total relations:1
+total relations:['will improve_mcqa']
+run_llm_extract_result:choice_2. he will complete the race or he will have improved his stamina
+relations:[]
+tt:['will improve_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['will complete_mcqa']
+run_llm_extract_result:choice_1. either he will complete the race or he will not improve his stamina
+relations:[]
+tt:['will complete_mcqa']
+final_relations:No relations found
+len of total relations:10
+total relations:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_2. he will complete the race or he will have improved his stamina
+relations:[]
+tt:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3217': 'crime'}
+----------
+len of total relations:1
+total relations:['will investigate_mcqa']
+run_llm_extract_result:choice_1. John will investigate the crime.
+relations:[]
+tt:['will investigate_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3263': 'Samantha', '3212': 'friends', '3235': 'parents'}
+----------
+len of total relations:1
+total relations:['is not required to pack_mcqa']
+run_llm_extract_result:choice_2. Samantha will play video games alone.
+relations:[]
+tt:['is not required to pack_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['impression_mcqa', 'will spend time with_mcqa']
+run_llm_extract_result:choice_2. Samantha will play video games alone.
+relations:[]
+tt:['impression_mcqa', 'will spend time with_mcqa']
+final_relations:No relations found
+len of total relations:4
+total relations:['recognition_mcqa', 'life_mcqa', 'relationship_mcqa', 'reward_mcqa']
+run_llm_extract_result:choice_1. her parents will join or her friend will join
+relations:[]
+tt:['recognition_mcqa', 'life_mcqa', 'relationship_mcqa', 'reward_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3216': 'Jill'}
+----------
+len of total relations:6
+total relations:['inability to play football_mcqa', 'is able to go to a park_mcqa', 'is not playing football_mcqa', 'is unable to visit a museum_mcqa', 'visits a park_mcqa', 'will investigate_mcqa']
+run_llm_extract_result:choice_1. Jill takes a walk and watches TV.
+relations:[]
+tt:['inability to play football_mcqa', 'is able to go to a park_mcqa', 'is not playing football_mcqa', 'is unable to visit a museum_mcqa', 'visits a park_mcqa', 'will investigate_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3243': 'grades'}
+----------
+len of total relations:2
+total relations:['scholarship_mcqa', 'academic performance_mcqa']
+run_llm_extract_result:choice_1. Jill is a heavy reader and watches a lot of television.
+relations:[]
+tt:['scholarship_mcqa', 'academic performance_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3199': 'John'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_1. john revises enough but doesn't take a test
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3199': 'John'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_1. john doesn't drive carefully or he doesn't speed up
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3224': 'Sara', '3225': 'car'}
+----------
+len of total relations:1
+total relations:['owns_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['owns_mcqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+run_llm_extract_result:choice_2. sara didn't buy a car or she didn't sell her car
+relations:[]
+tt:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3241': 'reward'}
+----------
+len of total relations:1
+total relations:['deadline_mcqa']
+run_llm_extract_result:choice_1.
+relations:[]
+tt:['deadline_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3225': 'car'}
+----------
+len of total relations:3
+total relations:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+run_llm_extract_result:choice_2. Mary doesn't take the bus or she doesn't drive her own car
+relations:[]
+tt:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3232': 'swimming'}
+----------
+len of total relations:1
+total relations:['is experienced in_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['is experienced in_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3210': 'book', '3206': 'movie'}
+----------
+len of total relations:1
+total relations:['will read_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['will read_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['will watch_mcqa']
+run_llm_extract_result:choice_2. john neither reads a book nor watches a movie
+relations:[]
+tt:['will watch_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3218': 'library', '3210': 'book'}
+----------
+len of total relations:2
+total relations:['takes a break_mcqa', 'visits_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['takes a break_mcqa', 'visits_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['will read_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['will read_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3257': 'rest'}
+----------
+len of total relations:2
+total relations:['requires_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_1. Ricky takes a nap and exercises regularly.
+relations:[]
+tt:['requires_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3216': 'Jill'}
+----------
+len of total relations:6
+total relations:['inability to play football_mcqa', 'is able to go to a park_mcqa', 'is not playing football_mcqa', 'is unable to visit a museum_mcqa', 'visits a park_mcqa', 'will investigate_mcqa']
+run_llm_extract_result:choice_2. Jill doesn't feel full but saves money.
+relations:[]
+tt:['inability to play football_mcqa', 'is able to go to a park_mcqa', 'is not playing football_mcqa', 'is unable to visit a museum_mcqa', 'visits a park_mcqa', 'will investigate_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3220': 'museum', '3219': 'park', '3216': 'Jill'}
+----------
+len of total relations:1
+total relations:['is unable to visit a museum_mcqa']
+run_llm_extract_result:choice_1. she can visit a park
+relations:[]
+tt:['is unable to visit a museum_mcqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+run_llm_extract_result:choice_2. they can go to a movie theater
+relations:[]
+tt:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+final_relations:No relations found
+len of total relations:6
+total relations:['inability to play football_mcqa', 'is able to go to a park_mcqa', 'is not playing football_mcqa', 'is unable to visit a museum_mcqa', 'visits a park_mcqa', 'will investigate_mcqa']
+run_llm_extract_result:choice_4. he can visit a museum
+relations:[]
+tt:['inability to play football_mcqa', 'is able to go to a park_mcqa', 'is not playing football_mcqa', 'is unable to visit a museum_mcqa', 'visits a park_mcqa', 'will investigate_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3221': 'shopping', '3222': 'rock'}
+----------
+len of total relations:2
+total relations:['is able to go shopping_mcqa', 'is unable to go shopping_mcqa']
+run_llm_extract_result:choice_2. Jane can take a leisurely walk.
+relations:[]
+tt:['is able to go shopping_mcqa', 'is unable to go shopping_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is unable to go shopping_mcqa']
+run_llm_extract_result:choice_1. John can go shopping.
+relations:[]
+tt:['is unable to go shopping_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3223': 'football', '3216': 'Jill'}
+----------
+len of total relations:2
+total relations:['inability to play football_mcqa', 'is not playing football_mcqa']
+run_llm_extract_result:choice_2. Jill can watch movies
+relations:[]
+tt:['inability to play football_mcqa', 'is not playing football_mcqa']
+final_relations:No relations found
+len of total relations:6
+total relations:['inability to play football_mcqa', 'is able to go to a park_mcqa', 'is not playing football_mcqa', 'is unable to visit a museum_mcqa', 'visits a park_mcqa', 'will investigate_mcqa']
+run_llm_extract_result:choice_1. Rachel can watch movie
+relations:[]
+tt:['inability to play football_mcqa', 'is able to go to a park_mcqa', 'is not playing football_mcqa', 'is unable to visit a museum_mcqa', 'visits a park_mcqa', 'will investigate_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3220': 'museum'}
+----------
+len of total relations:1
+total relations:['is unable to visit a museum_mcqa']
+run_llm_extract_result:choice_1. he should stay at home
+relations:[]
+tt:['is unable to visit a museum_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3210': 'book'}
+----------
+len of total relations:1
+total relations:['will read_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['will read_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3199': 'John'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_1.
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3239': 'stroll', '3219': 'park'}
+----------
+len of total relations:2
+total relations:['happiness_mcqa', 'health_mcqa']
+run_llm_extract_result:choice_1. sarah can go for a jog in the morning
+relations:[]
+tt:['happiness_mcqa', 'health_mcqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+run_llm_extract_result:choice_2. sarah is able to take a leisurely stroll in the park
+relations:[]
+tt:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3199': 'John'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_4. john should stay at home
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'3206': 'movie'}
+----------
+len of total relations:1
+total relations:['will watch_mcqa']
+run_llm_extract_result:choice_4. he can watch a movie
+relations:[]
+tt:['will watch_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3224': 'Sara', '3223': 'football', '3232': 'swimming'}
+----------
+len of total relations:1
+total relations:['owns_mcqa']
+run_llm_extract_result:choice_1. she can go swimming
+relations:[]
+tt:['owns_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['inability to play football_mcqa', 'is not playing football_mcqa']
+run_llm_extract_result:choice_1. she can go swimming
+relations:[]
+tt:['inability to play football_mcqa', 'is not playing football_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is experienced in_mcqa']
+run_llm_extract_result:choice_1. she can go swimming
+relations:[]
+tt:['is experienced in_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3233': 'Sheila'}
+----------
+len of total relations:1
+total relations:['is skilled in_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['is skilled in_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3211': 'Alice'}
+----------
+len of total relations:3
+total relations:['takes a break_mcqa', 'visits_mcqa', 'will spend time with_mcqa']
+run_llm_extract_result:choice_3. someone is proficient in modern dance moves
+relations:[]
+tt:['takes a break_mcqa', 'visits_mcqa', 'will spend time with_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3247': 'degree', '3263': 'Samantha'}
+----------
+len of total relations:2
+total relations:['employability_mcqa', 'job_mcqa']
+run_llm_extract_result:choice_1. Someone has a degree in engineering.
+relations:[]
+tt:['employability_mcqa', 'job_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is not required to pack_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['is not required to pack_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3214': 'race'}
+----------
+len of total relations:1
+total relations:['will complete_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['will complete_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3199': 'John'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_2. John enjoys painting as a hobby.
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3251': 'excitement'}
+----------
+len of total relations:1
+total relations:['has_mcqa']
+run_llm_extract_result:choice_3. Someone bought a new car
+relations:[]
+tt:['has_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3213': 'James', '3226': 'Spanish'}
+----------
+len of total relations:3
+total relations:['speaks_mcqa', 'will complete_mcqa', 'will improve_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['speaks_mcqa', 'will complete_mcqa', 'will improve_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['speaks_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['speaks_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'3199': 'John', '3227': 'violin'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_1. Someone is proficient in playing the violin
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is proficient in_mcqa']
+run_llm_extract_result:1 (x.7)
+relations:[]
+tt:['is proficient in_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3228': 'Alexa', '3229': 'Nobel Prize'}
+----------
+len of total relations:1
+total relations:['was honored with_mcqa']
+run_llm_extract_result:1 (x.75)
+relations:[]
+tt:['was honored with_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['was honored with_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['was honored with_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3230': 'Raju', '3231': 'carpentry'}
+----------
+len of total relations:1
+total relations:['is proficient in_mcqa']
+run_llm_extract_result:choice_2. someone is proficient in carpentry
+relations:[]
+tt:['is proficient in_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is proficient in_mcqa']
+run_llm_extract_result:choice_2. someone is proficient in carpentry
+relations:[]
+tt:['is proficient in_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3232': 'swimming'}
+----------
+len of total relations:1
+total relations:['is experienced in_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['is experienced in_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3233': 'Sheila', '3234': 'chess'}
+----------
+len of total relations:1
+total relations:['is skilled in_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['is skilled in_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is skilled in_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['is skilled in_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3235': 'parents'}
+----------
+len of total relations:4
+total relations:['recognition_mcqa', 'life_mcqa', 'relationship_mcqa', 'reward_mcqa']
+run_llm_extract_result:1. recognition_mcqa
+relations:[]
+tt:['recognition_mcqa', 'life_mcqa', 'relationship_mcqa', 'reward_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3237': 'ingredients', '3212': 'friends'}
+----------
+len of total relations:1
+total relations:['meal_mcqa']
+run_llm_extract_result:choice_1. The chef will be able to impress the customer
+relations:[]
+tt:['meal_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['impression_mcqa', 'will spend time with_mcqa']
+run_llm_extract_result:choice_1. The chef will be able to impress the customer
+relations:[]
+tt:['impression_mcqa', 'will spend time with_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3238': 'dog', '3239': 'stroll'}
+----------
+len of total relations:2
+total relations:['health_mcqa', 'happiness_mcqa']
+run_llm_extract_result:2. happiness_mcqa
+relations:[]
+tt:['health_mcqa', 'happiness_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['happiness_mcqa', 'health_mcqa']
+run_llm_extract_result:2. health_mcqa
+relations:[]
+tt:['happiness_mcqa', 'health_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3240': 'tasks'}
+----------
+len of total relations:1
+total relations:['deadline_mcqa']
+run_llm_extract_result:choice_1. the team will receive a reward
+relations:[]
+tt:['deadline_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3242': 'effort'}
+----------
+len of total relations:2
+total relations:['academic performance_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:1 (0.75)
+2 (0.25)
+relations:[{'entity': '3242', 'relation': '1', 'score': 0.75, 'head': False}, {'entity': '3242', 'relation': '2', 'score': 0.25, 'head': False}]
+tt:['academic performance_mcqa', 'scholarship_mcqa']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3244': 'helmet', '3246': 'injuries'}
+----------
+len of total relations:1
+total relations:['injuries_mcqa']
+run_llm_extract_result:choice_3. He may lose his life.
+relations:[]
+tt:['injuries_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['trauma_mcqa']
+run_llm_extract_result:choice_3. He may lose his life.
+relations:[]
+tt:['trauma_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3247': 'degree', '3248': 'courses'}
+----------
+len of total relations:2
+total relations:['employability_mcqa', 'job_mcqa']
+run_llm_extract_result:choice_1. He will get a job
+relations:[]
+tt:['employability_mcqa', 'job_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['degree_mcqa']
+run_llm_extract_result:degree_mcqa
+relations:[]
+tt:['degree_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3242': 'effort', '3259': 'promotion'}
+----------
+len of total relations:2
+total relations:['academic performance_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_1. They will be successfull
+relations:[]
+tt:['academic performance_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['has_mcqa']
+run_llm_extract_result:choice_1. They will be successfull
+relations:[]
+tt:['has_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3257': 'rest', '3249': 'fatigue', '3236': 'individual'}
+----------
+len of total relations:2
+total relations:['requires_mcqa', 'will_mcqa']
+run_llm_extract_result:1. requires_mcqa
+relations:[]
+tt:['requires_mcqa', 'will_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['is characterized by_mcqa']
+run_llm_extract_result:choice_1. They would benefit from a break
+relations:[]
+tt:['is characterized by_mcqa']
+final_relations:No relations found
+len of total relations:10
+total relations:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_1. They would benefit from a break
+relations:[]
+tt:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'3259': 'promotion'}
+----------
+len of total relations:1
+total relations:['has_mcqa']
+run_llm_extract_result:choice_1. He will be given a promotion
+relations:[]
+tt:['has_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3218': 'library'}
+----------
+len of total relations:2
+total relations:['takes a break_mcqa', 'visits_mcqa']
+run_llm_extract_result:choice_1. they will have a higher probability of getting better grades
+relations:[]
+tt:['takes a break_mcqa', 'visits_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3250': 'exhaustion', '3257': 'rest', '3204': 'tired'}
+----------
+len of total relations:1
+total relations:['is characterized by_mcqa']
+run_llm_extract_result:choice_1. Emily will watch a movie
+relations:[]
+tt:['is characterized by_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['requires_mcqa', 'will_mcqa']
+run_llm_extract_result:1. requires_mcqa
+relations:[]
+tt:['requires_mcqa', 'will_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['late_mcqa']
+run_llm_extract_result:choice_1. Emily will watch a movie
+relations:[]
+tt:['late_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3243': 'grades'}
+----------
+len of total relations:2
+total relations:['scholarship_mcqa', 'academic performance_mcqa']
+run_llm_extract_result:choice_3. she is also good at physics
+relations:[]
+tt:['scholarship_mcqa', 'academic performance_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3251': 'excitement'}
+----------
+len of total relations:1
+total relations:['has_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['has_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3199': 'John'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_1. He will miss his train
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3199': 'John', '3236': 'individual'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_3. he cannot concentrate
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+len of total relations:10
+total relations:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_3. he cannot concentrate
+relations:[]
+tt:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3249': 'fatigue', '3205': 'studying', '3236': 'individual'}
+----------
+len of total relations:1
+total relations:['is characterized by_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['is characterized by_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['late_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['late_mcqa']
+final_relations:No relations found
+len of total relations:10
+total relations:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_1. they are feeling motivated to study even harder
+relations:[]
+tt:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3257': 'rest'}
+----------
+len of total relations:2
+total relations:['requires_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_2. he will take a nap
+relations:[]
+tt:['requires_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3251': 'excitement', '3252': 'anticipation', '3236': 'individual'}
+----------
+len of total relations:1
+total relations:['has_mcqa']
+run_llm_extract_result:choice_1.
+relations:[]
+tt:['has_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['has_mcqa']
+run_llm_extract_result:choice_1.
+relations:[]
+tt:['has_mcqa']
+final_relations:No relations found
+len of total relations:10
+total relations:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_1. he will go to a concert
+relations:[]
+tt:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3253': 'infection'}
+----------
+len of total relations:1
+total relations:['has_mcqa']
+run_llm_extract_result:choice_2. He has a weakened immune system.
+relations:[]
+tt:['has_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3255': 'anger', '3245': 'person'}
+----------
+len of total relations:1
+total relations:['is experiencing_mcqa']
+run_llm_extract_result:choice_1. He will shout
+relations:[]
+tt:['is experiencing_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['injuries_mcqa', 'trauma_mcqa']
+run_llm_extract_result:choice_1. He will shout
+relations:[]
+tt:['injuries_mcqa', 'trauma_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3256': 'injury', '3257': 'rest', '3199': 'John'}
+----------
+len of total relations:2
+total relations:['requires_mcqa', 'has_mcqa']
+run_llm_extract_result:choice_1. He will take rest
+relations:[]
+tt:['requires_mcqa', 'has_mcqa']
+final_relations:No relations found
+len of total relations:2
+total relations:['requires_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_1. He will take rest
+relations:[]
+tt:['requires_mcqa', 'will_mcqa']
+final_relations:No relations found
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_3. He will seek medical treatment
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3259': 'promotion'}
+----------
+len of total relations:1
+total relations:['has_mcqa']
+run_llm_extract_result:choice_1. She will get a promotion.
+relations:[]
+tt:['has_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3236': 'individual'}
+----------
+len of total relations:10
+total relations:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_1. John, on the other hand, has enough money for luxury purchases
+relations:[]
+tt:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3219': 'park'}
+----------
+len of total relations:3
+total relations:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+run_llm_extract_result:choice_3. john doesn't visit the park
+relations:[]
+tt:['does not visit_mcqa', 'is able to go to a park_mcqa', 'visits a park_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3225': 'car'}
+----------
+len of total relations:3
+total relations:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+run_llm_extract_result:choice_2. He was aware that the car needed to be towed.
+relations:[]
+tt:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3260': 'Judy', '3225': 'car', '3236': 'individual'}
+----------
+len of total relations:1
+total relations:['does not have_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['does not have_mcqa']
+final_relations:No relations found
+len of total relations:3
+total relations:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+run_llm_extract_result:choice_1. judy doesn't have a car
+relations:[]
+tt:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+final_relations:No relations found
+len of total relations:10
+total relations:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_1. judy doesn't have a car
+relations:[]
+tt:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3225': 'car'}
+----------
+len of total relations:3
+total relations:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+run_llm_extract_result:choice_2. mark is obliged to adhere to the regulations governing traffic
+relations:[]
+tt:['does not have_mcqa', 'has_mcqa', 'owns_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3238': 'dog'}
+----------
+len of total relations:2
+total relations:['health_mcqa', 'happiness_mcqa']
+run_llm_extract_result:choice_1. lisa doesn't have a pet dog
+relations:[]
+tt:['health_mcqa', 'happiness_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3245': 'person'}
+----------
+len of total relations:2
+total relations:['injuries_mcqa', 'trauma_mcqa']
+run_llm_extract_result:choice_1. alice did not rob the bank
+relations:[]
+tt:['injuries_mcqa', 'trauma_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3199': 'John'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_1. Sarah is not going to the store
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3242': 'effort', '3205': 'studying'}
+----------
+len of total relations:2
+total relations:['academic performance_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_1. He is a good student.
+relations:[]
+tt:['academic performance_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['late_mcqa']
+run_llm_extract_result:choice_2. Frank doesn't study hard.
+relations:[]
+tt:['late_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'3242': 'effort'}
+----------
+len of total relations:2
+total relations:['academic performance_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_2. jill isn't in college
+relations:[]
+tt:['academic performance_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3236': 'individual'}
+----------
+len of total relations:10
+total relations:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_2. she was unable to find a good spot to watch the sunrise
+relations:[]
+tt:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3264': 'sunscreen', '3236': 'individual'}
+----------
+len of total relations:1
+total relations:['is not required to pack_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['is not required to pack_mcqa']
+final_relations:No relations found
+len of total relations:10
+total relations:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_2. She doesn't need sunscreen.
+relations:[]
+tt:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3247': 'degree'}
+----------
+len of total relations:2
+total relations:['employability_mcqa', 'job_mcqa']
+run_llm_extract_result:choice_1. reema has already completed all the requirements for her degree
+relations:[]
+tt:['employability_mcqa', 'job_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3276': 'dogs'}
+----------
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_3. fido have four legs
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'3275': 'fur'}
+----------
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_2. all animals with fur have thick skin
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3266': 'brain'}
+----------
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'3236': 'individual'}
+----------
+len of total relations:10
+total relations:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+run_llm_extract_result:choice_3. Mary needs oxygen to survive
+relations:[]
+tt:['impression_mcqa', 'life_mcqa', 'meal_mcqa', 'relationship_mcqa', 'reward_mcqa', 'degree_mcqa', 'employability_mcqa', 'job_mcqa', 'recognition_mcqa', 'scholarship_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'3274': 'cats'}
+----------
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_2. john's cat a stray
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3267': 'basketball'}
+----------
+len of total relations:2
+total relations:['does not play_mcqa', 'plays_mcqa']
+run_llm_extract_result:choice_2. Jenny is good at skipping
+relations:[]
+tt:['does not play_mcqa', 'plays_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3199': 'John'}
+----------
+len of total relations:14
+total relations:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+run_llm_extract_result:choice_4. john lifts weights
+relations:[]
+tt:['does not visit_mcqa', 'food_mcqa', 'has_mcqa', 'is able to go shopping_mcqa', 'is experienced in_mcqa', 'is experiencing_mcqa', 'is proficient in_mcqa', 'organic food_mcqa', 'processed food_mcqa', 'stores food_mcqa', 'will gain_mcqa', 'will go_mcqa', 'will watch_mcqa', 'will_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3270': 'cycling', '3269': 'David'}
+----------
+len of total relations:1
+total relations:['does_mcqa']
+run_llm_extract_result:choice_3. Chris enjoys cycling.
+relations:[]
+tt:['does_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['does_mcqa']
+run_llm_extract_result:choice_2. David does cycling.
+relations:[]
+tt:['does_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3272': 'jungle'}
+----------
+len of total relations:1
+total relations:['inhabit_mcqa']
+run_llm_extract_result:choice_1. Tigers stay in jungle.
+relations:[]
+tt:['inhabit_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3273': 'wings'}
+----------
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_1. helicopters have wings
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3276': 'dogs', '3275': 'fur'}
+----------
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_2. dogs are kept as pets
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3274': 'cats', '3276': 'dogs'}
+----------
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_2. Cats are cold blooded animals.
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'3265': 'elephants'}
+----------
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_1
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3274': 'cats', '3276': 'dogs'}
+----------
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_2. cats require more attention than dogs
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+len of total relations:1
+total relations:['have_mcqa']
+run_llm_extract_result:choice_2. cats require more attention than dogs
+relations:[]
+tt:['have_mcqa']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+true:choice_3----pred:choice_1
+chengong!
+chengong!
+true:choice_4----pred:choice_1
+chengong!
+true:choice_3----pred:choice_1
+chengong!
+true:choice_4----pred:choice_1
+true:choice_4----pred:choice_2
+chengong!
+true:choice_1----pred:choice_2. he doesn't play video games or he does feel relaxed
+true:choice_4----pred:choice_2
+true:choice_3----pred:choice_2. She will choose the elevator or she will be out of breath
+true:choice_1----pred:choice_3
+true:choice_4----pred:choice_1
+true:choice_1----pred:choice_4
+chengong!
+chengong!
+true:choice_4----pred:choice_2
+true:choice_3----pred:choice_1
+chengong!
+chengong!
+true:choice_4----pred:choice_1
+true:choice_3----pred:choice_1
+true:choice_3----pred:choice_1
+true:choice_3----pred:choice_4
+chengong!
+chengong!
+chengong!
+true:choice_4----pred:choice_1
+chengong!
+chengong!
+true:choice_3----pred:choice_1
+true:choice_4----pred:choice_1
+chengong!
+chengong!
+chengong!
+chengong!
+true:choice_2----pred:choice_1
+chengong!
+chengong!
+true:choice_4----pred:choice_1
+true:choice_1----pred:choice_2
+true:choice_3----pred:choice_4
+true:choice_4----pred:choice_1
+chengong!
+chengong!
+true:choice_2----pred:choice_1
+chengong!
+true:choice_3----pred:choice_1
+true:choice_3----pred:choice_2. sara receives a promotion and she refreshes her mind
+chengong!
+true:choice_3----pred:choice_1
+chengong!
+chengong!
+chengong!
+chengong!
+true:choice_2----pred:choice_1
+true:choice_2----pred:choice_1
+true:choice_4----pred:choice_2
+chengong!
+chengong!
+true:choice_3----pred:choice_2
+chengong!
+chengong!
+chengong!
+true:choice_3----pred:choice_1
+true:choice_3----pred:choice_1
+true:choice_3----pred:choice_1
+chengong!
+chengong!
+chengong!
+true:choice_4----pred:choice_1
+chengong!
+chengong!
+true:choice_4----pred:choice_3
+true:choice_1----pred:choice_2. Sophie can stay out late
+true:choice_4----pred:choice_1
+true:choice_4----pred:choice_2
+chengong!
+chengong!
+chengong!
+true:choice_3----pred:choice_2
+chengong!
+chengong!
+true:choice_2----pred:choice_1
+chengong!
+true:choice_3----pred:choice_1
+chengong!
+chengong!
+chengong!
+chengong!
+chengong!
+chengong!
+chengong!
+chengong!
+chengong!
+chengong!
+true:choice_4----pred:choice_1
+chengong!
+chengong!
+true:choice_2----pred:choice_4
+true:choice_4----pred:choice_1
+chengong!
+true:choice_4----pred:choice_1
+chengong!
+chengong!
+true:choice_4----pred:choice_2. they will have the funds for a relaxing trip
+chengong!
+true:choice_3----pred:choice_1. She can buy whatever he wants
+chengong!
+true:choice_4----pred:choice_1
+true:choice_3----pred:choice_1
+chengong!
+chengong!
+chengong!
+chengong!
+chengong!
+true:choice_4----pred:choice_2
+true:choice_3----pred:choice_4
+true:choice_4----pred:choice_1
+chengong!
+chengong!
+chengong!
+true:choice_3----pred:choice_1. Krishna will go for dinner outside
+chengong!
+chengong!
+chengong!
+chengong!
+true:choice_4----pred:choice_1
+chengong!
+true:choice_4----pred:choice_1
+true:choice_4----pred:choice_3
+chengong!
+chengong!
+chengong!
+chengong!
+true:choice_4----pred:choice_2
+chengong!
+true:choice_4----pred:choice_1
+chengong!
+true:choice_3----pred:choice_1
+chengong!
+true:choice_4----pred:choice_2
+true:choice_1----pred:choice_3
+true:choice_4----pred:choice_2
+chengong!
+chengong!
+true:choice_3----pred:choice_1
+chengong!
+true:choice_4----pred:choice_2
+chengong!
+true:choice_3----pred:choice_1. john gave up playing the game halfway through
+true:choice_1----pred:choice_2. she is using a pressure cooker.
+true:choice_3----pred:choice_4
+chengong!
+chengong!
+true:choice_3----pred:choice_1
+true:choice_1----pred:choice_2. he is engaged to be married
+true:choice_3----pred:choice_1
+true:choice_4----pred:choice_1
+true:choice_4----pred:choice_1
+chengong!
+true:choice_4----pred:choice_3. Sheba is an omnivore
+chengong!
+chengong!
+chengong!
+true:choice_1----pred:choice_2. Dean is completely dependent on caffeine.
+chengong!
+true:choice_4----pred:choice_2. Jack has low muscle fat
+true:choice_1----pred:choice_2
+chengong!
+true:choice_4----pred:choice_1
+chengong!
+true:choice_2----pred:choice_4. sam is power-hungry.
+true:choice_3----pred:choice_4
+chengong!
+chengong!
+chengong!
+true:choice_4----pred:choice_2
+true:choice_4----pred:choice_3
+chengong!
+true:choice_4----pred:choice_2. alex exercises
+true:choice_4----pred:choice_1
+true:choice_2----pred:choice_4
+true:choice_1----pred:choice_4
+true:choice_3----pred:choice_1
+chengong!
+chengong!
+true:choice_3----pred:choice_2
+true:choice_2----pred:choice_1
+chengong!
+true:choice_4----pred:choice_1
+chengong!
+true:choice_4----pred:choice_3. Mangoes are in a box
+true:choice_4----pred:choice_2
+true:choice_3----pred:choice_1
+chengong!
+chengong!
+true:choice_4----pred:choice_2. jerry is always serious
+F1: 0.0000
+Accuracy: 0.5200
+总耗时: 73.79 秒
+Sat Sep  6 21:51:19 CST 2025
+comput11

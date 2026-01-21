@@ -1,0 +1,1674 @@
+Running job on node: comput10
+Start Running ToG on squad dataset.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2457': 'Russia'}
+----------
+len of total relations:1
+total relations:['has improved relations with_squad']
+run_llm_extract_result:Russia (Country)
+relations:[]
+tt:['has improved relations with_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2408': 'Dervish State', '2406': 'Mohammed Abdullah Hassan'}
+----------
+len of total relations:2
+total relations:['received support from_squad', 'repulsed_squad']
+run_llm_extract_result:1. repulsed_squad
+2. received_support_from_squad
+3. achieved_full_control_ago
+relations:[]
+tt:['received support from_squad', 'repulsed_squad']
+final_relations:No relations found
+len of total relations:2
+total relations:['gathered_squad', 'led_squad']
+run_llm_extract_result:1. gathered_squad
+2. led_squad
+3. achieved_full_control
+relations:[]
+tt:['gathered_squad', 'led_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2427': 'Queen', '2428': 'Prince Philip', '2418': 'State Apartments', '2420': 'Marble Hall', '2426': "Queen's Garden Parties"}
+----------
+len of total relations:1
+total relations:['uses_squad']
+run_llm_extract_result:semi-state apartments (2.0)
+relations:[{'entity': '2427', 'relation': 'semi-state apartments', 'score': 2.0, 'head': False}]
+tt:['uses_squad']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['uses_squad']
+run_llm_extract_result:uses_squad (0.67)
+relations:[{'entity': '2428', 'relation': 'uses_squad', 'score': 0.67, 'head': True}]
+tt:['uses_squad']
+final_relations:[{'entity': '2428', 'relation': 'uses_squad', 'score': 0.67, 'head': True}]
+len of total relations:2
+total relations:['contains_squad', 'visited_squad']
+run_llm_extract_result:Queen's Garden Parties in the Gardens
+relations:[]
+tt:['contains_squad', 'visited_squad']
+final_relations:No relations found
+len of total relations:1
+total relations:['leads to_squad']
+run_llm_extract_result:Bow Room (1)
+relations:[{'entity': '2420', 'relation': 'Bow Room', 'score': 1.0, 'head': False}]
+tt:['leads to_squad']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['leads to_squad']
+run_llm_extract_result:Queen's Garden Parties (topic_entity) (directs_to_north_wing) (located_in) (Queen's_Garden_Parties)
+relations:[]
+tt:['leads to_squad']
+final_relations:No relations found
+ current_entityu_relations:[{'entity': '2428', 'relation': 'uses_squad', 'score': 0.67, 'head': True}]
+entity_search len:1 results:[{'head': 2428, 'tail': 2425, 'hname': 'Prince Philip', 'tname': 'Bow Room'}]
+entityu_candidates_id:[2425]
+entity_candidates_name:['Bow Room']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2425
+{2425: 'Bow Room'}
+----------
+len of total relations:1
+total relations:['leads to_squad']
+run_llm_extract_result:relation_name (2.67)
+relations:[{'entity': 2425, 'relation': 'relation_name', 'score': 2.67, 'head': False}]
+tt:['leads to_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+*************************************************************
+{'2429': 'Alfred Adler', '2430': 'clinics'}
+----------
+len of total relations:3
+total relations:['had_squad', 'was a_squad', 'worked at_squad']
+run_llm_extract_result:was a_squad (0.78)
+worked at_squad (0.16)
+had_squad (0.06)
+relations:[{'entity': '2429', 'relation': 'was a_squad', 'score': 0.78, 'head': True}, {'entity': '2429', 'relation': 'worked at_squad', 'score': 0.16, 'head': True}, {'entity': '2429', 'relation': 'had_squad', 'score': 0.06, 'head': True}]
+tt:['had_squad', 'was a_squad', 'worked at_squad']
+final_relations:[{'entity': '2429', 'relation': 'was a_squad', 'score': 0.78, 'head': True}, {'entity': '2429', 'relation': 'worked at_squad', 'score': 0.16, 'head': True}, {'entity': '2429', 'relation': 'had_squad', 'score': 0.06, 'head': True}]
+len of total relations:1
+total relations:['worked at_squad']
+run_llm_extract_result:completed_exam_in (1.00)
+relations:[{'entity': '2430', 'relation': 'completed_exam_in', 'score': 1.0, 'head': False}]
+tt:['worked at_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[{'entity': '2429', 'relation': 'was a_squad', 'score': 0.78, 'head': True}, {'entity': '2429', 'relation': 'worked at_squad', 'score': 0.16, 'head': True}, {'entity': '2429', 'relation': 'had_squad', 'score': 0.06, 'head': True}]
+entity_search len:1 results:[{'head': 2429, 'tail': 2431, 'hname': 'Alfred Adler', 'tname': 'psychoanalyst'}]
+entityu_candidates_id:[2431]
+entity_candidates_name:['psychoanalyst']
+entity_search len:1 results:[{'head': 2429, 'tail': 2430, 'hname': 'Alfred Adler', 'tname': 'clinics'}]
+entityu_candidates_id:[2430]
+entity_candidates_name:['clinics']
+entity_search len:1 results:[{'head': 2429, 'tail': 2431, 'hname': 'Alfred Adler', 'tname': 'psychoanalyst'}]
+entityu_candidates_id:[2431]
+entity_candidates_name:['psychoanalyst']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2431
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2430
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2431
+{2431: 'psychoanalyst', 2430: 'clinics'}
+----------
+len of total relations:0
+
+    MATCH (e {id:$entity_id})-[r]->(t)
+    RETURN DISTINCT type(r) as label
+    
+
+    MATCH (h)-[r]->(e {id:$entity_id})
+    RETURN DISTINCT type(r) as label
+    
+len of total relations:0
+
+    MATCH (e {id:$entity_id})-[r]->(t)
+    RETURN DISTINCT type(r) as label
+    
+
+    MATCH (h)-[r]->(e {id:$entity_id})
+    RETURN DISTINCT type(r) as label
+    
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+*************************************************************
+{'2439': 'Melbourne', '2435': 'freeway'}
+----------
+len of total relations:2
+total relations:['was modernised_squad', 'was remodeled_squad']
+run_llm_extract_result:Bolte (x.78)
+relations:[]
+tt:['was modernised_squad', 'was remodeled_squad']
+final_relations:No relations found
+len of total relations:1
+total relations:['invested in_squad']
+run_llm_extract_result:government (0.25)
+Housing Commission of Victoria (0.25)
+Bolte government (0.5)
+relations:[{'entity': '2435', 'relation': 'government', 'score': 0.25, 'head': False}, {'entity': '2435', 'relation': 'Housing Commission of Victoria', 'score': 0.25, 'head': False}, {'entity': '2435', 'relation': 'Bolte government', 'score': 0.5, 'head': False}]
+tt:['invested in_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2441': 'Benjamin Franklin', '2442': 'Committee of Five', '2443': 'Declaration of Independence'}
+----------
+len of total relations:2
+total relations:['Made changes to_squad', 'Member of_squad']
+run_llm_extract_result:Member of_squad (0.85)
+relations:[{'entity': '2441', 'relation': 'Member of_squad', 'score': 0.85, 'head': True}]
+tt:['Made changes to_squad', 'Member of_squad']
+final_relations:[{'entity': '2441', 'relation': 'Member of_squad', 'score': 0.85, 'head': True}]
+len of total relations:2
+total relations:['Drafted_squad', 'Member of_squad']
+run_llm_extract_result:Member of_squad (0.95)
+relations:[{'entity': '2442', 'relation': 'Member of_squad', 'score': 0.95, 'head': False}]
+tt:['Drafted_squad', 'Member of_squad']
+final_relations:[{'entity': '2442', 'relation': 'Member of_squad', 'score': 0.95, 'head': False}]
+len of total relations:2
+total relations:['Drafted_squad', 'Made changes to_squad']
+run_llm_extract_result:Member_of_committee (0.5)
+Drafted_squad (0.3)
+Made_changes_to_squad (0.2)
+relations:[{'entity': '2443', 'relation': 'Member_of_committee', 'score': 0.5, 'head': False}, {'entity': '2443', 'relation': 'Drafted_squad', 'score': 0.3, 'head': False}, {'entity': '2443', 'relation': 'Made_changes_to_squad', 'score': 0.2, 'head': False}]
+tt:['Drafted_squad', 'Made changes to_squad']
+final_relations:[{'entity': '2443', 'relation': 'Drafted_squad', 'score': 0.3, 'head': False}]
+ current_entityu_relations:[{'entity': '2441', 'relation': 'Member of_squad', 'score': 0.85, 'head': True}, {'entity': '2442', 'relation': 'Member of_squad', 'score': 0.95, 'head': False}, {'entity': '2443', 'relation': 'Drafted_squad', 'score': 0.3, 'head': False}]
+entity_search len:1 results:[{'head': 2441, 'tail': 2442, 'hname': 'Benjamin Franklin', 'tname': 'Committee of Five'}]
+entityu_candidates_id:[2442]
+entity_candidates_name:['Committee of Five']
+entity_search len:1 results:[{'head': 2442, 'tail': 2441, 'hname': 'Committee of Five', 'tname': 'Benjamin Franklin'}]
+entityu_candidates_id:[2442]
+entity_candidates_name:['Committee of Five']
+entity_search len:1 results:[{'head': 2443, 'tail': 2442, 'hname': 'Declaration of Independence', 'tname': 'Committee of Five'}]
+entityu_candidates_id:[2443]
+entity_candidates_name:['Declaration of Independence']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2442
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2442
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2443
+{2442: 'Committee of Five', 2443: 'Declaration of Independence'}
+----------
+len of total relations:1
+total relations:['Member of_squad']
+run_llm_extract_result:Member_of_squad (0.85)
+relations:[{'entity': 2442, 'relation': 'Member_of_squad', 'score': 0.85, 'head': False}]
+tt:['Member of_squad']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['Made changes to_squad']
+run_llm_extract_result:appointed_a_member_of_the_committee (0.985)
+relations:[{'entity': 2443, 'relation': 'appointed_a_member_of_the_committee', 'score': 0.985, 'head': False}]
+tt:['Made changes to_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+*************************************************************
+*************************************************************
+{'2446': 'Eli Whitney', '2447': 'New Haven'}
+----------
+len of total relations:1
+total relations:['Remained in_squad']
+run_llm_extract_result:Arsenal_of_America (0.5)
+Eli_Whitney_Museum (0.27)
+Samuel_Colt (0.13)
+relations:[{'entity': '2446', 'relation': 'Arsenal_of_America', 'score': 0.5, 'head': False}, {'entity': '2446', 'relation': 'Eli_Whitney_Museum', 'score': 0.27, 'head': False}, {'entity': '2446', 'relation': 'Samuel_Colt', 'score': 0.13, 'head': False}]
+tt:['Remained in_squad']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['Remained in_squad']
+run_llm_extract_result:Automatic_revolver (0.25)
+Arsenal_of_America (0.4)
+Gun_manufacturing_factory (0.35)
+relations:[{'entity': '2447', 'relation': 'Automatic_revolver', 'score': 0.25, 'head': False}, {'entity': '2447', 'relation': 'Arsenal_of_America', 'score': 0.4, 'head': False}, {'entity': '2447', 'relation': 'Gun_manufacturing_factory', 'score': 0.35, 'head': False}]
+tt:['Remained in_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2450': 'Nicolas Chopin', '2454': 'Poland'}
+----------
+len of total relations:4
+total relations:['adopted homeland_squad', 'husband of_squad', 'worked for_squad', 'pupil of_squad']
+run_llm_extract_result:adopted homeland_squad (Nicolas Chopin)
+relations:[]
+tt:['adopted homeland_squad', 'husband of_squad', 'worked for_squad', 'pupil of_squad']
+final_relations:No relations found
+len of total relations:1
+total relations:['adopted homeland_squad']
+run_llm_extract_result:Frenchman (Nicolas Chopin)
+relations:[]
+tt:['adopted homeland_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2455': 'Egypt', '2457': 'Russia', '2458': 'China'}
+----------
+len of total relations:4
+total relations:['builds equipment under license_squad', 'has a comprehensive strategic partnership with_squad', 'has improved relations with_squad', 'imports equipment from_squad']
+run_llm_extract_result:China (2.5)
+relations:[{'entity': '2455', 'relation': 'China', 'score': 2.5, 'head': False}]
+tt:['builds equipment under license_squad', 'has a comprehensive strategic partnership with_squad', 'has improved relations with_squad', 'imports equipment from_squad']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['has improved relations with_squad']
+run_llm_extract_result:Russia (0.5)
+Egypt (0.38)
+China (0.12)
+relations:[{'entity': '2457', 'relation': 'Russia', 'score': 0.5, 'head': False}, {'entity': '2457', 'relation': 'Egypt', 'score': 0.38, 'head': False}, {'entity': '2457', 'relation': 'China', 'score': 0.12, 'head': False}]
+tt:['has improved relations with_squad']
+final_relations:All relations pruned
+len of total relations:2
+total relations:['has a comprehensive strategic partnership with_squad', 'has improved relations with_squad']
+run_llm_extract_result:China (0.75)
+relations:[{'entity': '2458', 'relation': 'China', 'score': 0.75, 'head': False}]
+tt:['has a comprehensive strategic partnership with_squad', 'has improved relations with_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2459': 'Romanesque art'}
+----------
+len of total relations:2
+total relations:['was prominent in_squad', 'is an example of_squad']
+run_llm_extract_result:is an example of_squad (0.78)
+was prominent in_squad (0.22)
+relations:[{'entity': '2459', 'relation': 'is an example of_squad', 'score': 0.78, 'head': False}, {'entity': '2459', 'relation': 'was prominent in_squad', 'score': 0.22, 'head': True}]
+tt:['was prominent in_squad', 'is an example of_squad']
+final_relations:[{'entity': '2459', 'relation': 'is an example of_squad', 'score': 0.78, 'head': False}, {'entity': '2459', 'relation': 'was prominent in_squad', 'score': 0.22, 'head': True}]
+ current_entityu_relations:[{'entity': '2459', 'relation': 'is an example of_squad', 'score': 0.78, 'head': False}, {'entity': '2459', 'relation': 'was prominent in_squad', 'score': 0.22, 'head': True}]
+entity_search len:1 results:[{'head': 2459, 'tail': 2463, 'hname': 'Romanesque art', 'tname': 'Gloucester Candlestick'}]
+entityu_candidates_id:[2459]
+entity_candidates_name:['Romanesque art']
+entity_search len:1 results:[{'head': 2459, 'tail': 2460, 'hname': 'Romanesque art', 'tname': 'Mosan art'}]
+entityu_candidates_id:[2460]
+entity_candidates_name:['Mosan art']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2459
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2460
+{2459: 'Romanesque art', 2460: 'Mosan art'}
+----------
+len of total relations:1
+total relations:['is an example of_squad']
+run_llm_extract_result:Last Judgement (on the west wall)
+Christ in Majesty (at the east end)
+narrative biblical scenes (down the nave)
+relations:[]
+tt:['is an example of_squad']
+final_relations:No relations found
+len of total relations:1
+total relations:['was influenced by_squad']
+run_llm_extract_result:Last Judgement on the west wall
+Christ in Majesty at the east end
+narrative biblical scenes down the nave
+relations:[]
+tt:['was influenced by_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+*************************************************************
+{'2465': 'Southeast Asia', '2469': 'Palau', '2470': 'Guam'}
+----------
+len of total relations:4
+total relations:['are geographically part of_squad', 'are sometimes included in_squad', 'is culturally part of_squad', 'is sometimes included in_squad']
+run_llm_extract_result:are geographically part_of_squad
+are culturally part_of_squad
+is sometimes included_in_squad
+relations:[]
+tt:['are geographically part of_squad', 'are sometimes included in_squad', 'is culturally part of_squad', 'is sometimes included in_squad']
+final_relations:No relations found
+len of total relations:1
+total relations:['is sometimes included in_squad']
+run_llm_extract_result:is sometimes included in_squad (0.85)
+relations:[{'entity': '2469', 'relation': 'is sometimes included in_squad', 'score': 0.85, 'head': True}]
+tt:['is sometimes included in_squad']
+final_relations:[{'entity': '2469', 'relation': 'is sometimes included in_squad', 'score': 0.85, 'head': True}]
+len of total relations:1
+total relations:['is sometimes included in_squad']
+run_llm_extract_result:is sometimes included in_squad (0.4)
+relations:[{'entity': '2470', 'relation': 'is sometimes included in_squad', 'score': 0.4, 'head': True}]
+tt:['is sometimes included in_squad']
+final_relations:[{'entity': '2470', 'relation': 'is sometimes included in_squad', 'score': 0.4, 'head': True}]
+ current_entityu_relations:[{'entity': '2469', 'relation': 'is sometimes included in_squad', 'score': 0.85, 'head': True}, {'entity': '2470', 'relation': 'is sometimes included in_squad', 'score': 0.4, 'head': True}]
+entity_search len:1 results:[{'head': 2469, 'tail': 2465, 'hname': 'Palau', 'tname': 'Southeast Asia'}]
+entityu_candidates_id:[2465]
+entity_candidates_name:['Southeast Asia']
+entity_search len:1 results:[{'head': 2470, 'tail': 2465, 'hname': 'Guam', 'tname': 'Southeast Asia'}]
+entityu_candidates_id:[2465]
+entity_candidates_name:['Southeast Asia']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2465
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2465
+{2465: 'Southeast Asia'}
+----------
+len of total relations:3
+total relations:['are geographically part of_squad', 'are sometimes included in_squad', 'is culturally part of_squad']
+run_llm_extract_result:are sometimes included in_squad (Palau)
+is culturally part of_squad (Guam)
+are geographically part of_squad (New Guinea)
+relations:[]
+tt:['are geographically part of_squad', 'are sometimes included in_squad', 'is culturally part of_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+*************************************************************
+*************************************************************
+{'2472': 'Australian Democrats', '2473': 'Don Chipp'}
+----------
+len of total relations:1
+total relations:['was founded by_squad']
+run_llm_extract_result:was founded by_squad (Don Chipp)
+relations:[]
+tt:['was founded by_squad']
+final_relations:No relations found
+len of total relations:1
+total relations:['was founded by_squad']
+run_llm_extract_result:was founded by_squad (Don Chipp)
+relations:[]
+tt:['was founded by_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2474': 'barley'}
+----------
+len of total relations:1
+total relations:['is used to make_squad']
+run_llm_extract_result:is used_to_make_squad (0.59)
+is_used_as_filter_bed (0.26)
+contains_no_barley_malt (0.15)
+relations:[{'entity': '2474', 'relation': 'is used_to_make_squad', 'score': 0.59, 'head': False}, {'entity': '2474', 'relation': 'is_used_as_filter_bed', 'score': 0.26, 'head': False}, {'entity': '2474', 'relation': 'contains_no_barley_malt', 'score': 0.15, 'head': False}]
+tt:['is used to make_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2531': 'Japan'}
+----------
+len of total relations:1
+total relations:['hosted_squad']
+run_llm_extract_result:ketsu-eki (blood tax)
+relations:[]
+tt:['hosted_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2412': 'Britain', '2449': 'France'}
+----------
+len of total relations:4
+total relations:['turned former Dervish territories into_squad', 'used airplanes to bomb_squad', 'builds equipment under license_squad', 'imports equipment from_squad']
+run_llm_extract_result:4. imports equipment from_squad
+relations:[]
+tt:['turned former Dervish territories into_squad', 'used airplanes to bomb_squad', 'builds equipment under license_squad', 'imports equipment from_squad']
+final_relations:No relations found
+len of total relations:3
+total relations:['Located in_squad', 'builds equipment under license_squad', 'imports equipment from_squad']
+run_llm_extract_result:relation_name (1.00)
+relations:[{'entity': '2449', 'relation': 'relation_name', 'score': 1.0, 'head': False}]
+tt:['Located in_squad', 'builds equipment under license_squad', 'imports equipment from_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2531': 'Japan'}
+----------
+len of total relations:1
+total relations:['hosted_squad']
+run_llm_extract_result:Japan (attack) (Hong Kong) (December 1941)
+relations:[]
+tt:['hosted_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2455': 'Egypt', '2476': 'Isis'}
+----------
+len of total relations:4
+total relations:['builds equipment under license_squad', 'has a comprehensive strategic partnership with_squad', 'has improved relations with_squad', 'imports equipment from_squad']
+run_llm_extract_result:Isis (4)
+relations:[{'entity': '2455', 'relation': 'Isis', 'score': 4.0, 'head': False}]
+tt:['builds equipment under license_squad', 'has a comprehensive strategic partnership with_squad', 'has improved relations with_squad', 'imports equipment from_squad']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['worshipped as_squad']
+run_llm_extract_result:Isis-Demeter
+relations:[]
+tt:['worshipped as_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2479': 'Paris', '2478': 'Hotel Meurice'}
+----------
+len of total relations:1
+total relations:['located in_squad']
+run_llm_extract_result:Hotel du Louvre (now an antiques marketplace) (1855)
+relations:[]
+tt:['located in_squad']
+final_relations:No relations found
+len of total relations:1
+total relations:['located in_squad']
+run_llm_extract_result:Hotel du Louvre (now an antiques marketplace) (205)
+relations:[]
+tt:['located in_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2482': 'Gaius Julius Caesar', '2486': 'Marcus Licinius Crassus', '2487': 'Parthian Empire', '2484': 'Gnaeus Pompeius Magnus', '2488': 'Battle of Carrhae'}
+----------
+len of total relations:4
+total relations:['allied with_squad', 'fought in_squad', 'member of_squad', 'fought against_squad']
+run_llm_extract_result:fought in_squad (Marcus Licinius Crassus)
+relations:[]
+tt:['allied with_squad', 'fought in_squad', 'member of_squad', 'fought against_squad']
+final_relations:No relations found
+len of total relations:4
+total relations:['died at_squad', 'invaded_squad', 'member of_squad', 'allied with_squad']
+run_llm_extract_result:invaded_squad (0.78)
+member_of_squad (0.16)
+died_at_squad (0.06)
+relations:[{'entity': '2486', 'relation': 'invaded_squad', 'score': 0.78, 'head': True}, {'entity': '2486', 'relation': 'member_of_squad', 'score': 0.16, 'head': False}, {'entity': '2486', 'relation': 'died_at_squad', 'score': 0.06, 'head': False}]
+tt:['died at_squad', 'invaded_squad', 'member of_squad', 'allied with_squad']
+final_relations:[{'entity': '2486', 'relation': 'invaded_squad', 'score': 0.78, 'head': True}]
+len of total relations:1
+total relations:['invaded_squad']
+run_llm_extract_result:First Triumvirate (59 BC)
+relations:[]
+tt:['invaded_squad']
+final_relations:No relations found
+len of total relations:4
+total relations:['allied with_squad', 'fought against_squad', 'member of_squad', 'allied with_squad']
+run_llm_extract_result:Gnaeus Pompeius Magnus (Pompey the Great)
+relations:[]
+tt:['allied with_squad', 'fought against_squad', 'member of_squad', 'allied with_squad']
+final_relations:No relations found
+len of total relations:1
+total relations:['died at_squad']
+run_llm_extract_result:First Triumvirate (59 BC)
+relations:[]
+tt:['died at_squad']
+final_relations:No relations found
+ current_entityu_relations:[{'entity': '2486', 'relation': 'invaded_squad', 'score': 0.78, 'head': True}]
+entity_search len:1 results:[{'head': 2486, 'tail': 2487, 'hname': 'Marcus Licinius Crassus', 'tname': 'Parthian Empire'}]
+entityu_candidates_id:[2487]
+entity_candidates_name:['Parthian Empire']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2487
+{2487: 'Parthian Empire'}
+----------
+len of total relations:0
+
+    MATCH (e {id:$entity_id})-[r]->(t)
+    RETURN DISTINCT type(r) as label
+    
+
+    MATCH (h)-[r]->(e {id:$entity_id})
+    RETURN DISTINCT type(r) as label
+    
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+*************************************************************
+{'2491': 'Henry II', '2490': 'Richard', '2489': 'Henry the Young King', '2492': 'Aquitaine', '2493': 'Brittany'}
+----------
+len of total relations:1
+total relations:['supported_squad']
+run_llm_extract_result:Richard
+relations:[]
+tt:['supported_squad']
+final_relations:No relations found
+len of total relations:4
+total relations:['attacked_squad', 'refused to give up_squad', 'fought against_squad', 'supported_squad']
+run_llm_extract_result:Richard
+relations:[]
+tt:['attacked_squad', 'refused to give up_squad', 'fought against_squad', 'supported_squad']
+final_relations:No relations found
+len of total relations:1
+total relations:['fought against_squad']
+run_llm_extract_result:Richard
+relations:[]
+tt:['fought against_squad']
+final_relations:No relations found
+len of total relations:1
+total relations:['refused to give up_squad']
+run_llm_extract_result:Richard
+relations:[]
+tt:['refused to give up_squad']
+final_relations:No relations found
+len of total relations:1
+total relations:['attacked_squad']
+run_llm_extract_result:Richard
+relations:[]
+tt:['attacked_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2494': 'London'}
+----------
+len of total relations:4
+total relations:['avoided by_squad', 'bombed by_squad', 'had_squad', 'bombed_squad']
+run_llm_extract_result:relation_name (10.0)
+relations:[{'entity': '2494', 'relation': 'relation_name', 'score': 10.0, 'head': False}]
+tt:['avoided by_squad', 'bombed by_squad', 'had_squad', 'bombed_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2427': 'Queen'}
+----------
+len of total relations:1
+total relations:['uses_squad']
+run_llm_extract_result:Prince Andrew
+relations:[]
+tt:['uses_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2456': 'US'}
+----------
+len of total relations:2
+total relations:['builds equipment under license_squad', 'imports equipment from_squad']
+run_llm_extract_result:erroneously considering it a puppet regime of the Soviet Union (0.7)
+relations:[{'entity': '2456', 'relation': 'erroneously considering it a puppet regime of the Soviet Union', 'score': 0.7, 'head': False}]
+tt:['builds equipment under license_squad', 'imports equipment from_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2412': 'Britain'}
+----------
+len of total relations:4
+total relations:['turned former Dervish territories into_squad', 'used airplanes to bomb_squad', 'builds equipment under license_squad', 'imports equipment from_squad']
+run_llm_extract_result:Gibraltar (British Crown Colony) (5.71)
+Newfoundland (British North American colonies) (6.92)
+Acadia (French Canadian territory) (6.83)
+relations:[]
+tt:['turned former Dervish territories into_squad', 'used airplanes to bomb_squad', 'builds equipment under license_squad', 'imports equipment from_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2412': 'Britain'}
+----------
+len of total relations:4
+total relations:['turned former Dervish territories into_squad', 'used airplanes to bomb_squad', 'builds equipment under license_squad', 'imports equipment from_squad']
+run_llm_extract_result:Based on the passage, the Observer Corps was based in Britain.
+relations:[]
+tt:['turned former Dervish territories into_squad', 'used airplanes to bomb_squad', 'builds equipment under license_squad', 'imports equipment from_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2500': 'Victoria', '2507': 'Prince of Wales', '2506': 'William Jenner'}
+----------
+len of total relations:9
+total relations:['blamed_squad', 'mother of_squad', 'avoided by_squad', 'blamed by_squad', 'died_squad', 'husband of_squad', 'nickname of_squad', 'relieved_squad', 'son of_squad']
+run_llm_extract_result:blamed by_squad (Albert)
+relations:[]
+tt:['blamed_squad', 'mother of_squad', 'avoided by_squad', 'blamed by_squad', 'died_squad', 'husband of_squad', 'nickname of_squad', 'relieved_squad', 'son of_squad']
+final_relations:No relations found
+len of total relations:2
+total relations:['philandering_squad', 'son of_squad']
+run_llm_extract_result:son of_squad (0.95)
+philandering_squad (0.05)
+relations:[{'entity': '2507', 'relation': 'son of_squad', 'score': 0.95, 'head': True}, {'entity': '2507', 'relation': 'philandering_squad', 'score': 0.05, 'head': True}]
+tt:['philandering_squad', 'son of_squad']
+final_relations:[{'entity': '2507', 'relation': 'son of_squad', 'score': 0.95, 'head': True}, {'entity': '2507', 'relation': 'philandering_squad', 'score': 0.05, 'head': True}]
+len of total relations:4
+total relations:['diagnosed Albert with_squad', 'diagnosed_squad', 'treated_squad', 'diagnosed by_squad']
+run_llm_extract_result:diagnosed_by_squad (0.975)
+relations:[{'entity': '2506', 'relation': 'diagnosed_by_squad', 'score': 0.975, 'head': False}]
+tt:['diagnosed Albert with_squad', 'diagnosed_squad', 'treated_squad', 'diagnosed by_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[{'entity': '2507', 'relation': 'son of_squad', 'score': 0.95, 'head': True}, {'entity': '2507', 'relation': 'philandering_squad', 'score': 0.05, 'head': True}]
+entity_search len:2 results:[{'head': 2507, 'tail': 2504, 'hname': 'Prince of Wales', 'tname': 'Albert'}, {'head': 2507, 'tail': 2500, 'hname': 'Prince of Wales', 'tname': 'Victoria'}]
+entityu_candidates_id:[2504, 2500]
+entity_candidates_name:['Albert', 'Victoria']
+All entities are created equal.
+entity_search len:1 results:[{'head': 2507, 'tail': 2504, 'hname': 'Prince of Wales', 'tname': 'Albert'}]
+entityu_candidates_id:[2504]
+entity_candidates_name:['Albert']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2504
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2500
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2504
+{2504: 'Albert', 2500: 'Victoria'}
+----------
+len of total relations:9
+total relations:['diagnosed by_squad', 'died_squad', 'had_squad', 'husband of_squad', 'ill_squad', 'relieved_squad', 'caused the death of_squad', 'diagnosed_squad', 'treated_squad']
+run_llm_extract_result:had_squad (0.33)
+ill_squad (0.33)
+caused the death of_squad (0.34)
+relations:[{'entity': 2504, 'relation': 'had_squad', 'score': 0.33, 'head': True}, {'entity': 2504, 'relation': 'ill_squad', 'score': 0.33, 'head': True}, {'entity': 2504, 'relation': 'caused the death of_squad', 'score': 0.34, 'head': False}]
+tt:['diagnosed by_squad', 'died_squad', 'had_squad', 'husband of_squad', 'ill_squad', 'relieved_squad', 'caused the death of_squad', 'diagnosed_squad', 'treated_squad']
+final_relations:[{'entity': 2504, 'relation': 'had_squad', 'score': 0.33, 'head': True}, {'entity': 2504, 'relation': 'ill_squad', 'score': 0.33, 'head': True}, {'entity': 2504, 'relation': 'caused the death of_squad', 'score': 0.34, 'head': False}]
+len of total relations:8
+total relations:['blamed_squad', 'mother of_squad', 'avoided by_squad', 'blamed by_squad', 'died_squad', 'husband of_squad', 'nickname of_squad', 'relieved_squad']
+run_llm_extract_result:blamed_by_squad (0.98)
+avoided_by_squad (0.02)
+relations:[{'entity': 2500, 'relation': 'blamed_by_squad', 'score': 0.98, 'head': False}, {'entity': 2500, 'relation': 'avoided_by_squad', 'score': 0.02, 'head': False}]
+tt:['blamed_squad', 'mother of_squad', 'avoided by_squad', 'blamed by_squad', 'died_squad', 'husband of_squad', 'nickname of_squad', 'relieved_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[{'entity': 2504, 'relation': 'had_squad', 'score': 0.33, 'head': True}, {'entity': 2504, 'relation': 'ill_squad', 'score': 0.33, 'head': True}, {'entity': 2504, 'relation': 'caused the death of_squad', 'score': 0.34, 'head': False}]
+entity_search len:1 results:[{'head': 2504, 'tail': 2505, 'hname': 'Albert', 'tname': 'Typhoid fever'}]
+entityu_candidates_id:[2505]
+entity_candidates_name:['Typhoid fever']
+entity_search len:1 results:[{'head': 2504, 'tail': 2505, 'hname': 'Albert', 'tname': 'Typhoid fever'}]
+entityu_candidates_id:[2505]
+entity_candidates_name:['Typhoid fever']
+entity_search len:1 results:[{'head': 2504, 'tail': 2505, 'hname': 'Albert', 'tname': 'Typhoid fever'}]
+entityu_candidates_id:[2504]
+entity_candidates_name:['Albert']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2504
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2505
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2505
+{2504: 'Albert', 2505: 'Typhoid fever'}
+----------
+len of total relations:9
+total relations:['diagnosed by_squad', 'died_squad', 'husband of_squad', 'relieved_squad', 'caused the death of_squad', 'diagnosed_squad', 'philandering_squad', 'son of_squad', 'treated_squad']
+run_llm_extract_result:philandering_squad (0.6)
+relations:[{'entity': 2504, 'relation': 'philandering_squad', 'score': 0.6, 'head': False}]
+tt:['diagnosed by_squad', 'died_squad', 'husband of_squad', 'relieved_squad', 'caused the death of_squad', 'diagnosed_squad', 'philandering_squad', 'son of_squad', 'treated_squad']
+final_relations:[{'entity': 2504, 'relation': 'philandering_squad', 'score': 0.6, 'head': False}]
+len of total relations:4
+total relations:['caused the death of_squad', 'diagnosed by_squad', 'diagnosed Albert with_squad', 'died_squad']
+run_llm_extract_result:diagnosed Albert with_squad
+relations:[]
+tt:['caused the death of_squad', 'diagnosed by_squad', 'diagnosed Albert with_squad', 'died_squad']
+final_relations:No relations found
+ current_entityu_relations:[{'entity': 2504, 'relation': 'philandering_squad', 'score': 0.6, 'head': False}]
+entity_search len:1 results:[{'head': 2504, 'tail': 2507, 'hname': 'Albert', 'tname': 'Prince of Wales'}]
+entityu_candidates_id:[2504]
+entity_candidates_name:['Albert']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2504
+*************************************************************
+*************************************************************
+*************************************************************
+{'2529': 'Nagano', '2531': 'Japan'}
+----------
+len of total relations:4
+total relations:['cancelled_squad', 'hosted_squad', 'cancelled_squad', 'hosted_squad']
+run_llm_extract_result:cancelled_squad (0.5)
+hosted_squad (0.5)
+relations:[{'entity': '2529', 'relation': 'cancelled_squad', 'score': 0.5, 'head': True}, {'entity': '2529', 'relation': 'hosted_squad', 'score': 0.5, 'head': True}]
+tt:['cancelled_squad', 'hosted_squad', 'cancelled_squad', 'hosted_squad']
+final_relations:[{'entity': '2529', 'relation': 'cancelled_squad', 'score': 0.5, 'head': True}, {'entity': '2529', 'relation': 'hosted_squad', 'score': 0.5, 'head': True}]
+len of total relations:1
+total relations:['hosted_squad']
+run_llm_extract_result:torch_relay (0.85)
+protests (0.12)
+violence (0.03)
+relations:[{'entity': '2531', 'relation': 'torch_relay', 'score': 0.85, 'head': False}, {'entity': '2531', 'relation': 'protests', 'score': 0.12, 'head': False}, {'entity': '2531', 'relation': 'violence', 'score': 0.03, 'head': False}]
+tt:['hosted_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[{'entity': '2529', 'relation': 'cancelled_squad', 'score': 0.5, 'head': True}, {'entity': '2529', 'relation': 'hosted_squad', 'score': 0.5, 'head': True}]
+entity_search len:2 results:[{'head': 2529, 'tail': 2530, 'hname': 'Nagano', 'tname': 'Torch relay'}, {'head': 2529, 'tail': 2530, 'hname': 'Nagano', 'tname': 'Torch relay'}]
+entityu_candidates_id:[2530, 2530]
+entity_candidates_name:['Torch relay', 'Torch relay']
+All entities are created equal.
+entity_search len:2 results:[{'head': 2529, 'tail': 2530, 'hname': 'Nagano', 'tname': 'Torch relay'}, {'head': 2529, 'tail': 2530, 'hname': 'Nagano', 'tname': 'Torch relay'}]
+entityu_candidates_id:[2530, 2530]
+entity_candidates_name:['Torch relay', 'Torch relay']
+All entities are created equal.
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2530
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2530
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2530
+{2530: 'Torch relay'}
+----------
+len of total relations:2
+total relations:['cancelled_squad', 'hosted_squad']
+run_llm_extract_result:cancelled_squad (0.67)
+hosted_squad (0.33)
+relations:[{'entity': 2530, 'relation': 'cancelled_squad', 'score': 0.67, 'head': True}, {'entity': 2530, 'relation': 'hosted_squad', 'score': 0.33, 'head': True}]
+tt:['cancelled_squad', 'hosted_squad']
+final_relations:[{'entity': 2530, 'relation': 'cancelled_squad', 'score': 0.67, 'head': True}, {'entity': 2530, 'relation': 'hosted_squad', 'score': 0.33, 'head': True}]
+ current_entityu_relations:[{'entity': 2530, 'relation': 'cancelled_squad', 'score': 0.67, 'head': True}, {'entity': 2530, 'relation': 'hosted_squad', 'score': 0.33, 'head': True}]
+entity_search len:2 results:[{'head': 2530, 'tail': 2529, 'hname': 'Torch relay', 'tname': 'Nagano'}, {'head': 2530, 'tail': 2529, 'hname': 'Torch relay', 'tname': 'Nagano'}]
+entityu_candidates_id:[2529, 2529]
+entity_candidates_name:['Nagano', 'Nagano']
+All entities are created equal.
+entity_search len:3 results:[{'head': 2530, 'tail': 2529, 'hname': 'Torch relay', 'tname': 'Nagano'}, {'head': 2530, 'tail': 2531, 'hname': 'Torch relay', 'tname': 'Japan'}, {'head': 2530, 'tail': 2529, 'hname': 'Torch relay', 'tname': 'Nagano'}]
+entityu_candidates_id:[2529, 2531, 2529]
+entity_candidates_name:['Nagano', 'Japan', 'Nagano']
+All entities are created equal.
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2529
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2529
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2531
+{2529: 'Nagano', 2531: 'Japan'}
+----------
+len of total relations:2
+total relations:['cancelled_squad', 'hosted_squad']
+run_llm_extract_result:cancelled_squad (0.67)
+hosted_squad (0.33)
+relations:[{'entity': 2529, 'relation': 'cancelled_squad', 'score': 0.67, 'head': True}, {'entity': 2529, 'relation': 'hosted_squad', 'score': 0.33, 'head': True}]
+tt:['cancelled_squad', 'hosted_squad']
+final_relations:[{'entity': 2529, 'relation': 'cancelled_squad', 'score': 0.67, 'head': True}, {'entity': 2529, 'relation': 'hosted_squad', 'score': 0.33, 'head': True}]
+len of total relations:1
+total relations:['hosted_squad']
+run_llm_extract_result:cancel_event (0.58)
+protests (0.24)
+violence_in_Tibet (0.18)
+relations:[{'entity': 2531, 'relation': 'cancel_event', 'score': 0.58, 'head': False}, {'entity': 2531, 'relation': 'protests', 'score': 0.24, 'head': False}, {'entity': 2531, 'relation': 'violence_in_Tibet', 'score': 0.18, 'head': False}]
+tt:['hosted_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[{'entity': 2529, 'relation': 'cancelled_squad', 'score': 0.67, 'head': True}, {'entity': 2529, 'relation': 'hosted_squad', 'score': 0.33, 'head': True}]
+entity_search len:2 results:[{'head': 2529, 'tail': 2530, 'hname': 'Nagano', 'tname': 'Torch relay'}, {'head': 2529, 'tail': 2530, 'hname': 'Nagano', 'tname': 'Torch relay'}]
+entityu_candidates_id:[2530, 2530]
+entity_candidates_name:['Torch relay', 'Torch relay']
+All entities are created equal.
+entity_search len:2 results:[{'head': 2529, 'tail': 2530, 'hname': 'Nagano', 'tname': 'Torch relay'}, {'head': 2529, 'tail': 2530, 'hname': 'Nagano', 'tname': 'Torch relay'}]
+entityu_candidates_id:[2530, 2530]
+entity_candidates_name:['Torch relay', 'Torch relay']
+All entities are created equal.
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2530
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2530
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2530
+*************************************************************
+{'2520': 'Alfonso III', '2527': 'Asturias', '2523': 'León', '2525': 'Galicia'}
+----------
+len of total relations:3
+total relations:['died in_squad', 'died_squad', 'son of_squad']
+run_llm_extract_result:relation_name (8.76) (4.52) (4.52)
+relations:[{'entity': '2520', 'relation': 'relation_name', 'score': 8.76, 'head': False}]
+tt:['died in_squad', 'died_squad', 'son of_squad']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['king of_squad']
+run_llm_extract_result:king_of_squad (0.85)
+abandoned_royalty (0.13)
+relations:[{'entity': '2527', 'relation': 'king_of_squad', 'score': 0.85, 'head': False}, {'entity': '2527', 'relation': 'abandoned_royalty', 'score': 0.13, 'head': False}]
+tt:['king of_squad']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['king of_squad']
+run_llm_extract_result:king_of_squad (0.86)
+abandoned_kingdom (0.14)
+relations:[{'entity': '2523', 'relation': 'king_of_squad', 'score': 0.86, 'head': False}, {'entity': '2523', 'relation': 'abandoned_kingdom', 'score': 0.14, 'head': False}]
+tt:['king of_squad']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['reigned in_squad']
+run_llm_extract_result:reigned in_squad (0.57)
+relations:[{'entity': '2525', 'relation': 'reigned in_squad', 'score': 0.57, 'head': False}]
+tt:['reigned in_squad']
+final_relations:[{'entity': '2525', 'relation': 'reigned in_squad', 'score': 0.57, 'head': False}]
+ current_entityu_relations:[{'entity': '2525', 'relation': 'reigned in_squad', 'score': 0.57, 'head': False}]
+entity_search len:1 results:[{'head': 2525, 'tail': 2524, 'hname': 'Galicia', 'tname': 'Ordoño'}]
+entityu_candidates_id:[2525]
+entity_candidates_name:['Galicia']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2525
+{2525: 'Galicia'}
+----------
+len of total relations:1
+total relations:['reigned in_squad']
+run_llm_extract_result:relation_name (5.48)
+relations:[{'entity': 2525, 'relation': 'relation_name', 'score': 5.48, 'head': False}]
+tt:['reigned in_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2494': 'London'}
+----------
+len of total relations:4
+total relations:['avoided by_squad', 'bombed by_squad', 'had_squad', 'bombed_squad']
+run_llm_extract_result:had_squad (0.78)
+relations:[{'entity': '2494', 'relation': 'had_squad', 'score': 0.78, 'head': True}]
+tt:['avoided by_squad', 'bombed by_squad', 'had_squad', 'bombed_squad']
+final_relations:[{'entity': '2494', 'relation': 'had_squad', 'score': 0.78, 'head': True}]
+ current_entityu_relations:[{'entity': '2494', 'relation': 'had_squad', 'score': 0.78, 'head': True}]
+entity_search len:2 results:[{'head': 2494, 'tail': 2495, 'hname': 'London', 'tname': 'Metropolitan Board of Works'}, {'head': 2494, 'tail': 2496, 'hname': 'London', 'tname': 'London County Council'}]
+entityu_candidates_id:[2495, 2496]
+entity_candidates_name:['Metropolitan Board of Works', 'London County Council']
+All entities are created equal.
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2496
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2495
+{2496: 'London County Council', 2495: 'Metropolitan Board of Works'}
+----------
+len of total relations:3
+total relations:['created_squad', 'replaced_squad', 'abolished_squad']
+run_llm_extract_result:replaced_squad (0.7)
+relations:[{'entity': 2496, 'relation': 'replaced_squad', 'score': 0.7, 'head': True}]
+tt:['created_squad', 'replaced_squad', 'abolished_squad']
+final_relations:[{'entity': 2496, 'relation': 'replaced_squad', 'score': 0.7, 'head': True}]
+len of total relations:2
+total relations:['abolished_squad', 'replaced_squad']
+run_llm_extract_result:replaced_squad (0.67)
+relations:[{'entity': 2495, 'relation': 'replaced_squad', 'score': 0.67, 'head': False}]
+tt:['abolished_squad', 'replaced_squad']
+final_relations:[{'entity': 2495, 'relation': 'replaced_squad', 'score': 0.67, 'head': False}]
+ current_entityu_relations:[{'entity': 2496, 'relation': 'replaced_squad', 'score': 0.7, 'head': True}, {'entity': 2495, 'relation': 'replaced_squad', 'score': 0.67, 'head': False}]
+entity_search len:1 results:[{'head': 2496, 'tail': 2495, 'hname': 'London County Council', 'tname': 'Metropolitan Board of Works'}]
+entityu_candidates_id:[2495]
+entity_candidates_name:['Metropolitan Board of Works']
+entity_search len:1 results:[{'head': 2495, 'tail': 2496, 'hname': 'Metropolitan Board of Works', 'tname': 'London County Council'}]
+entityu_candidates_id:[2495]
+entity_candidates_name:['Metropolitan Board of Works']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2495
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2495
+{2495: 'Metropolitan Board of Works'}
+----------
+len of total relations:2
+total relations:['abolished_squad', 'had_squad']
+run_llm_extract_result:had_squad (0.87)
+relations:[{'entity': 2495, 'relation': 'had_squad', 'score': 0.87, 'head': False}]
+tt:['abolished_squad', 'had_squad']
+final_relations:[{'entity': 2495, 'relation': 'had_squad', 'score': 0.87, 'head': False}]
+ current_entityu_relations:[{'entity': 2495, 'relation': 'had_squad', 'score': 0.87, 'head': False}]
+entity_search len:1 results:[{'head': 2495, 'tail': 2494, 'hname': 'Metropolitan Board of Works', 'tname': 'London'}]
+entityu_candidates_id:[2495]
+entity_candidates_name:['Metropolitan Board of Works']
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_squad {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2495
+*************************************************************
+{'2479': 'Paris'}
+----------
+len of total relations:1
+total relations:['located in_squad']
+run_llm_extract_result:Au Bon Marché (Paris) (1838)
+relations:[]
+tt:['located in_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2412': 'Britain'}
+----------
+len of total relations:4
+total relations:['turned former Dervish territories into_squad', 'used airplanes to bomb_squad', 'builds equipment under license_squad', 'imports equipment from_squad']
+run_llm_extract_result:symbolic
+relations:[]
+tt:['turned former Dervish territories into_squad', 'used airplanes to bomb_squad', 'builds equipment under license_squad', 'imports equipment from_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2427': 'Queen'}
+----------
+len of total relations:1
+total relations:['uses_squad']
+run_llm_extract_result:The Miracle (album) (1989)
+Innuendo (1991)
+Brit Award for Outstanding Contribution to British Music (2001)
+relations:[{'entity': '2427', 'relation': 'Innuendo', 'score': 1991.0, 'head': False}, {'entity': '2427', 'relation': 'Brit Award for Outstanding Contribution to British Music', 'score': 2001.0, 'head': False}]
+tt:['uses_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2457': 'Russia'}
+----------
+len of total relations:1
+total relations:['has improved relations with_squad']
+run_llm_extract_result:Russo-Turkish War (1877–78)
+relations:[]
+tt:['has improved relations with_squad']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2447': 'New Haven'}
+----------
+len of total relations:1
+total relations:['Remained in_squad']
+run_llm_extract_result:relationship_2 (0.56)
+financial_success (0.24)
+mutually_beneficial (0.19)
+relations:[{'entity': '2447', 'relation': 'relationship_2', 'score': 0.56, 'head': False}, {'entity': '2447', 'relation': 'financial_success', 'score': 0.24, 'head': False}, {'entity': '2447', 'relation': 'mutually_beneficial', 'score': 0.19, 'head': False}]
+tt:['Remained in_squad']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+pred:US military --- true:the US military
+f1_score:100.0, cumulative:100.0
+pred:He Jin --- true:He Jin
+f1_score:100.0, cumulative:200.0
+pred:USB is cheaper than PoE. --- true:cheaper
+f1_score:33.33, cumulative:233.32999999999998
+pred:Cotton --- true:cotton
+f1_score:100.0, cumulative:333.33
+pred:American comics --- true:American comics
+f1_score:100.0, cumulative:433.33
+pred:prodigies --- true:Prodigies
+f1_score:100.0, cumulative:533.3299999999999
+pred:Mycenaean civilization --- true:beginning in the Mycenaean civilization
+f1_score:66.67, cumulative:599.9999999999999
+pred:less-than-lethal --- true:"less than lethal" or "less-lethal"
+f1_score:0.0, cumulative:599.9999999999999
+pred:PlayStation Store --- true:The PlayStation Store
+f1_score:100.0, cumulative:699.9999999999999
+pred:less --- true:much less
+f1_score:66.67, cumulative:766.6699999999998
+pred:1838 --- true:1838
+f1_score:100.0, cumulative:866.6699999999998
+pred:Itchen --- true:Itchen
+f1_score:100.0, cumulative:966.6699999999998
+pred:Russia --- true:Russia
+f1_score:100.0, cumulative:1066.6699999999998
+pred:Ten years --- true:a decade
+f1_score:0.0, cumulative:1066.6699999999998
+pred:Scaptia beyonceae --- true:a species of horse fly
+f1_score:0.0, cumulative:1066.6699999999998
+pred:federal judiciary --- true:federal judiciary
+f1_score:100.0, cumulative:1166.6699999999998
+pred:Dakhini --- true:Dakhini
+f1_score:100.0, cumulative:1266.6699999999998
+pred:Gustavia --- true:Gustavia
+f1_score:100.0, cumulative:1366.6699999999998
+pred:The video led to the Vatican condemning the commercial and seeking to ban the product. --- true:canceled her sponsorship contract
+f1_score:0.0, cumulative:1366.6699999999998
+pred:85% --- true:about 85%
+f1_score:66.67, cumulative:1433.34
+pred:1,862.2 --- true:20,013
+f1_score:0.0, cumulative:1433.34
+pred:30,000 to 45,000 troops made it back to the KPA lines after retreating. --- true:25,000 to 30,000
+f1_score:26.67, cumulative:1460.01
+pred:1939 --- true:1939
+f1_score:100.0, cumulative:1560.01
+pred:17,000 miles --- true:10,500 mile
+f1_score:0.0, cumulative:1560.01
+pred:RIBA Product Selector
+RIBA Journal --- true:RIBA Product Selector and RIBA Journal
+f1_score:90.91, cumulative:1650.92
+pred:2008-2012 --- true:2008–2012
+f1_score:0.0, cumulative:1650.92
+pred:1929 --- true:1929
+f1_score:100.0, cumulative:1750.92
+pred:Historically, an antagonist typically breaks rules. --- true:break rules
+f1_score:28.57, cumulative:1779.49
+pred:Noble Truth --- true:the fourth
+f1_score:0.0, cumulative:1779.49
+pred:The Constitution of Canada --- true:The Constitution of Canada
+f1_score:100.0, cumulative:1879.49
+pred:adopt local ways --- true:adopt local ways
+f1_score:100.0, cumulative:1979.49
+pred:October 2001 --- true:October 2001
+f1_score:100.0, cumulative:2079.49
+pred:American University of Armenia, QSI International School of Yerevan --- true:American University of Armenia and the QSI International School of Yerevan
+f1_score:94.74, cumulative:2174.2299999999996
+pred:Three --- true:three
+f1_score:100.0, cumulative:2274.2299999999996
+pred:10 --- true:ten
+f1_score:0.0, cumulative:2274.2299999999996
+pred:Angles where the radio waves arrive out of phase --- true:represent unwanted radiation
+f1_score:0.0, cumulative:2274.2299999999996
+pred:Confused potential buyers --- true:confused potential buyers
+f1_score:100.0, cumulative:2374.2299999999996
+pred:Yes, child artists are an exception to the laws with regards to child labour. --- true:exceptions include work by child artists
+f1_score:22.22, cumulative:2396.4499999999994
+pred:2011 --- true:2011
+f1_score:100.0, cumulative:2496.4499999999994
+pred:psychological --- true:Psychological
+f1_score:100.0, cumulative:2596.4499999999994
+pred:whether the Gilbert Islands and Ellice Islands should each have their own administration --- true:separation
+f1_score:0.0, cumulative:2596.4499999999994
+pred:1941 --- true:1927
+f1_score:0.0, cumulative:2596.4499999999994
+pred:The Queen and Prince Philip's apartments are located in the north wing. --- true:the north wing
+f1_score:33.33, cumulative:2629.7799999999993
+pred:elementary teaching --- true:elementary teacher
+f1_score:50.0, cumulative:2679.7799999999993
+pred:Bolte --- true:Bolte
+f1_score:100.0, cumulative:2779.7799999999993
+pred:20 --- true:20
+f1_score:100.0, cumulative:2879.7799999999993
+pred:Member of squad --- true:member of the Committee of Five that drafted the Declaration of Independence.
+f1_score:30.77, cumulative:2910.5499999999993
+pred:Paris-Vienna-Orient --- true:Paris-Vienna-Orient trade route
+f1_score:50.0, cumulative:2960.5499999999993
+pred:"The Arsenal of America" --- true:The Arsenal of America
+f1_score:100.0, cumulative:3060.5499999999993
+pred:Vienna Circle --- true:Logical empiricism
+f1_score:0.0, cumulative:3060.5499999999993
+pred:Architecture and engineering --- true:architecture and engineering
+f1_score:100.0, cumulative:3160.5499999999993
+pred:Lorraine --- true:Lorraine
+f1_score:100.0, cumulative:3260.5499999999993
+pred:China --- true:Russia
+f1_score:0.0, cumulative:3260.5499999999993
+pred:research studies --- true:research studies
+f1_score:100.0, cumulative:3360.5499999999993
+pred:barrel-vaulted roof --- true:on the barrel-vaulted roof
+f1_score:80.0, cumulative:3440.5499999999993
+pred:Papua New Guinea, Palau, Guam, and the Northern Mariana Islands --- true:Papua New Guinea, is sometimes included so are Palau, Guam, and the Northern Mariana Islands
+f1_score:78.26, cumulative:3518.8099999999995
+pred:Jamestown --- true:Jamestown
+f1_score:100.0, cumulative:3618.8099999999995
+pred:1977 --- true:1977
+f1_score:100.0, cumulative:3718.8099999999995
+pred:sorghum --- true:sorghum
+f1_score:100.0, cumulative:3818.8099999999995
+pred:ketsu-eki (血税) --- true:ketsu-eki
+f1_score:66.67, cumulative:3885.4799999999996
+pred:Meccan or Medinan --- true:Meccan or Medinan
+f1_score:100.0, cumulative:3985.4799999999996
+pred:Wards 1, 2, and 4 --- true:1, 2, and 4
+f1_score:88.89, cumulative:4074.3699999999994
+pred:Link --- true:Link
+f1_score:100.0, cumulative:4174.369999999999
+pred:It runs in both directions between Broadway and Park Avenue South. --- true:runs in both directions
+f1_score:53.33, cumulative:4227.699999999999
+pred:2004 --- true:2004
+f1_score:100.0, cumulative:4327.699999999999
+pred:Father José Manuel Pérez Castellano --- true:Father José Manuel Pérez Castellano
+f1_score:100.0, cumulative:4427.699999999999
+pred:Sanatoria --- true:sanatoria
+f1_score:100.0, cumulative:4527.699999999999
+pred:France --- true:the French
+f1_score:0.0, cumulative:4527.699999999999
+pred:25 November 1969 --- true:25 November 1969
+f1_score:100.0, cumulative:4627.699999999999
+pred:Benzedrine Inhaler --- true:Benzedrine Inhaler
+f1_score:100.0, cumulative:4727.699999999999
+pred:1902 --- true:1902
+f1_score:100.0, cumulative:4827.699999999999
+pred:flamboyant arches --- true:they loved flamboyant arches
+f1_score:66.67, cumulative:4894.369999999999
+pred:Japan --- true:Japan
+f1_score:100.0, cumulative:4994.369999999999
+pred:Lord Salisbury --- true:Lord Salisbury
+f1_score:100.0, cumulative:5094.369999999999
+pred:Lyndon B. Johnson --- true:Lyndon B. Johnson
+f1_score:100.0, cumulative:5194.369999999999
+pred:Isidore of Seville --- true:Isidore of Seville
+f1_score:100.0, cumulative:5294.369999999999
+pred:5 --- true:the first volume of the 3-volume Book of Mormon Critical Text in 1984. The third volume of that first edition was published in 1987
+f1_score:0.0, cumulative:5294.369999999999
+pred:SOSUS station --- true:additional US Navy compound known as Naval Facility Bermuda
+f1_score:0.0, cumulative:5294.369999999999
+pred:Lee and Joe Jamail Skatepark --- true:The Lee and Joe Jamail Skatepark
+f1_score:100.0, cumulative:5394.369999999999
+pred:Rickenbacker Causeway --- true:Rickenbacker
+f1_score:66.67, cumulative:5461.039999999999
+pred:Prince Igor --- true:Prince Igor
+f1_score:100.0, cumulative:5561.039999999999
+pred:European thirst for knowledge --- true:humanism
+f1_score:0.0, cumulative:5561.039999999999
+pred:Courage --- true:courage
+f1_score:100.0, cumulative:5661.039999999999
+pred:The chief among these relate to the directional characteristics (as depicted in the antenna's radiation pattern) and the resulting gain. --- true:directional characteristics
+f1_score:22.22, cumulative:5683.259999999999
+pred:seventh --- true:seventh
+f1_score:100.0, cumulative:5783.259999999999
+pred:SQL --- true:SQL
+f1_score:100.0, cumulative:5883.259999999999
+pred:Sino-Tibetan, Tai–Kadai, Austro-Asiatic, and Indo-European --- true:Sino-Tibetan, Tai–Kadai, Austro-Asiatic, and Indo-European.
+f1_score:100.0, cumulative:5983.259999999999
+pred:European masters --- true:Rembrandt, Velázquez, Murillo, and Rubens
+f1_score:0.0, cumulative:5983.259999999999
+pred:Zeus-Ammon --- true:Ammon
+f1_score:0.0, cumulative:5983.259999999999
+pred:Ibero-Romance and Gallo-Romance --- true:Ibero-Romance and Gallo-Romance
+f1_score:100.0, cumulative:6083.259999999999
+pred:1855 --- true:1855
+f1_score:100.0, cumulative:6183.259999999999
+pred:Marcus Licinius Crassus --- true:Crassus
+f1_score:50.0, cumulative:6233.259999999999
+pred:John --- true:John
+f1_score:100.0, cumulative:6333.259999999999
+pred:14,000 --- true:14,000
+f1_score:100.0, cumulative:6433.259999999999
+pred:British government --- true:British government
+f1_score:100.0, cumulative:6533.259999999999
+pred:Maharashtra, Karnataka, and Andhra Pradesh --- true:Maharashtra, Karnataka and Andhra Pradesh
+f1_score:100.0, cumulative:6633.259999999999
+pred:Sohu.com --- true:Sohu.com
+f1_score:100.0, cumulative:6733.259999999999
+pred:Symbiotic bacteria --- true:Symbiotic
+f1_score:66.67, cumulative:6799.929999999999
+pred:Prince Andrew --- true:Prince Andrew
+f1_score:100.0, cumulative:6899.929999999999
+pred:Dwight C. Jones --- true:Dwight C. Jones
+f1_score:100.0, cumulative:6999.929999999999
+pred:Puppet regime of the Soviet Union --- true:a puppet regime of the Soviet Union
+f1_score:100.0, cumulative:7099.929999999999
+pred:30 June --- true:30 June
+f1_score:100.0, cumulative:7199.929999999999
+pred:London Business School academics --- true:London Business School academics
+f1_score:100.0, cumulative:7299.929999999999
+pred:Sekundarschule --- true:Stadtteilschule
+f1_score:0.0, cumulative:7299.929999999999
+pred:Skiing, snowboarding, and mountaineering --- true:Skiing, snowboarding and mountaineering
+f1_score:100.0, cumulative:7399.929999999999
+pred:Treaty of Versailles --- true:Treaty of Versailles
+f1_score:100.0, cumulative:7499.929999999999
+pred:condensation --- true:corrosion
+f1_score:0.0, cumulative:7499.929999999999
+pred:Spontaneous emission --- true:spontaneous emission
+f1_score:100.0, cumulative:7599.929999999999
+pred:Natural phenomena --- true:natural
+f1_score:66.67, cumulative:7666.599999999999
+pred:The Age of Reason --- true:The Age of Reason
+f1_score:100.0, cumulative:7766.599999999999
+pred:Multi-color white LEDs (RGB LEDs) --- true:multi-color white LEDs
+f1_score:75.0, cumulative:7841.599999999999
+pred:Mauveine --- true:mauveine
+f1_score:100.0, cumulative:7941.599999999999
+pred:St Paul's Cathedral --- true:The Church of England
+f1_score:0.0, cumulative:7941.599999999999
+pred:June 2007 --- true:June 2007
+f1_score:100.0, cumulative:8041.599999999999
+pred:120 --- true:120
+f1_score:100.0, cumulative:8141.599999999999
+pred:65% --- true:65%
+f1_score:100.0, cumulative:8241.599999999999
+pred:Top 13 result show --- true:Top 13 result show
+f1_score:100.0, cumulative:8341.599999999999
+pred:armies --- true:armies
+f1_score:100.0, cumulative:8441.599999999999
+pred:Photometric studies --- true:Photometric studies
+f1_score:100.0, cumulative:8541.599999999999
+pred:Three --- true:three
+f1_score:100.0, cumulative:8641.599999999999
+pred:Saudi Arabia --- true:Saudi Arabia
+f1_score:100.0, cumulative:8741.599999999999
+pred:Yasser Arafat --- true:Yasser Arafat
+f1_score:100.0, cumulative:8841.599999999999
+pred:It begins at the top with the most senior-ranking personnel and works its way into lower organizations. --- true:It begins at the top with the most senior-ranking personnel and works its way into lower organizations.
+f1_score:100.0, cumulative:8941.599999999999
+pred:The invasion of 1219 --- true:the invasion of 1219
+f1_score:100.0, cumulative:9041.599999999999
+pred:Literacy rate --- true:literacy
+f1_score:66.67, cumulative:9108.269999999999
+pred:Pre-Revolution cases --- true:pre-Revolution
+f1_score:66.67, cumulative:9174.939999999999
+pred:Vince Lawrence --- true:Vince Lawrence
+f1_score:100.0, cumulative:9274.939999999999
+pred:1957 --- true:German reunification
+f1_score:0.0, cumulative:9274.939999999999
+pred:Gibraltar --- true:permission to sell slaves in Spanish America
+f1_score:0.0, cumulative:9274.939999999999
+pred:Madonna --- true:Madonna
+f1_score:100.0, cumulative:9374.939999999999
+pred:light, chemicals, pressure waves, contact, nuchal organs, ocelli, camera eyes, statocysts, palps, antennae --- true:light, chemicals, pressure waves and contact
+f1_score:52.63, cumulative:9427.569999999998
+pred:Based on the given knowledge triplets and my knowledge, the Observer Corps was based in Britain. Therefore, the answer to the question "Where was the Observer Corps based?" is {Britain}. --- true:Britain
+f1_score:7.69, cumulative:9435.259999999998
+pred:Australian income tax --- true:Australian income tax
+f1_score:100.0, cumulative:9535.259999999998
+pred:the prince of wales had slept with an actress in ireland --- true:had slept with an actress in Ireland
+f1_score:80.0, cumulative:9615.259999999998
+pred:tunnels --- true:tunnels
+f1_score:100.0, cumulative:9715.259999999998
+pred:Two junction diodes --- true:two junction diodes
+f1_score:100.0, cumulative:9815.259999999998
+pred:Major Buddhist temple --- true:a major Buddhist temple
+f1_score:100.0, cumulative:9915.259999999998
+pred:1230 --- true:1230
+f1_score:100.0, cumulative:10015.259999999998
+pred:The late Middle Ages --- true:the late Middle Ages
+f1_score:100.0, cumulative:10115.259999999998
+pred:Work is a natural process of child development. --- true:Work
+f1_score:25.0, cumulative:10140.259999999998
+pred:Not applicable --- true:1%
+f1_score:0.0, cumulative:10140.259999999998
+pred:birthright citizenship in their own lands --- true:citizenship in their own lands
+f1_score:90.91, cumulative:10231.169999999998
+pred:33% --- true:33%
+f1_score:100.0, cumulative:10331.169999999998
+pred:Two f-shaped soundholes --- true:two f-shaped soundholes like a violin (F-5 and A-5), or an oval sound hole (F-4 and A-4 and lower models)
+f1_score:28.57, cumulative:10359.739999999998
+pred:The American national anthem --- true:the American national anthem
+f1_score:100.0, cumulative:10459.739999999998
+pred:Several factors including host defense mechanisms, the location of infection, and the pharmacokinetic and pharmacodynamic properties of the antibacterial. --- true:concentration
+f1_score:0.0, cumulative:10459.739999999998
+pred:27 May 1992 --- true:on 27 May 1992 the FA Premier League was formed as a limited company working out of an office at the Football Association's then headquarters in Lancaster Gate.
+f1_score:22.22, cumulative:10481.959999999997
+pred:Charles Hodge --- true:Charles Hodge
+f1_score:100.0, cumulative:10581.959999999997
+pred:St. Nicholas Park --- true:St. Nicholas Park
+f1_score:100.0, cumulative:10681.959999999997
+pred:Van Cortlandt Park is located along the Westchester-Bronx border. --- true:along the Westchester-Bronx border
+f1_score:54.55, cumulative:10736.509999999997
+pred:lipid --- true:lipid
+f1_score:100.0, cumulative:10836.509999999997
+pred:Intercollegiate Writing Competition --- true:Intercollegiate Writing Competition
+f1_score:100.0, cumulative:10936.509999999997
+pred:The extinction of the holocene megafauna and their replacement by smaller herbivores --- true:holocene megafauna
+f1_score:33.33, cumulative:10969.839999999997
+pred:God and of his Blessed Mother. --- true:God
+f1_score:28.57, cumulative:10998.409999999996
+pred:Income tax receipts --- true:income tax receipts
+f1_score:100.0, cumulative:11098.409999999996
+pred:Enovid --- true:Enovid
+f1_score:100.0, cumulative:11198.409999999996
+pred:The Grand Cape Mount region --- true:the Grand Cape Mount region.
+f1_score:100.0, cumulative:11298.409999999996
+pred:Repudiated it entirely --- true:repudiated it entirely
+f1_score:100.0, cumulative:11398.409999999996
+pred:Eleventh Avenue --- true:Avenue C
+f1_score:50.0, cumulative:11448.409999999996
+pred:A conflict of interest between professional investment managers and their institutional clients, combined with a global glut in investment capital, led to bad investments by asset managers in over-priced credit assets. --- true:a conflict of interest
+f1_score:18.75, cumulative:11467.159999999996
+pred:2003 --- true:2003
+f1_score:100.0, cumulative:11567.159999999996
+pred:Mac, LaserWriter printer, and Mac-specific software --- true:Mac, Apple's LaserWriter printer, and Mac-specific software like Boston Software's MacPublisher
+f1_score:70.59, cumulative:11637.749999999996
+pred:13 --- true:thirteen
+f1_score:0.0, cumulative:11637.749999999996
+pred:1962 --- true:1962
+f1_score:100.0, cumulative:11737.749999999996
+pred:Apollo Command Capsule Recovery Operations --- true:NASA Project Apollo Command Capsule Recovery Operations
+f1_score:83.33, cumulative:11821.079999999996
+pred:electronics, software, computerized systems, communications technology, medical equipment, pharmaceuticals, fruits, chemicals, military technology, and cut diamonds --- true:electronics, software, computerized systems
+f1_score:40.0, cumulative:11861.079999999996
+pred:March 2008 --- true:March 2008
+f1_score:100.0, cumulative:11961.079999999996
+pred:Namibia Tourism Board Act, 2000 (Act 21 of 2000) --- true:Namibia Tourism Board Act, 2000
+f1_score:71.43, cumulative:12032.509999999997
+pred:Third --- true:third
+f1_score:100.0, cumulative:12132.509999999997
+pred:Operation Torch --- true:Operation Torch
+f1_score:100.0, cumulative:12232.509999999997
+pred:The Wii U --- true:The Wii U
+f1_score:100.0, cumulative:12332.509999999997
+pred:Joe Louis --- true:Joe Louis
+f1_score:100.0, cumulative:12432.509999999997
+pred:penalty --- true:Penalties
+f1_score:0.0, cumulative:12432.509999999997
+pred:Royal Navy --- true:Royal Navy
+f1_score:100.0, cumulative:12532.509999999997
+pred:Au Bon Marché --- true:Au Bon Marché
+f1_score:100.0, cumulative:12632.509999999997
+pred:Most dense --- true:17 times
+f1_score:0.0, cumulative:12632.509999999997
+pred:To serve them --- true:for the purpose of serving them
+f1_score:25.0, cumulative:12657.509999999997
+pred:Judar Pasha --- true:Judar Pasha
+f1_score:100.0, cumulative:12757.509999999997
+pred:Theology --- true:theology
+f1_score:100.0, cumulative:12857.509999999997
+pred:symbolic --- true:symbolic
+f1_score:100.0, cumulative:12957.509999999997
+pred:British artillery and RAF regiment --- true:British artillery and RAF regiment
+f1_score:100.0, cumulative:13057.509999999997
+pred:Wrongful acts considered serious enough to warrant prosecution by the state, which are breaches of the sovereign's peace and not easily resolved through private lawsuits. --- true:acts which are considered to be so serious that they are a breach of the sovereign's peace
+f1_score:47.37, cumulative:13104.879999999997
+pred:During the 1970s and 1990s --- true:During the 1970s and 1990s
+f1_score:100.0, cumulative:13204.879999999997
+pred:Oro Valley --- true:Oro Valley
+f1_score:100.0, cumulative:13304.879999999997
+pred:1990 --- true:1990
+f1_score:100.0, cumulative:13404.879999999997
+pred:Musi River --- true:the Musi River
+f1_score:100.0, cumulative:13504.879999999997
+pred:565 --- true:565
+f1_score:100.0, cumulative:13604.879999999997
+pred:Hanging --- true:hanging
+f1_score:100.0, cumulative:13704.879999999997
+pred:Page 3 returned to its usual format. --- true:Page 3 returned to its usual format
+f1_score:100.0, cumulative:13804.879999999997
+pred:140 pages --- true:140 pages
+f1_score:100.0, cumulative:13904.879999999997
+pred:sedentary or semi-sedentary --- true:hunter-gatherer
+f1_score:0.0, cumulative:13904.879999999997
+pred:Kerrison Predictor --- true:the Kerrison Predictor
+f1_score:100.0, cumulative:14004.879999999997
+pred:a few days --- true:a few days
+f1_score:100.0, cumulative:14104.879999999997
+pred:Horizontal gene transfer --- true:in the root nodules
+f1_score:0.0, cumulative:14104.879999999997
+pred:Russo-Turkish War (1877–78) --- true:Russo-Turkish War
+f1_score:80.0, cumulative:14184.879999999997
+pred:East Houston Street --- true:East Houston Street
+f1_score:100.0, cumulative:14284.879999999997
+pred:19 --- true:19
+f1_score:100.0, cumulative:14384.879999999997
+pred:Syrian communists --- true:communists
+f1_score:66.67, cumulative:14451.549999999997
+pred:1780 --- true:1780
+f1_score:100.0, cumulative:14551.549999999997
+pred:mutually beneficial --- true:decline in the local economy
+f1_score:0.0, cumulative:14551.549999999997
+F1: 72.7577
+Accuracy: 0.0000
+总耗时: 115.42 秒
+Sat Sep  6 21:23:06 CST 2025
+comput10

@@ -1,0 +1,175 @@
+Running job on node: comput03
+Start Running ToG on commonsenseqa dataset.
+*************************************************************
+*************************************************************
+*************************************************************
+{'963': 'shopping'}
+----------
+len of total relations:1
+total relations:['can be a form of_commonsense']
+run_llm_extract_result:choices_1.jewelry store (0.5)
+choices_2.neck (0.25)
+choices_3.jewlery box (0.25)
+relations:[{'entity': '963', 'relation': 'choices_1.jewelry store', 'score': 0.5, 'head': False}, {'entity': '963', 'relation': 'choices_2.neck', 'score': 0.25, 'head': False}, {'entity': '963', 'relation': 'choices_3.jewlery box', 'score': 0.25, 'head': False}]
+tt:['can be a form of_commonsense']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'946': 'highway'}
+----------
+len of total relations:1
+total relations:['is a type of_commonsense']
+run_llm_extract_result:is a type of_commonsense (0.5)
+is a type of_geography (0.25)
+is a type of_technology (0.25)
+relations:[{'entity': '946', 'relation': 'is a type of_commonsense', 'score': 0.5, 'head': True}, {'entity': '946', 'relation': 'is a type of_geography', 'score': 0.25, 'head': False}, {'entity': '946', 'relation': 'is a type of_technology', 'score': 0.25, 'head': False}]
+tt:['is a type of_commonsense']
+final_relations:[{'entity': '946', 'relation': 'is a type of_commonsense', 'score': 0.5, 'head': True}]
+ current_entityu_relations:[{'entity': '946', 'relation': 'is a type of_commonsense', 'score': 0.5, 'head': True}]
+entity_search len:1 results:[{'head': 946, 'tail': 915, 'hname': 'highway', 'tname': 'road'}]
+entityu_candidates_id:[915]
+entity_candidates_name:['road']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=915
+{915: 'road'}
+----------
+len of total relations:4
+total relations:['has_commonsense', 'is a mode of transportation for_commonsense', 'is used for_commonsense', 'can occur on_commonsense']
+run_llm_extract_result:1. is used for_commonsense (0.5)
+2. is a mode of transportation for_commonsense (0.25)
+3. can occur on_commonsense (0.25)
+relations:[{'entity': 915, 'relation': 'is used for_commonsense', 'score': 0.5, 'head': True}, {'entity': 915, 'relation': 'is a mode of transportation for_commonsense', 'score': 0.25, 'head': True}, {'entity': 915, 'relation': 'can occur on_commonsense', 'score': 0.25, 'head': False}]
+tt:['has_commonsense', 'is a mode of transportation for_commonsense', 'is used for_commonsense', 'can occur on_commonsense']
+final_relations:[{'entity': 915, 'relation': 'is used for_commonsense', 'score': 0.5, 'head': True}, {'entity': 915, 'relation': 'is a mode of transportation for_commonsense', 'score': 0.25, 'head': True}, {'entity': 915, 'relation': 'can occur on_commonsense', 'score': 0.25, 'head': False}]
+ current_entityu_relations:[{'entity': 915, 'relation': 'is used for_commonsense', 'score': 0.5, 'head': True}, {'entity': 915, 'relation': 'is a mode of transportation for_commonsense', 'score': 0.25, 'head': True}, {'entity': 915, 'relation': 'can occur on_commonsense', 'score': 0.25, 'head': False}]
+entity_search len:2 results:[{'head': 915, 'tail': 918, 'hname': 'road', 'tname': 'leisure'}, {'head': 915, 'tail': 919, 'hname': 'road', 'tname': 'business'}]
+entityu_candidates_id:[918, 919]
+entity_candidates_name:['leisure', 'business']
+All entities are created equal.
+entity_search len:1 results:[{'head': 915, 'tail': 916, 'hname': 'road', 'tname': 'travellers'}]
+entityu_candidates_id:[916]
+entity_candidates_name:['travellers']
+entity_search len:1 results:[{'head': 915, 'tail': 960, 'hname': 'road', 'tname': 'accidents'}]
+entityu_candidates_id:[915]
+entity_candidates_name:['road']
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=919
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=918
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=916
+{919: 'business', 918: 'leisure', 916: 'travellers'}
+----------
+len of total relations:0
+
+    MATCH (e {id:$entity_id})-[r]->(t)
+    RETURN DISTINCT type(r) as label
+    
+
+    MATCH (h)-[r]->(e {id:$entity_id})
+    RETURN DISTINCT type(r) as label
+    
+len of total relations:0
+
+    MATCH (e {id:$entity_id})-[r]->(t)
+    RETURN DISTINCT type(r) as label
+    
+
+    MATCH (h)-[r]->(e {id:$entity_id})
+    RETURN DISTINCT type(r) as label
+    
+len of total relations:0
+
+    MATCH (e {id:$entity_id})-[r]->(t)
+    RETURN DISTINCT type(r) as label
+    
+
+    MATCH (h)-[r]->(e {id:$entity_id})
+    RETURN DISTINCT type(r) as label
+    
+ current_entityu_relations:[]
+No new knowledge added during search depth 3, stop searching.
+*************************************************************
+{'948': 'city'}
+----------
+len of total relations:1
+total relations:['has_commonsense']
+run_llm_extract_result:1. has_commonsense (0.5)
+2. has_commonsense (0.25)
+3. has_commonsense (0.25)
+relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.5, 'head': True}, {'entity': '948', 'relation': 'has_commonsense', 'score': 0.25, 'head': True}, {'entity': '948', 'relation': 'has_commonsense', 'score': 0.25, 'head': True}]
+tt:['has_commonsense']
+final_relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.5, 'head': True}, {'entity': '948', 'relation': 'has_commonsense', 'score': 0.25, 'head': True}, {'entity': '948', 'relation': 'has_commonsense', 'score': 0.25, 'head': True}]
+ current_entityu_relations:[{'entity': '948', 'relation': 'has_commonsense', 'score': 0.5, 'head': True}, {'entity': '948', 'relation': 'has_commonsense', 'score': 0.25, 'head': True}, {'entity': '948', 'relation': 'has_commonsense', 'score': 0.25, 'head': True}]
+entity_search len:1 results:[{'head': 948, 'tail': 917, 'hname': 'city', 'tname': 'road infrastructure'}]
+entityu_candidates_id:[917]
+entity_candidates_name:['road infrastructure']
+entity_search len:1 results:[{'head': 948, 'tail': 917, 'hname': 'city', 'tname': 'road infrastructure'}]
+entityu_candidates_id:[917]
+entity_candidates_name:['road infrastructure']
+entity_search len:1 results:[{'head': 948, 'tail': 917, 'hname': 'city', 'tname': 'road infrastructure'}]
+entityu_candidates_id:[917]
+entity_candidates_name:['road infrastructure']
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=917
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=917
+Cypher Query:
+
+    MATCH (e:Entity_commonsense {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=917
+{917: 'road infrastructure'}
+----------
+len of total relations:0
+
+    MATCH (e {id:$entity_id})-[r]->(t)
+    RETURN DISTINCT type(r) as label
+    
+
+    MATCH (h)-[r]->(e {id:$entity_id})
+    RETURN DISTINCT type(r) as label
+    
+ current_entityu_relations:[]
+No new knowledge added during search depth 2, stop searching.
+true:choices_1----pred:choices_2.enforce
+chengong!
+chengong!
+chengong!
+chengong!
+F1: 0.0000
+Accuracy: 0.8000
+总耗时: 14.72 秒
+{'completion_tokens': 215, 'prompt_tokens': 7915}
+8130
+Wed Nov 19 23:32:00 CST 2025
+comput03

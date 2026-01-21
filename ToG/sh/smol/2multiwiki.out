@@ -1,0 +1,3953 @@
+Running job on node: comput11
+Start Running ToG on 2multiwiki dataset.
+*************************************************************
+{'2559': 'film director', '2646': 'film', '2745': 'William Thomas Smith', '2736': 'footballer', '2601': 'Etan Boritzer', '2717': 'Peter Levin', '2756': 'director', '2703': 'Theodred II'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Francis Girod
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (date of death unknown)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:1. was born in_2multiwiki
+2. competed for_2multiwiki
+3. is_2multiwiki
+4. was_2multiwiki
+5. was born in_2multiwiki
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:Francis Girod (9 October 1944 – 19 November 2006)
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. born in_2multiwiki
+2. speaker_2multiwiki
+3. wrote_2multiwiki
+4. born in_2multiwiki
+5. essay_2multiwiki
+6. is_2multiwiki
+7. lives in_2multiwiki
+8. speaker_2multiwiki
+9. teaches_2multiwiki
+10. was first published at the age of_2multiwiki
+11. yoga teacher_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. directed_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Francis Girod
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2540': 'Carlo Andreoli', '2538': 'Evangelista Andreoli'}
+----------
+len of total relations:6
+total relations:['taught at_2multiwiki', 'was brother of_2multiwiki', 'was pupil of_2multiwiki', 'was brother of_2multiwiki', 'was father of_2multiwiki', 'was taught by_2multiwiki']
+run_llm_extract_result:1. taught at_2multiwiki
+relations:[]
+tt:['taught at_2multiwiki', 'was brother of_2multiwiki', 'was pupil of_2multiwiki', 'was brother of_2multiwiki', 'was father of_2multiwiki', 'was taught by_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['was father of_2multiwiki', 'was father of_2multiwiki']
+run_llm_extract_result:1. was father of_2multiwiki
+relations:[]
+tt:['was father of_2multiwiki', 'was father of_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2572': 'Rudi Schuricke', '2545': 'Christopher Isherwood', '2608': 'nationality', '2716': 'American'}
+----------
+len of total relations:3
+total relations:['recorded_2multiwiki', 'was a singer_2multiwiki', 'was featured in_2multiwiki']
+run_llm_extract_result:2. was a singer_2multiwiki
+relations:[]
+tt:['recorded_2multiwiki', 'was a singer_2multiwiki', 'was featured in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['wrote_2multiwiki', 'edited_2multiwiki']
+run_llm_extract_result:2. edited_2multiwiki
+relations:[]
+tt:['wrote_2multiwiki', 'edited_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2593': 'Jean Paul Yontcha', '2736': 'footballer'}
+----------
+len of total relations:1
+total relations:['is a footballer_2multiwiki']
+run_llm_extract_result:1. is a footballer_2multiwiki
+relations:[]
+tt:['is a footballer_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2600': 'Brian Saunders', '2601': 'Etan Boritzer', '2620': 'place of birth', '2703': 'Theodred II', '2625': 'Moon', '2559': 'film director'}
+----------
+len of total relations:4
+total relations:['competed for_2multiwiki', 'is_2multiwiki', 'was a weightlifter_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2003
+relations:[]
+tt:['competed for_2multiwiki', 'is_2multiwiki', 'was a weightlifter_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. Born in_2multiwiki
+2. Speaker_2multiwiki
+3. Wrote_2multiwiki
+4. born in_2multiwiki
+5. essay_2multiwiki
+6. is_2multiwiki
+7. lives in_2multiwiki
+8. speaker_2multiwiki
+9. teaches_2multiwiki
+10. was first published at the age of_2multiwiki
+11. yoga teacher_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:Robert Lepage
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2000
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:Robert Lepage
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Robert Lepage
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2691': 'Spain'}
+----------
+len of total relations:2
+total relations:['Nationality of_2multiwiki', 'took refuge in_2multiwiki']
+run_llm_extract_result:2. took refuge in_2multiwiki
+relations:[]
+tt:['Nationality of_2multiwiki', 'took refuge in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2750': 'composer', '2608': 'nationality', '3087': 'Austria', '2573': 'Germany', '2571': 'television'}
+----------
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is a football player of_2multiwiki', 'is from_2multiwiki']
+run_llm_extract_result:2. is from_2multiwiki
+relations:[]
+tt:['is a football player of_2multiwiki', 'is from_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['was a singer_2multiwiki']
+run_llm_extract_result:Germany
+relations:[]
+tt:['was a singer_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['played a role in_2multiwiki']
+run_llm_extract_result:played a role in_2multiwiki
+relations:[]
+tt:['played a role in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2559': 'film director'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Gerardo de Leon
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2756': 'director'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Peter Levin
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3107': 'Australia', '2573': 'Germany'}
+----------
+len of total relations:1
+total relations:['is from_2multiwiki']
+run_llm_extract_result:no
+relations:[]
+tt:['is from_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['was a singer_2multiwiki']
+run_llm_extract_result:no
+relations:[]
+tt:['was a singer_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2780': 'United States', '2955': 'Virginia'}
+----------
+len of total relations:7
+total relations:['Location of_2multiwiki', 'Release location_2multiwiki', 'country_2multiwiki', 'is country of_2multiwiki', 'Actor_2multiwiki', 'Located in_2multiwiki', 'Release date_2multiwiki']
+run_llm_extract_result:Location of_2multiwiki
+relations:[]
+tt:['Location of_2multiwiki', 'Release location_2multiwiki', 'country_2multiwiki', 'is country of_2multiwiki', 'Actor_2multiwiki', 'Located in_2multiwiki', 'Release date_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:["Battle of Hatcher's Run_2multiwiki"]
+run_llm_extract_result:Córdoba Cabildo (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki) (2multiwiki
+relations:[]
+tt:["Battle of Hatcher's Run_2multiwiki"]
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2556': 'England'}
+----------
+len of total relations:5
+total relations:['competed for_2multiwiki', 'resides in_2multiwiki', 'was a cricketer_2multiwiki', 'was a weightlifter_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:1. competed for_2multiwiki
+relations:[]
+tt:['competed for_2multiwiki', 'resides in_2multiwiki', 'was a cricketer_2multiwiki', 'was a weightlifter_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2608': 'nationality', '2646': 'film'}
+----------
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:Peter Levin
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2661': 'Khayal Gatha', '2653': "Nicky's Family", '2646': 'film', '2756': 'director', '2651': 'Matej Mináč', '2659': 'Kumar Shahani', '2649': 'Scott Fox', '2654': 'Nicholas Winton', '2655': 'Logan Sandler', '2657': 'Rufus Norris'}
+----------
+len of total relations:2
+total relations:['director_2multiwiki', 'subject_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki', 'subject_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['director_2multiwiki', 'subject_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki', 'subject_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Nicky's Family
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['director_2multiwiki', 'subject_2multiwiki', 'subject_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki', 'subject_2multiwiki', 'subject_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['subject_2multiwiki', 'subject_2multiwiki']
+run_llm_extract_result:Nicky's Family
+relations:[]
+tt:['subject_2multiwiki', 'subject_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['director_2multiwiki', 'subject_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki', 'subject_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2675': 'Vally Weigl', '2608': 'nationality', '2682': 'Charles Louis', '2695': 'France', '3087': 'Austria'}
+----------
+len of total relations:2
+total relations:['subject_2multiwiki', 'subject_2multiwiki']
+run_llm_extract_result:1. subject_2multiwiki
+relations:[]
+tt:['subject_2multiwiki', 'subject_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:12
+total relations:['Duke of Lucca)\n6. (Charles Louis_2multiwiki', 'born at_2multiwiki', 'ill-received_2multiwiki', 'lived in_2multiwiki', 'placed under_2multiwiki', 'son of_2multiwiki', 'succeeded_2multiwiki', 'took refuge in_2multiwiki', 'cared for_2multiwiki', 'mother of_2multiwiki', 'regent of_2multiwiki', 'son of_2multiwiki']
+run_llm_extract_result:Duke of Lucca)
+relations:[]
+tt:['Duke of Lucca)\n6. (Charles Louis_2multiwiki', 'born at_2multiwiki', 'ill-received_2multiwiki', 'lived in_2multiwiki', 'placed under_2multiwiki', 'son of_2multiwiki', 'succeeded_2multiwiki', 'took refuge in_2multiwiki', 'cared for_2multiwiki', 'mother of_2multiwiki', 'regent of_2multiwiki', 'son of_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Location of_2multiwiki', 'Release location_2multiwiki', 'Actor_2multiwiki', 'Release date_2multiwiki', 'lived in_2multiwiki']
+run_llm_extract_result:Location of_2multiwiki
+relations:[]
+tt:['Location of_2multiwiki', 'Release location_2multiwiki', 'Actor_2multiwiki', 'Release date_2multiwiki', 'lived in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is a football player of_2multiwiki', 'is from_2multiwiki']
+run_llm_extract_result:2. is from_2multiwiki
+relations:[]
+tt:['is a football player of_2multiwiki', 'is from_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2559': 'film director'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:John Farrell
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'3045': 'California', '2646': 'film', '2756': 'director'}
+----------
+len of total relations:2
+total relations:['is state of_2multiwiki', 'is country of_2multiwiki']
+run_llm_extract_result:2. is country of_2multiwiki
+relations:[]
+tt:['is state of_2multiwiki', 'is country of_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Eddie (Edward Francis Cline)
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2620': 'place of birth'}
+----------
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:place of birth
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2756': 'director'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Man of Iron (1935 Film)
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2858': 'Iran', '3064': 'East Azerbaijan Province', '2864': 'Razavi Khorasan Province'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:2multiwiki
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is located in_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:1. is located in_2multiwiki
+relations:[]
+tt:['is located in_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['Village_2multiwiki']
+run_llm_extract_result:1. Village_2multiwiki
+relations:[]
+tt:['Village_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2646': 'film', '2638': 'country'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Loyalties (1986 Film) and Dude, Where's My Car? are both from the same country.
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:no
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2601': 'Etan Boritzer', '2646': 'film', '2756': 'director'}
+----------
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. Born in_2multiwiki
+2. Speaker_2multiwiki
+3. Wrote_2multiwiki
+4. born in_2multiwiki
+5. essay_2multiwiki
+6. is_2multiwiki
+7. lives in_2multiwiki
+8. speaker_2multiwiki
+9. teaches_2multiwiki
+10. was first published at the age of_2multiwiki
+11. yoga teacher_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Peter Levin
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Ralph Staub (July 21, 1899 in Chicago, Illinois – October 22, 1969, Los Angeles, California)
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2638': 'country'}
+----------
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:No
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2706': 'Lady Robinhood', '2646': 'film', '2756': 'director', '2716': 'American'}
+----------
+len of total relations:1
+total relations:['directed_2multiwiki']
+run_llm_extract_result:directed_2multiwiki (1925)
+relations:[{'entity': '2706', 'relation': 'directed_2multiwiki', 'score': 1925.0, 'head': False}]
+tt:['directed_2multiwiki']
+final_relations:[{'entity': '2706', 'relation': 'directed_2multiwiki', 'score': 1925.0, 'head': False}]
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (1925)
+relations:[{'entity': '2646', 'relation': 'director_2multiwiki', 'score': 1925.0, 'head': False}]
+tt:['director_2multiwiki']
+final_relations:[{'entity': '2646', 'relation': 'director_2multiwiki', 'score': 1925.0, 'head': False}]
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:1925
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:1. was_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[{'entity': '2706', 'relation': 'directed_2multiwiki', 'score': 1925.0, 'head': False}, {'entity': '2646', 'relation': 'director_2multiwiki', 'score': 1925.0, 'head': False}]
+entity_search len:1 results:[{'head': 2706, 'tail': 2705, 'hname': 'Lady Robinhood', 'tname': 'Ralph Waldo Ince'}]
+entityu_candidates_id:[2706]
+entity_candidates_name:['Lady Robinhood']
+entity_search len:2 results:[{'head': 2646, 'tail': 2645, 'hname': 'film', 'tname': 'Henry Levin'}, {'head': 2646, 'tail': 2941, 'hname': 'film', 'tname': 'William Asher'}]
+entityu_candidates_id:[2646, 2646]
+entity_candidates_name:['film', 'film']
+All entities are created equal.
+depth 1 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2706
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2646
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2646
+{2706: 'Lady Robinhood', 2646: 'film'}
+----------
+len of total relations:1
+total relations:['directed_2multiwiki']
+run_llm_extract_result:directed_2multiwiki (1925)
+relations:[{'entity': 2706, 'relation': 'directed_2multiwiki', 'score': 1925.0, 'head': False}]
+tt:['directed_2multiwiki']
+final_relations:[{'entity': 2706, 'relation': 'directed_2multiwiki', 'score': 1925.0, 'head': False}]
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (1925)
+relations:[{'entity': 2646, 'relation': 'director_2multiwiki', 'score': 1925.0, 'head': False}]
+tt:['director_2multiwiki']
+final_relations:[{'entity': 2646, 'relation': 'director_2multiwiki', 'score': 1925.0, 'head': False}]
+ current_entityu_relations:[{'entity': 2706, 'relation': 'directed_2multiwiki', 'score': 1925.0, 'head': False}, {'entity': 2646, 'relation': 'director_2multiwiki', 'score': 1925.0, 'head': False}]
+entity_search len:1 results:[{'head': 2706, 'tail': 2705, 'hname': 'Lady Robinhood', 'tname': 'Ralph Waldo Ince'}]
+entityu_candidates_id:[2706]
+entity_candidates_name:['Lady Robinhood']
+entity_search len:2 results:[{'head': 2646, 'tail': 2645, 'hname': 'film', 'tname': 'Henry Levin'}, {'head': 2646, 'tail': 2941, 'hname': 'film', 'tname': 'William Asher'}]
+entityu_candidates_id:[2646, 2646]
+entity_candidates_name:['film', 'film']
+All entities are created equal.
+depth 2 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2706
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2646
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2646
+{2706: 'Lady Robinhood', 2646: 'film'}
+----------
+len of total relations:1
+total relations:['directed_2multiwiki']
+run_llm_extract_result:directed_2multiwiki (1925)
+relations:[{'entity': 2706, 'relation': 'directed_2multiwiki', 'score': 1925.0, 'head': False}]
+tt:['directed_2multiwiki']
+final_relations:[{'entity': 2706, 'relation': 'directed_2multiwiki', 'score': 1925.0, 'head': False}]
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (1925)
+relations:[{'entity': 2646, 'relation': 'director_2multiwiki', 'score': 1925.0, 'head': False}]
+tt:['director_2multiwiki']
+final_relations:[{'entity': 2646, 'relation': 'director_2multiwiki', 'score': 1925.0, 'head': False}]
+ current_entityu_relations:[{'entity': 2706, 'relation': 'directed_2multiwiki', 'score': 1925.0, 'head': False}, {'entity': 2646, 'relation': 'director_2multiwiki', 'score': 1925.0, 'head': False}]
+entity_search len:1 results:[{'head': 2706, 'tail': 2705, 'hname': 'Lady Robinhood', 'tname': 'Ralph Waldo Ince'}]
+entityu_candidates_id:[2706]
+entity_candidates_name:['Lady Robinhood']
+entity_search len:2 results:[{'head': 2646, 'tail': 2645, 'hname': 'film', 'tname': 'Henry Levin'}, {'head': 2646, 'tail': 2941, 'hname': 'film', 'tname': 'William Asher'}]
+entityu_candidates_id:[2646, 2646]
+entity_candidates_name:['film', 'film']
+All entities are created equal.
+depth 3 still not find the answer.
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2706
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2646
+Cypher Query:
+
+    MATCH (e:Entity_2multiwiki {id: $entity_id})
+    RETURN e.name AS label
+    
+Parameters: entity_id=2646
+*************************************************************
+{'2712': 'Cruz Diablo', '2710': 'Dangerous Traffic'}
+----------
+len of total relations:1
+total relations:['directed_2multiwiki']
+run_llm_extract_result:directed_2multiwiki
+relations:[]
+tt:['directed_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['directed_2multiwiki']
+run_llm_extract_result:directed_2multiwiki
+relations:[]
+tt:['directed_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2788': 'Film', '2756': 'director', '3107': 'Australia'}
+----------
+len of total relations:3
+total relations:['Directed_2multiwiki', 'Director_2multiwiki', 'Writer_2multiwiki']
+run_llm_extract_result:2. Director_2multiwiki
+relations:[]
+tt:['Directed_2multiwiki', 'Director_2multiwiki', 'Writer_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Peter Levin
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is from_2multiwiki']
+run_llm_extract_result:Australia
+relations:[]
+tt:['is from_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2726': 'P. Subramaniam', '2724': 'Urangatha Sundary', '2721': 'Merryland Studio', '2717': 'Peter Levin', '2793': 'Ian Barry', '2703': 'Theodred II', '2601': 'Etan Boritzer'}
+----------
+len of total relations:5
+total relations:['directed_2multiwiki', 'is_2multiwiki', 'produced_2multiwiki', 'directed by_2multiwiki', 'produced by_2multiwiki']
+run_llm_extract_result:1. directed_2multiwiki
+relations:[]
+tt:['directed_2multiwiki', 'is_2multiwiki', 'produced_2multiwiki', 'directed by_2multiwiki', 'produced by_2multiwiki']
+final_relations:No relations found
+len of total relations:6
+total relations:['directed by_2multiwiki', 'produced by_2multiwiki', 'stars_2multiwiki', 'directed_2multiwiki', 'produced_2multiwiki', 'starred in_2multiwiki']
+run_llm_extract_result:directed by_2multiwiki
+relations:[]
+tt:['directed by_2multiwiki', 'produced by_2multiwiki', 'stars_2multiwiki', 'directed_2multiwiki', 'produced_2multiwiki', 'starred in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['affiliated with_2multiwiki', 'established in_2multiwiki']
+run_llm_extract_result:2. established in_2multiwiki
+relations:[]
+tt:['affiliated with_2multiwiki', 'established in_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. born in_2multiwiki
+2. speaker_2multiwiki
+3. wrote_2multiwiki
+4. lives in_2multiwiki
+5. was first published at the age of_2multiwiki
+6. yoga teacher_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2559': 'film director', '2735': 'Albert Thompson', '2738': 'Harry Wainwright', '2743': 'Thomas Scott', '2717': 'Peter Levin', '2601': 'Etan Boritzer', '2745': 'William Thomas Smith', '2703': 'Theodred II'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Karl Hartl (10 May 1899 – 29 August 1978)
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. competed for_2multiwiki
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. competed for_2multiwiki
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:2. competed for_2multiwiki
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. born in_2multiwiki
+2. speaker_2multiwiki
+3. wrote_2multiwiki
+4. born in_2multiwiki
+5. essay_2multiwiki
+6. lives in_2multiwiki
+7. speaker_2multiwiki
+8. teaches_2multiwiki
+9. was first published at the age of_2multiwiki
+10. yoga teacher_2multiwiki
+11. lives in_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. competed for_2multiwiki
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2559': 'film director'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Luciano Salce
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2780': 'United States'}
+----------
+len of total relations:7
+total relations:['Location of_2multiwiki', 'Release location_2multiwiki', 'country_2multiwiki', 'is country of_2multiwiki', 'Actor_2multiwiki', 'Located in_2multiwiki', 'Release date_2multiwiki']
+run_llm_extract_result:Location of_2multiwiki
+relations:[]
+tt:['Location of_2multiwiki', 'Release location_2multiwiki', 'country_2multiwiki', 'is country of_2multiwiki', 'Actor_2multiwiki', 'Located in_2multiwiki', 'Release date_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2756': 'director'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (Peter Collinson)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Tangled Destinies
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3107': 'Australia'}
+----------
+len of total relations:1
+total relations:['is from_2multiwiki']
+run_llm_extract_result:1. is from_2multiwiki
+relations:[]
+tt:['is from_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2695': 'France', '2788': 'Film'}
+----------
+len of total relations:5
+total relations:['Location of_2multiwiki', 'Release location_2multiwiki', 'Actor_2multiwiki', 'Release date_2multiwiki', 'lived in_2multiwiki']
+run_llm_extract_result:France
+relations:[]
+tt:['Location of_2multiwiki', 'Release location_2multiwiki', 'Actor_2multiwiki', 'Release date_2multiwiki', 'lived in_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['Directed_2multiwiki', 'Director_2multiwiki', 'Writer_2multiwiki']
+run_llm_extract_result:2. Director_2multiwiki
+relations:[]
+tt:['Directed_2multiwiki', 'Director_2multiwiki', 'Writer_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2649': 'Scott Fox', '2657': 'Rufus Norris', '2646': 'film', '2756': 'director', '2650': 'AVN Hall of Fame'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (Scott Fox)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (Timothy James Arthur Wheeler)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:¡Cuatro!
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (Timothy James Arthur Wheeler)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2571': 'television', '2756': 'director', '2717': 'Peter Levin', '2601': 'Etan Boritzer'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['played a role in_2multiwiki']
+run_llm_extract_result:Peter Hamel
+relations:[]
+tt:['played a role in_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Peter Hamel
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. born in_2multiwiki
+2. speaker_2multiwiki
+3. wrote_2multiwiki
+4. lives in_2multiwiki
+5. was first published at the age of_2multiwiki
+6. yoga teacher_2multiwiki
+7. teaches_2multiwiki
+8. recognized nationally as an erudite speaker on_2multiwiki
+9. director_2multiwiki
+10. is_2multiwiki
+11. lives in_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2716': 'American'}
+----------
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2777': 'Paul Jacobs'}
+----------
+len of total relations:4
+total relations:['activist_2multiwiki', 'co-founder_2multiwiki', 'journalist_2multiwiki', 'magazine_2multiwiki']
+run_llm_extract_result:1. activist_2multiwiki
+relations:[]
+tt:['activist_2multiwiki', 'co-founder_2multiwiki', 'journalist_2multiwiki', 'magazine_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2759': 'George Tzavellas', '2756': 'director', '2646': 'film'}
+----------
+len of total relations:1
+total relations:['critic_2multiwiki']
+run_llm_extract_result:George Tzavellas (1916, Athens – October 18, 1976) died in Athens, Greece.
+relations:[]
+tt:['critic_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Yiorgos Javellas (1916, Athens – October 18, 1976)
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Yiorgos Javellas (1916, Athens – October 18, 1976) died.
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2788': 'Film', '2805': 'Hitman', '2804': 'Xavier Gens', '2717': 'Peter Levin', '2801': 'Brian Patrick Kennedy', '2700': 'Olav Aaraas', '2793': 'Ian Barry'}
+----------
+len of total relations:3
+total relations:['Directed_2multiwiki', 'Director_2multiwiki', 'Writer_2multiwiki']
+run_llm_extract_result:1. Born_2multiwiki
+relations:[]
+tt:['Directed_2multiwiki', 'Director_2multiwiki', 'Writer_2multiwiki']
+final_relations:No relations found
+len of total relations:9
+total relations:['Directed by_2multiwiki', 'Release date_2multiwiki', 'Stars_2multiwiki', 'Actor_2multiwiki', 'Character_2multiwiki', 'Directed_2multiwiki', 'Director_2multiwiki', 'Release location_2multiwiki', 'Writer_2multiwiki']
+run_llm_extract_result:2. Born in Dunkirk, France
+relations:[]
+tt:['Directed by_2multiwiki', 'Release date_2multiwiki', 'Stars_2multiwiki', 'Actor_2multiwiki', 'Character_2multiwiki', 'Directed_2multiwiki', 'Director_2multiwiki', 'Release location_2multiwiki', 'Writer_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Born in_2multiwiki', 'Directed_2multiwiki', 'Director_2multiwiki', 'Nationality_2multiwiki', 'Directed by_2multiwiki']
+run_llm_extract_result:1. Born in_2multiwiki
+Answer: Olav Aaraas (born 10 July 1950) is a Norwegian historian and museum director. He was born in Fredrikstad.
+relations:[]
+tt:['Born in_2multiwiki', 'Directed_2multiwiki', 'Director_2multiwiki', 'Nationality_2multiwiki', 'Directed by_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:Peter Levin (born 1952) was born in Dunkirk, France.
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['Director_2multiwiki', 'is the director of_2multiwiki', 'was the director of_2multiwiki']
+run_llm_extract_result:Brian Patrick Kennedy (born 5 November 1961) is an Irish-born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.
+relations:[]
+tt:['Director_2multiwiki', 'is the director of_2multiwiki', 'was the director of_2multiwiki']
+final_relations:No relations found
+len of total relations:7
+total relations:['Decorated_2multiwiki', 'Director_2multiwiki', 'Recipient_2multiwiki', 'Was_2multiwiki', 'decorated with_2multiwiki', 'director of_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:Olav Aaraas (born 10 July 1950) was born in Fredrikstad.
+relations:[]
+tt:['Decorated_2multiwiki', 'Director_2multiwiki', 'Recipient_2multiwiki', 'Was_2multiwiki', 'decorated with_2multiwiki', 'director of_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:Ian Barry
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2608': 'nationality', '2716': 'American', '3087': 'Austria'}
+----------
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:no
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is a football player of_2multiwiki', 'is from_2multiwiki']
+run_llm_extract_result:2. is from_2multiwiki
+relations:[]
+tt:['is a football player of_2multiwiki', 'is from_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2556': 'England'}
+----------
+len of total relations:5
+total relations:['competed for_2multiwiki', 'resides in_2multiwiki', 'was a cricketer_2multiwiki', 'was a weightlifter_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:resides in England
+relations:[]
+tt:['competed for_2multiwiki', 'resides in_2multiwiki', 'was a cricketer_2multiwiki', 'was a weightlifter_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2559': 'film director'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Gustaf Molander's wife died in 1973.
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2756': 'director', '2793': 'Ian Barry'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:George Archainbaud
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2788': 'Film', '2756': 'director', '2825': 'Richard Wallace', '2559': 'film director'}
+----------
+len of total relations:3
+total relations:['Directed_2multiwiki', 'Director_2multiwiki', 'Writer_2multiwiki']
+run_llm_extract_result:2. Director_2multiwiki
+relations:[]
+tt:['Directed_2multiwiki', 'Director_2multiwiki', 'Writer_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Robert Ames
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['Directed_2multiwiki', 'Directed by_2multiwiki']
+run_llm_extract_result:1. Directed_2multiwiki
+relations:[]
+tt:['Directed_2multiwiki', 'Directed by_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Richard Wallace (1899-1951)
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2833': 'Jason Love', '2834': 'Australian Football League'}
+----------
+len of total relations:1
+total relations:['Played for_2multiwiki']
+run_llm_extract_result:Jason Love (born 3 December 1965)
+relations:[]
+tt:['Played for_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['Played for_2multiwiki']
+run_llm_extract_result:Australian Football League
+relations:[]
+tt:['Played for_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2858': 'Iran'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:2. is located in
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2847': 'Denys Desjardins', '2559': 'film director'}
+----------
+len of total relations:1
+total relations:['Film director_2multiwiki']
+run_llm_extract_result:Denys Desjardins (born 1966 in Montreal, Quebec)
+relations:[]
+tt:['Film director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Ian Barry
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2854': 'Sheydan', '2861': 'Shamsiyeh', '2858': 'Iran', '2638': 'country'}
+----------
+len of total relations:2
+total relations:['Population_2multiwiki', 'Village_2multiwiki']
+run_llm_extract_result:Sheydan (also Romanized as Sheydān and Shīdān) is a village in Sarvestan Rural District, in the Central District of Bavanat County, Fars Province, Iran.
+relations:[]
+tt:['Population_2multiwiki', 'Village_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['Population_2multiwiki', 'Village_2multiwiki']
+run_llm_extract_result:1. Village_2multiwiki
+relations:[]
+tt:['Population_2multiwiki', 'Village_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:Sheydan, Bavanat, and Shamsiyeh are located in the same country.
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:Sheydan, Bavanat, and Shamsiyeh are located in the same country.
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (Sohrab Shahid-Saless)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2756': 'director'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:I am (0.5)
+relations:[{'entity': '2756', 'relation': 'I am', 'score': 0.5, 'head': False}]
+tt:['is_2multiwiki']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2741': 'films'}
+----------
+len of total relations:1
+total relations:['directed_2multiwiki']
+run_llm_extract_result:The Man From Planet X
+relations:[]
+tt:['directed_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3045': 'California'}
+----------
+len of total relations:2
+total relations:['is state of_2multiwiki', 'is country of_2multiwiki']
+run_llm_extract_result:2. is country of_2multiwiki
+relations:[]
+tt:['is state of_2multiwiki', 'is country of_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2608': 'nationality', '2585': 'New Zealand', '2646': 'film'}
+----------
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['Location of_2multiwiki', 'spent most of his life in_2multiwiki', 'was a cricketer_2multiwiki']
+run_llm_extract_result:Location of_2multiwiki
+relations:[]
+tt:['Location of_2multiwiki', 'spent most of his life in_2multiwiki', 'was a cricketer_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Mabel Hill and Rupert Costo shared the same nationality.
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2876': 'Georg Jacoby', '2741': 'films'}
+----------
+len of total relations:1
+total relations:['starred_2multiwiki']
+run_llm_extract_result:Georg Jacoby
+relations:[]
+tt:['starred_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['directed_2multiwiki']
+run_llm_extract_result:The Pirate Of Panama
+relations:[]
+tt:['directed_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2756': 'director'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Ian Barry
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2756': 'director', '2703': 'Theodred II'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (date of birth unknown)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Peter Levin
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a medieval Bishop of Elmham
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2558': 'Tom Ford'}
+----------
+len of total relations:3
+total relations:['adapted_2multiwiki', 'is_2multiwiki', 'was adapted by_2multiwiki']
+run_llm_extract_result:2. is_2multiwiki
+relations:[]
+tt:['adapted_2multiwiki', 'is_2multiwiki', 'was adapted by_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3092': 'Russia'}
+----------
+len of total relations:1
+total relations:['is a football player of_2multiwiki']
+run_llm_extract_result:Russia
+relations:[]
+tt:['is a football player of_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2601': 'Etan Boritzer', '2703': 'Theodred II', '2735': 'Albert Thompson', '2738': 'Harry Wainwright', '2743': 'Thomas Scott'}
+----------
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. Born in_2multiwiki
+Answer: Red Wing (Actress) was born in the Winnebago Reservation in Nebraska.
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. died
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. died
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:2. died
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3045': 'California', '2780': 'United States', '2638': 'country'}
+----------
+len of total relations:2
+total relations:['is state of_2multiwiki', 'is country of_2multiwiki']
+run_llm_extract_result:2. is country of_2multiwiki
+relations:[]
+tt:['is state of_2multiwiki', 'is country of_2multiwiki']
+final_relations:No relations found
+len of total relations:7
+total relations:['Location of_2multiwiki', 'Release location_2multiwiki', 'country_2multiwiki', 'is country of_2multiwiki', 'Actor_2multiwiki', 'Located in_2multiwiki', 'Release date_2multiwiki']
+run_llm_extract_result:Location of_2multiwiki
+relations:[]
+tt:['Location of_2multiwiki', 'Release location_2multiwiki', 'country_2multiwiki', 'is country of_2multiwiki', 'Actor_2multiwiki', 'Located in_2multiwiki', 'Release date_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2825': 'Richard Wallace', '2559': 'film director'}
+----------
+len of total relations:2
+total relations:['Directed_2multiwiki', 'Directed by_2multiwiki']
+run_llm_extract_result:Directed by_2multiwiki
+relations:[]
+tt:['Directed_2multiwiki', 'Directed by_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Richard Wallace
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2833': 'Jason Love'}
+----------
+len of total relations:1
+total relations:['Played for_2multiwiki']
+run_llm_extract_result:Jason Love
+relations:[]
+tt:['Played for_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2756': 'director', '2559': 'film director', '2716': 'American', '2556': 'England'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Peter Hedges
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Peter Hedges
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['competed for_2multiwiki', 'resides in_2multiwiki', 'was a cricketer_2multiwiki', 'was a weightlifter_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:2multiwiki
+relations:[]
+tt:['competed for_2multiwiki', 'resides in_2multiwiki', 'was a cricketer_2multiwiki', 'was a weightlifter_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2736': 'footballer', '2751': 'writer', '2601': 'Etan Boritzer'}
+----------
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:1. is_2multiwiki
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. born in_2multiwiki
+2. speaker_2multiwiki
+3. wrote_2multiwiki
+4. born in_2multiwiki
+5. essay_2multiwiki
+6. is_2multiwiki
+7. lives in_2multiwiki
+8. speaker_2multiwiki
+9. teaches_2multiwiki
+10. was first published at the age of_2multiwiki
+11. yoga teacher_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2858': 'Iran'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:2. is located in
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2756': 'director', '2646': 'film', '2793': 'Ian Barry'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Charles Miller (1857 – November 14, 1936)
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (date of death unknown)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3092': 'Russia'}
+----------
+len of total relations:1
+total relations:['is a football player of_2multiwiki']
+run_llm_extract_result:Russia
+relations:[]
+tt:['is a football player of_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2668': 'Elliot Silverstein', '2649': 'Scott Fox'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2793': 'Ian Barry'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Leopoldo Torre Nilsson (5 May 1924 – 8 September 1978)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2976': 'Tanya Ryno', '2973': 'Amy Hobby', '2974': 'Coney Island Baby'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['producer_2multiwiki']
+run_llm_extract_result:producer_2multiwiki
+relations:[]
+tt:['producer_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['director_2multiwiki', 'producer_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki', 'producer_2multiwiki']
+final_relations:No relations found
+len of total relations:7
+total relations:['broadcast location_2multiwiki', 'composer_2multiwiki', 'director_2multiwiki', 'location_2multiwiki', 'producer_2multiwiki', 'screening location_2multiwiki', 'writer_2multiwiki']
+run_llm_extract_result:1. broadcast location_2multiwiki
+relations:[]
+tt:['broadcast location_2multiwiki', 'composer_2multiwiki', 'director_2multiwiki', 'location_2multiwiki', 'producer_2multiwiki', 'screening location_2multiwiki', 'writer_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2996': 'North America'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['released in_2multiwiki']
+run_llm_extract_result:released in_2multiwiki
+relations:[]
+tt:['released in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2890': 'Hababam Sınıfı', '2895': 'Ertem Eğilmez', '2889': 'Rıfat Ilgaz', '2601': 'Etan Boritzer', '2646': 'film', '2756': 'director', '2894': 'Kemal Sunal', '2892': 'Tarık Akan'}
+----------
+len of total relations:4
+total relations:['was released_2multiwiki', 'acted_2multiwiki', 'directed_2multiwiki', 'wrote_2multiwiki']
+run_llm_extract_result:3. directed_2multiwiki
+relations:[]
+tt:['was released_2multiwiki', 'acted_2multiwiki', 'directed_2multiwiki', 'wrote_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['directed_2multiwiki']
+run_llm_extract_result:Ertem Eğilmez (18 February 1929, Trabzon – 21 September 1989, Istanbul, Turkey)
+relations:[]
+tt:['directed_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['wrote_2multiwiki']
+run_llm_extract_result:Rıfat Ilgaz (18 February 1929, Trabzon – 21 September 1989, Istanbul, Turkey)
+relations:[]
+tt:['wrote_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. Born in_2multiwiki
+2. Speaker_2multiwiki
+3. Wrote_2multiwiki
+4. born in_2multiwiki
+5. essay_2multiwiki
+6. is_2multiwiki
+7. lives in_2multiwiki
+8. speaker_2multiwiki
+9. teaches_2multiwiki
+10. was first published at the age of_2multiwiki
+11. yoga teacher_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Ertem Eğilmez (18 February 1929)
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['acted_2multiwiki']
+run_llm_extract_result:Kemal Sunal (born 1938)
+relations:[]
+tt:['acted_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['acted_2multiwiki']
+run_llm_extract_result:Tarık Akan (born 1943)
+relations:[]
+tt:['acted_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2876': 'Georg Jacoby'}
+----------
+len of total relations:1
+total relations:['starred_2multiwiki']
+run_llm_extract_result:Georg Jacoby (23 July 1882 – 21 February 1964)
+relations:[]
+tt:['starred_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2793': 'Ian Barry', '2745': 'William Thomas Smith', '2743': 'Thomas Scott', '2703': 'Theodred II'}
+----------
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:2. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. died
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:2. died
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2908': 'María Belén Perez Sanchez', '2900': 'María Belén Carvajal Peña', '2898': 'Craig Browning Tatum', '2901': 'Richard Tatum', '2595': 'Wale Adebanwi', '2584': 'Henry Walter Moore', '2588': 'Hartley W Lobban'}
+----------
+len of total relations:4
+total relations:['Birthplace of_2multiwiki', 'Event_2multiwiki', 'Location of_2multiwiki', 'Nationality of_2multiwiki']
+run_llm_extract_result:1. Birthplace of_2multiwiki
+Answer: María Belén Perez Sanchez was born in Granada, Spain.
+relations:[]
+tt:['Birthplace of_2multiwiki', 'Event_2multiwiki', 'Location of_2multiwiki', 'Nationality of_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['Event_2multiwiki', 'Location of_2multiwiki']
+run_llm_extract_result:2. Location of_2multiwiki
+relations:[]
+tt:['Event_2multiwiki', 'Location of_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['Location of_2multiwiki', 'Organization_2multiwiki', 'Team_2multiwiki']
+run_llm_extract_result:2. Organization_2multiwiki
+relations:[]
+tt:['Location of_2multiwiki', 'Organization_2multiwiki', 'Team_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['Birthplace of_2multiwiki', 'Location of_2multiwiki']
+run_llm_extract_result:2. Location of_2multiwiki
+relations:[]
+tt:['Birthplace of_2multiwiki', 'Location of_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is a professor_2multiwiki', 'Employer_2multiwiki', 'Location of_2multiwiki']
+run_llm_extract_result:1. is a professor_2multiwiki
+relations:[]
+tt:['is a professor_2multiwiki', 'Employer_2multiwiki', 'Location of_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['spent most of his life in_2multiwiki', 'was a cricketer_2multiwiki', 'was born in_2multiwiki', 'Location of_2multiwiki']
+run_llm_extract_result:2. was born in_2multiwiki
+relations:[]
+tt:['spent most of his life in_2multiwiki', 'was a cricketer_2multiwiki', 'was born in_2multiwiki', 'Location of_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['played for_2multiwiki', 'was born in_2multiwiki', 'Location of_2multiwiki', 'Nationality of_2multiwiki']
+run_llm_extract_result:2. was born in_2multiwiki
+relations:[]
+tt:['played for_2multiwiki', 'was born in_2multiwiki', 'Location of_2multiwiki', 'Nationality of_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2756': 'director', '2751': 'writer', '2917': 'Monte Carlo method', '2559': 'film director'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:William Nigh
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:William Nigh
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:William Nigh
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['Advantage_2multiwiki', 'Method_2multiwiki']
+run_llm_extract_result:Method_2multiwiki
+relations:[]
+tt:['Advantage_2multiwiki', 'Method_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:William Nigh
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2790': 'Michael Govan', '2700': 'Olav Aaraas', '2953': 'John Farrell', '2793': 'Ian Barry', '2717': 'Peter Levin'}
+----------
+len of total relations:3
+total relations:['Director_2multiwiki', 'date of birth_2multiwiki', 'director_2multiwiki']
+run_llm_extract_result:Michael Govan (born 1963) is the director of the Los Angeles County Museum of Art.
+relations:[]
+tt:['Director_2multiwiki', 'date of birth_2multiwiki', 'director_2multiwiki']
+final_relations:No relations found
+len of total relations:7
+total relations:['Decorated_2multiwiki', 'Director_2multiwiki', 'Recipient_2multiwiki', 'Was_2multiwiki', 'decorated with_2multiwiki', 'director of_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:Director_2multiwiki
+relations:[]
+tt:['Decorated_2multiwiki', 'Director_2multiwiki', 'Recipient_2multiwiki', 'Was_2multiwiki', 'decorated with_2multiwiki', 'director of_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+2. Was_2multiwiki
+3. directed_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:Director_2multiwiki (Peter Levin)
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2928': 'Sir Stanley Unwin', '2601': 'Etan Boritzer', '2735': 'Albert Thompson', '2745': 'William Thomas Smith', '2743': 'Thomas Scott', '2738': 'Harry Wainwright', '2931': 'Harry Johnson', '2932': 'Frederick Bradley', '2703': 'Theodred II', '2561': 'John F. Kennedy', '2929': 'George Allen & Unwin', '2535': 'yoga'}
+----------
+len of total relations:3
+total relations:['Founded_2multiwiki', 'Was_2multiwiki', 'Father_2multiwiki']
+run_llm_extract_result:23 October 1968
+relations:[]
+tt:['Founded_2multiwiki', 'Was_2multiwiki', 'Father_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. Born in_2multiwiki
+2. Speaker_2multiwiki
+3. Wrote_2multiwiki
+4. born in_2multiwiki
+5. essay_2multiwiki
+6. is_2multiwiki
+7. lives in_2multiwiki
+8. speaker_2multiwiki
+9. teaches_2multiwiki
+10. was first published at the age of_2multiwiki
+11. yoga teacher_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:23 November 2000
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. competed for_2multiwiki
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:23 November 2000
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:1. Was_2multiwiki
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['Was_2multiwiki']
+run_llm_extract_result:Frederick Bradley (1908-date of death unknown) was an English rower.
+relations:[]
+tt:['Was_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['Was_2multiwiki']
+run_llm_extract_result:Frederick Bradley (1908-date of death unknown)
+relations:[]
+tt:['Was_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['Assassinated_2multiwiki', 'was subject of essay by_2multiwiki', 'wrote essay on_2multiwiki']
+run_llm_extract_result:2. was subject of essay by_2multiwiki
+relations:[]
+tt:['Assassinated_2multiwiki', 'was subject of essay by_2multiwiki', 'wrote essay on_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['Founded_2multiwiki']
+run_llm_extract_result:George Allen & Unwin
+relations:[]
+tt:['Founded_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['teaches_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. teaches_2multiwiki
+relations:[]
+tt:['teaches_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2700': 'Olav Aaraas', '2790': 'Michael Govan', '2793': 'Ian Barry', '2953': 'John Farrell', '2717': 'Peter Levin', '2716': 'American', '2646': 'film', '2756': 'director'}
+----------
+len of total relations:7
+total relations:['Decorated_2multiwiki', 'Director_2multiwiki', 'Recipient_2multiwiki', 'Was_2multiwiki', 'decorated with_2multiwiki', 'director of_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:2. Director_2multiwiki
+relations:[]
+tt:['Decorated_2multiwiki', 'Director_2multiwiki', 'Recipient_2multiwiki', 'Was_2multiwiki', 'decorated with_2multiwiki', 'director of_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['Director_2multiwiki', 'date of birth_2multiwiki', 'director_2multiwiki']
+run_llm_extract_result:Michael Govan (born 1963)
+relations:[]
+tt:['Director_2multiwiki', 'date of birth_2multiwiki', 'director_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:2. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:American
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Norwegian
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Norwegian
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2756': 'director'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Ian Barry
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2953': 'John Farrell', '2793': 'Ian Barry', '2801': 'Brian Patrick Kennedy', '2790': 'Michael Govan', '2700': 'Olav Aaraas', '2717': 'Peter Levin', '2646': 'film', '2756': 'director', '2608': 'nationality'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['Director_2multiwiki', 'is the director of_2multiwiki', 'was the director of_2multiwiki']
+run_llm_extract_result:Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'is the director of_2multiwiki', 'was the director of_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['Director_2multiwiki', 'date of birth_2multiwiki', 'director_2multiwiki']
+run_llm_extract_result:Michael Govan (born 1963) is the director of the Los Angeles County Museum of Art.
+relations:[]
+tt:['Director_2multiwiki', 'date of birth_2multiwiki', 'director_2multiwiki']
+final_relations:No relations found
+len of total relations:7
+total relations:['Decorated_2multiwiki', 'Director_2multiwiki', 'Recipient_2multiwiki', 'Was_2multiwiki', 'decorated with_2multiwiki', 'director of_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:2. Director_2multiwiki
+relations:[]
+tt:['Decorated_2multiwiki', 'Director_2multiwiki', 'Recipient_2multiwiki', 'Was_2multiwiki', 'decorated with_2multiwiki', 'director of_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Olav Aaraas
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2646': 'film', '2571': 'television'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Raggedy Ann & Andy: A Musical Adventure
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['played a role in_2multiwiki']
+run_llm_extract_result:Raggedy Ann & Andy: A Musical Adventure
+relations:[]
+tt:['played a role in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3016': 'W. Augustus Barratt'}
+----------
+len of total relations:1
+total relations:['was_2multiwiki']
+run_llm_extract_result:W. Augustus Barratt
+relations:[]
+tt:['was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2559': 'film director', '2756': 'director'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Brian Patrick Kennedy
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Brian Patrick Kennedy
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2638': 'country', '2741': 'films'}
+----------
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:no
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['directed_2multiwiki']
+run_llm_extract_result:1. directed_2multiwiki
+relations:[]
+tt:['directed_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2559': 'film director', '2561': 'John F. Kennedy', '2537': 'Pamela Jain', '2600': 'Brian Saunders', '2703': 'Theodred II', '2601': 'Etan Boritzer', '2717': 'Peter Levin', '2543': 'Les Richards', '2793': 'Ian Barry'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:1. is_2multiwiki
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['Assassinated_2multiwiki', 'was subject of essay by_2multiwiki', 'wrote essay on_2multiwiki']
+run_llm_extract_result:1. Assassinated_2multiwiki
+relations:[]
+tt:['Assassinated_2multiwiki', 'was subject of essay by_2multiwiki', 'wrote essay on_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is speaker for_2multiwiki', 'is_2multiwiki', 'was born on_2multiwiki']
+run_llm_extract_result:1. is speaker for_2multiwiki
+relations:[]
+tt:['is speaker for_2multiwiki', 'is_2multiwiki', 'was born on_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['competed for_2multiwiki', 'is_2multiwiki', 'was a weightlifter_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:1. competed for_2multiwiki
+relations:[]
+tt:['competed for_2multiwiki', 'is_2multiwiki', 'was a weightlifter_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. Born in_2multiwiki
+2. Speaker_2multiwiki
+3. Wrote_2multiwiki
+4. born in_2multiwiki
+5. essay_2multiwiki
+6. is_2multiwiki
+7. lives in_2multiwiki
+8. speaker_2multiwiki
+9. teaches_2multiwiki
+10. was first published at the age of_2multiwiki
+11. yoga teacher_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['played for_2multiwiki']
+run_llm_extract_result:Les Richards
+relations:[]
+tt:['played for_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2756': 'director', '2649': 'Scott Fox', '2668': 'Elliot Silverstein', '2666': 'Dan Milne'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Pack Train
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Pack Train
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Scott Fox (1927)
+relations:[{'entity': '2649', 'relation': 'Scott Fox', 'score': 1927.0, 'head': False}]
+tt:['director_2multiwiki']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['actor_2multiwiki']
+run_llm_extract_result:actor_2multiwiki
+relations:[]
+tt:['actor_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2559': 'film director', '2797': 'SRI International', '2796': 'Jesse Edward Hobson', '2766': 'S.N. Mathur', '2793': 'Ian Barry', '2717': 'Peter Levin', '2700': 'Olav Aaraas', '2801': 'Brian Patrick Kennedy', '2802': 'Peabody Essex Museum'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Vaanga Partner Vaanga (English: Come Partner Come) is a 1994 Tamil comedy film directed and produced by Rama Narayanan. The film features Visu, Radha Ravi, S. S. Chandran and Venniradai Moorthy in lead roles. The film had musical score by Sankar and was released on 14 January 1994.
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['Located in_2multiwiki', 'Director_2multiwiki', 'was the director of_2multiwiki']
+run_llm_extract_result:2. Director_2multiwiki
+relations:[]
+tt:['Located in_2multiwiki', 'Director_2multiwiki', 'was the director of_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['Director_2multiwiki', 'was the director of_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+2. was the director of_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'was the director of_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director General of Police_2multiwiki', 'Director_2multiwiki', 'was the Director General of Police_2multiwiki', 'was the Director of_2multiwiki']
+run_llm_extract_result:Director General of Police_2multiwiki
+relations:[]
+tt:['Director General of Police_2multiwiki', 'Director_2multiwiki', 'was the Director General of Police_2multiwiki', 'was the Director of_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:Ian Barry
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:7
+total relations:['Decorated_2multiwiki', 'Director_2multiwiki', 'Recipient_2multiwiki', 'Was_2multiwiki', 'decorated with_2multiwiki', 'director of_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:Olav Aaraas (born 10 July 1950) died in Fredrikstad.
+relations:[]
+tt:['Decorated_2multiwiki', 'Director_2multiwiki', 'Recipient_2multiwiki', 'Was_2multiwiki', 'decorated with_2multiwiki', 'director of_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['Director_2multiwiki', 'is the director of_2multiwiki', 'was the director of_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+2. is the director of_2multiwiki
+3. was the director of_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'is the director of_2multiwiki', 'was the director of_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Located in_2multiwiki', 'Director_2multiwiki', 'director_2multiwiki', 'is the director of_2multiwiki', 'was the director of_2multiwiki']
+run_llm_extract_result:2. Director_2multiwiki
+relations:[]
+tt:['Located in_2multiwiki', 'Director_2multiwiki', 'director_2multiwiki', 'is the director of_2multiwiki', 'was the director of_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2788': 'Film', '2789': 'Television'}
+----------
+len of total relations:3
+total relations:['Directed_2multiwiki', 'Director_2multiwiki', 'Writer_2multiwiki']
+run_llm_extract_result:Directed_2multiwiki
+relations:[]
+tt:['Directed_2multiwiki', 'Director_2multiwiki', 'Writer_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['Director_2multiwiki']
+run_llm_extract_result:Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2608': 'nationality', '2716': 'American'}
+----------
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:American
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2559': 'film director', '2646': 'film'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Philip E. Rosen
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Philip E. Rosen (born May 8, 1888) was born in Marienburg, German Empire (now, Malbork, Poland).
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2756': 'director', '2646': 'film', '2608': 'nationality'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Il Tenente Dei Carabinieri and director of film Diesel (Film) share the same nationality.
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2756': 'director'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (born 15 August 1992)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Francesco Monaco
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'3092': 'Russia', '2858': 'Iran'}
+----------
+len of total relations:1
+total relations:['is a football player of_2multiwiki']
+run_llm_extract_result:Russia
+relations:[]
+tt:['is a football player of_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:1. Village_2multiwiki
+2. is located in_2multiwiki
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2753': 'singer'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:is_2multiwiki
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2858': 'Iran'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:2. is located in_2multiwiki
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2608': 'nationality'}
+----------
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2620': 'place of birth'}
+----------
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2972': 'Lloyd'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:47 Natkal (1981)
+relations:[{'entity': '2646', 'relation': '47 Natkal', 'score': 1981.0, 'head': False}]
+tt:['director_2multiwiki']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['distributor_2multiwiki']
+run_llm_extract_result:Lloyd
+relations:[]
+tt:['distributor_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2559': 'film director'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:The Blue Danube (1932 Film) is directed by Herbert Wilcox.
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2858': 'Iran', '3057': 'Kerman Province'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:2. is located in
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is located in_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:1. is located in_2multiwiki
+relations:[]
+tt:['is located in_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2756': 'director', '2646': 'film', '2793': 'Ian Barry', '2717': 'Peter Levin'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Bhagya Chakramu (1968)
+relations:[{'entity': '2756', 'relation': 'Bhagya Chakramu', 'score': 1968.0, 'head': False}]
+tt:['is_2multiwiki']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (date of death unknown)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'2559': 'film director'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:no
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2958': 'Three Times', '2985': 'Önskas', '2646': 'film', '2957': 'Hou Hsiao-hsien', '2959': 'Shu Qi', '2960': 'Chang Chen', '2970': 'Mystery Science Theater 3000', '2980': 'Sundance Channel', '2983': 'Cristiano Ronaldo', '2981': 'Anthony Wonke', '2984': 'Lars Johansson', '2986': 'Rolf Lassgård'}
+----------
+len of total relations:2
+total relations:['actor_2multiwiki', 'director_2multiwiki']
+run_llm_extract_result:3 Times (2005)
+relations:[{'entity': '2958', 'relation': '3 Times', 'score': 2005.0, 'head': False}]
+tt:['actor_2multiwiki', 'director_2multiwiki']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Önskas (2015)
+relations:[{'entity': '2985', 'relation': 'Önskas', 'score': 2015.0, 'head': False}]
+tt:['director_2multiwiki']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Three Times
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['actor_2multiwiki']
+run_llm_extract_result:actor_2multiwiki
+relations:[]
+tt:['actor_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['actor_2multiwiki']
+run_llm_extract_result:actor_2multiwiki
+relations:[]
+tt:['actor_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['featured_2multiwiki']
+run_llm_extract_result:Ronaldo
+relations:[]
+tt:['featured_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['broadcast location_2multiwiki']
+run_llm_extract_result:A: Önskas
+relations:[]
+tt:['broadcast location_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['subject_2multiwiki']
+run_llm_extract_result:Cristiano Ronaldo (1985-present)
+relations:[]
+tt:['subject_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Lars Johansson (1)
+relations:[{'entity': '2984', 'relation': 'Lars Johansson', 'score': 1.0, 'head': False}]
+tt:['director_2multiwiki']
+final_relations:All relations pruned
+len of total relations:1
+total relations:['nominee_2multiwiki']
+run_llm_extract_result:Rolf Lassgård (1)
+relations:[{'entity': '2986', 'relation': 'Rolf Lassgård', 'score': 1.0, 'head': False}]
+tt:['nominee_2multiwiki']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2646': 'film', '2756': 'director'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Cloverfield
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2646': 'film', '2996': 'North America'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['released in_2multiwiki']
+run_llm_extract_result:no
+relations:[]
+tt:['released in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2603': 'US', '2819': 'Norway'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['attribute_2multiwiki', 'attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki', 'attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['Located in_2multiwiki']
+run_llm_extract_result:Located in_2multiwiki
+relations:[]
+tt:['Located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2858': 'Iran'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:2. is located in
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2741': 'films', '2951': '2006'}
+----------
+len of total relations:1
+total relations:['directed_2multiwiki']
+run_llm_extract_result:Island Wives (2008)
+relations:[{'entity': '2741', 'relation': 'Island Wives', 'score': 2008.0, 'head': False}]
+tt:['directed_2multiwiki']
+final_relations:All relations pruned
+len of total relations:2
+total relations:['date of birth_2multiwiki', 'released in_2multiwiki']
+run_llm_extract_result:released in (2006)
+relations:[{'entity': '2951', 'relation': 'released in', 'score': 2006.0, 'head': False}]
+tt:['date of birth_2multiwiki', 'released in_2multiwiki']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2559': 'film director', '2793': 'Ian Barry', '3107': 'Australia'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:no
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:2. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is from_2multiwiki']
+run_llm_extract_result:no
+relations:[]
+tt:['is from_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2756': 'director', '2646': 'film'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Peter Levin
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Peter Levin
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3044': 'Texas'}
+----------
+len of total relations:2
+total relations:['is state of_2multiwiki', 'is country of_2multiwiki']
+run_llm_extract_result:1. is state of_2multiwiki
+2. is country of_2multiwiki
+relations:[]
+tt:['is state of_2multiwiki', 'is country of_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2559': 'film director'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:T. R. Sundaram
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3107': 'Australia', '2780': 'United States'}
+----------
+len of total relations:1
+total relations:['is from_2multiwiki']
+run_llm_extract_result:Emanuel Building (Australia) is from_2multiwiki
+relations:[]
+tt:['is from_2multiwiki']
+final_relations:No relations found
+len of total relations:7
+total relations:['Location of_2multiwiki', 'Release location_2multiwiki', 'country_2multiwiki', 'is country of_2multiwiki', 'Actor_2multiwiki', 'Located in_2multiwiki', 'Release date_2multiwiki']
+run_llm_extract_result:Location of_2multiwiki
+relations:[]
+tt:['Location of_2multiwiki', 'Release location_2multiwiki', 'country_2multiwiki', 'is country of_2multiwiki', 'Actor_2multiwiki', 'Located in_2multiwiki', 'Release date_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2669': 'Cat Ballou'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2703': 'Theodred II', '2600': 'Brian Saunders', '2601': 'Etan Boritzer'}
+----------
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['competed for_2multiwiki', 'is_2multiwiki', 'was a weightlifter_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:1. competed for_2multiwiki
+relations:[]
+tt:['competed for_2multiwiki', 'is_2multiwiki', 'was a weightlifter_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. Born in_2multiwiki
+Bernard Bonvoisin
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2601': 'Etan Boritzer', '2646': 'film', '2756': 'director', '2573': 'Germany'}
+----------
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. Born in_2multiwiki
+2. Speaker_2multiwiki
+3. Wrote_2multiwiki
+4. born in_2multiwiki
+5. essay_2multiwiki
+6. is_2multiwiki
+7. lives in_2multiwiki
+8. speaker_2multiwiki
+9. teaches_2multiwiki
+10. was first published at the age of_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki (1905-1987)
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Wolfgang Georg Louis Liebeneiner
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['was a singer_2multiwiki']
+run_llm_extract_result:1. was a director_2multiwiki
+relations:[]
+tt:['was a singer_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2738': 'Harry Wainwright', '2745': 'William Thomas Smith', '2601': 'Etan Boritzer', '2703': 'Theodred II', '2743': 'Thomas Scott'}
+----------
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. competed for_2multiwiki
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. died
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:2. Born in_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki']
+run_llm_extract_result:2. died
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3087': 'Austria'}
+----------
+len of total relations:2
+total relations:['is a football player of_2multiwiki', 'is from_2multiwiki']
+run_llm_extract_result:2. is from_2multiwiki
+relations:[]
+tt:['is a football player of_2multiwiki', 'is from_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2858': 'Iran'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:2. is located in
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+*************************************************************
+{'3030': 'music critic', '3015': 'Michael Steinberg', '2750': 'composer', '2751': 'writer', '2991': 'classical music', '3010': 'Chicago Symphony'}
+----------
+len of total relations:1
+total relations:['was_2multiwiki']
+run_llm_extract_result:Dragán Ivanov (born 27 January 1942)
+relations:[]
+tt:['was_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['was_2multiwiki', 'mentioned_2multiwiki', 'taught_2multiwiki', 'was married to_2multiwiki']
+run_llm_extract_result:2. mentioned_2multiwiki
+relations:[]
+tt:['was_2multiwiki', 'mentioned_2multiwiki', 'taught_2multiwiki', 'was married to_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Dragán Ivanov
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['organist_2multiwiki']
+run_llm_extract_result:organist_2multiwiki
+relations:[]
+tt:['organist_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is country of_2multiwiki', 'won a spot in_2multiwiki']
+run_llm_extract_result:2. won a spot in_2multiwiki
+relations:[]
+tt:['is country of_2multiwiki', 'won a spot in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3023': 'Park Chan-wook', '3046': 'South Korea', '2573': 'Germany'}
+----------
+len of total relations:2
+total relations:['directed_2multiwiki', 'is country of_2multiwiki']
+run_llm_extract_result:1. directed_2multiwiki
+2. is country of_2multiwiki
+relations:[]
+tt:['directed_2multiwiki', 'is country of_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is country of_2multiwiki']
+run_llm_extract_result:1. is country of_2multiwiki
+relations:[]
+tt:['is country of_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['was a singer_2multiwiki']
+run_llm_extract_result:no
+relations:[]
+tt:['was a singer_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2646': 'film', '2756': 'director', '2819': 'Norway'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1943
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Ola Solum (17 July 1943 – 28 June 1996)
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['Located in_2multiwiki']
+run_llm_extract_result:Carl Gustav, gjengen og parkeringsbandittene (1982)
+relations:[{'entity': '2819', 'relation': 'Carl Gustav, gjengen og parkeringsbandittene', 'score': 1982.0, 'head': False}]
+tt:['Located in_2multiwiki']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2858': 'Iran'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:2. is located in
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:1. director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2858': 'Iran', '3057': 'Kerman Province', '2857': 'Fars Province'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:2. is located in
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is located in_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:1. is located in_2multiwiki
+relations:[]
+tt:['is located in_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['Village_2multiwiki']
+run_llm_extract_result:1. Village_2multiwiki
+relations:[]
+tt:['Village_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2858': 'Iran'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:2. is located in
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2756': 'director', '2646': 'film'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:John Trent
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Kerry Scott Conran
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2691': 'Spain'}
+----------
+len of total relations:2
+total relations:['Nationality of_2multiwiki', 'took refuge in_2multiwiki']
+run_llm_extract_result:Spain
+relations:[]
+tt:['Nationality of_2multiwiki', 'took refuge in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2646': 'film', '2756': 'director'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:The date of death of the director of film Baby Doll is unknown.
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+*************************************************************
+{'2601': 'Etan Boritzer', '2756': 'director'}
+----------
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. Born in_2multiwiki
+2. Speaker_2multiwiki
+3. Wrote_2multiwiki
+4. born in_2multiwiki
+5. essay_2multiwiki
+6. is_2multiwiki
+7. lives in_2multiwiki
+8. speaker_2multiwiki
+9. teaches_2multiwiki
+10. was first published at the age of_2multiwiki
+11. yoga teacher_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:The date of death of the director of film Chor Machaye Shor is 9 October 2015.
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3016': 'W. Augustus Barratt'}
+----------
+len of total relations:1
+total relations:['was_2multiwiki']
+run_llm_extract_result:W. Augustus Barratt
+relations:[]
+tt:['was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2608': 'nationality'}
+----------
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:attribute_2multiwiki
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2717': 'Peter Levin'}
+----------
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2703': 'Theodred II'}
+----------
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2638': 'country', '2646': 'film'}
+----------
+len of total relations:1
+total relations:['attribute_2multiwiki']
+run_llm_extract_result:no
+relations:[]
+tt:['attribute_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film', '2756': 'director'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:Peter Levin
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Peter Levin
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2858': 'Iran', '3060': 'Abbasabad', '3053': 'Emamzadeh Ali', '3064': 'East Azerbaijan Province', '3059': 'Ardabil Province', '3057': 'Kerman Province'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:2. is located in
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is located in_2multiwiki']
+run_llm_extract_result:Abbasabad( also Romanized as ‘ Abbāsābād and Abasabad) is a village in the Ardabil Province of Iran.
+relations:[]
+tt:['is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is located in_2multiwiki', 'is named as_2multiwiki']
+run_llm_extract_result:1. is located in_2multiwiki
+2. is named as_2multiwiki
+relations:[]
+tt:['is located in_2multiwiki', 'is named as_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is located in_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:1. is located in_2multiwiki
+relations:[]
+tt:['is located in_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is located in_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:1. is located in_2multiwiki
+relations:[]
+tt:['is located in_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is located in_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:1. is located in_2multiwiki
+relations:[]
+tt:['is located in_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2858': 'Iran', '3084': 'Em Agaleh Seyyed Sabus', '3072': 'Zahedan County', '3073': 'Sistan and Baluchestan Province', '3069': 'Khuzestan Province'}
+----------
+len of total relations:2
+total relations:['Village_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:Chah -e Haji Shah Mohammad and Em Agaleh Seyyed Sabus are located in the same country, Iran.
+relations:[]
+tt:['Village_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is located in_2multiwiki']
+run_llm_extract_result:Chah-E Haji Shah Mohammad and Em Agaleh Seyyed Sabus are located in the same country.
+relations:[]
+tt:['is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is located in_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:1. is located in_2multiwiki
+relations:[]
+tt:['is located in_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is located in_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:1. is located in_2multiwiki
+relations:[]
+tt:['is located in_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is located in_2multiwiki', 'is located in_2multiwiki']
+run_llm_extract_result:1. is located in_2multiwiki
+relations:[]
+tt:['is located in_2multiwiki', 'is located in_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'3085': 'Mirza Jatić', '3087': 'Austria', '3092': 'Russia', '3094': 'Serbia', '3097': 'Ukraine', '2583': 'South Africa'}
+----------
+len of total relations:2
+total relations:['is a football player of_2multiwiki', 'is from_2multiwiki']
+run_llm_extract_result:1. is a football player of_2multiwiki
+relations:[]
+tt:['is a football player of_2multiwiki', 'is from_2multiwiki']
+final_relations:No relations found
+len of total relations:2
+total relations:['is a football player of_2multiwiki', 'is from_2multiwiki']
+run_llm_extract_result:1. is a football player of_2multiwiki
+relations:[]
+tt:['is a football player of_2multiwiki', 'is from_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is a football player of_2multiwiki']
+run_llm_extract_result:Mirza Jatić
+relations:[]
+tt:['is a football player of_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is a football player of_2multiwiki']
+run_llm_extract_result:Mirza Jatić
+relations:[]
+tt:['is a football player of_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is a football player of_2multiwiki']
+run_llm_extract_result:Mirza Jatić
+relations:[]
+tt:['is a football player of_2multiwiki']
+final_relations:No relations found
+len of total relations:1
+total relations:['is a cricketer_2multiwiki']
+run_llm_extract_result:2. is a cricketer_2multiwiki
+relations:[]
+tt:['is a cricketer_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2741': 'films'}
+----------
+len of total relations:1
+total relations:['directed_2multiwiki']
+run_llm_extract_result:Stealing Harvard (2002)
+relations:[{'entity': '2741', 'relation': 'Stealing Harvard', 'score': 2002.0, 'head': False}]
+tt:['directed_2multiwiki']
+final_relations:All relations pruned
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2668': 'Elliot Silverstein'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+*************************************************************
+{'2559': 'film director', '2793': 'Ian Barry', '2703': 'Theodred II', '2735': 'Albert Thompson', '2745': 'William Thomas Smith', '2738': 'Harry Wainwright', '2601': 'Etan Boritzer', '2717': 'Peter Levin'}
+----------
+len of total relations:1
+total relations:['is_2multiwiki']
+run_llm_extract_result:Peter Levin (born 1944) died
+relations:[]
+tt:['is_2multiwiki']
+final_relations:No relations found
+len of total relations:4
+total relations:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Was_2multiwiki', 'directed_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+len of total relations:3
+total relations:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:2. was a_2multiwiki
+relations:[]
+tt:['is_2multiwiki', 'was a_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:1. was_2multiwiki
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:William Thomas Smith (born 1899; date of death unknown)
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+run_llm_extract_result:1. died_2multiwiki
+relations:[]
+tt:['Was_2multiwiki', 'competed for_2multiwiki', 'is_2multiwiki', 'was born in_2multiwiki', 'was_2multiwiki']
+final_relations:No relations found
+len of total relations:11
+total relations:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+run_llm_extract_result:1. born in_2multiwiki
+2. speaker_2multiwiki
+3. wrote_2multiwiki
+4. born in_2multiwiki
+5. essay_2multiwiki
+6. is_2multiwiki
+7. lives in_2multiwiki
+8. speaker_2multiwiki
+9. teaches_2multiwiki
+10. was first published at the age of_2multiwiki
+11. yoga teacher_2multiwiki
+relations:[]
+tt:['Born in_2multiwiki', 'Speaker_2multiwiki', 'Wrote_2multiwiki', 'born in_2multiwiki', 'essay_2multiwiki', 'is_2multiwiki', 'lives in_2multiwiki', 'speaker_2multiwiki', 'teaches_2multiwiki', 'was first published at the age of_2multiwiki', 'yoga teacher_2multiwiki']
+final_relations:No relations found
+len of total relations:5
+total relations:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+run_llm_extract_result:1. Director_2multiwiki
+relations:[]
+tt:['Director_2multiwiki', 'Recipient_2multiwiki', 'directed_2multiwiki', 'is_2multiwiki', 'was an_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+{'2646': 'film'}
+----------
+len of total relations:1
+total relations:['director_2multiwiki']
+run_llm_extract_result:director_2multiwiki
+relations:[]
+tt:['director_2multiwiki']
+final_relations:No relations found
+ current_entityu_relations:[]
+No new knowledge added during search depth 1, stop searching.
+*************************************************************
+pred:Francis Girod --- true:19 November 2006
+f1_score:0.0, cumulative:0.0
+pred:Carlo Andreoli's father's birthday is unknown. --- true:27 June 1810
+f1_score:0.0, cumulative:0.0
+pred:No --- true:no
+f1_score:100.0, cumulative:100.0
+pred:Jean Paul Yontcha --- true:Fu Baolu
+f1_score:0.0, cumulative:100.0
+pred:Robert Lepage --- true:December 12, 1957
+f1_score:0.0, cumulative:100.0
+pred:No --- true:no
+f1_score:100.0, cumulative:200.0
+pred:Franz Schubert --- true:Austrian
+f1_score:0.0, cumulative:200.0
+pred:Malayalam --- true:Paravoor
+f1_score:0.0, cumulative:200.0
+pred:Gerardo de Leon --- true:July 7, 1924
+f1_score:0.0, cumulative:200.0
+pred:The date of death of the director of film The Devil's Saddle is unknown. --- true:April 7, 1988
+f1_score:0.0, cumulative:200.0
+pred:No --- true:no
+f1_score:100.0, cumulative:300.0
+pred:No --- true:no
+f1_score:100.0, cumulative:400.0
+pred:No --- true:no
+f1_score:100.0, cumulative:500.0
+pred:No --- true:no
+f1_score:100.0, cumulative:600.0
+pred:1089 --- true:23 November 1407
+f1_score:0.0, cumulative:600.0
+pred:No --- true:no
+f1_score:100.0, cumulative:700.0
+pred:Khayal Gatha --- true:Khayal Gatha
+f1_score:100.0, cumulative:800.0
+pred:No --- true:no
+f1_score:100.0, cumulative:900.0
+pred:Olav Aaraas --- true:American
+f1_score:0.0, cumulative:900.0
+pred:Mary Ann Gibbon --- true:Catherine Brockholes
+f1_score:0.0, cumulative:900.0
+pred:Grammy Lifetime Achievement Award --- true:Grammy Lifetime Achievement Award
+f1_score:100.0, cumulative:1000.0
+pred:The place of death of the director of film Peck's Bad Boy With The Circus is unknown. --- true:Hollywood
+f1_score:0.0, cumulative:1000.0
+pred:Valentina Kozlovskaya's husband was Igor Bondarevsky. --- true:Pyatigorsk
+f1_score:0.0, cumulative:1000.0
+pred:Man of Iron --- true:John The Violent
+f1_score:0.0, cumulative:1000.0
+pred:A: Iran --- true:yes
+f1_score:0.0, cumulative:1000.0
+pred:1961 --- true:7 April 1941
+f1_score:0.0, cumulative:1000.0
+pred:Ernest Gustav Brandon-Cremer --- true:Ernest Gustav Brandon-Cremer
+f1_score:100.0, cumulative:1100.0
+pred:No --- true:no
+f1_score:100.0, cumulative:1200.0
+pred:Peter Levin --- true:October 22, 1969
+f1_score:0.0, cumulative:1200.0
+pred:No --- true:no
+f1_score:100.0, cumulative:1300.0
+pred:No --- true:no
+f1_score:100.0, cumulative:1400.0
+pred:Ralph Waldo Ince --- true:January 16, 1887
+f1_score:0.0, cumulative:1400.0
+pred:No --- true:no
+f1_score:100.0, cumulative:1500.0
+pred:Norway --- true:American
+f1_score:0.0, cumulative:1500.0
+pred:1910 --- true:1910
+f1_score:100.0, cumulative:1600.0
+pred:Karl Hartl --- true:29 August 1978
+f1_score:0.0, cumulative:1600.0
+pred:Owego, New York --- true:Rome
+f1_score:0.0, cumulative:1600.0
+pred:Georgia --- true:American
+f1_score:0.0, cumulative:1600.0
+pred:No --- true:yes
+f1_score:0.0, cumulative:1600.0
+pred:Martin Dubreuil --- true:Martin Dubreuil
+f1_score:100.0, cumulative:1700.0
+pred:Rionegro --- true:Rionegro
+f1_score:100.0, cumulative:1800.0
+pred:Tangled Destinies --- true:Tangled Destinies
+f1_score:100.0, cumulative:1900.0
+pred:No, the Murrindindi River and Haddas River are located in different countries. --- true:no
+f1_score:16.67, cumulative:1916.67
+pred:French --- true:French
+f1_score:100.0, cumulative:2016.67
+pred:No --- true:no
+f1_score:100.0, cumulative:2116.67
+pred:No --- true:yes
+f1_score:0.0, cumulative:2116.67
+pred:A: Tim Wheeler --- true:Nothing Venture
+f1_score:0.0, cumulative:2116.67
+pred:Peter Hamel --- true:July 13, 1936
+f1_score:0.0, cumulative:2116.67
+pred:No --- true:yes
+f1_score:0.0, cumulative:2116.67
+pred:Troublesome Night 12 --- true:Paul Jacobs And The Nuclear Gang
+f1_score:0.0, cumulative:2116.67
+pred:A: Greece --- true:Athens
+f1_score:0.0, cumulative:2116.67
+pred:born in Dunkirk, France --- true:Dunkirk
+f1_score:40.0, cumulative:2156.67
+pred:1969 --- true:October 3, 1969
+f1_score:50.0, cumulative:2206.67
+pred:No --- true:no
+f1_score:100.0, cumulative:2306.67
+pred:No --- true:no
+f1_score:100.0, cumulative:2406.67
+pred:1973 --- true:3 September 1978
+f1_score:0.0, cumulative:2406.67
+pred:George B. Seitz --- true:May 7, 1890
+f1_score:0.0, cumulative:2406.67
+pred:Richard Wallace --- true:November 3, 1951
+f1_score:0.0, cumulative:2406.67
+pred:Debbie Jacobs --- true:Baltimore
+f1_score:0.0, cumulative:2406.67
+pred:No --- true:no
+f1_score:100.0, cumulative:2506.67
+pred:The Lady Vanishes --- true:The Lady Vanishes
+f1_score:100.0, cumulative:2606.67
+pred:Olav Aaraas --- true:Montreal, Quebec
+f1_score:0.0, cumulative:2606.67
+pred:No --- true:yes
+f1_score:0.0, cumulative:2606.67
+pred:German --- true:Iran
+f1_score:0.0, cumulative:2606.67
+pred:A: Norwegian --- true:American
+f1_score:0.0, cumulative:2606.67
+pred:The Man From Planet X --- true:The Man From Planet X
+f1_score:100.0, cumulative:2706.67
+pred:Ireland --- true:American
+f1_score:0.0, cumulative:2706.67
+pred:No --- true:no
+f1_score:100.0, cumulative:2806.67
+pred:The Pirate of Panama --- true:Bogdan Stimoff
+f1_score:0.0, cumulative:2806.67
+pred:Felsom Film and distributed by the major studio UFA. --- true:London
+f1_score:0.0, cumulative:2806.67
+pred:1933 --- true:11 July 1889
+f1_score:0.0, cumulative:2806.67
+pred:Peter Hamel --- true:Yusof Haslam
+f1_score:0.0, cumulative:2806.67
+pred:Peter Levin --- true:18 October 1973
+f1_score:0.0, cumulative:2806.67
+pred:Robert D. Richardson Sears --- true:Robert Richardson Sears
+f1_score:85.71, cumulative:2892.38
+pred:No --- true:no
+f1_score:100.0, cumulative:2992.38
+pred:1974 --- true:April 6, 1946
+f1_score:0.0, cumulative:2992.38
+pred:No --- true:no
+f1_score:100.0, cumulative:3092.38
+pred:The Darling of Paris --- true:The Darling Of Paris
+f1_score:100.0, cumulative:3192.38
+pred:Austria --- true:Graz
+f1_score:0.0, cumulative:3192.38
+pred:A: 1962 --- true:July 6, 1962
+f1_score:50.0, cumulative:3242.38
+pred:1821 --- true:12 May 1935
+f1_score:0.0, cumulative:3242.38
+pred:Leopoldo Torre Nilsson --- true:Buenos Aires
+f1_score:0.0, cumulative:3242.38
+pred:No --- true:no
+f1_score:100.0, cumulative:3342.38
+pred:No --- true:no
+f1_score:100.0, cumulative:3442.38
+pred:No --- true:yes
+f1_score:0.0, cumulative:3442.38
+pred:No --- true:no
+f1_score:100.0, cumulative:3542.38
+pred:The Unwelcome Mrs. Hatch --- true:The Unwelcome Mrs. Hatch
+f1_score:100.0, cumulative:3642.38
+pred:Charles Miller --- true:November 14, 1936
+f1_score:0.0, cumulative:3642.38
+pred:No --- true:no
+f1_score:100.0, cumulative:3742.38
+pred:The Roaring Forties --- true:The Roaring Forties
+f1_score:100.0, cumulative:3842.38
+pred:Leopoldo Torre Nilsson --- true:Leopoldo Torres Ríos
+f1_score:33.33, cumulative:3875.71
+pred:Tugboat Annie Sails Again --- true:Tugboat Annie Sails Again
+f1_score:100.0, cumulative:3975.71
+pred:No --- true:yes
+f1_score:0.0, cumulative:3975.71
+pred:The Ice Pirates came out first. --- true:Enga Veettu Pillai
+f1_score:0.0, cumulative:3975.71
+pred:Ertem Eğilmez --- true:18 February 1929
+f1_score:0.0, cumulative:3975.71
+pred:The Daring Swimmer --- true:The Daring Swimmer
+f1_score:100.0, cumulative:4075.71
+pred:Ansbach --- true:Dresden
+f1_score:0.0, cumulative:4075.71
+pred:1914 --- true:29 March 1948
+f1_score:0.0, cumulative:4075.71
+pred:María Belén Perez Sanchez --- true:Beverly Daniel Tatum
+f1_score:0.0, cumulative:4075.71
+pred:William Nigh --- true:October 12, 1881
+f1_score:0.0, cumulative:4075.71
+pred:Ukrainian --- true:Canadian
+f1_score:0.0, cumulative:4075.71
+pred:Siegen --- true:Alabama
+f1_score:0.0, cumulative:4075.71
+pred:1968 --- true:13 October 1968
+f1_score:50.0, cumulative:4125.71
+pred:Norwegian --- true:American
+f1_score:0.0, cumulative:4125.71
+pred:A: 1930 --- true:January 6, 1925
+f1_score:0.0, cumulative:4125.71
+pred:A: American --- true:American
+f1_score:100.0, cumulative:4225.71
+pred:A: Agnes of Bavaria --- true:Gertrude of Hohenburg
+f1_score:33.33, cumulative:4259.04
+pred:Raggedy Ann & Andy: A Musical Adventure --- true:Apur Panchali
+f1_score:0.0, cumulative:4259.04
+pred:Anatolie Urecheanu --- true:Anatolie Urecheanu
+f1_score:100.0, cumulative:4359.04
+pred:Filmfare Awards South --- true:Filmfare Awards South
+f1_score:100.0, cumulative:4459.04
+pred:1904 --- true:30 October 1961
+f1_score:0.0, cumulative:4459.04
+pred:Olav Aaraas --- true:Seattle
+f1_score:0.0, cumulative:4459.04
+pred:No --- true:no
+f1_score:100.0, cumulative:4559.04
+pred:A: 1973 --- true:28 July 1942
+f1_score:0.0, cumulative:4559.04
+pred:Pack Train --- true:Pack Train
+f1_score:100.0, cumulative:4659.04
+pred:SRI International --- true:Singapore
+f1_score:0.0, cumulative:4659.04
+pred:The award that the director of film The 27Th Day got is the Medal of Honor. --- true:Emmy Award
+f1_score:14.29, cumulative:4673.33
+pred:Japan --- true:American
+f1_score:0.0, cumulative:4673.33
+pred:Philip E. Rosen --- true:Malbork
+f1_score:0.0, cumulative:4673.33
+pred:No --- true:no
+f1_score:100.0, cumulative:4773.33
+pred:Bodo Kox --- true:Luxembourger
+f1_score:0.0, cumulative:4773.33
+pred:Halomag Rides Again --- true:Hopalong Rides Again
+f1_score:66.67, cumulative:4840.0
+pred:No --- true:no
+f1_score:100.0, cumulative:4940.0
+pred:Ivor Novello Award --- true:Officer of the Order of the British Empire
+f1_score:0.0, cumulative:4940.0
+pred:No --- true:no
+f1_score:100.0, cumulative:5040.0
+pred:Tyrant Of The Sea --- true:Woman Obsessed
+f1_score:0.0, cumulative:5040.0
+pred:No --- true:no
+f1_score:100.0, cumulative:5140.0
+pred:Georgia --- true:American
+f1_score:0.0, cumulative:5140.0
+pred:No --- true:no
+f1_score:100.0, cumulative:5240.0
+pred:Ghar Kab Ao Gey --- true:47 Natkal
+f1_score:0.0, cumulative:5240.0
+pred:Robert J. Flaherty --- true:Frances H. Flaherty
+f1_score:33.33, cumulative:5273.33
+pred:No --- true:no
+f1_score:100.0, cumulative:5373.33
+pred:Joseph Schildkraut --- true:Anna Neagle
+f1_score:0.0, cumulative:5373.33
+pred:No --- true:yes
+f1_score:0.0, cumulative:5373.33
+pred:1968 --- true:15 September 1972
+f1_score:0.0, cumulative:5373.33
+pred:Los Angeles --- true:Los Angeles
+f1_score:100.0, cumulative:5473.33
+pred:The Diary of a Worker --- true:Rare Birds
+f1_score:0.0, cumulative:5473.33
+pred:Berlin --- true:Glasgow
+f1_score:0.0, cumulative:5473.33
+pred:Pont de Sorgues, near Avignon --- true:Avignon
+f1_score:33.33, cumulative:5506.66
+pred:No --- true:yes
+f1_score:0.0, cumulative:5506.66
+pred:Algirdas --- true:Bolesław Januszowic
+f1_score:0.0, cumulative:5506.66
+pred:A: 2015 --- true:Three Times
+f1_score:0.0, cumulative:5506.66
+pred:Carlo Curley --- true:Carlo Curley
+f1_score:100.0, cumulative:5606.66
+pred:Cloverfield --- true:Cloverfield
+f1_score:100.0, cumulative:5706.66
+pred:Ons Volkske --- true:Ons Volkske
+f1_score:100.0, cumulative:5806.66
+pred:No --- true:yes
+f1_score:0.0, cumulative:5806.66
+pred:No --- true:no
+f1_score:100.0, cumulative:5906.66
+pred:No --- true:yes
+f1_score:0.0, cumulative:5906.66
+pred:Not Without Gisela --- true:Not Without Gisela
+f1_score:100.0, cumulative:6006.66
+pred:A: Island Wives --- true:Island Wives
+f1_score:100.0, cumulative:6106.66
+pred:David White --- true:April 4, 1916
+f1_score:0.0, cumulative:6106.66
+pred:No --- true:no
+f1_score:100.0, cumulative:6206.66
+pred:S.N. Mathur --- true:Los Angeles
+f1_score:0.0, cumulative:6206.66
+pred:No --- true:yes
+f1_score:0.0, cumulative:6206.66
+pred:T. R. Sundaram --- true:16 July 1907
+f1_score:0.0, cumulative:6206.66
+pred:No --- true:no
+f1_score:100.0, cumulative:6306.66
+pred:Neither Blood Nor Sand --- true:Neither Blood Nor Sand
+f1_score:100.0, cumulative:6406.66
+pred:1937 --- true:August 4, 1901
+f1_score:0.0, cumulative:6406.66
+pred:No --- true:no
+f1_score:100.0, cumulative:6506.66
+pred:1905 --- true:6 October 1905
+f1_score:50.0, cumulative:6556.66
+pred:Pacific Marine Review --- true:Pacific Marine Review
+f1_score:100.0, cumulative:6656.66
+pred:John Herndon Mercer --- true:June 25, 1976
+f1_score:0.0, cumulative:6656.66
+pred:Maria Anna of Bavaria --- true:Graz
+f1_score:0.0, cumulative:6656.66
+pred:No --- true:yes
+f1_score:0.0, cumulative:6656.66
+pred:The Magic Cup --- true:The Magic Cup
+f1_score:100.0, cumulative:6756.66
+pred:No --- true:no
+f1_score:100.0, cumulative:6856.66
+pred:Libyan --- true:United States
+f1_score:0.0, cumulative:6856.66
+pred:Michael Steinberg (music critic) was born later than Dragán Ivanov. --- true:Dragán Ivanov
+f1_score:33.33, cumulative:6889.99
+pred:No --- true:no
+f1_score:100.0, cumulative:6989.99
+pred:No --- true:no
+f1_score:100.0, cumulative:7089.99
+pred:Ola Solum --- true:17 July 1943
+f1_score:0.0, cumulative:7089.99
+pred:No --- true:no
+f1_score:100.0, cumulative:7189.99
+pred:No --- true:no
+f1_score:100.0, cumulative:7289.99
+pred:With A Little Help From Myself --- true:With A Little Help From Myself
+f1_score:100.0, cumulative:7389.99
+pred:No --- true:yes
+f1_score:0.0, cumulative:7389.99
+pred:Yes, both villages, Jamalabad, Shazand, and Kelayeh-Ye Vosta, are located in the same country, Iran. --- true:yes
+f1_score:13.33, cumulative:7403.32
+pred:Dana Blankstein- Cohen --- true:David Bretherton
+f1_score:0.0, cumulative:7403.32
+pred:Spain --- true:Altea
+f1_score:0.0, cumulative:7403.32
+pred:1500 --- true:28 July 1585
+f1_score:0.0, cumulative:7403.32
+pred:Peter Levin --- true:September 28, 2003
+f1_score:0.0, cumulative:7403.32
+pred:The Innocents (1963 film) --- true:Dédée D'Anvers
+f1_score:0.0, cumulative:7403.32
+pred:No --- true:no
+f1_score:100.0, cumulative:7503.32
+pred:1997 --- true:2007
+f1_score:0.0, cumulative:7503.32
+pred:Kaivo --- true:Kaivo
+f1_score:100.0, cumulative:7603.32
+pred:No --- true:no
+f1_score:100.0, cumulative:7703.32
+pred:Kokilamma --- true:Wedding In Transit
+f1_score:0.0, cumulative:7703.32
+pred:British --- true:American
+f1_score:0.0, cumulative:7703.32
+pred:The date of death of the creator of The Mrs Bradley Mysteries is unknown. --- true:27 July 1983
+f1_score:0.0, cumulative:7703.32
+pred:1987 --- true:23 December 2014
+f1_score:0.0, cumulative:7703.32
+pred:No --- true:no
+f1_score:100.0, cumulative:7803.32
+pred:Peter Levin --- true:May 5, 1972
+f1_score:0.0, cumulative:7803.32
+pred:No --- true:yes
+f1_score:0.0, cumulative:7803.32
+pred:No --- true:yes
+f1_score:0.0, cumulative:7803.32
+pred:Based on the given knowledge triplets and my knowledge, Mirza Jatić is younger than Rayno Arendse. --- true:Mirza Jatić
+f1_score:23.53, cumulative:7826.849999999999
+pred:Stealing Harvard --- true:Rama O Rama
+f1_score:0.0, cumulative:7826.849999999999
+pred:Ooh... Diese Ferien --- true:Ooh... Diese Ferien
+f1_score:100.0, cumulative:7926.849999999999
+pred:No --- true:no
+f1_score:100.0, cumulative:8026.849999999999
+pred:Peter Levin --- true:June 19, 1979
+f1_score:0.0, cumulative:8026.849999999999
+pred:Italy --- true:Italian
+f1_score:0.0, cumulative:8026.849999999999
+pred:Gertrude of Flanders --- true:Gertrude of Haldensleben
+f1_score:66.67, cumulative:8093.5199999999995
+F1: 40.4676
+Accuracy: 0.0000
+总耗时: 175.36 秒
+Sat Sep  6 21:52:41 CST 2025
+comput11
